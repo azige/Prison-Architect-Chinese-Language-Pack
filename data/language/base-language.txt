@@ -392,9 +392,9 @@ buildtoolbar_walk_speed 行走速度:  *S
 buildtoolbar_walk_speed_slow 慢
 buildtoolbar_walk_speed_norm 一般
 buildtoolbar_walk_speed_fast 快
-buildtoolbar_locked [TODO]LOCKED
-buildtoolbar_locked_research 已锁（你需要 *B ）
-buildtoolbar_locked_administrator 已锁（需要*B）
+buildtoolbar_locked 锁定
+buildtoolbar_locked_research 锁定（你需要 *B ）
+buildtoolbar_locked_administrator 锁定（需要 *B）
 buildtoolbar_room 房间
 
 buildtoolbar_electrical — 带电的
@@ -1021,7 +1021,7 @@ researchtooltip_legaldefense 情况很糟糕——有人走漏了风声，你被
 research_legaldefense_adviser1 似乎你的律师做了些工作让你撇清了干系。看来这次我是没法解雇你了。但也只有这一次了。
 research_legaldefense_adviser2 迅速让你的监狱恢复秩序并正常运作。那样的把戏只能使一次，以后并不能指望它了。
 
-research_missingadministrator [TODO]REQUIRED:
+research_missingadministrator 需求：
 
 
 
@@ -2341,8 +2341,8 @@ prisoner_concentration_4 太好了
 prisoner_passchance 成功几率：*X%
 prisoner_informant 告密者
 
-prisoner_dayswithoutincident *X天无事故
-prisoner_availablemoney [TODO]Cash : $*X
+prisoner_dayswithoutincident *X天没有闹事
+prisoner_availablemoney 现金：$*X
 
 informant_suspicion 怀疑
 informant_title 告密者
