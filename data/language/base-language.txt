@@ -1,3 +1,4 @@
+
 # =============================================================================
 # Basic dialog strings
 # =============================================================================
@@ -11,11 +12,11 @@ dialog_width 宽度
 dialog_height 高度
 dialog_name 名字
 dialog_type 类型
-dialog_x                                X
-dialog_y                                Y
-dialog_z        Z
-dialog_w                                W
-dialog_h                                H
+dialog_x X
+dialog_y Y
+dialog_z Z
+dialog_w W
+dialog_h H
 dialog_exit 退出
 dialog_cancel 取消
 dialog_ok 好的
@@ -82,7 +83,7 @@ profiler_title 分析器
 profiler_name 名字
 profiler_timings 定时
 profiler_totaltime 总计
-profiler_glfinishcaption                glFinish
+profiler_glfinishcaption glFinish
 profiler_reset 重置
 
 
@@ -107,7 +108,7 @@ soundeditor_attacktitle 攻击
 soundeditor_sustaintitle 维持
 soundeditor_releasetitle 释放
 soundeditor_loopdelaytitle 循环延迟
-soundeditor_dsptitle                    DSP
+soundeditor_dsptitle DSP
 soundeditor_nexteventtitle 下一事件
 
 soundeditor_play 开始游戏
@@ -209,6 +210,7 @@ interfacecontraband_day -24小时
 interfacecontraband_week -7天
 interfacecontraband_alltime -30天
 interfacecontraband_informants 告密者
+interfacecontraband_gangs 帮派
 
 interfaceclone_copy 复制
 interfaceclone_paste 粘贴
@@ -343,6 +345,7 @@ sector_jobs_max 最大工作 *X
 sector_jobs_qualified 合格犯人: *X
 sector_jobs_required （需要: *X）
 sector_noaccess 无法访问
+sector_insecure [TODO]INSECURE
 
 patrol_assign_1 安排警卫巡逻：
 patrol_assign_2 在现有的巡逻广场点击
@@ -389,6 +392,7 @@ buildtoolbar_walk_speed 行走速度:  *S
 buildtoolbar_walk_speed_slow 慢
 buildtoolbar_walk_speed_norm 一般
 buildtoolbar_walk_speed_fast 快
+buildtoolbar_locked [TODO]LOCKED
 buildtoolbar_locked_research 已锁（你需要 *B ）
 buildtoolbar_locked_administrator 已锁（需要*B）
 buildtoolbar_room 房间
@@ -656,6 +660,8 @@ codex_option_failure 失败条件
 codex_tooltip_failure 额外的挑战！当你把事情弄得一塌糊涂时会结束游戏。（暴乱、破产、过多的死亡及逃逸等等）
 codex_option_unlimitedfunds 无限的资金
 codex_tooltip_unlimitedfunds 纯净沙盒模式！你一开始就拥有无限多的金钱，再也不用担心没钱修马桶了！
+codex_option_gangs 帮派
+codex_tooltip_gangs 一些囚犯将带着对帮派的忠诚踏入监狱，他们会攻击敌对帮派成员。这将为监狱管理带来额外的挑战。
 
 codex_option_funds 资金
 codex_tooltip_funds 你携带此数额的银行存款开始游戏。在估值界面卖掉你建好的监狱来获得更多资金吧！
@@ -712,7 +718,7 @@ codex_timelapse_cam_zoom 变焦镜头的摄像机
 codex_timelapse_cam_fitmap 适合地图
 codex_timelapse_cam_fitheight 适合地图高度
 codex_timelapse_cam_fitwidth 适合地图宽度
-codex_timelapse_fps_value               *X FPS
+codex_timelapse_fps_value *X FPS
 codex_timelapse_quality_high 高
 codex_timelapse_quality_med 中
 codex_timelapse_quality_low 低
@@ -744,7 +750,7 @@ codex_mod_findsteamtranslations 找到更多的翻译（蒸汽车间）
 codex_authortitle 作者
 codex_versiontitle 版本
 codex_datetitle 日期
-codex_urltitle                          URL
+codex_urltitle URL
 codex_typetitle 类型
 codex_mod_graphicsandsound 图像和声音
 codex_mod_translation 翻译
@@ -812,7 +818,7 @@ modnotification_popup_unknown 无法确定此模组的来源。请自行查找�
 
 biography_search 停止并搜寻
 biography_selected 以选择
-biography_prisoner_name                 *S, *F
+biography_prisoner_name *S, *F
 biography_prisoner_number 囚犯#*X
 biography_prisoner_age 年龄：*X
 biography_prisoner_traits 特性:
@@ -915,7 +921,7 @@ misconduct_reporttype_contrabandtools 搜出工具
 misconduct_reporttype_contrabandnarcotics 搜出毒品
 misconduct_reporttype_contrabandluxuries 搜出奢侈品
 misconduct_reporttype_intoxicated 醉了
-misconduct_title                            =[不良行为]=
+misconduct_title =[不良行为]=
 
 misconduct_report_addiction 对*X上瘾
 misconduct_report_recoving 从*X瘾中恢复
@@ -1015,6 +1021,10 @@ researchtooltip_legaldefense 情况很糟糕——有人走漏了风声，你被
 research_legaldefense_adviser1 似乎你的律师做了些工作让你撇清了干系。看来这次我是没法解雇你了。但也只有这一次了。
 research_legaldefense_adviser2 迅速让你的监狱恢复秩序并正常运作。那样的把戏只能使一次，以后并不能指望它了。
 
+research_missingadministrator [TODO]REQUIRED:
+
+
+
 # =============================================================================
 # Room Requirements
 # =============================================================================
@@ -1031,9 +1041,10 @@ roomrequirement_secure_short 安全
 roomrequirement_enclosed 封闭（四周是围墙和门）
 roomrequirement_enclosed_short 封闭
 requirement_entrance 需要入口
-roomrequirement_title                   =[房间需求]=
-roomrequirement_passed                  [通过]
-roomrequirement_failed                  [失败]
+roomrequirement_title =[房间需求]=
+roomrequirement_passed [通过]
+roomrequirement_failed [失败]
+roomrequirement_adjacentobject [TODO]Adjacent to Room:
 
 # =============================================================================
 # Unlocks
@@ -1106,8 +1117,8 @@ report_grants_completed_tt (完成)
 report_grants_locked_tt (锁定)
 report_grants_advancepayment *X 预付款
 report_grants_completionbonus *X 任务完成奖励
-report_grants_objectives                [目标]
-report_grants_prereqs                   [前提条件]
+report_grants_objectives [目标]
+report_grants_prereqs [前提条件]
 report_grants_completed 完成
 report_grants_locked 锁定
 report_grants_inprogress 进行中
@@ -1149,8 +1160,8 @@ report_intake_closed 不开放
 report_intake_locked 锁住
 report_intakemaxperdaydesc 每日接收
 report_intakemaxperdaydesc_tooltip 你希望接收的下一批犯人数量
-report_intakemaxperdaydecr              <<
-report_intakemaxperdayincr              >>
+report_intakemaxperdaydecr <<
+report_intakemaxperdayincr >>
 report_intakemaxperdaynone 无
 report_intakemaxperdayall 全部
 reports_intakedelivernow 开始接收
@@ -1189,7 +1200,7 @@ valuation_shares 买入及卖出股份
 valuation_shares_tooltip 你可以售出监狱50%的股份给外面的投资者。你会马上收到现金。作为对他们投资的回报，当你售出你的监狱时，股份持有者将会获得相应份额的钱。\n\n也就是说如果你出售了30%的股份，在售出监狱时你就只能获得70%的出售收入。你随时可以买回之前售出的股票——尽管价格可能比你当初卖它们的时候高。
 valuation_ownership 你拥有*X%的你的监狱
 valuation_saleprice 售价: *X
-valuation_title                         =[VALUATION]=
+valuation_title =[VALUATION]=
 valuation_totalprisonvalue 监狱总价值 : *X
 valuation_subcashreserves 最低现金储备 : *X
 valuation_tenpercentprice 10%的价格 : *X
@@ -1204,8 +1215,8 @@ salecondition_accountant 驻监狱会计
 salecondition_minprisoners 至少20个犯人
 salecondition_recentdeaths 最近没有死亡
 salecondition_recentescapes 最近没有逃逸
-salecondition_passed                    [通过]
-salecondition_failed                    [失败]
+salecondition_passed [通过]
+salecondition_failed [失败]
 
 policy_title 意外事故
 policy_search ——搜索——
@@ -1243,7 +1254,7 @@ job_failurecount 失败 *X 次
 job_feedprisoner 给犯人食物
 job_healprisoner 治疗犯人
 job_delivermail 发邮件
-
+       
 finances_title 经济
 finances_income 收入
 finances_expenses 支出
@@ -1351,11 +1362,11 @@ score_escapes *X犯人逃走
 score_reoffendingchance 预计再犯几率
 score_startingreoffendingchance 预计到达：*X%
 score_prisonersparoled 提前假释数（再犯）
-score_prisonersparoled_info             *P (*E%)
+score_prisonersparoled_info *P (*E%)
 score_clemencychance 获得宽恕的可能性
 score_convictionstrength 国家批准的定罪力度
 score_prisonersexecuted 处死犯人数（无辜）
-score_prisonersexecuted_info            *E (*I)
+score_prisonersexecuted_info *E (*I)
 
 score_tooltip_punishment 这是公众对犯人为他的罪行所受惩罚程度的评级。长期在监狱中服刑是强有力的惩罚的基础，但是关禁闭的时间也会计入其中。\n\n记住，过多的改革或自由时间会被认为是“对犯罪的软弱”，这不利于惩罚程度评级。\n\n强有力的惩罚分数可以让犯人出狱后不敢再次犯罪。
 score_tooltip_reform 对你改造犯人的尝试的评级。\n\n高改造分数可以让犯人出狱后更有可能找到工作，从而降低他们再次犯罪的几率。\n\n注意：让你的犯人在监狱周围工作也会计入其中。
@@ -1390,6 +1401,7 @@ experiencefactor_fights 参与暴力事件
 experiencefactor_murders 在你的监狱中犯下*X次谋杀事件
 experiencefactor_escapeattempts 尝试逃跑*X次
 experiencefactor_addictions *X种成瘾症状
+experiencefactor_gangmembership 帮派成员
 
 legend_key 钥匙：
 
@@ -1474,7 +1486,7 @@ action_getbook 取得书本
 action_pray 祈祷
 action_shopping 购物
 
-status_effect_title      =[状态效果]=
+status_effect_title =[状态效果]=
 status_effect_none 无
 status_effect_suppressed 被镇压
 status_effect_goodfood 饮食良好
@@ -1527,11 +1539,11 @@ need_name_starving 挨饿
 need_name_spirituality 精神
 need_name_literacy 文化
 needs_locked （需要心理学家来显示犯人的需求）
-needs_title                             =[需求]=
+needs_title =[需求]=
 
 reputation_title 特性
 reputation_hidden （未知特性）
-reputation_hidden_short                 ???
+reputation_hidden_short ???
 
 reputation_legendary --传奇--
 reputation_strong 强壮
@@ -1582,7 +1594,7 @@ reputationtooltip_gangmember 这名犯人属于一个帮派。它会保护同帮
 
 # =============================================================================
 # Nameplate status
-# =============================================================================
+# ============================================================================= 
 
 nameplate_working 工作
 nameplate_stationed 站岗
@@ -1818,8 +1830,8 @@ grant_property_atmost 不高于*X
 # =============================================================================
 # Materials
 # =============================================================================
-
-
+                                              
+                                                                                                       
 object_none 无
 object_box 盒子
 object_stack 堆
@@ -2105,6 +2117,7 @@ equipment_rifle 步枪
 equipment_dogleash 狗绳
 equipment_assaultrifle 突击步枪
 equipment_woodenpickaxe 木质镐头
+equipment_cbradio [TODO]Cb radio
 
 research_requires_short 需要一个 *X
 
@@ -2329,6 +2342,7 @@ prisoner_passchance 成功几率：*X%
 prisoner_informant 告密者
 
 prisoner_dayswithoutincident *X天无事故
+prisoner_availablemoney [TODO]Cash : $*X
 
 informant_suspicion 怀疑
 informant_title 告密者
@@ -2520,7 +2534,7 @@ adviser_deathrow_postmurder5 而且他带着一把上了膛的枪，他知道自
 adviser_deathrow_postmurder6 他什么也没做，只是与有关部门合作。这个情形是警示他人
 adviser_deathrow_postmurder7 如果他在100英里以北犯了这种罪，他会会终身监禁。这怎么称得上是正义？
 adviser_deathrow_postmurder8 你想要看到一个像他一样的家伙逃脱法网吗？我得知道他死了，晚上才睡得着觉
-
+           
 
 adviser_deathrowelectricity_1 目前干得很好
 adviser_deathrowelectricity_2 然而还有一个问题 - 行刑室目前还无法运作，因为没有电力支持
@@ -2599,15 +2613,16 @@ finance_cost_executioncompensation 处决补偿
 finance_cost_shopintake 商店收入
 finance_cost_prisonerwages 囚犯工资
 
+
 # =============================================================================
 # Clock
 # =============================================================================
 
-clock_speed_0                           ||
-clock_speed_1                           >
-clock_speed_2                           >>
-clock_speed_5                           >>>
+clock_speed_0 ||
+clock_speed_1 >
+clock_speed_2 >>
+clock_speed_5 >>>
 clock_speed_half ……
-clock_add_hour                          +
+clock_add_hour +
 clock_am 早上
 clock_pm 下午
