@@ -313,10 +313,10 @@ interface_action_medicalbay 医疗湾
 interface_action_search 搜索
 interface_action_searchcell 搜索牢房
 interface_action_searchcellblock 搜索牢房区
-interface_action_sack 掠夺
+interface_action_sack 解雇
 interface_action_doormodenormal 门模式：普通
-interface_action_doormodelockedshut 门模式：锁定关闭
-interface_action_doormodelockedopen 门模式：锁定打开
+interface_action_doormodelockedshut 门模式：保持关闭
+interface_action_doormodelockedopen 门模式：保持打开
 interface_action_switchon 开启
 interface_action_switchoff 关闭
 interface_action_sellobject 出售物品
@@ -401,7 +401,7 @@ buildtoolbar_modcontent — 现代内容
 
 buildtoolbar_popup_foundations 建造/拆除建筑来打造你的监狱
 buildtoolbar_popup_construction 不同类型的地面与墙壁
-buildtoolbar_popup_planning 规划你的监狱用不着担心工人们做任何事
+buildtoolbar_popup_planning 仅规划监狱而不进行建造
 buildtoolbar_popup_designation 标出特定功能的监狱区域
 buildtoolbar_popup_objects 将有用的物品放置在监狱周围
 buildtoolbar_popup_overlays 在你的监狱布局上形象化地找出弱点
@@ -409,8 +409,8 @@ buildtoolbar_popup_utilities 管道与电气系统
 buildtoolbar_popup_staff 雇用必要人员运营你的监狱
 buildtoolbar_popup_deployment 将工作人员分配到你的监狱
 buildtoolbar_popup_logistics 指派囚犯在你的监狱内工作。同时可以手动调整餐厅和洗衣房的工作内容。
-buildtoolbar_popup_research 解锁你监狱的潜力
-buildtoolbar_popup_emergencies 如果事态恶化呼叫应急服务
+buildtoolbar_popup_research 解锁新功能
+buildtoolbar_popup_emergencies 如果事态过于恶化，立即呼叫紧急服务
 buildtoolbar_popup_spawn 生成？这该死的是干嘛的？
 buildtoolbar_popup_clone 你可以复制和粘贴现有的建筑结构。
 buildtoolbar_popup_properties 查明那该死的东西
@@ -2080,10 +2080,10 @@ equipment_cigs 烟
 equipment_saw 锯子
 equipment_jailkeys 监狱钥匙
 equipment_mobilephone 手机
-equipment_lighter 点火器
+equipment_lighter 打火机
 equipment_screwdriver 螺丝刀
 equipment_drugs 毒品
-equipment_sheers 剪刀
+equipment_sheers 园艺剪
 equipment_mop 拖把
 equipment_rake 耙子
 equipment_hose 软管
