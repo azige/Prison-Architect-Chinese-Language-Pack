@@ -181,12 +181,12 @@ interfacedeployment_targettinglaundry 清洗后勤管理
 interfacedeployment_securearea 安全区
 interfacedeployment_sharedzone 共享
 interfacedeployment_staffonlyzone 员工通道
-interfacedeployment_maxseczone 仅最大时间
-interfacedeployment_medseczone 仅中档时间
-interfacedeployment_minseczone 仅最小时间
-interfacedeployment_protectedzone 仅被保护
-interfacedeployment_supermaxzone 仅限高度戒备牢房
-interfacedeployment_deathrowzone 仅限死刑犯牢房
+interfacedeployment_maxseczone 仅低级安保
+interfacedeployment_medseczone 仅中级安保
+interfacedeployment_minseczone 仅高级安保
+interfacedeployment_protectedzone 仅保护性拘留
+interfacedeployment_supermaxzone 仅超级安保
+interfacedeployment_deathrowzone 仅限死囚
 interfacedeployment_unlockedzone 已解锁
 interfacedeployment_zonered 红翼
 interfacedeployment_zonegreen 绿翼
@@ -206,8 +206,8 @@ interfaceplanning_clear 清空
 
 interfacecontraband_source 危险
 interfacecontraband_day -24小时
-interfacecontraband_week —7天
-interfacecontraband_alltime —30天
+interfacecontraband_week -7天
+interfacecontraband_alltime -30天
 interfacecontraband_informants 告密者
 
 interfaceclone_copy 复制
@@ -217,8 +217,8 @@ interfacetopbar_todo 待办事项
 interfacetopbar_balance 银行 *B
 interfacetopbar_budget 现金流 *C
 interfacetopbar_income 收入 *I
-interfacetopbar_expenses 花费 *C
-interfacetopbar_day 天 *D
+interfacetopbar_expenses 开销 *C
+interfacetopbar_day *D天
 
 interfacetopbar_title_balance 银行存款
 interfacetopbar_title_budget 每日现金流
@@ -314,9 +314,9 @@ interface_action_search 搜索
 interface_action_searchcell 搜索牢房
 interface_action_searchcellblock 搜索牢房区
 interface_action_sack 掠夺
-interface_action_doormodenormal 门模式: 普通
-interface_action_doormodelockedshut 门模式:锁上
-interface_action_doormodelockedopen 门模式:锁打开
+interface_action_doormodenormal 门模式：普通
+interface_action_doormodelockedshut 门模式：锁定关闭
+interface_action_doormodelockedopen 门模式：锁定打开
 interface_action_switchon 开启
 interface_action_switchoff 关闭
 interface_action_sellobject 出售物品
@@ -334,7 +334,7 @@ interface_skip 跳过
 interface_foundationsinprogress 基地进展中
 riot_underway 暴动进行中
 riot_status_prisoners *X 名囚犯发生暴动
-shakedown_underway 整顿进行中
+shakedown_underway 搜查进行中
 shakedown_found 已找到：
 
 gameover_caption 按ESC键继续
@@ -371,7 +371,7 @@ buildtoolbar_title 建造
 buildtoolbar_reports 报告
 buildtoolbar_bangup 拘禁
 buildtoolbar_lockdown 锁闭
-buildtoolbar_shakedown 整顿
+buildtoolbar_shakedown 全面搜查
 buildtoolbar_weaponsfree 自由开火
 
 buildtoolbar_tooltip_reports 打开报告窗口查看有关你的囚犯、员工、收入、政府补助等信息
@@ -415,7 +415,7 @@ buildtoolbar_popup_spawn 生成？这该死的是干嘛的？
 buildtoolbar_popup_clone 你可以复制和粘贴现有的建筑结构。
 buildtoolbar_popup_properties 查明那该死的东西
 buildtoolbar_popup_contraband 显示违禁品的来源，以及所有最近被发现的违禁品。同时显示你的秘密检举人及其情报。
-buildtoolbar_popup_grading 查看你的监狱整体等级基于四个关键指标——惩罚，改造，安全，卫生。也会显示你监狱内的重新犯罪率。
+buildtoolbar_popup_grading 查看你的监狱整体等级基于四个关键指标——惩罚，改造，安全，卫生。也会显示你监狱内的再犯率。
 buildtoolbar_popup_room_cell 囚犯生活的地方
 buildtoolbar_popup_room_holdingcell 新囚犯被分配牢房以前呆的房间。
 buildtoolbar_popup_room_solitary 专为坏蛋中的战斗蛋设计而建的独立惩戒措施，俗称“小黑屋”
@@ -844,27 +844,27 @@ rapsheet_time *Y 年
 rapsheet_bio 因 *A 被判服刑 *Y 年
 rapsheet_bio_med 因 *A 和 *B 数罪并罚，被判服刑 *Y 年。
 rapsheet_bio_long 因 *A ， *B 和 *C 数罪并罚，被判服刑 *Y 年。
-rapsheet_category_minsec 最小安保措施
-rapsheet_category_normal 普通安保措施
-rapsheet_category_maxsec 最大安保措施
+rapsheet_category_minsec 最小安保
+rapsheet_category_normal 普通安保
+rapsheet_category_maxsec 最大安保
 rapsheet_category_protected 保护性拘留
-rapsheet_category_supermax 极大
+rapsheet_category_supermax 超级安保
 rapsheet_category_deathrow 死囚
 rapsheet_tab_biography 个人档案
-rapsheet_tab_experience 经验
-rapsheet_tab_grading 分级
-rapsheet_tab_character 角色
+rapsheet_tab_experience 经历
+rapsheet_tab_grading 评价
+rapsheet_tab_character 个性
 rapsheet_punish 惩罚
 rapsheet_recruit 招募告密者
 
-rapsheet_timeinside *X天在你的监狱
-rapsheet_timeinside_hours *X小时在你的监狱
+rapsheet_timeinside 在你的监狱度过了 *X 天
+rapsheet_timeinside_hours 在你的监狱度过了 *X 小时
 rapsheet_mood 情绪
 rapsheet_activity 活动
 rapsheet_condition 状况
 rapsheet_program 计划
 rapsheet_passchance 成功率
-rapsheet_reformhistory 改革计划的历史
+rapsheet_reformhistory 改造计划的历史
 
 rapsheet_reform_success 成功
 rapsheet_reform_successcount 完成 *X 次
@@ -874,23 +874,23 @@ rapsheet_reform_failcount 失败 *X 次
 rapsheet_grading_punishment 惩罚
 rapsheet_grading_health 健康
 rapsheet_grading_security 安全
-rapsheet_grading_reform 改革
-rapsheet_grading_points *X 分 :
-rapsheet_grading_penalties *X 惩罚 :
+rapsheet_grading_reform 改造
+rapsheet_grading_points *X 得点 :
+rapsheet_grading_penalties *X 减点 :
 
-rapsheet_scheduleexecution 计划处决
+rapsheet_scheduleexecution 安排处刑
 
 
-punish_lockdown_6 封闭 (6小时)
-punish_lockdown_12 封闭 (12小时)
-punish_lockdown_24 封闭 (24小时)
+punish_lockdown_6 防范禁闭 (6小时)
+punish_lockdown_12 防范禁闭 (12小时)
+punish_lockdown_24 防范禁闭 (24小时)
 punish_solitary_6 单独禁闭 (6小时)
 punish_solitary_12 单独禁闭 (12小时)
 punish_solitary_24 单独禁闭 (24小时)
 punish_solitary_perm 单独禁闭（永久性）
-punish_lockdown_perm 限制行动（永久性）
-punish_solitary 单独牢房
-punish_lockdown 锁闭
+punish_lockdown_perm 防范禁闭（永久性）
+punish_solitary 单独禁闭
+punish_lockdown 防范禁闭
 punish_none 无
 punish_timer *X小时 *Y分钟
 punish_timer_minutes *X分钟
@@ -994,7 +994,7 @@ researchtooltip_MentalHealth 解锁心理医师，为你提供宝贵的囚犯心
 researchtooltip_finance 解锁会计师，可以为你撰写财务报告。\n\n如果你有足够的资金储备，还可以让你每天使用超出预算的资金。\n\n与其他管理层相同，会计师需要有自己的办公室。
 researchtooltip_landexpansion 允许你购买临近的土地，从而扩展你监狱的范围并超过其最初的边界
 researchtooltip_prisonlabour 允许你让犯人在你的监狱内工作（做饭，洗衣等等）可以帮你减少所需的工资数量，帮你赚钱，并同时教给你的犯人们新技能。\n\n同时会解锁工作室和洗衣房
-researchtooltip_education 解锁实行教育改革项目的能力。雇用外部教师以进行改革。
+researchtooltip_education 解锁实行教育改革课程的能力。雇用外部教师以进行改革。
 researchtooltip_contraband 训练你的警卫们，让他们提升追踪和反偷运技巧。解锁供需报告，投运地图（显示你监狱内所有可能发生盗窃的地方），并追踪所有偷运和盗窃发生的地点。
 researchtooltip_policy 解锁政策报告，使你可以增加或减少针对所有不当行为的处罚量，以及自行启动搜索举止不端的囚犯及其牢房的能力。
 researchtooltip_armoury 解锁该武器库可以让你在你的监狱内部署装备武器的警卫。
@@ -1084,35 +1084,35 @@ report_needs 需求
 report_threats 威胁
 report_regime 管理制度
 report_policy 政策
-report_grants 授权
+report_grants 补助
 report_finance 财政
 report_valuation 估价
 report_contraband 违禁品
-report_programs 项目
+report_programs 课程
 report_schedule 调度程序
 report_intake 接收
 
 report_grants_bankloan 银行贷款
-report_grants_bankloan_text 你可以从银行处获得一大笔贷款。为此银行将每天收取一定的利息并直接从你的现金流中扣除。\n\n如果你按时还款，你的信誉等级会逐渐提高，银行将愿意贷给你更多的钱。反之如果你错过还款，你的信誉等级将会降低，当你下次需要贷款时银行可能会拒绝你。\n\n注意：你的贷款靠支付每日利息是无法还清的。
-report_grants_max1 你一次只能接受一项资助。\n让你的会计来解除这种限制。
-report_grants_max2 你一次只能接受不超过两项资助。\n让你的会计来解除这种限制。
-report_grants_max3 你一次只能接受不超过三项资助。
+report_grants_bankloan_text 你可以从银行处获得一大笔贷款。为此银行将每天收取一定的利息并直接从你的现金流中扣除。\n\n如果你按时还款，你的信誉等级会逐渐提高，银行将愿意贷给你更多的钱。\n反之如果你错过还款，你的信誉等级将会降低，当你下次需要贷款时银行可能会拒绝你。\n\n注意：你的贷款靠支付每日利息是无法还清的。
+report_grants_max1 你一次只能接受一项补助。\n让你的会计来解除这种限制。
+report_grants_max2 你一次只能接受不超过两项补助。\n让你的会计来解除这种限制。
+report_grants_max3 你一次只能接受不超过三项补助。
 report_grants_bankloan_amount 当前银行贷款：*X
 report_grants_bankloan_interest 利息：*X每天
 report_grants_bankloan_max 最大贷款数：*X
 report_grants_creditrating 你的信用评级: *X
 report_grants_inprogress_tt (进行中)
 report_grants_completed_tt (完成)
-report_grants_locked_tt (锁上了)
+report_grants_locked_tt (锁定)
 report_grants_advancepayment *X 预付款
-report_grants_completionbonus *X 项目终结奖金
-report_grants_objectives                [Objectives]
-report_grants_prereqs                   [Pre-requisites]
+report_grants_completionbonus *X 任务完成奖励
+report_grants_objectives                [目标]
+report_grants_prereqs                   [前提条件]
 report_grants_completed 完成
-report_grants_locked 锁上了
+report_grants_locked 锁定
 report_grants_inprogress 进行中
-report_grants_hidden (*X更多躲藏了)
-report_grants_taptoaccept 点击以接收
+report_grants_hidden (还有 *X 隐藏的)
+report_grants_taptoaccept 点击以接受
 report_grants_cancelfee 取消费用：*X
 
 report_staff_title 员工数：*X
@@ -1137,9 +1137,9 @@ report_intake_catheader_pay 收入
 report_intake_catheader_available 可收数
 report_intake_catheader_amount 比例
 report_intake_next_header 下一批接收：*X
-report_intake_cat_minsec 最小时间
-report_intake_cat_normal 中等时间
-report_intake_cat_maxsec 最大时间
+report_intake_cat_minsec 低危险度
+report_intake_cat_normal 中危险度
+report_intake_cat_maxsec 高危险度
 report_intake_cat_deathrow 死囚
 report_intake_slider_minsec 调整低风险犯人的接收比例
 report_intake_slider_normal 调整中风险犯人的接收比例
@@ -1175,8 +1175,8 @@ valuation_cash 现金
 valuation_debt 银行贷款
 valuation_categoryperformance 安全性
 valuation_bonustimewithoutincident [Bonus] 无事故时间
-valuation_finedeath [Penalty] 过去24小时的死亡人数
-valuation_fineescape [Penalty] 过去24小时的逃跑人数
+valuation_finedeath [惩罚] 过去24小时的死亡人数
+valuation_fineescape [惩罚] 过去24小时的逃跑人数
 valuation_total 总共
 valuation_sell 卖出
 valuation_sellprison 出售监狱
@@ -1204,8 +1204,8 @@ salecondition_accountant 驻监狱会计
 salecondition_minprisoners 至少20个犯人
 salecondition_recentdeaths 最近没有死亡
 salecondition_recentescapes 最近没有逃逸
-salecondition_passed                    [PASSED]
-salecondition_failed                    [FAILED]
+salecondition_passed                    [通过]
+salecondition_failed                    [失败]
 
 policy_title 意外事故
 policy_search ——搜索——
@@ -1248,7 +1248,7 @@ finances_title 经济
 finances_income 收入
 finances_expenses 支出
 finances_total 总计
-finances_profit 网
+finances_profit 利润
 finances_timewithoutincident (*X天)
 finances_dailyincome *X /天
 
@@ -1269,6 +1269,8 @@ finances_category_reformprogs 改良计划
 finances_category_noincident 无事故天数
 finances_category_exports 出口（昨天）
 finances_category_corptax 公司税
+finances_category_prisonerwages 囚犯工资（昨天）
+finances_category_shoprevenue 商店收入（昨天）
 
 reports_foodtitle 营养政策
 meal_quantity 餐食份量
@@ -1286,10 +1288,10 @@ victory_title 证书
 
 victory_PrisonValue 监狱价值
 victory_Income 日常利润
-victory_Prisoners 生产力
-victory_PrisonersReleased 释放囚犯
-victory_prisonersdied 拘留期间死亡
-victory_prisonersescaped 犯人越狱了
+victory_Prisoners 监狱容量
+victory_PrisonersReleased 释放囚犯数
+victory_prisonersdied 服刑期间死亡数
+victory_prisonersescaped 越狱犯人数
 victory_Bankrupt 破产
 victory_Riot 失控\n暴乱
 victory_TooManyDeaths 罪犯\n疏忽
@@ -1340,19 +1342,19 @@ victory_adviserwarning_executions2 如果再有无辜的犯人被处死，你要
 victory_advisernotice_executions1 你让太多无辜的犯人被处死了。我们不能再让你管理这个监狱。你失败了。
 victory_advisernotice_InnocentsExecuted1 你没有依照正当的程序处死犯人，而事实上他们是无辜的。这显然不是正义的体现。你被解雇了。你还可能因此入狱。
 
-score_title 监狱的分级
-score_reoffendingrate 重新犯罪率
-score_prisonersreleased *X犯人被释放了
-score_minimumprisonersreleased *X犯人在这份报告编纂好前，肯定已被释放了
+score_title 监狱的评价
+score_reoffendingrate 再犯率
+score_prisonersreleased *X 犯人被释放了
+score_minimumprisonersreleased 必须有 *X 犯人被释放后才能得到报告
 score_deaths *X犯人死于监禁
 score_escapes *X犯人逃走
 score_reoffendingchance 预计再犯几率
 score_startingreoffendingchance 预计到达：*X%
-score_prisonersparoled 提前假释（再犯）
+score_prisonersparoled 提前假释数（再犯）
 score_prisonersparoled_info             *P (*E%)
 score_clemencychance 获得宽恕的可能性
 score_convictionstrength 国家批准的定罪力度
-score_prisonersexecuted 犯人被处死（无辜）
+score_prisonersexecuted 处死犯人数（无辜）
 score_prisonersexecuted_info            *E (*I)
 
 score_tooltip_punishment 这是公众对犯人为他的罪行所受惩罚程度的评级。长期在监狱中服刑是强有力的惩罚的基础，但是关禁闭的时间也会计入其中。\n\n记住，过多的改革或自由时间会被认为是“对犯罪的软弱”，这不利于惩罚程度评级。\n\n强有力的惩罚分数可以让犯人出狱后不敢再次犯罪。
@@ -1360,7 +1362,7 @@ score_tooltip_reform 对你改造犯人的尝试的评级。\n\n高改造分数�
 score_tooltip_health 对犯人在你监狱服刑期间的健康和幸福程度的记录。户外运动以及美味的食物会计入其中。没有得到医治的伤病、吸食毒品及饮酒对其不利。\n\n此项得分过低会增加犯人再犯的几率，尤其是出狱前没能戒掉对毒品或酒精依赖的犯人。
 score_tooltip_security 对你是否安全管理监狱的评级。将犯人关押在有武装警卫看守的牢房里会大量增加此项得分。如果犯人参与斗殴、谋杀或越狱，得分会受到惩罚。\n\n过低的得分表明犯人再入狱后仍存在犯罪行为，因此出狱后再犯的几率极高。
 
-score_tooltip_reoffendingchance 对犯人出狱后再次犯罪几率的评估。这项评估的数值参考了许多因素：\n\n——降低：严厉的惩罚\n——降低：成功的改造项目\n——增长：健康或安全状况不佳\n——增长：未得到治疗的毒品或酒精上瘾\n\n——犯人的年龄是主要的因素。\n——前科的数量是重要的指标。\n——家人的支持很有帮助。
+score_tooltip_reoffendingchance 对犯人出狱后再次犯罪几率的评估。这项评估的数值参考了许多因素：\n\n——降低：严厉的惩罚\n——降低：成功的改造课程\n——增长：健康或安全状况不佳\n——增长：未得到治疗的毒品或酒精上瘾\n\n——犯人的年龄是主要的因素。\n——前科的数量是重要的指标。\n——家人的支持很有帮助。
 score_tooltip_clemencychance_title 获得宽恕的可能性
 score_tooltip_clemencychance 上诉委员会对配判处死刑的犯人宽恕和减刑的可能性。每次失败的上诉会降低这个数值，直到数值低于国家批准的定罪力度，这是你会被批准执行。如果你在此之前安排行刑而之后发现犯人的上诉可能成功，会受到严厉的惩罚。\n\n如果犯人获得宽恕，他会被立即释放（如果发现他是无辜的），或者被转移去最安全的监狱（如果任然判定他有罪。）
 score_tooltip_currentchance 国家批准的定罪力度是*X%
@@ -1378,12 +1380,12 @@ experiencefactor_fractionalwellfed *X% 持续吃得好
 experiencefactor_fractionalexercising *X% 持续锻炼
 experiencefactor_fractionalfreetime *X%狱中自由时间
 
-experiencefactor_passedeasyprograms 通过*X简易程序
+experiencefactor_passedeasyprograms 通过 *X 简易程序
 experiencefactor_passedintermediateprograms 通过*X中等程序
 experiencefactor_passedadvancedprograms 通过*X高级程序
 experiencefactor_passedexpertprograms 通过*X专家程序
 
-experiencefactor_YearsServed *X服刑年数
+experiencefactor_YearsServed 服刑 *X 年
 experiencefactor_fights 参与暴力事件
 experiencefactor_murders 在你的监狱中犯下*X次谋杀事件
 experiencefactor_escapeattempts 尝试逃跑*X次
@@ -1421,9 +1423,9 @@ contraband_log_found 找到
 contraband_log_owner 主人
 
 schedule_zone_shared 共享
-schedule_zone_minseconly 最小时间
-schedule_zone_medseconly 中等时间
-schedule_zone_maxseconly 最大时间
+schedule_zone_minseconly 低级安保
+schedule_zone_medseconly 中级安保
+schedule_zone_maxseconly 高级安保
 schedule_zone_protectedonly 保护性拘留
 schedule_zone_supermaxonly 最大
 schedule_zone_deathrowonly 死囚
@@ -1628,22 +1630,22 @@ objective_outgoing_timer (*X 小时)
 
 objective_visitors 访客（上午8点——下午8点）
 objective_visitors_waiting 有 *X 个家庭等待探视
-objective_visitors_onsite 监狱里来了 *X 个访客，组成了 *Y 个小组
+objective_visitors_onsite 监狱里来了 *Y 个团体共 *X 人的探视者
 
 objective_staffexhausted 员工疲惫不堪
 objective_reststaff_exhausted *X 名员工已经疲惫不堪
 objective_reststaff_resting （ *X 名员工正在休息）
 objective_reststaff_needstaffroom 建立员工休息室，这样他们累了就可以休息了
 
-objective_punishment_solitary *X 独自监禁时间
-objective_punishment_solitary_queue *X 等待独立监禁时间
-objective_punishment_solitary_mix *X 独立监禁时间 (+*Y 等待时间)
-objective_punishment_lockdown *X 被关押
-objective_incident_medical *X 需要药物治疗
+objective_punishment_solitary *X 人在单独禁闭
+objective_punishment_solitary_queue *X 人等待单独禁闭
+objective_punishment_solitary_mix *X 人在单独禁闭 (+ *Y 等待)
+objective_punishment_lockdown *X 人在防范禁闭
+objective_incident_medical *X 需要治疗
 objective_incident_dead *X 具尸体
 
 objective_prisonerparole 罪犯假释
-objective_parole_count *X 罪犯获得假释
+objective_parole_count *X 罪犯可以获得假释
 
 objective_payment_receivedfull 报酬: *X 已收到
 objective_payment_receivedpart 报酬: *X 已收到 总量 *Y
@@ -1730,13 +1732,13 @@ objective_grant_prisonerworkforce_description 让犯人在你的监狱中工作�
 objective_grant_prisonerworkforce_research 通过行政系统解锁犯人劳动
 objective_grant_prisonerworkforce_cleaning 建造一个橱柜清洗间
 objective_grant_prisonerworkforce_laundry 建造一个洗衣房
-objective_grant_prisonerworkforce_kitchenclass 让三名犯人完成厨房安全和卫生项目
+objective_grant_prisonerworkforce_kitchenclass 让三名犯人完成厨房安全和卫生课程
 objective_grant_prisonerworkforce_laundryassigned 将三名犯人分配到洗衣房工作
 objective_grant_prisonerworkforce_kitchenassigned 将三名犯人分配到厨房工作
 objective_grant_prisonerworkforce_cleaningassigned 将三名犯人分配到橱柜清洗间工作
 
-objective_grant_educationreformprogram 教育改革项目
-objective_grant_educationreformprogram_description 一些活动小组在奋力争取在监狱中实施教育项目的工作中获得了支持。建立几间教室并让他们支持我们。
+objective_grant_educationreformprogram 教育改革计划
+objective_grant_educationreformprogram_description 一些活动小组在奋力争取在监狱中实施教育课程的工作中获得了支持。建立几间教室并让他们支持我们。
 objective_grant_educationreformprogram_research 通过行政系统解锁教育
 objective_grant_educationreformprogram_classroom 建造一间教室
 objective_grant_educationreformprogram_desks 建造二十张学校用桌
@@ -1748,10 +1750,10 @@ objective_grant_prisonlabour_description 投资人想让你增加你的监狱的
 objective_grant_prisonlabour_workshop 建造一间车间
 objective_grant_prisonlabour_saw 建造两把车间用锯
 objective_grant_prisonlabour_press 建造两把车间用压力机
-objective_grant_prisonlabour_reform 让五名犯人通过车间安全项目
+objective_grant_prisonlabour_reform 让五名犯人通过车间安全课程
 objective_grant_prisonlabour_plates 生产30张许可牌照
 
-objective_grant_furnituremanufacturing 木工学徒项目
+objective_grant_furnituremanufacturing 木工学徒计划
 objective_grant_furnituremanufacturing_description 向你的犯人提供木工课程能够教会他们一项他们获释时可以利用的有价值的技能，并让他们在你的车间里生产高质量的家具，其能被售出来增加收入。
 objective_grant_furnituremanufacturing_forestry 建造一片林地
 objective_grant_furnituremanufacturing_table 建造两张木工桌
@@ -1788,12 +1790,12 @@ objective_grant_cellblock500 牢房区E
 objective_grant_cellblock500_description 政府会为最大的监狱提供非常多的财政激励。是时候朝这个目标努力了。
 objective_grant_cellblock500_cells 将你的犯人容量提高到500
 
-objective_grant_nutritionresearch 同住者营养调查
+objective_grant_nutritionresearch 犯人营养调查
 objective_grant_nutritionresearch_description 一个独立的调查小组愿意提供资金来参加一个关于不同的同住者饮食习惯影响的实验。
-objective_grant_nutritionresearch_poor 进食少且种类贫乏已达两天
-objective_grant_nutritionresearch_good 进食多且种类丰富已达两天
+objective_grant_nutritionresearch_poor 两天中每天提供1餐低份量低种类餐食。
+objective_grant_nutritionresearch_good 两天中每天提供3餐高份量高种类餐食。
 
-objective_grant_drugsearch 镇压毒品
+objective_grant_drugsearch 取缔毒品
 objective_grant_drugsearch_description 近来大监狱中的毒品使用越来越受人关注。采取主动力场并让人看看你在处理这个问题。
 objective_grant_drugsearch_find 找到十份违法毒品
 
@@ -2107,8 +2109,8 @@ equipment_woodenpickaxe 木质镐头
 research_requires_short 需要一个 *X
 
 reformprogram_workshopinduction 工作间安全感应系统
-reformprogram_foundationeducation 基金教育项目
-reformprogram_generaleducation 普通教育资格
+reformprogram_foundationeducation 基础教育课程
+reformprogram_generaleducation 普通教育课程
 reformprogram_carpentry 木工学徒
 reformprogram_kitcheninduction 厨房安全与卫生
 reformprogram_therapy 行为疗法
@@ -2355,7 +2357,7 @@ entity_carryingkeys 携带着监狱钥匙
 entity_carryingstaffkeys 携带着员工钥匙
 entity_wearingarmour 穿着*X
 
-reports_schedule 重新安排所有项目
+reports_schedule 重新安排所有课程
 reports_edit 编辑日程表
 reports_bankloan 银行贷款
 reports_increaseloan 增长
@@ -2402,12 +2404,12 @@ tooltip_multipleobjects 按TAB旋转对象
 remotedoor_noservo 没有连上伺服器的遥控门不会打开
 
 roomgrading 房间等级
-roomgrading_roomsize 房间大小至少*X平方米
-roomgrading_cleanliness 清洁高于*X%
+roomgrading_roomsize 房间大小至少 *X 平方米
+roomgrading_cleanliness 清洁高于 *X%
 roomgrading_outsidewindow 室外窗
-roomgrading_item 项目：*X
-roomgrading_result 等级*X
-roomgrading_currentoccupant 居住着被授权评级*X
+roomgrading_item 物品： *X
+roomgrading_result 等级 *X
+roomgrading_currentoccupant 居住者被授权评级 *X
 roomgrading_unoccupied 未被占用
 
 
@@ -2590,11 +2592,12 @@ finance_cost_sellobject 出售物品
 finance_cost_landpurchase 完成购买
 finance_cost_prisonerintake 收监量
 finance_cost_grantcancellation 取消花费
-finance_cost_grantrefund ——付款： *X
-finance_cost_grantfine ——罚金： *X
+finance_cost_grantrefund - 付款： *X
+finance_cost_grantfine - 罚金： *X
 finance_cost_executionfine 不当处决罚金
 finance_cost_executioncompensation 处决补偿
-
+finance_cost_shopintake 商店收入
+finance_cost_prisonerwages 囚犯工资
 
 # =============================================================================
 # Clock
