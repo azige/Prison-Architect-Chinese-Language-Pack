@@ -1031,9 +1031,9 @@ roomrequirement_secure_short 安全
 roomrequirement_enclosed 封闭（四周是围墙和门）
 roomrequirement_enclosed_short 封闭
 requirement_entrance 需要入口
-roomrequirement_title                   =[Room Requirements]=
-roomrequirement_passed                  [PASSED]
-roomrequirement_failed                  [FAILED]
+roomrequirement_title                   =[房间需求]=
+roomrequirement_passed                  [通过]
+roomrequirement_failed                  [失败]
 
 # =============================================================================
 # Unlocks
@@ -1436,27 +1436,27 @@ schedule_zone_unlocked 已解锁
 # Needs / Actions / Bio etc
 # =============================================================================
 
-action_poo 便便
-action_wee 尿尿
-action_wash 正在淋浴
-action_relax 正在放松
-action_sleep 正在睡觉
-action_nap 正在打盹
-action_getmeal 正在取食物
-action_sit 正在端坐
-action_exercise 正在锻炼
-action_liftweights 正在举重
-action_phonehome 正在与家人通话
-action_watchtv 正在看电视
-action_playpool 正在玩台球
+action_poo 大便
+action_wee 小便
+action_wash 淋浴中
+action_relax 放松中
+action_sleep 睡觉中
+action_nap 打盹中
+action_getmeal 取食物中
+action_sit 坐着
+action_exercise 锻炼中
+action_liftweights 举重中
+action_phonehome 与家人通话中
+action_watchtv 看电视中
+action_playpool 打台球中
 action_stealknife 行为可疑
 action_stealspoon 行为可疑
-action_urinate 正在嘘嘘
+action_urinate 尿裤子
 action_soilsuit 弄脏衣服
-action_eat 正在吃饭
-action_complain 正在抱怨
-action_work 工作
-action_visitation 探视
+action_eat 吃饭中
+action_complain 抱怨中
+action_work 工作中
+action_visitation 探视中
 action_parole 假释听证会
 action_none 无
 action_misbehaving 行为不端
@@ -1467,16 +1467,17 @@ action_fighting 打架
 action_rioting 暴乱
 action_hostagetaking 人质扣留
 action_reformprogram 劳改程序
-action_changeclothes 更改衣服
-action_getbook 立案
+action_changeclothes 换衣服
+action_getbook 取得书本
 action_pray 祈祷
+action_shopping 购物
 
-status_effect_title      =[Status Effects]=
+status_effect_title      =[状态效果]=
 status_effect_none 无
 status_effect_suppressed 被镇压
 status_effect_goodfood 饮食良好
 status_effect_drunk 醉酒
-status_effect_high 高
+status_effect_high 嗨翻了
 status_effect_withdrawal 戒毒
 status_effect_tazed 电晕
 status_effect_overdosed 过量服入
@@ -1504,15 +1505,15 @@ experience_wellfed 饮食良好
 experience_exercise 锻炼
 
 need_name_nothing 什么都没有
-need_name_bladder 膀胱
-need_name_bowels 肠子
+need_name_bladder 小便
+need_name_bowels 大便
 need_name_sleep 睡觉
 need_name_food 食物
 need_name_safety 安全
-need_name_hygiene 为生
+need_name_hygiene 卫生
 need_name_exercise 锻炼
 need_name_family 家庭
-need_name_recreation 消遣娱乐
+need_name_recreation 娱乐
 need_name_comfort 舒适
 need_name_environment 环境
 need_name_privacy 隐私
@@ -1520,14 +1521,14 @@ need_name_freedom 自由
 need_name_clothing 衣服
 need_name_drugs 毒品
 need_name_alcohol 酒精
-need_name_starving 挨饿中
+need_name_starving 挨饿
 need_name_spirituality 精神
 need_name_literacy 文化
 needs_locked （需要心理学家来显示犯人的需求）
-needs_title                             =[Needs]=
+needs_title                             =[需求]=
 
-reputation_title 名声
-reputation_hidden （未知声誉）
+reputation_title 特性
+reputation_hidden （未知特性）
 reputation_hidden_short                 ???
 
 reputation_legendary --传奇--
@@ -1543,6 +1544,7 @@ reputation_copkiller 警察杀手
 reputation_quick 快速
 reputation_instigator 教唆犯
 reputation_fighter 经验丰富的战士
+reputation_gangmember 帮派成员
 
 reputation_strong_high 极其强壮
 reputation_tough_high 极其强硬
@@ -1558,10 +1560,11 @@ reputation_stoical_high 坚韧
 reputation_fearless_high 无惧
 reputation_copkiller_high 警察杀手
 reputation_instigator_high 教唆犯
+reputation_gangmember_high 帮派成员
 
 reputationtooltip_legendary 这名罪犯是犯罪世界中的有一个传奇人物，拥有多种技能与能力，他极其危险。
 reputationtooltip_strong 这名罪犯在打架中力气更大
-reputationtooltip_tough 这名罪犯能在打架中承受更多的惩罚。他有时候也能承受来自Tazer的打击。
+reputationtooltip_tough 这名罪犯能在打架中承受更多的惩罚。他有时候也能承受来自电击枪的打击。
 reputationtooltip_volatile 这名犯人极易毫无预兆或没有理由的发狂。
 reputationtooltip_stoical 这名罪犯在被独自关押的时候不会感到被压制。他丝毫不在意。
 reputationtooltip_snitch 这名罪犯是名消息通，因此他的生命也许受到来自其他罪犯的威胁。不要将他和其他罪犯放在一起太久。
@@ -1572,6 +1575,7 @@ reputationtooltip_fearless 这名罪犯不会受到武装看守的威吓，并�
 reputationtooltip_quick 这名罪犯跑得特别快。
 reputationtooltip_instigator 这名罪犯在其周围引发普遍情绪不满。当他闹事的时候，周围的囚犯也很可能做同样的事。
 reputationtooltip_fighter 这名犯人擅长防御格斗动作。他可以缴械对手，甚至在打斗中夺走对方武器。
+reputationtooltip_gangmember 这名犯人属于一个帮派。它会保护同帮派的成员并且怀有对敌对帮派的仇恨。
 
 
 # =============================================================================
@@ -1579,15 +1583,15 @@ reputationtooltip_fighter 这名犯人擅长防御格斗动作。他可以缴械
 # =============================================================================
 
 nameplate_working 工作
-nameplate_stationed 原地部署
-nameplate_patrolling 巡逻
+nameplate_stationed 站岗
+nameplate_patrolling 巡逻中
 nameplate_resting 休息
-nameplate_tired 累了
+nameplate_tired 精疲力竭
 nameplate_injured 受伤
-nameplate_unconscious 失去意识
+nameplate_unconscious 晕厥
 nameplate_dead 死亡
-nameplate_released 被释放
-nameplate_researching 研究
+nameplate_released 已释放
+nameplate_researching 研究中
 nameplate_overdose 过度服用
 nameplate_starving 饥饿
 
@@ -1596,7 +1600,7 @@ nameplate_starving 饥饿
 # Objectives, Grants
 # =============================================================================
 
-objective_feedallprisoners 给所有囚犯食物
+objective_feedallprisoners 喂饱所有囚犯
 objective_caption_prisoners 囚犯
 objective_caption_meals 餐食
 objective_readceosletter 读首席执行官的来信
@@ -1611,9 +1615,9 @@ objective_intake_closed2 （见该囚犯的报告）
 objective_intake_closed3 （检视收入报表）
 objective_intake_specials 特别转移：
 objective_intake_categories 种类：
-objective_intake_minsec 最少，
-objective_intake_medsec 正常，
-objective_intake_maxsec 最多
+objective_intake_minsec 低危险度，
+objective_intake_medsec 中危险度，
+objective_intake_maxsec 高危险度
 objective_intake_deathrow 死囚
 
 objective_builddeliveriesroom 设定配送区域
@@ -1982,8 +1986,9 @@ object_mailunsorted 未分类邮件
 object_mailsorted 已分类邮件
 object_prisonermail 邮件
 object_prisonermailopened 邮件（已打开）
-object_shopfront 店面
-
+object_shopfront 商店前台
+object_shopgoods 商店货物
+object_shopshelf 商店货架
 
 material_none 无
 material_building 建筑（砖）
@@ -2039,7 +2044,7 @@ room_security 安全
 room_office 办公室
 room_medicalward 医务室
 room_morgue 停尸房
-room_commonroom 囚犯休息室
+room_commonroom 公共娱乐室
 room_laundry 洗衣房
 room_visitation 探视
 room_cleaningcupboard 清洁用品室
@@ -2087,7 +2092,7 @@ equipment_hammer 锤子
 equipment_clipboard 笔记板
 equipment_drill 钻头
 equipment_pianowire 钢琴线
-equipment_scissors 见到
+equipment_scissors 剪刀
 equipment_medicine 药品
 equipment_shotgun 霰弹枪
 equipment_moneybag 钱袋
@@ -2109,12 +2114,12 @@ reformprogram_kitcheninduction 厨房安全与卫生
 reformprogram_therapy 行为疗法
 reformprogram_methadone 毒品成瘾的药品治疗
 reformprogram_alcoholicsmeeting 酗酒者集体理疗
-reformprogram_tazertraining 守卫Tazer证明
+reformprogram_tazertraining 守卫电击枪训练
 reformprogram_spiritualguidance 精神指导
 reformprogram_parolehearing 假释听证会
 reformprogram_deathrowappeal 死刑上诉
 
-reformprogram_tazertrained 证明：Tazer
+reformprogram_tazertrained 执照：电击枪
 
 reformprogram_workshopinduction_text 安全第一！囚犯必须通过这门课程，\n\n然后他们才能在车间工坊工作
 reformprogram_foundationeducation_text 许多囚犯缺乏基本的阅读、写作及算术能力。这项课程能提高他们的能力。通过的犯人能在图书馆工作。
@@ -2137,7 +2142,7 @@ reformerror_noteachers 无教师
 reform_interested *X 感兴趣
 reform_interested_qualified *X 感兴趣/合格
 reform_queued *X 在排队
-reform_completion ——*X 完成 ——*Y 通过 (*P%)
+reform_completion - *X 完成 - *Y 通过 (*P%)
 reform_locked 锁住
 reform_start 开始
 reform_costpersession *X 每期
@@ -2147,8 +2152,8 @@ reform_program_active 进行中
 reform_program_paused 暂停
 reform_program_stop 停止
 reform_program_ledby - 在 *Z 由 *P 的带领下进行
-reform_program_ledwith — 获得 *S 的帮助
-reform_program_length — 每期项目长度： *X 小时
+reform_program_ledwith - 获得 *S 的帮助
+reform_program_length - 每期项目长度： *X 小时
 reform_program_requirements - 每名囚犯需要 *X
 reform_program_requirements_alt - 每名囚犯需要 *X 或 *Y
 reform_program_prereqs 囚犯必须完成：
@@ -2568,8 +2573,8 @@ adviser_deathrow_setupexecution8 我很抱歉
 # =============================================================================
 
 finance_cost_prisonsale 先前监狱的销售
-finance_cost_equiptazer 设备：Tazer
-finance_cost_equipbodyarmour 设备：护甲
+finance_cost_equiptazer 装备：电击枪
+finance_cost_equipbodyarmour 装备：护甲
 finance_cost_exports 出口
 finance_cost_foundations 建筑地基
 finance_cost_cashflow 现金流
