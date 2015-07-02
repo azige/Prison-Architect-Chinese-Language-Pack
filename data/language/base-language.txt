@@ -6,7 +6,7 @@
 dialog_new 新游戏
 dialog_load 读取
 dialog_save 保存
-dialog_saveas 保存为
+dialog_saveas 另存为
 dialog_delete 删除
 dialog_width 宽度
 dialog_height 高度
@@ -19,7 +19,7 @@ dialog_w W
 dialog_h H
 dialog_exit 退出
 dialog_cancel 取消
-dialog_ok 好的
+dialog_ok 确定
 dialog_open 打开
 dialog_close 关闭
 dialog_closed 已关闭
@@ -132,77 +132,77 @@ samplebank (样品库)
 # Interface Mode
 # =============================================================================
 
-interfacemode_done 已完成
-interfacemode_destroy 毁坏
+interfacemode_done 完成
+interfacemode_destroy 销毁
 interfacemode_foundations 地基
-interfacemode_construction 材料
+interfacemode_construction 建材
 interfacemode_planning 规划
-interfacemode_objects 物体
+interfacemode_objects 物件
 interfacemode_designation 房间
-interfacemode_utilities 工具
+interfacemode_utilities 设施
 interfacemode_staff 员工
 interfacemode_deployment 部署
 interfacemode_logistics 后勤
 interfacemode_prisoners 囚犯
 interfacemode_needs 需求
 interfacemode_threats 威胁
-interfacemode_overlays 叠加
-interfacemode_research 行政系统
-interfacemode_emergencies 紧急情况
+interfacemode_overlays 图层
+interfacemode_research 行政
+interfacemode_emergencies 紧急
 interfacemode_clone 克隆
 interfacemode_contraband 情报
-interfacemode_grading 分级
-interfacemode_spawn （生成）
-interfacemode_properties （财产）
-interfacemode_cutscenes （过场动画）
+interfacemode_grading 评价
+interfacemode_spawn （重生）
+interfacemode_properties （属性）
+interfacemode_cutscenes （过场）
 interfacemode_selection 选择
 
-interfaceoverlay_security 安全
+interfaceoverlay_security 保安
 interfaceoverlay_patrols 巡逻
 interfaceoverlay_decay 腐烂
-interfaceoverlay_territory 领域
+interfaceoverlay_territory 领土
 interfaceoverlay_contraband 违禁品
 
-interfaceproperty_indoor 户内
-interfaceproperty_visible 可视
+interfaceproperty_indoor 室内
+interfaceproperty_visible 可见
 interfaceproperty_territoryprisoner 帮派
 interfaceproperty_territoryguard 警卫
-interfaceproperty_sectorprisoner 暴乱
+interfaceproperty_sectorprisoner 暴动
 interfaceproperty_tunnel 地道
 
 interfacedeployment_guards 警卫
 interfacedeployment_patrols 警卫巡逻
 interfacedeployment_dogpatrols 警犬巡逻
 interfacedeployment_armedpatrols 武装巡逻
-interfacedeployment_removeguards 移除守卫
-interfacedeployment_clearpatrols 移除巡逻队
+interfacedeployment_removeguards 移除警卫
+interfacedeployment_clearpatrols 移除巡逻路线
 interfacedeployment_targetting 后勤
-interfacedeployment_targettingfood 食物后勤管理
-interfacedeployment_targettinglaundry 清洗后勤管理
-interfacedeployment_securearea 安全区
-interfacedeployment_sharedzone 共享
-interfacedeployment_staffonlyzone 员工通道
-interfacedeployment_maxseczone 仅低级安保
-interfacedeployment_medseczone 仅中级安保
-interfacedeployment_minseczone 仅高级安保
-interfacedeployment_protectedzone 仅保护性拘留
-interfacedeployment_supermaxzone 仅超级安保
-interfacedeployment_deathrowzone 仅限死囚
-interfacedeployment_unlockedzone 已解锁
-interfacedeployment_zonered 红翼
-interfacedeployment_zonegreen 绿翼
-interfacedeployment_zoneblue 蓝翼
-interfacedeployment_zoneyellow 黄翼
+interfacedeployment_targettingfood 食物后勤
+interfacedeployment_targettinglaundry 衣物后勤
+interfacedeployment_securearea 安全区域
+interfacedeployment_sharedzone 公共区域
+interfacedeployment_staffonlyzone 员工专区
+interfacedeployment_maxseczone 重刑犯专区
+interfacedeployment_medseczone 普通犯专区
+interfacedeployment_minseczone 轻刑犯专区
+interfacedeployment_protectedzone 保护收容专区
+interfacedeployment_supermaxzone 超重刑犯专区
+interfacedeployment_deathrowzone 死刑犯专区
+interfacedeployment_unlockedzone 不上锁区域
+interfacedeployment_zonered 红色区域
+interfacedeployment_zonegreen 绿色区域
+interfacedeployment_zoneblue 蓝色区域
+interfacedeployment_zoneyellow 黄色区域
 
-interfacelogistics_jobs 监狱劳工
-interfacelogistics_removejobs 移除劳动力
-interfacelogistics_targettingfood 食物配给
-interfacelogistics_targettinglaundry 清洗分配
-interfacelogistics_roomquality 房间质量
+interfacelogistics_jobs 监狱劳动
+interfacelogistics_removejobs 移除劳动名额
+interfacelogistics_targettingfood 食物分配
+interfacelogistics_targettinglaundry 衣物分配
+interfacelogistics_roomquality 房间品质
 
 interfaceplanning_wall 墙
 interfaceplanning_object 物体
-interfaceplanning_route 路径
+interfaceplanning_route 道路
 interfaceplanning_clear 清空
 
 interfacecontraband_source 危险
@@ -216,139 +216,139 @@ interfaceclone_copy 复制
 interfaceclone_paste 粘贴
 
 interfacetopbar_todo 待办事项
-interfacetopbar_balance 银行 *B
-interfacetopbar_budget 现金流 *C
+interfacetopbar_balance 存款 *B
+interfacetopbar_budget 资金流动 *C
 interfacetopbar_income 收入 *I
-interfacetopbar_expenses 开销 *C
-interfacetopbar_day *D天
+interfacetopbar_expenses 支出 *C
+interfacetopbar_day 第 *D 天
 
 interfacetopbar_title_balance 银行存款
-interfacetopbar_title_budget 每日现金流
-interfacetopbar_title_cctv 监控系统
-interfacetopbar_title_day 天
+interfacetopbar_title_budget 每日资金流动
+interfacetopbar_title_cctv 监控摄像头
+interfacetopbar_title_day 天数
 interfacetopbar_title_prisoners 囚犯
 interfacetopbar_title_guards 警卫
-interfacetopbar_title_tension 危险
+interfacetopbar_title_tension 危险等级
 
-interfacetopbar_tooltip_balance 你在银行有多少存款。\n\n点击补助清单以筹集更多资金。
-interfacetopbar_tooltip_budget 你每天都会收到一些钱，钱的多少基于你的开销和收入。\n\n点击进入详细的收支清单。
-interfacetopbar_tooltip_cctv 目前拥有的监控摄像头与监视器数量
-interfacetopbar_tooltip_day 经营监狱的时间
-interfacetopbar_tooltip_prisoners 目前拥有的监狱数量以及可容纳犯人数
-interfacetopbar_tooltip_guards 监狱中可用警卫数量
+interfacetopbar_tooltip_balance 银行内的存款金额。\n\n点击补助清单以获得更多资金。
+interfacetopbar_tooltip_budget 根据目前支出和收入所算出每天监狱能获取的金额。\n\n点击进入详细的收支清单。
+interfacetopbar_tooltip_cctv 目前拥有的监控摄像头与监视器数量。
+interfacetopbar_tooltip_day 经营监狱的时间。
+interfacetopbar_tooltip_prisoners 目前拥有的监狱数量以及可容纳犯人数。
+interfacetopbar_tooltip_guards 监狱中空闲的警卫数量
 interfacetopbar_tooltip_tension 看守长报告的监狱整体风险等级。
 
 interfacetopbar_tooltip_recenttransactions 最近的交易记录
 
 interfacetopbar_tooltip_gametime 游戏时间总计: *X小时, *Y分钟, *Z秒
 
-interfacetopbar_tooltip_totalguards *X 全体警卫
-interfacetopbar_tooltip_guardincapacitated *X 无法行动
-interfacetopbar_tooltip_guardstationed 已配置*X
-interfacetopbar_tooltip_guardpatrolling *X 巡逻
-interfacetopbar_tooltip_guardavailable *X 可用
-interfacetopbar_tooltip_guardresting *X 休息
-interfacetopbar_tooltip_guardactive （*X 应对事件中）
-interfacetopbar_tooltip_guarddoingjob （*X 已指派工作）
+interfacetopbar_tooltip_totalguards 共计 *X 名警卫
+interfacetopbar_tooltip_guardincapacitated *X 名无法行动
+interfacetopbar_tooltip_guardstationed *X 名站岗中
+interfacetopbar_tooltip_guardpatrolling *X 名巡逻中
+interfacetopbar_tooltip_guardavailable *X 名空闲中
+interfacetopbar_tooltip_guardresting *X 名休息中
+interfacetopbar_tooltip_guardactive （*X 名行动中）
+interfacetopbar_tooltip_guarddoingjob （*X 名正在进行任务）
 interfacetopbar_tooltip_idle （*X 空闲）
 interfacetopbar_tooltip_armedguards + *X 武装警卫
 interfacetopbar_tooltip_dogs + *X 警犬员
 
-interfacetopbar_unlimitedfunds 无线资金
+interfacetopbar_unlimitedfunds 无限资金
 
 interfacetopbar_budget_moneyin 收入: $*M /天
-interfacetopbar_budget_moneyout 花费: $*M /天
-interfacetopbar_budget_cantgonegative 你不可以有财政赤字 (支出比收入高) 除非你有一名会计来管理你的资金。
+interfacetopbar_budget_moneyout 支出: $*M /天
+interfacetopbar_budget_cantgonegative 在聘请会计师管理监狱财务之前，资金流动不可为负的 (也就是支出大于收入) 。
 
-interfacetopbar_prisoners_types 目前容纳 *X 囚犯：
-interfacetopbar_prisoners_capacity 最大安全容量：*X
+interfacetopbar_prisoners_types 目前容纳 *X 名囚犯：
+interfacetopbar_prisoners_capacity 最大安全容纳：*X
 interfacetopbar_prisonercells_shared 多人牢房容量：*X
 interfacetopbar_prisonercells_unlocked 未上锁牢房容量：*X
-interfacetopbar_prisonercells_minseconly 最小容量：*X
-interfacetopbar_prisonercells_medseconly 中等容量：*X
-interfacetopbar_prisonercells_maxseconly 最大容量：*X
-interfacetopbar_prisonercells_protectedonly 受保护牢房容量：*X
-interfacetopbar_prisonercells_supermaxonly 高度戒备牢房容量：*X
-interfacetopbar_prisonercells_deathrowonly 死刑犯牢房容量：*X
-interfacetopbar_prisonercells_staffonly 不可用：*X
+interfacetopbar_prisonercells_minseconly 轻刑犯专区容量：*X
+interfacetopbar_prisonercells_medseconly 普通犯专区容量：*X
+interfacetopbar_prisonercells_maxseconly 重刑犯专区容量：*X
+interfacetopbar_prisonercells_protectedonly 保护收容专区容量：*X
+interfacetopbar_prisonercells_supermaxonly 超重刑犯专区容量：*X
+interfacetopbar_prisonercells_deathrowonly 死刑犯专区容量：*X
+interfacetopbar_prisonercells_staffonly 员工专区：*X
 
-interfacetopbar_cctv_current 目前运行的 *C 摄像机
-interfacetopbar_cctv_cap 为 *C 摄像机分配空间
+interfacetopbar_cctv_current 目前有 *C 个摄像头在工作
+interfacetopbar_cctv_cap 还可安装 *C 个摄像头
 
-interfacetopbar_tension_currentlevel 危险等级是 *X
-interfacetopbar_tension_increasing 增加
-interfacetopbar_tension_decreasing 减少
-interfacetopbar_tension_description 要素：
-interfacetopbar_tension_happyprisoners - *X 名囚犯表示受到良好待遇
-interfacetopbar_tension_unhappyprisoners + *X 名囚犯抱怨严重
-interfacetopbar_tension_lockedupprisoners +*X个囚犯被上了枷锁关进牢房/禁闭室
+interfacetopbar_tension_currentlevel 目前危险等级为 *X
+interfacetopbar_tension_increasing 且正在提高中
+interfacetopbar_tension_decreasing 且正在降低中
+interfacetopbar_tension_description 潜在危险因素：
+interfacetopbar_tension_happyprisoners - *X 名囚犯表示受到良好的对待
+interfacetopbar_tension_unhappyprisoners + *X 名囚犯正在严重的抱怨
+interfacetopbar_tension_lockedupprisoners + *X 名囚犯正在自己的牢房或禁闭室禁足中
 interfacetopbar_tension_riotingprisoners + *X 名囚犯正在暴动
-interfacetopbar_tension_wellfedprisoners - *X 名囚犯衣食无忧
-interfacetopbar_tension_suppressedprisoners = *X 名囚犯受到镇压(报怨)
-interfacetopbar_tension_activeriotguards + *X 名防暴警察已在现场
+interfacetopbar_tension_wellfedprisoners - *X 名囚犯觉得满足
+interfacetopbar_tension_suppressedprisoners = *X 名囚犯受压抑(报怨)
+interfacetopbar_tension_activeriotguards + *X 名防暴警察正在现场
 interfacetopbar_tension_activearmedguards + *X 名武装警卫执勤中
-interfacetopbar_tension_recentdeaths + *X 个人最近被杀
-interfacetopbar_tension_recentsearches + *X 名囚犯遭受了不必要的搜身
-interfacetopbar_tension_angrygangmembers + *X 团伙成员愤怒（领袖被惩罚）
-interfacetopbar_tension_recentpunishments = (威慑) 最近完成了 *X 项惩罚措施
-interfacetopbar_tension_recentcalmed -*X个囚犯最近被安抚过
+interfacetopbar_tension_recentdeaths + *X 个人最近被杀了
+interfacetopbar_tension_recentsearches + *X 名囚犯最近被无故搜身
+interfacetopbar_tension_angrygangmembers + *X 名帮派成员非常愤怒（领袖被惩罚）
+interfacetopbar_tension_recentpunishments = (镇压) 近期执行了 *X 项处罚
+interfacetopbar_tension_recentcalmed -*X 个囚犯最近被安抚过
 
 interfacecontrol_mainmenu 主菜单（Esc）
-interfacecontrol_mainmenu_tooltip 开启主菜单（新游戏/读取/储存/退出等）
+interfacecontrol_mainmenu_tooltip 开启主菜单（新游戏/读取/存档/退出 等）
 interfacecontrol_todo 待办清单
-interfacecontrol_todo_tooltip 开启待办清单
+interfacecontrol_todo_tooltip 切换显示待办清单
 interfacecontrol_research 行政系统
-interfacecontrol_research_tooltip 打开官僚系统窗口，你可以在这里任命管理层以解锁新的物品、员工及设施。
+interfacecontrol_research_tooltip 打开行政系统窗口，你可以在这里任命管理层以解锁新的物品、员工类型及设施。
 interfacecontrol_grading 监狱评估
 interfacecontrol_grading_tooltip 打开监狱评估窗口，你可以在这里看到对监狱运作情况的综合评分。
 
-interface_confirmlandbuy 你确定要花 $*X 购买该地块吗？
+interface_confirmlandbuy 你确定要花 $*X 购买这块土地吗？
 interface_loadconfirm 你确定要读取这张地图？所有未保存的进度将会丢失
 interface_saveconfirm 你确定要使用这个文件名储存吗？已有信息将被覆盖。
 
 interface_landbuylabel *Xm x *Ym。总面积 *A 平方米。 *C
 
 interface_action_dismantle 拆除
-interface_action_dump 丢下
-interface_action_repair 修复
-interface_action_medicalbay 医疗湾
+interface_action_dump 丢弃
+interface_action_repair 维修
+interface_action_medicalbay 医务室
 interface_action_search 搜索
 interface_action_searchcell 搜索牢房
 interface_action_searchcellblock 搜索牢房区
 interface_action_sack 解雇
-interface_action_doormodenormal 门模式：普通
-interface_action_doormodelockedshut 门模式：保持关闭
-interface_action_doormodelockedopen 门模式：保持打开
+interface_action_doormodenormal 门禁模式：正常
+interface_action_doormodelockedshut 门禁模式：保持关闭
+interface_action_doormodelockedopen 门禁模式：保持打开
 interface_action_switchon 开启
 interface_action_switchoff 关闭
 interface_action_sellobject 出售物品
 interface_action_dismiss 解雇
 interface_action_connect 连接
 interface_action_clearconnections 清除连接
-interface_action_servoopen 打开触发器
-interface_action_servoclose 关闭触发器
+interface_action_servoopen 触发时开启
+interface_action_servoclose 触发时关闭
 
 interface_contents_container 内容: *X
 interface_contents_stack 内容: *X x *Y
 
 interface_skip 跳过
 
-interface_foundationsinprogress 基地进展中
-riot_underway 暴动进行中
+interface_foundationsinprogress 地基建设中
+riot_underway 发生暴动
 riot_status_prisoners *X 名囚犯发生暴动
 shakedown_underway 搜查进行中
-shakedown_found 已找到：
+shakedown_found 查获：
 
-gameover_caption 按ESC键继续
+gameover_caption 按 ESC 键继续
 
-sector_jobs_max 最大工作 *X
-sector_jobs_qualified 合格犯人: *X
+sector_jobs_max 工作名额上限 *X
+sector_jobs_qualified 受训合格囚犯： *X
 sector_jobs_required （需要: *X）
 sector_noaccess 无法访问
 sector_insecure 不安全
 
 patrol_assign_1 安排警卫巡逻：
-patrol_assign_2 在现有的巡逻广场点击
+patrol_assign_2 请点选已规划好的巡逻路线
 
 
 # =============================================================================
@@ -356,14 +356,14 @@ patrol_assign_2 在现有的巡逻广场点击
 # =============================================================================
 
 hardware_compat_title 硬件兼容性测试
-hardware_compat_message 在你的许可下，我们要从你的电脑中收集下列硬件数据。\n\n这些信息完全匿名并将帮助我们确保监狱建筑师在最广泛的电脑硬件上运行。\n\n谢谢！
+hardware_compat_message 在你的许可下，我们将从你的电脑中收集下列硬件数据。\n\n这些信息完全匿名并将帮助我们确保监狱建筑师在最广泛的电脑硬件上运行。\n\n谢谢！
 hardware_compat_accept 接受
 hardware_compat_decline 拒绝
 
 connectionmenu_connect 连接
 connectionmenu_disconnect 断开连接
 connectionmenu_clear 清空
-connectionmenu_done 已完成
+connectionmenu_done 完成
 
 
 # =============================================================================
@@ -371,124 +371,124 @@ connectionmenu_done 已完成
 # =============================================================================
 
 buildtoolbar_title 建造
-buildtoolbar_reports 报告
-buildtoolbar_bangup 拘禁
-buildtoolbar_lockdown 锁闭
-buildtoolbar_shakedown 全面搜查
+buildtoolbar_reports 监狱报告
+buildtoolbar_bangup 全体回房
+buildtoolbar_lockdown 全面封锁
+buildtoolbar_shakedown 全部搜查
 buildtoolbar_weaponsfree 自由开火
 
-buildtoolbar_tooltip_reports 打开报告窗口查看有关你的囚犯、员工、收入、政府补助等信息
-buildtoolbar_tooltip_bangup 将所有（自愿）囚犯送回他们牢房，如果关太长时间则会引起不满
-buildtoolbar_tooltip_lockdown 立刻关闭监狱中所有的门
-buildtoolbar_tooltip_shakedown 对所有牢房下达立即搜索的命令，这将耗费一些时间并且惹恼犯人
+buildtoolbar_tooltip_reports 打开报告窗口，查看有关你的囚犯、员工、收入、政府补助等信息
+buildtoolbar_tooltip_bangup 将所有（愿意的）囚犯送回他们牢房，如果关太长时间则会引起不满
+buildtoolbar_tooltip_lockdown 立刻锁上监狱中所有的门
+buildtoolbar_tooltip_shakedown 下令立即搜索所有牢房，搜索将会花费一些时间才能完成，同时也会惹恼你的囚犯们。
 buildtoolbar_tooltip_weaponsfree 授权你的武装警卫使用致命武器。
 
-buildtoolbar_cost 花费: $ *C
-buildtoolbar_cost_sqrft 花费: $ *C /sq
+buildtoolbar_cost 费用: $ *C
+buildtoolbar_cost_sqrft 费用: $ *C /每平方米
 buildtoolbar_wages 工资: 每天 $ *W
-buildtoolbar_outdoor 仅供室外
-buildtoolbar_indoor 仅供室内
+buildtoolbar_outdoor 仅限室外
+buildtoolbar_indoor 仅限室内
 buildtoolbar_walk_speed 行走速度:  *S
 buildtoolbar_walk_speed_slow 慢
 buildtoolbar_walk_speed_norm 一般
 buildtoolbar_walk_speed_fast 快
 buildtoolbar_locked 锁定
-buildtoolbar_locked_research 锁定（你需要 *B ）
-buildtoolbar_locked_administrator 锁定（需要 *B）
+buildtoolbar_locked_research 锁定（需要行政 *B ）
+buildtoolbar_locked_administrator 锁定（需要员工 *B）
 buildtoolbar_room 房间
 
-buildtoolbar_electrical — 带电的
-buildtoolbar_highpower — 高性能量
-buildtoolbar_water - 需要连接水源
-buildtoolbar_wired - 需接线(连接至其他接线的单元)
-buildtoolbar_modcontent — 现代内容
+buildtoolbar_electrical - 电气设备
+buildtoolbar_highpower - 高压设备
+buildtoolbar_water - 需要连接水管
+buildtoolbar_wired - 需接线(连接至其他接线单元)
+buildtoolbar_modcontent - 模组内容
 
-buildtoolbar_popup_foundations 建造/拆除建筑来打造你的监狱
+buildtoolbar_popup_foundations 建造/拆除 建筑来打造你的监狱
 buildtoolbar_popup_construction 不同类型的地面与墙壁
 buildtoolbar_popup_planning 仅规划监狱而不进行建造
 buildtoolbar_popup_designation 标出特定功能的监狱区域
-buildtoolbar_popup_objects 将有用的物品放置在监狱周围
-buildtoolbar_popup_overlays 在你的监狱布局上形象化地找出弱点
+buildtoolbar_popup_objects 在监狱内安装各种实用的设施
+buildtoolbar_popup_overlays 显示监狱的安全弱点
 buildtoolbar_popup_utilities 管道与电气系统
-buildtoolbar_popup_staff 雇用必要人员运营你的监狱
-buildtoolbar_popup_deployment 将工作人员分配到你的监狱
-buildtoolbar_popup_logistics 指派囚犯在你的监狱内工作。同时可以手动调整餐厅和洗衣房的工作内容。
-buildtoolbar_popup_research 解锁新功能
-buildtoolbar_popup_emergencies 如果事态过于恶化，立即呼叫紧急服务
-buildtoolbar_popup_spawn 生成？这该死的是干嘛的？
+buildtoolbar_popup_staff 雇用人员运营你的监狱
+buildtoolbar_popup_deployment 指派员工到监狱内特定区域
+buildtoolbar_popup_logistics 指派囚犯在监狱内进行后勤劳动工作，并可手动指派餐厅和衣物清洗工作
+buildtoolbar_popup_research 为监狱解锁更多功能。
+buildtoolbar_popup_emergencies 呼叫紧急支援协助解决监狱内的恶性事件
+buildtoolbar_popup_spawn 重生？这是干嘛的？
 buildtoolbar_popup_clone 你可以复制和粘贴现有的建筑结构。
 buildtoolbar_popup_properties 查明那该死的东西
 buildtoolbar_popup_contraband 显示违禁品的来源，以及所有最近被发现的违禁品。同时显示你的秘密检举人及其情报。
-buildtoolbar_popup_grading 查看你的监狱整体等级基于四个关键指标——惩罚，改造，安全，卫生。也会显示你监狱内的再犯率。
+buildtoolbar_popup_grading 查看你的监狱整体等级基于四个关键指标——惩罚，教化，安全，医疗，同时显示囚犯出狱后的再犯率。
 buildtoolbar_popup_room_cell 囚犯生活的地方
-buildtoolbar_popup_room_holdingcell 新囚犯被分配牢房以前呆的房间。
+buildtoolbar_popup_room_holdingcell 当新进囚犯还没有分配个人牢房时，会先收容在集体牢房内
 buildtoolbar_popup_room_solitary 专为坏蛋中的战斗蛋设计而建的独立惩戒措施，俗称“小黑屋”
 buildtoolbar_popup_room_canteen 囚犯喝下午茶的地方
 buildtoolbar_popup_room_kitchen 厨师为囚犯准备食物的地方
 buildtoolbar_popup_room_shower 用来让囚犯保持干净，没有虱子
-buildtoolbar_popup_room_yard 每天让囚犯在狙击塔的监视下放风数小时
-buildtoolbar_popup_room_storage 指定存放监狱人员需要物资的区域
-buildtoolbar_popup_room_deliveries 货物、物资以及囚犯下车的地点
+buildtoolbar_popup_room_yard 在狙击塔严密的监视下，让你的囚犯每天晒晒几小时的太阳
+buildtoolbar_popup_room_storage 放所有监狱员工所需的材料的区域
+buildtoolbar_popup_room_deliveries 货物、材料以及囚犯下车的地点
 buildtoolbar_popup_room_garbage 收集垃圾的地方
 buildtoolbar_popup_room_execution 处死囚犯的地方
 buildtoolbar_popup_room_workshop 派囚犯制造汽车牌照，无聊到死的地方
-buildtoolbar_popup_room_security 官员们的办公室
+buildtoolbar_popup_room_security 警卫的办公室
 buildtoolbar_popup_room_office 行政人员工作的区域
 buildtoolbar_popup_room_medicalward 医护人员工作的区域
-buildtoolbar_popup_room_morgue 你发送死去囚犯与工作人员的地方
-buildtoolbar_popup_room_commonroom 允许你的囚犯有自由时间放松
-buildtoolbar_popup_room_kennel 你的狗住的地方
+buildtoolbar_popup_room_morgue 死掉的囚犯和员工会送到这裡
+buildtoolbar_popup_room_commonroom 囚犯在自由活动时间可以休息的地方
+buildtoolbar_popup_room_kennel 警犬住的地方
 buildtoolbar_popup_room_chapel 当委员会聚在一起讨论设计如何处理囚犯们的宗教需求时会怎样？一个“多信仰祷告室”诞生了。我们管这种东西叫小礼拜堂。
-buildtoolbar_popup_room_paroleroom 你的囚犯在服满50%和75%刑期时可以各获得一次假释机会。他们的命运会由典狱官与看守长在这个房间作出决定。\n\n注意增加保安数量。囚犯们在得知他们的假释被拒绝后会变的异常沮丧。
-buildtoolbar_popup_room_library 你的监狱会收到一箱箱来自各地的丢弃和不用的旧书。需要囚犯来把这些书归类并扔到书架上去。
-buildtoolbar_popup_room_intake 囚犯们被领进的第一个房间。
+buildtoolbar_popup_room_paroleroom 当囚犯服刑期满 50% 和 75% 时，就有资格申请假释，他们的命运将会在这间房间内，由典狱长和保安队长决定。\n\n建议安排额外的警卫戒备，当犯人知道他们假释被驳回的时候通常会异常沮丧。
+buildtoolbar_popup_room_library 全国各地会送一些不要的或使用过的书籍给你的监狱，囚犯要协助将书本分类并上架。
+buildtoolbar_popup_room_intake 囚犯刚抵达的时候会先带到这裡。
 
-buildtoolbar_popup_obj_bed 不太柔软、不太坚硬、刚刚好。嗯，事实上，真的很硬而且太小
+buildtoolbar_popup_obj_bed 不会太软、也不会太硬，硬度刚刚好。嗯，事实上嘛，真的很硬又很小
 buildtoolbar_popup_obj_toilet 一项基本人权，假如你相信那些狂想家
 buildtoolbar_popup_obj_table 与椅子相当搭配
-buildtoolbar_popup_obj_chair 与桌子绝配
-buildtoolbar_popup_obj_bench 用来坐上面
-buildtoolbar_popup_obj_electricchair 传递正义的2000V
-buildtoolbar_popup_obj_jaildoor 让你的囚犯呆在他们应该在的地方
-buildtoolbar_popup_obj_jaildoorlarge 把尽可能多的囚犯关押在监狱里
+buildtoolbar_popup_obj_chair 与桌子是绝配
+buildtoolbar_popup_obj_bench 可以坐在上面
+buildtoolbar_popup_obj_electricchair 传递两千伏特的正义
+buildtoolbar_popup_obj_jaildoor 把囚犯关在他们应该在的地方
+buildtoolbar_popup_obj_jaildoorlarge 把很多囚犯关在他们该在的地方
 buildtoolbar_popup_obj_door 一道简单的门
-buildtoolbar_popup_obj_solitarydoor 极其坚固的门，即使是最强壮的犯人也撼不动它。
-buildtoolbar_popup_obj_staffdoor 一道上锁的大门，可以由任何工作人员打开，不光是警卫
-buildtoolbar_popup_obj_window 透过阳光
-buildtoolbar_popup_obj_windowlarge 透过大量阳光
-buildtoolbar_popup_obj_tree 采取措施延缓全球变暖是我们的责任
+buildtoolbar_popup_obj_solitarydoor 极其坚固的门，即使是最强壮的犯人也撼不动它
+buildtoolbar_popup_obj_staffdoor 一道上锁的大门，不只警卫能开，所有员工都能开
+buildtoolbar_popup_obj_window 可以看一眼阳光
+buildtoolbar_popup_obj_windowlarge 可以看很多眼阳光
+buildtoolbar_popup_obj_tree 防止全球变暖人人有责
 buildtoolbar_popup_obj_light 确保一整天都能看见犯人们的一举一动
 buildtoolbar_popup_obj_cooker 用热腾腾的饭菜让犯人们奢侈一下吧
-buildtoolbar_popup_obj_fridge 不让食物腐烂
+buildtoolbar_popup_obj_fridge 避免你的食材变质坏掉
 buildtoolbar_popup_obj_bin 违禁品一定要搜剿干净
-buildtoolbar_popup_obj_sink 所有雇员都要洗手
+buildtoolbar_popup_obj_sink 所有的员工都必需要洗手
 buildtoolbar_popup_obj_servingtable 将食物分配给犯人们
 buildtoolbar_popup_obj_showerhead 淋浴用的花洒喷头
-buildtoolbar_popup_obj_bookshelf 堆放书的架子
+buildtoolbar_popup_obj_bookshelf 放书的架子
 buildtoolbar_popup_obj_officedesk 你的员工需要记录很多东西，给一个漂亮的办公桌让他们去写吧
-buildtoolbar_popup_obj_filingcabinet 需让员工们所写的东西保持井井有条
+buildtoolbar_popup_obj_filingcabinet 你的员工需要把他们写的东西整理收好
 buildtoolbar_popup_obj_medicalbed 在这些麻醉药品被犯人偷走之前，它们都会呆在这里
-buildtoolbar_popup_obj_morgueslab 移动前请确保死者有地方安息。
-buildtoolbar_popup_obj_drain 清理地板上的水
-buildtoolbar_popup_obj_sprinkler 发生火灾时自动向着火区域喷水
-buildtoolbar_popup_obj_metaldetector 藏有违禁品的囚犯路过会被扫描出来，能呼叫附近的警卫前来没收
+buildtoolbar_popup_obj_morgueslab 在灵车来之前请确保死者有地方安息
+buildtoolbar_popup_obj_drain 避免地板上产生积水
+buildtoolbar_popup_obj_sprinkler 发生火灾时自动喷水
+buildtoolbar_popup_obj_metaldetector 藏有违禁品的囚犯路过时会被探测出来，但仍需要在附近安排警卫才能没收违禁品
 buildtoolbar_popup_obj_weightsbench 允许犯人们锻炼、活动，令他们保持愉悦心情
 buildtoolbar_popup_obj_phonebooth 这些电话可以让犯人和他们的家属通话
 buildtoolbar_popup_obj_tv 用肥皂剧安抚犯人们躁动的心。
-buildtoolbar_popup_obj_largetv 让你的犯人们可以分享脑子木掉的感受
+buildtoolbar_popup_obj_largetv 让一堆囚犯们可以共享他们的脑残时刻
 buildtoolbar_popup_obj_pooltable 玩把台球来打发监狱千篇一律的生活
 buildtoolbar_popup_obj_dismantleobject 移除一个物体。
 buildtoolbar_popup_obj_altar 天主与地上人民相遇的地方
 buildtoolbar_popup_obj_pews 给信徒坐的座位。是用最坚硬、最致密的木头做成的。
 buildtoolbar_popup_obj_prayermat 使你的犯人们在祈祷时不用跪在肮脏的地板上。
 
-buildtoolbar_popup_staff_workman 根据你所提供的计划为你建造监狱
-buildtoolbar_popup_staff_guard 用来监控犯人们，不让他们制造麻烦
-buildtoolbar_popup_staff_armedguard 拿着一把霰弹枪，囚犯们在袭击这家伙的时候会先考虑一下。\n\n注意：每个配备枪械的警卫需要在军械库里拥有自己的储物柜。
+buildtoolbar_popup_staff_workman 根据你所提供的设计为你建造监狱
+buildtoolbar_popup_staff_guard 帮你看管囚犯并避免他们滋事
+buildtoolbar_popup_staff_armedguard 配戴散弹枪，囚犯在攻击这家伙之前一般会三思。\n\n注意：每个配备枪械的警卫都需要在军械库里拥有自己的储物柜。
 buildtoolbar_popup_staff_doctor 自动治疗附近受伤的人，不管是警卫还是犯人
-buildtoolbar_popup_staff_cook 把他们准备好的食物分配给你的犯人们
+buildtoolbar_popup_staff_cook 准备食物并分配给你的犯人们
 buildtoolbar_popup_staff_gardener 让你的监狱地面干净整洁
-buildtoolbar_popup_staff_janitor 让你的监狱内部干净整洁，也可以促进监狱的洗衣服务
+buildtoolbar_popup_staff_janitor 让你的监狱内部干净整洁，也可以协助监狱的洗衣服务
 buildtoolbar_popup_staff_warden 你监狱的大总管，在你雇佣高级员工之前必须有一个大总管
 buildtoolbar_popup_staff_chief 这个高级员工可以让你接触到部署，监视和防暴警卫相关的科研项目
 buildtoolbar_popup_staff_foreman 这个高级员工可以让你雇佣清洁工和园丁
@@ -496,15 +496,15 @@ buildtoolbar_popup_staff_psychologist 一个高级员工，可以让你洞察囚
 buildtoolbar_popup_staff_accountant 高级员工，可以为你撰写财务报告。
 buildtoolbar_popup_staff_lawyer 高级员工，可以为你的监狱拿到一些特权。
 
-buildtoolbar_popup_uts_powerstation 为你的监狱发电
+buildtoolbar_popup_uts_powerstation 产生监狱所需要的电力
 buildtoolbar_popup_uts_capacitor 建在发电站旁可以提高发电量。
 buildtoolbar_popup_uts_electricalcable 为你的监狱分配电力
 buildtoolbar_popup_uts_powerswitch 切换所有与它连通的电线的通电情况。\n\n右击开启/关闭通电状态。
 buildtoolbar_popup_uts_waterpumpstation 为你的监狱提供水源
 buildtoolbar_popup_uts_pipevalve 切换是否为所有连接的水管供水
-buildtoolbar_popup_uts_pipelarge 将大量的水分配到你的监狱中，或许足够让某些人在充满臭味的水中爬行500码并获得自由
+buildtoolbar_popup_uts_pipelarge 将大量的水配送到你的监狱中，或许足够让某些人在充满臭味的水中爬行500码并获得自由
 buildtoolbar_popup_uts_pipesmall 分配监狱的供水
-buildtoolbar_popup_uts_cctv 不用到处派遣警卫也可以监视犯人了。\n\n你必须把它连至一个CCTV监视器来让它正常工作。
+buildtoolbar_popup_uts_cctv 不用到处安排警卫也可以监视犯人了。\n\n你需要把它连至一个CCTV监视器才能让它正常工作。
 buildtoolbar_popup_uts_cctvmonitor 需要安装在警卫室并由一个警卫操作。可以遥控操作监狱各处的摄像头。\n\n注意：最多可以同时监视8个摄像头的画面。如果你连接了8个以上的摄像头，这些摄像头的画面会切换着出现，因此此时只能提供不完整的监控。
 buildtoolbar_popup_uts_DoorControlSystem 设计成在警卫室里由一位警卫操控。在你所在的位置远程监控闭路电视镜头。\n\n用一个连接工具把这个系统和你的门伺服连接。门伺服应该被建在你想远程操控的门上。\n\n提示: 你可以把这个连接到任意多的伺服上，然而操作这个系统的警卫一秒最多只能开两扇门。
 buildtoolbar_popup_uts_phonemonitor 需要安装在警卫室并由一个警卫操作。可以监听所有打出的电话，让你提前识破有组织的违禁行动。\n\n使用连接工具把这个系统连至电话间。
@@ -1138,7 +1138,7 @@ report_staff_group_prisoners_protected 保护性拘留
 report_staff_group_prisoners_supermax 极大
 report_staff_group_prisoners_deathrow 死囚
 
-report_staff_fire 开火
+report_staff_fire 开除
 
 report_intake_title 接收
 report_intake_catheader_cat 类别
