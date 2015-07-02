@@ -1,9 +1,11 @@
 #!/usr/bin/python3 
 
+import os
 import re
 
-BASE_FILE_NAME = "../data/language/base-language.txt"
-ORIGIN_FILE_NAME = "../data/language/base-language-alpha34.txt"
+BASE_PATH = os.path.dirname(__file__)
+BASE_FILE_NAME = os.path.join(BASE_PATH, "../data/language/base-language.txt")
+ORIGIN_FILE_NAME = os.path.join(BASE_PATH, "../data/language/base-language-alpha34.txt")
 OUTPUT_FILE_NAME = BASE_FILE_NAME
 
 trans = dict()
@@ -42,12 +44,10 @@ with open(ORIGIN_FILE_NAME) as base:
 
             key = match.group(1)
             space = match.group(2)
-            value = trans[key]
+            value = trans.get(key)
             if value is None:
                 print("Missing translation: %s" % key)
-                value = "[TODO]" + match.group(3) + "\n"
-            else:
-                value += "\n"
+                value = "[TODO]" + match.group(3)
 
-            output.write("%s%s%s" % (key, space, value))
+            output.write("%s%s%s\n" % (key, space, value))
 

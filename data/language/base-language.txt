@@ -1044,7 +1044,7 @@ requirement_entrance                    需要入口
 roomrequirement_title                   =[房间需求]=
 roomrequirement_passed                  [满足]
 roomrequirement_failed                  [不满足]
-roomrequirement_adjacentobject          相邻于房子: 
+roomrequirement_adjacentobject          相邻于房子：
 
 # =============================================================================
 # Unlocks
