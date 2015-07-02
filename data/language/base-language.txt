@@ -508,32 +508,32 @@ buildtoolbar_popup_uts_cctv             不用到处安排警卫也可以监视�
 buildtoolbar_popup_uts_cctvmonitor      需要安装在警卫室并由一个警卫操作。可以遥控操作监狱各处的摄像头。\n\n注意：最多可以同时监视8个摄像头的画面。如果你连接了8个以上的摄像头，这些摄像头的画面会切换着出现，因此此时只能提供不完整的监控。
 buildtoolbar_popup_uts_DoorControlSystem  设计成在警卫室里由一位警卫操控。在你所在的位置远程监控闭路电视镜头。\n\n用一个连接工具把这个系统和你的门伺服连接。门伺服应该被建在你想远程操控的门上。\n\n提示: 你可以把这个连接到任意多的伺服上，然而操作这个系统的警卫一秒最多只能开两扇门。
 buildtoolbar_popup_uts_phonemonitor     需要安装在警卫室并由一个警卫操作。可以监听所有打出的电话，让你提前识破有组织的违禁行动。\n\n使用连接工具把这个系统连至电话间。
-buildtoolbar_popup_uts_Servo            把一个伺服置于你想远程操控的门上。确保助推器零件直接安装在门上方。\n\n一旦安装，当伺服被触发时，门将被打开—特别被用一个控制门的系统或者一个门定时器\n\n伺服能被链接在一起，这样当第一个打开时能触发下一个。
-buildtoolbar_popup_uts_LogicCircuit     只有高级建筑师。\n\n一个简单的电路盒，基于其输入，进行逻辑操作 并依此设置其输出。\n\n可行操作: And/ Or / Not / Nand / Nor / Xor\n\n右击来循环逻辑计算。
-buildtoolbar_popup_uts_LogicBridge      只有高级建筑师。\n\n使用其输入信号，把它连接到安装在同一广场上的电缆。电缆将把这信号传输到安装在同一电缆上的任何其他逻辑电路。\n\n可以在全监狱用来'广播'一条普通信号,不如用于传播一条普通的时间信号。
-buildtoolbar_popup_uts_DoorTimer        可用于在每天的特定时间自动开门。\n\n使用连接工具把这个计时器连接到你的门伺服。
-buildtoolbar_popup_uts_Wire             连接你的远程访问系统。
+buildtoolbar_popup_uts_Servo            将门禁伺服器安装在你想要遥控的门的上方，请确定马达齿轮在门的正上方。\n\n当安装好之后，只要门禁伺服器被触发就会自动开门 - 一般是由门禁控制系统或是门禁定时器触发。\n\n门禁伺服器可以串连，当第一台被触发的时候就会同时触发后面的伺服器。
+buildtoolbar_popup_uts_LogicCircuit     进阶建筑师专用。\n\n一个简单的电路盒可以依照输入讯号进行逻辑运算后输出。\n\n可用运算: And / Or / Not / Nand / Nor / Xor\n\n按右键切换逻辑运算。
+buildtoolbar_popup_uts_LogicBridge      进阶建筑师专用。\n\n接收输入讯号，并把讯号桥接到同一格的电力线路上，透过电力线路传递逻辑讯号到另一个逻辑单元。\n\n可以用来对整个监狱「广播」一个讯号，例如在广播一个时脉讯号的时候很好用。
+buildtoolbar_popup_uts_DoorTimer        在每天固定的时段自动开门。\n\n使用连接工具将门禁伺服器连接到这台门禁定时器上。
+buildtoolbar_popup_uts_Wire             连接你的远程遥控系统。
 buildtoolbar_popup_uts_showallwires     显示所有已连接的电缆。
-buildtoolbar_popup_uts_remotedoor       无法用钥匙打开的坚固金属门(只能远程打开)。使用这个去预防当监狱使用钥匙时可能发生的大规模越狱。
+buildtoolbar_popup_uts_remotedoor       无法用钥匙打开的坚固金属门(只能远程打开)。用这种门可以有效防止囚犯偷钥匙逃狱。
 buildtoolbar_popup_uts_dismantleutility 从监狱中移除一件设施
-buildtoolbar_popup_uts_pressurepad      只要有东西在垫子上面，就会发送一个信号给连接物。
-buildtoolbar_popup_uts_statuslight      亮起红灯或者绿灯，依据它接收到的信号。
+buildtoolbar_popup_uts_pressurepad      当有物体压在上面时，发出一个讯号给连接的设备。
+buildtoolbar_popup_uts_statuslight      依照接收到的讯号亮红或绿灯。
 
 buildtoolbar_contraband_source          显示所有违禁品可能被偷取的地点。
 buildtoolbar_contraband_day             显示最近24小时没收的违禁品。
 buildtoolbar_contraband_week            显示最近7天内没收的违禁品。
 buildtoolbar_contraband_alltime         显示历史上所有被没收的违禁品
-buildtoolbar_contraband_informants      显示你的秘密检举者所收集的情报。
+buildtoolbar_contraband_informants      显示你的秘密线人所收集的情报。
 
-job_matsassigned                        已分配的材料
-job_matsavailable                       可用的材料
-job_awaitingmaterials                   正在等待材料
-job_inprogress                          正在进行中的工作
+job_matsassigned                        已分配的建材
+job_matsavailable                       可用的建材
+job_awaitingmaterials                   正在等待建材
+job_inprogress                          工作进行中
 job_blocked                             工作（被阻挡）
 job_queued                              工作（队列中）
 
 job_failed_noroute                      无路径
-job_failed_nomaterials                  无材料
+job_failed_nomaterials                  无建材
 job_failed_toodangerous                 太危险
 job_failed_materialsbeingcarried        正在运输途中的材料
 
@@ -551,9 +551,9 @@ failuremessage_maxstaff                 员工太多了
 # Status Toolbar
 # =============================================================================
 
-statustoolbar_deliveries                货运区
+statustoolbar_deliveries                货运
 statustoolbar_finances                  经济
-statustoolbar_regime                    管理制度
+statustoolbar_regime                    日程
 statustoolbar_escapemap                 安全
 statustoolbar_electricity               电力
 statustoolbar_stats                     状态
@@ -568,10 +568,10 @@ statustoolbar_research                  研究
 # Sprite Bank Editor + other tools
 # =============================================================================
 
-spritebankeditor_title                  圣灵银行编辑器
+spritebankeditor_title                  Sprite Bank 编辑器
 spritebankeditor_create                 创建
 spritebankeditor_rotate                 旋转
-spritebankeditor_sort                   分类
+spritebankeditor_sort                   排序
 spritebankeditor_markermodetitle        标记模式
 
 
@@ -580,12 +580,12 @@ spritebankeditor_markermodetitle        标记模式
 # =============================================================================
 
 codex_mainmenu                          主菜单
-codex_campaign                          战役
+codex_campaign                          剧情模式
 codex_cutscenes                         过场动画
 codex_qualifications                    资格
 codex_load                              载入监狱
 codex_save                              保存监狱
-codex_performance                       表现测试
+codex_performance                       性能测试
 codex_developer_load                    （开发者）加载地图
 codex_developer_save                    （开发者）保存地图
 codex_contacts                          联系人
@@ -602,43 +602,43 @@ codex_workshop                          分享监狱
 codex_checkforupdates                   检查更新
 codex_preorder                          立刻预购
 codex_termsconditions                   条款声明
-codex_twitter                           推特
-codex_extras                            其他
-codex_unlocked                          解锁 *X/*Y
+codex_twitter                           推特 (Twitter)
+codex_extras                            附加功能
+codex_unlocked                          解锁进度 *X/*Y
 
-codex_new                               创建新监狱
+codex_new                               建立新监狱
 codex_new_worldsize                     世界大小
 codex_new_small                         小
 codex_new_medium                        中
 codex_new_large                         大
 
-codex_options_graphics                  图像
+codex_options_graphics                  画质
 codex_options_resolution                分辨率
 codex_options_resolutionauto            自动
 codex_options_windowed                  窗口化
-codex_options_highdpi                   高分辨率
-codex_options_filtering                 过滤
+codex_options_highdpi                   高 DPI
+codex_options_filtering                 采样
 codex_options_nofiltering               关闭
 codex_options_multisampled              多重采样
 codex_options_supersampled              超级采样
 
-codex_options_audio                     音频
-codex_options_volume                    总音量
-codex_options_frequency                 混频
+codex_options_audio                     音效
+codex_options_volume                    主音量
+codex_options_frequency                 混音频率
 codex_options_swapstero                 交换立体声
 codex_options_dspenabled                开启音效管理器
-codex_options_11khz                     11025赫兹
-codex_options_22khz                     22050赫兹
-codex_options_44khz                     44100赫兹
+codex_options_11khz                     11025 Hz
+codex_options_22khz                     22050 Hz
+codex_options_44khz                     44100 Hz
 
-codex_options_clocktype                 时钟类别
-codex_options_clocktype_analogue        时钟
+codex_options_clocktype                 时钟类型
+codex_options_clocktype_analogue        指针
 codex_options_clocktype_12h             12小时制
 codex_options_clocktype_24h             24小时制
 
-codex_options_gameplay                  游戏中的名字
-codex_options_autosave                  自动保存计时
-codex_options_renderrooms               房间复选框
+codex_options_gameplay                  游戏
+codex_options_autosave                  自动保存间隔
+codex_options_renderrooms               房间网格
 codex_options_apply                     应用
 
 codex_options_language                  语言
@@ -646,34 +646,34 @@ codex_options_language                  语言
 codex_enabled                           开启
 codex_disabled                          关闭
 
-codex_option_intake                     持续接收
+codex_option_intake                     持续接收新囚犯
 codex_tooltip_intake                    启用后，你每天都会接收到随机数目的新囚犯。\n\n如果禁用，你可以通过点击报告书的接收栏来调整犯人的接收。
 codex_option_fogofwar                   战略迷雾
-codex_tooltip_fogofwar                  如果你不在监狱建筑内派遣警卫巡逻或开启监视摄像头，你将失去建筑内的视野
+codex_tooltip_fogofwar                  除非有警卫巡逻或是有闭路监视器在区域内，否则你将无法看见监狱内的状况
 codex_option_lakes                      生成湖泊
-codex_tooltip_lakes                     随机产生的湖泊会阻隔你地盘上的不同区域。\n\n警告：这是一个未完全开发的验证型选项
+codex_tooltip_lakes                     随机产生的湖泊会阻隔你的土地。警告：实验性功能。
 codex_option_forests                    生成森林
-codex_tooltip_forests                   树木丛会出现在地图上。
+codex_tooltip_forests                   土地上会出现树林。
 codex_option_buildings                  生成建筑
 codex_tooltip_buildings                 随机的遗弃建筑将出现在地图上。你可以选择利用这些建筑。
 codex_option_failure                    失败条件
 codex_tooltip_failure                   额外的挑战！当你把事情弄得一塌糊涂时会结束游戏。（暴乱、破产、过多的死亡及逃逸等等）
-codex_option_unlimitedfunds             无限的资金
-codex_tooltip_unlimitedfunds            纯净沙盒模式！你一开始就拥有无限多的金钱，再也不用担心没钱修马桶了！
+codex_option_unlimitedfunds             无限资金
+codex_tooltip_unlimitedfunds            纯沙盒模式！你一开始就拥有无限多的金钱，再也不用担心没钱修马桶了！
 codex_option_gangs                      帮派
-codex_tooltip_gangs                     一些囚犯将带着对帮派的忠诚踏入监狱，他们会攻击敌对帮派成员。这将为监狱管理带来额外的挑战。
+codex_tooltip_gangs                     某些囚犯在入监时就带有帮派色彩，他们会攻击敌对帮派成员。这将为监狱管理带来额外的挑战。
 
 codex_option_funds                      资金
 codex_tooltip_funds                     你携带此数额的银行存款开始游戏。在估值界面卖掉你建好的监狱来获得更多资金吧！
 
-codex_transfer                          转账
-codex_transferring                      转账中
+codex_transfer                          移送
+codex_transferring                      移送中
 codex_in_prison                         监闭中
-codex_useravatar                        是我
-codex_tooltip_useravatar                把这个囚犯标记为你自己的角色。如果你最后不知怎么的竟然自己落入监狱，这是代表你的囚犯。
+codex_useravatar                        我自己
+codex_tooltip_useravatar                把这个囚犯标记为你自己。如果你最后不知怎么的入狱了，这个囚犯就是你的写照。
 codex_tooltip_flagbio                   举报此人物传记包含争议内容。
 
-codex_workshop_current                  犯人数量
+codex_workshop_current                  当前监狱
 codex_workshop_publish                  发布该监狱
 codex_workshop_update                   更新
 codex_workshop_play                     开始游戏
@@ -683,38 +683,38 @@ codex_workshop_publishing               正在发布中……
 codex_workshop_new                      新建
 codex_workshop_title                    标题
 codex_workshop_desc                     描述
-codex_workshop_view_in_workshop         在Steam Workshop中查看
+codex_workshop_view_in_workshop         在 Steam 创意工坊中查看
 codex_workshop_heading_pubed            你发布的监狱
 codex_workshop_heading_subed            你点赞的监狱
-codex_workshop_published_by             由*P发布
+codex_workshop_published_by             由 *P 发布
 codex_workshop_published_by_you         由你发布
-codex_workshop_published_good           已发布的监狱
-codex_workshop_published_good_msg       你的监狱发布成功
+codex_workshop_published_good           监狱已发布
+codex_workshop_published_good_msg       发布监狱成功
 codex_workshop_published_bad            发布监狱失败
 codex_workshop_published_bad_msg        你的监狱发布失败
 codex_workshop_published_bad_msg_new    你的新监狱未能发布。请重试
 codex_workshop_busy                     Steam正在煮泡面。等她结束再试一次。
 codex_workshop_file_exists              你已经发布了一个该名字的监狱，请重新命名
 codex_workshop_generic_fail             无法发布你的监狱，请重试
-codex_workshop_download_bad             无法下载该监狱
-codex_workshop_pa_workshop              打开监狱建筑工作室
+codex_workshop_download_bad             下载该监狱失败
+codex_workshop_pa_workshop              开启监狱建筑师 (Prison Architect) 创意工坊
 codex_workshop_agreement                接受该物品代表你同意[url=http://steamcommunity.com/sharedfiles/workshoplegalagreement]工作室条款[/url].
 
-codex_options_timelapse                 时间流动
-codex_timelapse_record                  记录时间流动
-codex_timelapse_stop                    停止时间流动
-codex_timelapse_camera                  视角模式
+codex_options_timelapse                 定时拍摄录影
+codex_timelapse_record                  开始定时拍摄录影
+codex_timelapse_stop                    停止拍摄录影
+codex_timelapse_camera                  摄影机模式
 codex_timelapse_resolution              分辨率
 codex_timelapse_customresw              定制分辨率宽度
 codex_timelapse_customresh              定制分辨率高度
 codex_timelapse_resolution              分辨率
 codex_timelapse_fps                     播放速率
-codex_timelapse_interval                捕捉间隔
+codex_timelapse_interval                拍摄间隔
 codex_timelapse_quality                 质量
-codex_timelapse_unsupported             你的硬件条件下无法使用该功能。
+codex_timelapse_unsupported             你的硬件无法使用该功能。
 codex_timelapse_savesettings            保存设定
 
-codex_timelapse_cam_zoom                变焦镜头的摄像机
+codex_timelapse_cam_zoom                缩放摄影机
 codex_timelapse_cam_fitmap              适合地图
 codex_timelapse_cam_fitheight           适合地图高度
 codex_timelapse_cam_fitwidth            适合地图宽度
@@ -724,29 +724,29 @@ codex_timelapse_quality_med             中
 codex_timelapse_quality_low             低
 codex_timelapse_interval_value          *X 游戏分钟
 
-codex_performance_running               正在运行效果测试
+codex_performance_running               正在运行性能测试
 codex_performance_time                  时间剩余： *T 秒
 codex_performance_current               当前帧时间： *T 毫秒
 codex_performance_min                   最小帧时间： *T 毫秒
 codex_performance_avg                   平均帧时间： *T 毫秒
 codex_performance_max                   最大帧时间： *T 毫秒
-codex_performance_numframes             数字框架: *T
+codex_performance_numframes             帧数: *T
 
 codex_last_modified                     最后修改：*T
-codex_sortbydesc                        以时间排序
+codex_sortbydesc                        以日期排序
 codex_sortname                          名字
 codex_sortdate                          日期
 codex_apply                             应用
 codex_select                            选择
 
 codex_mods                              模组
-codex_mod_activetitle                   激活模组
-codex_mod_inactivetitle                 可用模组
+codex_mod_activetitle                   激活的模组
+codex_mod_inactivetitle                 可用的模组
 codex_mod_deactivate                    停用所有模组
 codex_mod_wiki                          查找更多模组（维基百科）
 codex_mod_openmodsfolder                打开模组文件夹
-codex_mod_moresteammods                 查找更多模组（Steam Workshop）
-codex_mod_findsteamtranslations         找到更多的翻译（蒸汽车间）
+codex_mod_moresteammods                 查找更多模组（Steam 创意工坊）
+codex_mod_findsteamtranslations         找到更多的翻译（Steam 创意工坊）
 codex_authortitle                       作者
 codex_versiontitle                      版本
 codex_datetitle                         日期
@@ -765,19 +765,19 @@ codex_mod_published_good_msg            你的模组发布成功
 codex_mod_published_bad                 发布模组失败
 codex_mod_published_bad_msg             你的模组发布失败
 codex_mod_modsupdated                   已更新的模组
-codex_mod_modsupdated_msg               已经更新了你激活的某些模组，点击OK应用新的改变。这将会自动保存你的游戏
-codex_mod_translationcaption            这是另一种语言的译文吗？
+codex_mod_modsupdated_msg               已经更新了你激活的某些模组，点击确定应用新的内容。游戏会自动保存。
+codex_mod_translationcaption            这是语言包吗？
 
 codex_language                          语言
 codex_language_englishdefault           英语（默认）
 codex_language_default                  默认语言
 codex_language_download                 下载
-codex_language_failed_download          无法下载译文
-codex_language_failed_download_msg      你所选的译文无法下载。
-codex_language_searching_workshop       搜寻蒸汽车间
-codex_language_community                这些译文包由此社会团体制作和维护—谢谢你!
+codex_language_failed_download          无法下载语言包
+codex_language_failed_download_msg      你所选的语言包无法下载。
+codex_language_searching_workshop       搜寻 Steam 创意工坊
+codex_language_community                这些语言包由社区制作和维护 — 谢谢你!
 
-codex_save_confirm                      你确定要用*X覆盖当前监狱吗？
+codex_save_confirm                      你确定要用当前监狱覆盖 *X 吗？
 
 # =============================================================================
 # Graphics Change Confirmation
@@ -798,18 +798,18 @@ scriptdebugger_title                    脚本调试工具（F3）
 # Mod Confirmation
 # =============================================================================
 
-modnotification_title                   出现模组差异
+modnotification_title                   出现模组变动
 modnotification_info                    当前监狱被保存时正在使用以下模组。强烈建议在开始游戏前下载并激活这些模组。
 modnotification_playnow                 开始游戏
-modnotification_active                  活跃
-modnotification_inactive                未激活
+modnotification_active                  启用
+modnotification_inactive                禁用
 modnotification_new                     新游戏
 modnotification_unknown                 未知
-modnotification_popup_title             模组差异
+modnotification_popup_title             模组变动
 modnotification_popup_active            模组当前已激活。点击停用。
 modnotification_popup_inactive          模组当前已停用。点击激活。
 modnotification_popup_new_url           这是一个新模组。点击在网页浏览器中打开相关链接。
-modnotification_popup_new_steam         这是个新的STEAM模组。点击以订阅并下载模组。
+modnotification_popup_new_steam         这是个新的 Steam 模组。点击以订阅并下载模组。
 modnotification_popup_unknown           无法确定此模组的来源。请自行查找安装此模组。
 
 # =============================================================================
@@ -817,17 +817,17 @@ modnotification_popup_unknown           无法确定此模组的来源。请自�
 # =============================================================================
 
 biography_search                        停止并搜寻
-biography_selected                      以选择
+biography_selected                      已选择
 biography_prisoner_name                 *S, *F
-biography_prisoner_number               囚犯#*X
+biography_prisoner_number               囚犯 #*X
 biography_prisoner_age                  年龄：*X
 biography_prisoner_traits               特性:
-biography_prisoner_convicted            被控*C（辩护*P）
-biography_prisoner_sentenced            被判*X年刑期
-biography_parole_now                    可申请保释
-biography_parole_later                  可于*X年后申请保释
-biography_prisoner_served               已服*X年
-biography_prisoner_priors               优先：
+biography_prisoner_convicted            被控 *C（辩护 *P）
+biography_prisoner_sentenced            被判 *X 年刑期
+biography_parole_now                    已可申请保释
+biography_parole_later                  可于 *X 年后申请保释
+biography_prisoner_served               已服刑 *X 年
+biography_prisoner_priors               前科：
 
 
 # =============================================================================
