@@ -27,10 +27,10 @@ origin.eachLine{
         return
     }
     
-	def matcher = str =~ /(\w+)(\s+)(.+)/
-	def key = matcher[0][1]
-	def space = matcher[0][2]
-	def value = matcher[0][3]
+    def matcher = str =~ /(\w+)(\s+)(.+)/
+    def key = matcher[0][1]
+    def space = matcher[0][2]
+    def value = matcher[0][3]
     if (map[key]){
         sb << key << space << map[key] << '\n'
     }else{

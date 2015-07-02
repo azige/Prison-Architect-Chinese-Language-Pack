@@ -14,7 +14,7 @@ dialog_name                             名字
 dialog_type                             类型
 dialog_x                                X
 dialog_y                                Y
-dialog_z								Z
+dialog_z                                Z
 dialog_w                                W
 dialog_h                                H
 dialog_exit                             退出
@@ -49,8 +49,8 @@ dialogeditor_window                     窗户
 dialogeditor_grid                       网格
 dialogeditor_caption                    标题
 dialogeditor_component                  组件
-dialogeditor_select						选择
-dialogeditor_create						创建
+dialogeditor_select                     选择
+dialogeditor_create                     创建
 dialogeditor_background                 BG 图
 dialogeditor_panel                      面板
 
@@ -68,7 +68,7 @@ dialogcomponent_selectionlistitem       选择列表项目
 dialogcomponent_scrollbar               滚动条
 dialogcomponent_progressbar             进度条
 dialogcomponent_canvas                  菜单
-dialogcomponent_iconbox					图标盒
+dialogcomponent_iconbox                 图标盒
 
 dialogposition_absolute                 绝对
 dialogposition_relative                 相关
@@ -93,15 +93,15 @@ profiler_reset                          重置
 
 soundchannelviewer_title                声音频道
 soundeditor_title                       声音编辑器
-soundinstanceeditor_title				声音范例编辑器
+soundinstanceeditor_title               声音范例编辑器
 
-soundeditor_positiontitle		        位置类型
-soundeditor_instancetitle		        范例类型
-soundeditor_looptitle			        循环类型
-soundeditor_sourcetypetitle		        声音类型
-soundeditor_soundnametitle		        声音名称
+soundeditor_positiontitle               位置类型
+soundeditor_instancetitle               范例类型
+soundeditor_looptitle                   循环类型
+soundeditor_sourcetypetitle             声音类型
+soundeditor_soundnametitle              声音名称
 
-soundeditor_volumetitle			        音量
+soundeditor_volumetitle                 音量
 soundeditor_frequencytitle              频率
 soundeditor_mindistancetitle            最小距离
 soundeditor_attacktitle                 攻击
@@ -134,7 +134,7 @@ samplebank                              (样品库)
 
 interfacemode_done                            完成
 interfacemode_destroy                         销毁
-interfacemode_foundations				      地基
+interfacemode_foundations                     地基
 interfacemode_construction                    建材
 interfacemode_planning                        规划
 interfacemode_objects                         物件
@@ -200,10 +200,10 @@ interfacelogistics_targettingfood               食物分配
 interfacelogistics_targettinglaundry            衣物分配
 interfacelogistics_roomquality                  房间品质
 
-interfaceplanning_wall							墙
-interfaceplanning_object						物体
-interfaceplanning_route							道路
-interfaceplanning_clear							清空
+interfaceplanning_wall                          墙
+interfaceplanning_object                        物体
+interfaceplanning_route                         道路
+interfaceplanning_clear                         清空
 
 interfacecontraband_source                      危险
 interfacecontraband_day                         -24小时
@@ -215,27 +215,27 @@ interfacecontraband_gangs                       帮派
 interfaceclone_copy                             复制
 interfaceclone_paste                            粘贴
 
-interfacetopbar_todo							待办事项
-interfacetopbar_balance							存款 *B
-interfacetopbar_budget							资金流动 *C
-interfacetopbar_income							收入 *I
-interfacetopbar_expenses						支出 *C
-interfacetopbar_day								第 *D 天
+interfacetopbar_todo                            待办事项
+interfacetopbar_balance                         存款 *B
+interfacetopbar_budget                          资金流动 *C
+interfacetopbar_income                          收入 *I
+interfacetopbar_expenses                        支出 *C
+interfacetopbar_day                             第 *D 天
 
-interfacetopbar_title_balance					银行存款
-interfacetopbar_title_budget					每日资金流动
-interfacetopbar_title_cctv						监控摄像头
-interfacetopbar_title_day						天数
-interfacetopbar_title_prisoners					囚犯
-interfacetopbar_title_guards					警卫
+interfacetopbar_title_balance                   银行存款
+interfacetopbar_title_budget                    每日资金流动
+interfacetopbar_title_cctv                      监控摄像头
+interfacetopbar_title_day                       天数
+interfacetopbar_title_prisoners                 囚犯
+interfacetopbar_title_guards                    警卫
 interfacetopbar_title_tension                   危险等级
 
-interfacetopbar_tooltip_balance					银行内的存款金额。\n\n点击补助清单以获得更多资金。
-interfacetopbar_tooltip_budget					根据目前支出和收入所算出每天监狱能获取的金额。\n\n点击进入详细的收支清单。
-interfacetopbar_tooltip_cctv					目前拥有的监控摄像头与监视器数量。
-interfacetopbar_tooltip_day						经营监狱的时间。
-interfacetopbar_tooltip_prisoners				目前拥有的监狱数量以及可容纳犯人数。
-interfacetopbar_tooltip_guards					监狱中空闲的警卫数量
+interfacetopbar_tooltip_balance                 银行内的存款金额。\n\n点击补助清单以获得更多资金。
+interfacetopbar_tooltip_budget                  根据目前支出和收入所算出每天监狱能获取的金额。\n\n点击进入详细的收支清单。
+interfacetopbar_tooltip_cctv                    目前拥有的监控摄像头与监视器数量。
+interfacetopbar_tooltip_day                     经营监狱的时间。
+interfacetopbar_tooltip_prisoners               目前拥有的监狱数量以及可容纳犯人数。
+interfacetopbar_tooltip_guards                  监狱中空闲的警卫数量
 interfacetopbar_tooltip_tension                 看守长报告的监狱整体风险等级。
 
 interfacetopbar_tooltip_recenttransactions      最近的交易记录
@@ -256,11 +256,11 @@ interfacetopbar_tooltip_dogs                    + *X 警犬员
 
 interfacetopbar_unlimitedfunds                  无限资金
 
-interfacetopbar_budget_moneyin					收入: $*M /天
-interfacetopbar_budget_moneyout					支出: $*M /天
+interfacetopbar_budget_moneyin                  收入: $*M /天
+interfacetopbar_budget_moneyout                 支出: $*M /天
 interfacetopbar_budget_cantgonegative           在聘请会计师管理监狱财务之前，资金流动不可为负的 (也就是支出大于收入) 。
 
-interfacetopbar_prisoners_types					目前容纳 *X 名囚犯：
+interfacetopbar_prisoners_types                 目前容纳 *X 名囚犯：
 interfacetopbar_prisoners_capacity              最大安全容纳：*X
 interfacetopbar_prisonercells_shared            多人牢房容量：*X
 interfacetopbar_prisonercells_unlocked          未上锁牢房容量：*X
@@ -272,8 +272,8 @@ interfacetopbar_prisonercells_supermaxonly      超重刑犯专区容量：*X
 interfacetopbar_prisonercells_deathrowonly      死刑犯专区容量：*X
 interfacetopbar_prisonercells_staffonly         员工专区：*X
 
-interfacetopbar_cctv_current					目前有 *C 个摄像头在工作
-interfacetopbar_cctv_cap						还可安装 *C 个摄像头
+interfacetopbar_cctv_current                    目前有 *C 个摄像头在工作
+interfacetopbar_cctv_cap                        还可安装 *C 个摄像头
 
 interfacetopbar_tension_currentlevel            目前危险等级为 *X
 interfacetopbar_tension_increasing              且正在提高中
@@ -355,10 +355,10 @@ patrol_assign_2                                 请点选已规划好的巡逻�
 # Hardware Compatibility
 # =============================================================================
 
-hardware_compat_title					硬件兼容性测试
-hardware_compat_message					在你的许可下，我们将从你的电脑中收集下列硬件数据。\n\n这些信息完全匿名并将帮助我们确保监狱建筑师在最广泛的电脑硬件上运行。\n\n谢谢！
-hardware_compat_accept					接受
-hardware_compat_decline					拒绝
+hardware_compat_title                   硬件兼容性测试
+hardware_compat_message                 在你的许可下，我们将从你的电脑中收集下列硬件数据。\n\n这些信息完全匿名并将帮助我们确保监狱建筑师在最广泛的电脑硬件上运行。\n\n谢谢！
+hardware_compat_accept                  接受
+hardware_compat_decline                 拒绝
 
 connectionmenu_connect                  连接
 connectionmenu_disconnect               断开连接
@@ -377,25 +377,25 @@ buildtoolbar_lockdown                   全面封锁
 buildtoolbar_shakedown                  全部搜查
 buildtoolbar_weaponsfree                自由开火
 
-buildtoolbar_tooltip_reports			打开报告窗口，查看有关你的囚犯、员工、收入、政府补助等信息
-buildtoolbar_tooltip_bangup				将所有（愿意的）囚犯送回他们牢房，如果关太长时间则会引起不满
-buildtoolbar_tooltip_lockdown			立刻锁上监狱中所有的门
+buildtoolbar_tooltip_reports            打开报告窗口，查看有关你的囚犯、员工、收入、政府补助等信息
+buildtoolbar_tooltip_bangup             将所有（愿意的）囚犯送回他们牢房，如果关太长时间则会引起不满
+buildtoolbar_tooltip_lockdown           立刻锁上监狱中所有的门
 buildtoolbar_tooltip_shakedown          下令立即搜索所有牢房，搜索将会花费一些时间才能完成，同时也会惹恼你的囚犯们。
 buildtoolbar_tooltip_weaponsfree        授权你的武装警卫使用致命武器。
 
-buildtoolbar_cost						费用: $ *C
-buildtoolbar_cost_sqrft					费用: $ *C /每平方米
-buildtoolbar_wages						工资: 每天 $ *W
-buildtoolbar_outdoor					仅限室外
-buildtoolbar_indoor						仅限室内
-buildtoolbar_walk_speed					行走速度:  *S
-buildtoolbar_walk_speed_slow			慢
-buildtoolbar_walk_speed_norm			一般
-buildtoolbar_walk_speed_fast			快
+buildtoolbar_cost                       费用: $ *C
+buildtoolbar_cost_sqrft                 费用: $ *C /每平方米
+buildtoolbar_wages                      工资: 每天 $ *W
+buildtoolbar_outdoor                    仅限室外
+buildtoolbar_indoor                     仅限室内
+buildtoolbar_walk_speed                 行走速度:  *S
+buildtoolbar_walk_speed_slow            慢
+buildtoolbar_walk_speed_norm            一般
+buildtoolbar_walk_speed_fast            快
 buildtoolbar_locked                     锁定
-buildtoolbar_locked_research			锁定（需要行政 *B ）
-buildtoolbar_locked_administrator		锁定（需要员工 *B）
-buildtoolbar_room						房间
+buildtoolbar_locked_research            锁定（需要行政 *B ）
+buildtoolbar_locked_administrator       锁定（需要员工 *B）
+buildtoolbar_room                       房间
 
 buildtoolbar_electrical                 - 电气设备
 buildtoolbar_highpower                  - 高压设备
@@ -403,109 +403,109 @@ buildtoolbar_water                      - 需要连接水管
 buildtoolbar_wired                      - 需接线(连接至其他接线单元)
 buildtoolbar_modcontent                 - 模组内容
 
-buildtoolbar_popup_foundations			建造/拆除 建筑来打造你的监狱
-buildtoolbar_popup_construction			不同类型的地面与墙壁
-buildtoolbar_popup_planning				仅规划监狱而不进行建造
-buildtoolbar_popup_designation			标出特定功能的监狱区域
-buildtoolbar_popup_objects				在监狱内安装各种实用的设施
-buildtoolbar_popup_overlays				显示监狱的安全弱点
-buildtoolbar_popup_utilities			管道与电气系统
-buildtoolbar_popup_staff				雇用人员运营你的监狱
-buildtoolbar_popup_deployment			指派员工到监狱内特定区域
+buildtoolbar_popup_foundations          建造/拆除 建筑来打造你的监狱
+buildtoolbar_popup_construction         不同类型的地面与墙壁
+buildtoolbar_popup_planning             仅规划监狱而不进行建造
+buildtoolbar_popup_designation          标出特定功能的监狱区域
+buildtoolbar_popup_objects              在监狱内安装各种实用的设施
+buildtoolbar_popup_overlays             显示监狱的安全弱点
+buildtoolbar_popup_utilities            管道与电气系统
+buildtoolbar_popup_staff                雇用人员运营你的监狱
+buildtoolbar_popup_deployment           指派员工到监狱内特定区域
 buildtoolbar_popup_logistics            指派囚犯在监狱内进行后勤劳动工作，并可手动指派餐厅和衣物清洗工作
-buildtoolbar_popup_research				为监狱解锁更多功能。
-buildtoolbar_popup_emergencies			呼叫紧急支援协助解决监狱内的恶性事件
-buildtoolbar_popup_spawn				重生？这是干嘛的？
-buildtoolbar_popup_clone				你可以复制和粘贴现有的建筑结构。
-buildtoolbar_popup_properties			查明那该死的东西
+buildtoolbar_popup_research             为监狱解锁更多功能。
+buildtoolbar_popup_emergencies          呼叫紧急支援协助解决监狱内的恶性事件
+buildtoolbar_popup_spawn                重生？这是干嘛的？
+buildtoolbar_popup_clone                你可以复制和粘贴现有的建筑结构。
+buildtoolbar_popup_properties           查明那该死的东西
 buildtoolbar_popup_contraband           显示违禁品的来源，以及所有最近被发现的违禁品。同时显示你的秘密检举人及其情报。
 buildtoolbar_popup_grading              查看你的监狱整体等级基于四个关键指标——惩罚，教化，安全，医疗，同时显示囚犯出狱后的再犯率。
-buildtoolbar_popup_room_cell			囚犯生活的地方
-buildtoolbar_popup_room_holdingcell		当新进囚犯还没有分配个人牢房时，会先收容在集体牢房内
-buildtoolbar_popup_room_solitary		专为坏蛋中的战斗蛋设计而建的独立惩戒措施，俗称“小黑屋”
-buildtoolbar_popup_room_canteen			囚犯喝下午茶的地方
-buildtoolbar_popup_room_kitchen			厨师为囚犯准备食物的地方
-buildtoolbar_popup_room_shower			用来让囚犯保持干净，没有虱子
-buildtoolbar_popup_room_yard			在狙击塔严密的监视下，让你的囚犯每天晒晒几小时的太阳
-buildtoolbar_popup_room_storage			放所有监狱员工所需的材料的区域
-buildtoolbar_popup_room_deliveries		货物、材料以及囚犯下车的地点
-buildtoolbar_popup_room_garbage			收集垃圾的地方
-buildtoolbar_popup_room_execution		处死囚犯的地方
-buildtoolbar_popup_room_workshop		派囚犯制造汽车牌照，无聊到死的地方
-buildtoolbar_popup_room_security		警卫的办公室
-buildtoolbar_popup_room_office			行政人员工作的区域
-buildtoolbar_popup_room_medicalward		医护人员工作的区域
-buildtoolbar_popup_room_morgue			死掉的囚犯和员工会送到这裡
-buildtoolbar_popup_room_commonroom		囚犯在自由活动时间可以休息的地方
+buildtoolbar_popup_room_cell            囚犯生活的地方
+buildtoolbar_popup_room_holdingcell     当新进囚犯还没有分配个人牢房时，会先收容在集体牢房内
+buildtoolbar_popup_room_solitary        专为坏蛋中的战斗蛋设计而建的独立惩戒措施，俗称“小黑屋”
+buildtoolbar_popup_room_canteen         囚犯喝下午茶的地方
+buildtoolbar_popup_room_kitchen         厨师为囚犯准备食物的地方
+buildtoolbar_popup_room_shower          用来让囚犯保持干净，没有虱子
+buildtoolbar_popup_room_yard            在狙击塔严密的监视下，让你的囚犯每天晒晒几小时的太阳
+buildtoolbar_popup_room_storage         放所有监狱员工所需的材料的区域
+buildtoolbar_popup_room_deliveries      货物、材料以及囚犯下车的地点
+buildtoolbar_popup_room_garbage         收集垃圾的地方
+buildtoolbar_popup_room_execution       处死囚犯的地方
+buildtoolbar_popup_room_workshop        派囚犯制造汽车牌照，无聊到死的地方
+buildtoolbar_popup_room_security        警卫的办公室
+buildtoolbar_popup_room_office          行政人员工作的区域
+buildtoolbar_popup_room_medicalward     医护人员工作的区域
+buildtoolbar_popup_room_morgue          死掉的囚犯和员工会送到这裡
+buildtoolbar_popup_room_commonroom      囚犯在自由活动时间可以休息的地方
 buildtoolbar_popup_room_kennel          警犬住的地方
 buildtoolbar_popup_room_chapel          当委员会聚在一起讨论设计如何处理囚犯们的宗教需求时会怎样？一个“多信仰祷告室”诞生了。我们管这种东西叫小礼拜堂。
 buildtoolbar_popup_room_paroleroom      当囚犯服刑期满 50% 和 75% 时，就有资格申请假释，他们的命运将会在这间房间内，由典狱长和保安队长决定。\n\n建议安排额外的警卫戒备，当犯人知道他们假释被驳回的时候通常会异常沮丧。
 buildtoolbar_popup_room_library         全国各地会送一些不要的或使用过的书籍给你的监狱，囚犯要协助将书本分类并上架。
 buildtoolbar_popup_room_intake          囚犯刚抵达的时候会先带到这裡。
 
-buildtoolbar_popup_obj_bed				不会太软、也不会太硬，硬度刚刚好。嗯，事实上嘛，真的很硬又很小
-buildtoolbar_popup_obj_toilet			一项基本人权，假如你相信那些狂想家
-buildtoolbar_popup_obj_table			与椅子相当搭配
-buildtoolbar_popup_obj_chair			与桌子是绝配
-buildtoolbar_popup_obj_bench			可以坐在上面
-buildtoolbar_popup_obj_electricchair	传递两千伏特的正义
-buildtoolbar_popup_obj_jaildoor			把囚犯关在他们应该在的地方
-buildtoolbar_popup_obj_jaildoorlarge	把很多囚犯关在他们该在的地方
-buildtoolbar_popup_obj_door				一道简单的门
-buildtoolbar_popup_obj_solitarydoor		极其坚固的门，即使是最强壮的犯人也撼不动它
-buildtoolbar_popup_obj_staffdoor		一道上锁的大门，不只警卫能开，所有员工都能开
-buildtoolbar_popup_obj_window			可以看一眼阳光
-buildtoolbar_popup_obj_windowlarge		可以看很多眼阳光
-buildtoolbar_popup_obj_tree				防止全球变暖人人有责
-buildtoolbar_popup_obj_light			确保一整天都能看见犯人们的一举一动
-buildtoolbar_popup_obj_cooker			用热腾腾的饭菜让犯人们奢侈一下吧
-buildtoolbar_popup_obj_fridge			避免你的食材变质坏掉
-buildtoolbar_popup_obj_bin				违禁品一定要搜剿干净
-buildtoolbar_popup_obj_sink				所有的员工都必需要洗手
-buildtoolbar_popup_obj_servingtable		将食物分配给犯人们
-buildtoolbar_popup_obj_showerhead		淋浴用的花洒喷头
-buildtoolbar_popup_obj_bookshelf		放书的架子
-buildtoolbar_popup_obj_officedesk		你的员工需要记录很多东西，给一个漂亮的办公桌让他们去写吧
-buildtoolbar_popup_obj_filingcabinet	你的员工需要把他们写的东西整理收好
-buildtoolbar_popup_obj_medicalbed		在这些麻醉药品被犯人偷走之前，它们都会呆在这里
-buildtoolbar_popup_obj_morgueslab		在灵车来之前请确保死者有地方安息
-buildtoolbar_popup_obj_drain			避免地板上产生积水
-buildtoolbar_popup_obj_sprinkler		发生火灾时自动喷水
-buildtoolbar_popup_obj_metaldetector	藏有违禁品的囚犯路过时会被探测出来，但仍需要在附近安排警卫才能没收违禁品
-buildtoolbar_popup_obj_weightsbench		允许犯人们锻炼、活动，令他们保持愉悦心情
-buildtoolbar_popup_obj_phonebooth		这些电话可以让犯人和他们的家属通话
-buildtoolbar_popup_obj_tv				用肥皂剧安抚犯人们躁动的心。
-buildtoolbar_popup_obj_largetv			让一堆囚犯们可以共享他们的脑残时刻
-buildtoolbar_popup_obj_pooltable		玩把台球来打发监狱千篇一律的生活
-buildtoolbar_popup_obj_dismantleobject	移除一个物体。
+buildtoolbar_popup_obj_bed              不会太软、也不会太硬，硬度刚刚好。嗯，事实上嘛，真的很硬又很小
+buildtoolbar_popup_obj_toilet           一项基本人权，假如你相信那些狂想家
+buildtoolbar_popup_obj_table            与椅子相当搭配
+buildtoolbar_popup_obj_chair            与桌子是绝配
+buildtoolbar_popup_obj_bench            可以坐在上面
+buildtoolbar_popup_obj_electricchair    传递两千伏特的正义
+buildtoolbar_popup_obj_jaildoor         把囚犯关在他们应该在的地方
+buildtoolbar_popup_obj_jaildoorlarge    把很多囚犯关在他们该在的地方
+buildtoolbar_popup_obj_door             一道简单的门
+buildtoolbar_popup_obj_solitarydoor     极其坚固的门，即使是最强壮的犯人也撼不动它
+buildtoolbar_popup_obj_staffdoor        一道上锁的大门，不只警卫能开，所有员工都能开
+buildtoolbar_popup_obj_window           可以看一眼阳光
+buildtoolbar_popup_obj_windowlarge      可以看很多眼阳光
+buildtoolbar_popup_obj_tree             防止全球变暖人人有责
+buildtoolbar_popup_obj_light            确保一整天都能看见犯人们的一举一动
+buildtoolbar_popup_obj_cooker           用热腾腾的饭菜让犯人们奢侈一下吧
+buildtoolbar_popup_obj_fridge           避免你的食材变质坏掉
+buildtoolbar_popup_obj_bin              违禁品一定要搜剿干净
+buildtoolbar_popup_obj_sink             所有的员工都必需要洗手
+buildtoolbar_popup_obj_servingtable     将食物分配给犯人们
+buildtoolbar_popup_obj_showerhead       淋浴用的花洒喷头
+buildtoolbar_popup_obj_bookshelf        放书的架子
+buildtoolbar_popup_obj_officedesk       你的员工需要记录很多东西，给一个漂亮的办公桌让他们去写吧
+buildtoolbar_popup_obj_filingcabinet    你的员工需要把他们写的东西整理收好
+buildtoolbar_popup_obj_medicalbed       在这些麻醉药品被犯人偷走之前，它们都会呆在这里
+buildtoolbar_popup_obj_morgueslab       在灵车来之前请确保死者有地方安息
+buildtoolbar_popup_obj_drain            避免地板上产生积水
+buildtoolbar_popup_obj_sprinkler        发生火灾时自动喷水
+buildtoolbar_popup_obj_metaldetector    藏有违禁品的囚犯路过时会被探测出来，但仍需要在附近安排警卫才能没收违禁品
+buildtoolbar_popup_obj_weightsbench     允许犯人们锻炼、活动，令他们保持愉悦心情
+buildtoolbar_popup_obj_phonebooth       这些电话可以让犯人和他们的家属通话
+buildtoolbar_popup_obj_tv               用肥皂剧安抚犯人们躁动的心。
+buildtoolbar_popup_obj_largetv          让一堆囚犯们可以共享他们的脑残时刻
+buildtoolbar_popup_obj_pooltable        玩把台球来打发监狱千篇一律的生活
+buildtoolbar_popup_obj_dismantleobject  移除一个物体。
 buildtoolbar_popup_obj_altar            天主与地上人民相遇的地方
 buildtoolbar_popup_obj_pews             给信徒坐的座位。是用最坚硬、最致密的木头做成的。
 buildtoolbar_popup_obj_prayermat        使你的犯人们在祈祷时不用跪在肮脏的地板上。
 
-buildtoolbar_popup_staff_workman		根据你所提供的设计为你建造监狱
-buildtoolbar_popup_staff_guard			帮你看管囚犯并避免他们滋事
+buildtoolbar_popup_staff_workman        根据你所提供的设计为你建造监狱
+buildtoolbar_popup_staff_guard          帮你看管囚犯并避免他们滋事
 buildtoolbar_popup_staff_armedguard     配戴散弹枪，囚犯在攻击这家伙之前一般会三思。\n\n注意：每个配备枪械的警卫都需要在军械库里拥有自己的储物柜。
-buildtoolbar_popup_staff_doctor			自动治疗附近受伤的人，不管是警卫还是犯人
-buildtoolbar_popup_staff_cook			准备食物并分配给你的犯人们
-buildtoolbar_popup_staff_gardener		让你的监狱地面干净整洁
-buildtoolbar_popup_staff_janitor		让你的监狱内部干净整洁，也可以协助监狱的洗衣服务
-buildtoolbar_popup_staff_warden			你监狱的大总管，在你雇佣高级员工之前必须有一个大总管
-buildtoolbar_popup_staff_chief			这个高级员工可以让你接触到部署，监视和防暴警卫相关的科研项目
-buildtoolbar_popup_staff_foreman		这个高级员工可以让你雇佣清洁工和园丁
-buildtoolbar_popup_staff_psychologist	一个高级员工，可以让你洞察囚犯们的心理活动
-buildtoolbar_popup_staff_accountant		高级员工，可以为你撰写财务报告。
-buildtoolbar_popup_staff_lawyer			高级员工，可以为你的监狱拿到一些特权。
+buildtoolbar_popup_staff_doctor         自动治疗附近受伤的人，不管是警卫还是犯人
+buildtoolbar_popup_staff_cook           准备食物并分配给你的犯人们
+buildtoolbar_popup_staff_gardener       让你的监狱地面干净整洁
+buildtoolbar_popup_staff_janitor        让你的监狱内部干净整洁，也可以协助监狱的洗衣服务
+buildtoolbar_popup_staff_warden         你监狱的大总管，在你雇佣高级员工之前必须有一个大总管
+buildtoolbar_popup_staff_chief          这个高级员工可以让你接触到部署，监视和防暴警卫相关的科研项目
+buildtoolbar_popup_staff_foreman        这个高级员工可以让你雇佣清洁工和园丁
+buildtoolbar_popup_staff_psychologist   一个高级员工，可以让你洞察囚犯们的心理活动
+buildtoolbar_popup_staff_accountant     高级员工，可以为你撰写财务报告。
+buildtoolbar_popup_staff_lawyer         高级员工，可以为你的监狱拿到一些特权。
 
-buildtoolbar_popup_uts_powerstation		产生监狱所需要的电力
-buildtoolbar_popup_uts_capacitor		建在发电站旁可以提高发电量。
-buildtoolbar_popup_uts_electricalcable	为你的监狱分配电力
-buildtoolbar_popup_uts_powerswitch		切换所有与它连通的电线的通电情况。\n\n右击开启/关闭通电状态。
-buildtoolbar_popup_uts_waterpumpstation	为你的监狱提供水源
-buildtoolbar_popup_uts_pipevalve		切换是否为所有连接的水管供水
-buildtoolbar_popup_uts_pipelarge		将大量的水配送到你的监狱中，或许足够让某些人在充满臭味的水中爬行500码并获得自由
-buildtoolbar_popup_uts_pipesmall		分配监狱的供水
-buildtoolbar_popup_uts_cctv				不用到处安排警卫也可以监视犯人了。\n\n你需要把它连至一个CCTV监视器才能让它正常工作。
-buildtoolbar_popup_uts_cctvmonitor		需要安装在警卫室并由一个警卫操作。可以遥控操作监狱各处的摄像头。\n\n注意：最多可以同时监视8个摄像头的画面。如果你连接了8个以上的摄像头，这些摄像头的画面会切换着出现，因此此时只能提供不完整的监控。
+buildtoolbar_popup_uts_powerstation     产生监狱所需要的电力
+buildtoolbar_popup_uts_capacitor        建在发电站旁可以提高发电量。
+buildtoolbar_popup_uts_electricalcable  为你的监狱分配电力
+buildtoolbar_popup_uts_powerswitch      切换所有与它连通的电线的通电情况。\n\n右击开启/关闭通电状态。
+buildtoolbar_popup_uts_waterpumpstation 为你的监狱提供水源
+buildtoolbar_popup_uts_pipevalve        切换是否为所有连接的水管供水
+buildtoolbar_popup_uts_pipelarge        将大量的水配送到你的监狱中，或许足够让某些人在充满臭味的水中爬行500码并获得自由
+buildtoolbar_popup_uts_pipesmall        分配监狱的供水
+buildtoolbar_popup_uts_cctv             不用到处安排警卫也可以监视犯人了。\n\n你需要把它连至一个CCTV监视器才能让它正常工作。
+buildtoolbar_popup_uts_cctvmonitor      需要安装在警卫室并由一个警卫操作。可以遥控操作监狱各处的摄像头。\n\n注意：最多可以同时监视8个摄像头的画面。如果你连接了8个以上的摄像头，这些摄像头的画面会切换着出现，因此此时只能提供不完整的监控。
 buildtoolbar_popup_uts_DoorControlSystem  设计成在警卫室里由一位警卫操控。在你所在的位置远程监控闭路电视镜头。\n\n用一个连接工具把这个系统和你的门伺服连接。门伺服应该被建在你想远程操控的门上。\n\n提示: 你可以把这个连接到任意多的伺服上，然而操作这个系统的警卫一秒最多只能开两扇门。
 buildtoolbar_popup_uts_phonemonitor     需要安装在警卫室并由一个警卫操作。可以监听所有打出的电话，让你提前识破有组织的违禁行动。\n\n使用连接工具把这个系统连至电话间。
 buildtoolbar_popup_uts_Servo            把一个伺服置于你想远程操控的门上。确保助推器零件直接安装在门上方。\n\n一旦安装，当伺服被触发时，门将被打开—特别被用一个控制门的系统或者一个门定时器\n\n伺服能被链接在一起，这样当第一个打开时能触发下一个。
@@ -513,9 +513,9 @@ buildtoolbar_popup_uts_LogicCircuit     只有高级建筑师。\n\n一个简单
 buildtoolbar_popup_uts_LogicBridge      只有高级建筑师。\n\n使用其输入信号，把它连接到安装在同一广场上的电缆。电缆将把这信号传输到安装在同一电缆上的任何其他逻辑电路。\n\n可以在全监狱用来'广播'一条普通信号,不如用于传播一条普通的时间信号。
 buildtoolbar_popup_uts_DoorTimer        可用于在每天的特定时间自动开门。\n\n使用连接工具把这个计时器连接到你的门伺服。
 buildtoolbar_popup_uts_Wire             连接你的远程访问系统。
-buildtoolbar_popup_uts_showallwires		显示所有已连接的电缆。
+buildtoolbar_popup_uts_showallwires     显示所有已连接的电缆。
 buildtoolbar_popup_uts_remotedoor       无法用钥匙打开的坚固金属门(只能远程打开)。使用这个去预防当监狱使用钥匙时可能发生的大规模越狱。
-buildtoolbar_popup_uts_dismantleutility	从监狱中移除一件设施
+buildtoolbar_popup_uts_dismantleutility 从监狱中移除一件设施
 buildtoolbar_popup_uts_pressurepad      只要有东西在垫子上面，就会发送一个信号给连接物。
 buildtoolbar_popup_uts_statuslight      亮起红灯或者绿灯，依据它接收到的信号。
 
@@ -585,7 +585,7 @@ codex_cutscenes                         过场动画
 codex_qualifications                    资格
 codex_load                              载入监狱
 codex_save                              保存监狱
-codex_performance						表现测试
+codex_performance                       表现测试
 codex_developer_load                    （开发者）加载地图
 codex_developer_save                    （开发者）保存地图
 codex_contacts                          联系人
@@ -596,9 +596,9 @@ codex_introduction                      介绍
 codex_restartintroduction               重新开始介绍
 codex_help                              帮助（维基百科）
 codex_opensavefolder                    打开存档文件夹
-codex_options							选项
-codex_nitgs								游戏中的名字
-codex_workshop							分享监狱
+codex_options                           选项
+codex_nitgs                             游戏中的名字
+codex_workshop                          分享监狱
 codex_checkforupdates                   检查更新
 codex_preorder                          立刻预购
 codex_termsconditions                   条款声明
@@ -612,36 +612,36 @@ codex_new_small                         小
 codex_new_medium                        中
 codex_new_large                         大
 
-codex_options_graphics					图像
-codex_options_resolution				分辨率
-codex_options_resolutionauto			自动
-codex_options_windowed					窗口化
-codex_options_highdpi					高分辨率
-codex_options_filtering					过滤
-codex_options_nofiltering				关闭
-codex_options_multisampled				多重采样
-codex_options_supersampled				超级采样
+codex_options_graphics                  图像
+codex_options_resolution                分辨率
+codex_options_resolutionauto            自动
+codex_options_windowed                  窗口化
+codex_options_highdpi                   高分辨率
+codex_options_filtering                 过滤
+codex_options_nofiltering               关闭
+codex_options_multisampled              多重采样
+codex_options_supersampled              超级采样
 
-codex_options_audio						音频
-codex_options_volume					总音量
-codex_options_frequency					混频
-codex_options_swapstero					交换立体声
-codex_options_dspenabled				开启音效管理器
-codex_options_11khz						11025赫兹
-codex_options_22khz						22050赫兹
-codex_options_44khz						44100赫兹
+codex_options_audio                     音频
+codex_options_volume                    总音量
+codex_options_frequency                 混频
+codex_options_swapstero                 交换立体声
+codex_options_dspenabled                开启音效管理器
+codex_options_11khz                     11025赫兹
+codex_options_22khz                     22050赫兹
+codex_options_44khz                     44100赫兹
 
 codex_options_clocktype                 时钟类别
 codex_options_clocktype_analogue        时钟
 codex_options_clocktype_12h             12小时制
 codex_options_clocktype_24h             24小时制
 
-codex_options_gameplay					游戏中的名字
-codex_options_autosave					自动保存计时
-codex_options_renderrooms				房间复选框
-codex_options_apply						应用
+codex_options_gameplay                  游戏中的名字
+codex_options_autosave                  自动保存计时
+codex_options_renderrooms               房间复选框
+codex_options_apply                     应用
 
-codex_options_language					语言
+codex_options_language                  语言
 
 codex_enabled                           开启
 codex_disabled                          关闭
@@ -666,53 +666,53 @@ codex_tooltip_gangs                     一些囚犯将带着对帮派的忠诚�
 codex_option_funds                      资金
 codex_tooltip_funds                     你携带此数额的银行存款开始游戏。在估值界面卖掉你建好的监狱来获得更多资金吧！
 
-codex_transfer							转账
-codex_transferring						转账中
-codex_in_prison							监闭中
+codex_transfer                          转账
+codex_transferring                      转账中
+codex_in_prison                         监闭中
 codex_useravatar                        是我
 codex_tooltip_useravatar                把这个囚犯标记为你自己的角色。如果你最后不知怎么的竟然自己落入监狱，这是代表你的囚犯。
 codex_tooltip_flagbio                   举报此人物传记包含争议内容。
 
-codex_workshop_current					犯人数量
-codex_workshop_publish					发布该监狱
-codex_workshop_update					更新
-codex_workshop_play						开始游戏
-codex_workshop_downloading				正在下载
-codex_workshop_download_failed			下载失败
-codex_workshop_publishing				正在发布中……
-codex_workshop_new						新建
-codex_workshop_title					标题
-codex_workshop_desc						描述
-codex_workshop_view_in_workshop			在Steam Workshop中查看
-codex_workshop_heading_pubed			你发布的监狱
-codex_workshop_heading_subed			你点赞的监狱
-codex_workshop_published_by				由*P发布
-codex_workshop_published_by_you			由你发布
-codex_workshop_published_good			已发布的监狱
-codex_workshop_published_good_msg		你的监狱发布成功
-codex_workshop_published_bad			发布监狱失败
-codex_workshop_published_bad_msg		你的监狱发布失败
-codex_workshop_published_bad_msg_new	你的新监狱未能发布。请重试
-codex_workshop_busy						Steam正在煮泡面。等她结束再试一次。
-codex_workshop_file_exists				你已经发布了一个该名字的监狱，请重新命名
-codex_workshop_generic_fail				无法发布你的监狱，请重试
-codex_workshop_download_bad				无法下载该监狱
-codex_workshop_pa_workshop				打开监狱建筑工作室
-codex_workshop_agreement				接受该物品代表你同意[url=http://steamcommunity.com/sharedfiles/workshoplegalagreement]工作室条款[/url].
+codex_workshop_current                  犯人数量
+codex_workshop_publish                  发布该监狱
+codex_workshop_update                   更新
+codex_workshop_play                     开始游戏
+codex_workshop_downloading              正在下载
+codex_workshop_download_failed          下载失败
+codex_workshop_publishing               正在发布中……
+codex_workshop_new                      新建
+codex_workshop_title                    标题
+codex_workshop_desc                     描述
+codex_workshop_view_in_workshop         在Steam Workshop中查看
+codex_workshop_heading_pubed            你发布的监狱
+codex_workshop_heading_subed            你点赞的监狱
+codex_workshop_published_by             由*P发布
+codex_workshop_published_by_you         由你发布
+codex_workshop_published_good           已发布的监狱
+codex_workshop_published_good_msg       你的监狱发布成功
+codex_workshop_published_bad            发布监狱失败
+codex_workshop_published_bad_msg        你的监狱发布失败
+codex_workshop_published_bad_msg_new    你的新监狱未能发布。请重试
+codex_workshop_busy                     Steam正在煮泡面。等她结束再试一次。
+codex_workshop_file_exists              你已经发布了一个该名字的监狱，请重新命名
+codex_workshop_generic_fail             无法发布你的监狱，请重试
+codex_workshop_download_bad             无法下载该监狱
+codex_workshop_pa_workshop              打开监狱建筑工作室
+codex_workshop_agreement                接受该物品代表你同意[url=http://steamcommunity.com/sharedfiles/workshoplegalagreement]工作室条款[/url].
 
-codex_options_timelapse					时间流动
-codex_timelapse_record					记录时间流动
-codex_timelapse_stop					停止时间流动
-codex_timelapse_camera					视角模式
-codex_timelapse_resolution				分辨率
-codex_timelapse_customresw				定制分辨率宽度
-codex_timelapse_customresh				定制分辨率高度
-codex_timelapse_resolution				分辨率
-codex_timelapse_fps						播放速率
-codex_timelapse_interval				捕捉间隔
-codex_timelapse_quality					质量
-codex_timelapse_unsupported				你的硬件条件下无法使用该功能。
-codex_timelapse_savesettings			保存设定
+codex_options_timelapse                 时间流动
+codex_timelapse_record                  记录时间流动
+codex_timelapse_stop                    停止时间流动
+codex_timelapse_camera                  视角模式
+codex_timelapse_resolution              分辨率
+codex_timelapse_customresw              定制分辨率宽度
+codex_timelapse_customresh              定制分辨率高度
+codex_timelapse_resolution              分辨率
+codex_timelapse_fps                     播放速率
+codex_timelapse_interval                捕捉间隔
+codex_timelapse_quality                 质量
+codex_timelapse_unsupported             你的硬件条件下无法使用该功能。
+codex_timelapse_savesettings            保存设定
 
 codex_timelapse_cam_zoom                变焦镜头的摄像机
 codex_timelapse_cam_fitmap              适合地图
@@ -724,48 +724,48 @@ codex_timelapse_quality_med             中
 codex_timelapse_quality_low             低
 codex_timelapse_interval_value          *X 游戏分钟
 
-codex_performance_running				正在运行效果测试
-codex_performance_time					时间剩余： *T 秒
-codex_performance_current				当前帧时间： *T 毫秒
-codex_performance_min					最小帧时间： *T 毫秒
-codex_performance_avg					平均帧时间： *T 毫秒
-codex_performance_max					最大帧时间： *T 毫秒
-codex_performance_numframes				数字框架: *T
+codex_performance_running               正在运行效果测试
+codex_performance_time                  时间剩余： *T 秒
+codex_performance_current               当前帧时间： *T 毫秒
+codex_performance_min                   最小帧时间： *T 毫秒
+codex_performance_avg                   平均帧时间： *T 毫秒
+codex_performance_max                   最大帧时间： *T 毫秒
+codex_performance_numframes             数字框架: *T
 
-codex_last_modified						最后修改：*T
-codex_sortbydesc						以时间排序
-codex_sortname							名字
-codex_sortdate							日期
-codex_apply								应用
+codex_last_modified                     最后修改：*T
+codex_sortbydesc                        以时间排序
+codex_sortname                          名字
+codex_sortdate                          日期
+codex_apply                             应用
 codex_select                            选择
 
-codex_mods								模组
-codex_mod_activetitle					激活模组
-codex_mod_inactivetitle					可用模组
-codex_mod_deactivate					停用所有模组
-codex_mod_wiki							查找更多模组（维基百科）
-codex_mod_openmodsfolder				打开模组文件夹
-codex_mod_moresteammods					查找更多模组（Steam Workshop）
+codex_mods                              模组
+codex_mod_activetitle                   激活模组
+codex_mod_inactivetitle                 可用模组
+codex_mod_deactivate                    停用所有模组
+codex_mod_wiki                          查找更多模组（维基百科）
+codex_mod_openmodsfolder                打开模组文件夹
+codex_mod_moresteammods                 查找更多模组（Steam Workshop）
 codex_mod_findsteamtranslations         找到更多的翻译（蒸汽车间）
 codex_authortitle                       作者
 codex_versiontitle                      版本
 codex_datetitle                         日期
 codex_urltitle                          URL
-codex_typetitle							类型
-codex_mod_graphicsandsound				图像和声音
-codex_mod_translation					翻译
-codex_mod_scenario						场景
-codex_mod_content						内容
-codex_mod_load_scenario					开始该场景
-codex_publishmod						发布此模组
+codex_typetitle                         类型
+codex_mod_graphicsandsound              图像和声音
+codex_mod_translation                   翻译
+codex_mod_scenario                      场景
+codex_mod_content                       内容
+codex_mod_load_scenario                 开始该场景
+codex_publishmod                        发布此模组
 
-codex_mod_update						更新此模组
-codex_mod_published_good				发布的模组
-codex_mod_published_good_msg			你的模组发布成功
-codex_mod_published_bad					发布模组失败
-codex_mod_published_bad_msg				你的模组发布失败
-codex_mod_modsupdated					已更新的模组
-codex_mod_modsupdated_msg				已经更新了你激活的某些模组，点击OK应用新的改变。这将会自动保存你的游戏
+codex_mod_update                        更新此模组
+codex_mod_published_good                发布的模组
+codex_mod_published_good_msg            你的模组发布成功
+codex_mod_published_bad                 发布模组失败
+codex_mod_published_bad_msg             你的模组发布失败
+codex_mod_modsupdated                   已更新的模组
+codex_mod_modsupdated_msg               已经更新了你激活的某些模组，点击OK应用新的改变。这将会自动保存你的游戏
 codex_mod_translationcaption            这是另一种语言的译文吗？
 
 codex_language                          语言
@@ -783,10 +783,10 @@ codex_save_confirm                      你确定要用*X覆盖当前监狱吗�
 # Graphics Change Confirmation
 # =============================================================================
 
-graphicschange_message					你想要保存这些显示选项吗？所有改变即将还原，剩余
-graphicschange_time						秒
-graphicschange_accept					接受
-graphicschange_revert					还原
+graphicschange_message                  你想要保存这些显示选项吗？所有改变即将还原，剩余
+graphicschange_time                     秒
+graphicschange_accept                   接受
+graphicschange_revert                   还原
 
 # =============================================================================
 # Script
@@ -834,25 +834,25 @@ biography_prisoner_priors               优先：
 # Rap Sheet
 # =============================================================================
 
-rapsheet_age							年龄：
-rapsheet_category						类别：
-rapsheet_traits							已知特性：
-rapsheet_conviction_text				*C - *Y 年
-rapsheet_found_text						（辩护： *P ）
-rapsheet_convictions					认罪
-rapsheet_misconductstitle				最近的过失
+rapsheet_age                            年龄：
+rapsheet_category                       类别：
+rapsheet_traits                         已知特性：
+rapsheet_conviction_text                *C - *Y 年
+rapsheet_found_text                     （辩护： *P ）
+rapsheet_convictions                    认罪
+rapsheet_misconductstitle               最近的过失
 rapsheet_biography                      个人档案
-rapsheet_guilty							有罪
-rapsheet_notguilty						无罪
-rapsheet_served							已服刑
-rapsheet_served_time					已服刑 *Y 年
-rapsheet_time							*Y 年
-rapsheet_bio							因 *A 被判服刑 *Y 年
-rapsheet_bio_med						因 *A 和 *B 数罪并罚，被判服刑 *Y 年。
-rapsheet_bio_long						因 *A ， *B 和 *C 数罪并罚，被判服刑 *Y 年。
-rapsheet_category_minsec				最小安保
-rapsheet_category_normal				普通安保
-rapsheet_category_maxsec				最大安保
+rapsheet_guilty                         有罪
+rapsheet_notguilty                      无罪
+rapsheet_served                         已服刑
+rapsheet_served_time                    已服刑 *Y 年
+rapsheet_time                           *Y 年
+rapsheet_bio                            因 *A 被判服刑 *Y 年
+rapsheet_bio_med                        因 *A 和 *B 数罪并罚，被判服刑 *Y 年。
+rapsheet_bio_long                       因 *A ， *B 和 *C 数罪并罚，被判服刑 *Y 年。
+rapsheet_category_minsec                最小安保
+rapsheet_category_normal                普通安保
+rapsheet_category_maxsec                最大安保
 rapsheet_category_protected             保护性拘留
 rapsheet_category_supermax              超级安保
 rapsheet_category_deathrow              死囚
@@ -1032,14 +1032,14 @@ research_missingadministrator           需求：
 roomrequirement_required                需求：
 roomrequirement_recommended             推荐：
 roomrequirement_minimumsize             最小尺寸 *W x *H
-roomrequirement_minimumsize_short	尺寸*W x *H
+roomrequirement_minimumsize_short   尺寸*W x *H
 roomrequirement_indoor                  室内
 roomrequirement_outdoor                 室外
 roomrequirement_solidground             坚硬地面
 roomrequirement_secure                  安全（至少在一扇门后面）
-roomrequirement_secure_short		安全
+roomrequirement_secure_short        安全
 roomrequirement_enclosed                封闭（四周是围墙和门）
-roomrequirement_enclosed_short		封闭
+roomrequirement_enclosed_short      封闭
 requirement_entrance                    需要入口
 roomrequirement_title                   =[房间需求]=
 roomrequirement_passed                  [满足]
@@ -1243,7 +1243,7 @@ job_escortprisoner                      将犯人押送到 *X
 job_punishprisoner                      处理犯人
 job_searchobject                        搜索 *X
 job_searchentity                        搜索犯人
-job_searchingentity						正在搜索犯人
+job_searchingentity                     正在搜索犯人
 job_searchcell                          搜索牢房
 job_searchcellblock                     搜索牢房区
 job_improvecellindoor                   清理室内区域
@@ -1486,13 +1486,13 @@ action_getbook                          取得书本
 action_pray                             祈祷
 action_shopping                         购物
 
-status_effect_title						=[状态效果]=
-status_effect_none						无
-status_effect_suppressed				被镇压
-status_effect_goodfood					饮食良好
-status_effect_drunk						醉酒
+status_effect_title                     =[状态效果]=
+status_effect_none                      无
+status_effect_suppressed                被镇压
+status_effect_goodfood                  饮食良好
+status_effect_drunk                     醉酒
 status_effect_high                      嗨翻了
-status_effect_withdrawal				戒毒
+status_effect_withdrawal                戒毒
 status_effect_tazed                     电晕
 status_effect_overdosed                 过量服入
 status_effect_surrendered               投降
@@ -1627,7 +1627,7 @@ objective_intake_arrivals               上午8点有 *X 个犯人要来
 objective_intake_closed                 监狱不再接收新的犯人
 objective_intake_closed2                （见该囚犯的报告）
 objective_intake_closed3                （检视收入报表）
-objective_intake_specials				特别转移：
+objective_intake_specials               特别转移：
 objective_intake_categories             种类：
 objective_intake_minsec                 低危险度，
 objective_intake_medsec                 中危险度，
@@ -2431,7 +2431,7 @@ roomgrading_unoccupied                  未被占用
 # Campaign info
 # =============================================================================
 
-campaignchapter_chapternumber			第 *C 章
+campaignchapter_chapternumber           第 *C 章
 
 
 # =============================================================================
