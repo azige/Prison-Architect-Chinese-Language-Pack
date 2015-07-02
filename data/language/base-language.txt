@@ -821,7 +821,7 @@ biography_selected                      已选择
 biography_prisoner_name                 *S, *F
 biography_prisoner_number               囚犯 #*X
 biography_prisoner_age                  年龄：*X
-biography_prisoner_traits               特性:
+biography_prisoner_traits               特徵:
 biography_prisoner_convicted            被控 *C（辩护 *P）
 biography_prisoner_sentenced            被判 *X 年刑期
 biography_parole_now                    已可申请保释
@@ -836,11 +836,11 @@ biography_prisoner_priors               前科：
 
 rapsheet_age                            年龄：
 rapsheet_category                       类别：
-rapsheet_traits                         已知特性：
+rapsheet_traits                         已知特徵：
 rapsheet_conviction_text                *C - *Y 年
 rapsheet_found_text                     （辩护： *P ）
-rapsheet_convictions                    认罪
-rapsheet_misconductstitle               最近的过失
+rapsheet_convictions                    定罪
+rapsheet_misconductstitle               近期违规
 rapsheet_biography                      个人档案
 rapsheet_guilty                         有罪
 rapsheet_notguilty                      无罪
@@ -850,27 +850,27 @@ rapsheet_time                           *Y 年
 rapsheet_bio                            因 *A 被判服刑 *Y 年
 rapsheet_bio_med                        因 *A 和 *B 数罪并罚，被判服刑 *Y 年。
 rapsheet_bio_long                       因 *A ， *B 和 *C 数罪并罚，被判服刑 *Y 年。
-rapsheet_category_minsec                最小安保
-rapsheet_category_normal                普通安保
-rapsheet_category_maxsec                最大安保
-rapsheet_category_protected             保护性拘留
-rapsheet_category_supermax              超级安保
-rapsheet_category_deathrow              死囚
+rapsheet_category_minsec                轻刑犯
+rapsheet_category_normal                普通犯
+rapsheet_category_maxsec                重刑犯
+rapsheet_category_protected             保护收容
+rapsheet_category_supermax              超重刑犯
+rapsheet_category_deathrow              死刑犯
 rapsheet_tab_biography                  个人档案
 rapsheet_tab_experience                 经历
 rapsheet_tab_grading                    评价
 rapsheet_tab_character                  个性
 rapsheet_punish                         惩罚
-rapsheet_recruit                        招募告密者
+rapsheet_recruit                        招募为秘密线人
 
 rapsheet_timeinside                     在你的监狱度过了 *X 天
 rapsheet_timeinside_hours               在你的监狱度过了 *X 小时
 rapsheet_mood                           情绪
 rapsheet_activity                       活动
 rapsheet_condition                      状况
-rapsheet_program                        计划
+rapsheet_program                        课程
 rapsheet_passchance                     成功率
-rapsheet_reformhistory                  改造计划的历史
+rapsheet_reformhistory                  教化课程纪录
 
 rapsheet_reform_success                 成功
 rapsheet_reform_successcount            完成 *X 次
@@ -878,30 +878,30 @@ rapsheet_reform_failed                  失败
 rapsheet_reform_failcount               失败 *X 次
 
 rapsheet_grading_punishment             惩罚
-rapsheet_grading_health                 健康
+rapsheet_grading_health                 医疗
 rapsheet_grading_security               安全
 rapsheet_grading_reform                 改造
-rapsheet_grading_points                 *X 得点 :
-rapsheet_grading_penalties              *X 减点 :
+rapsheet_grading_points                 *X 分 :
+rapsheet_grading_penalties              -*X 分 :
 
-rapsheet_scheduleexecution              安排处刑
+rapsheet_scheduleexecution              安排行刑
 
 
-punish_lockdown_6                       防范禁闭 (6小时)
-punish_lockdown_12                      防范禁闭 (12小时)
-punish_lockdown_24                      防范禁闭 (24小时)
-punish_solitary_6                       单独禁闭 (6小时)
-punish_solitary_12                      单独禁闭 (12小时)
-punish_solitary_24                      单独禁闭 (24小时)
-punish_solitary_perm                    单独禁闭（永久性）
-punish_lockdown_perm                    防范禁闭（永久性）
-punish_solitary                         单独禁闭
-punish_lockdown                         防范禁闭
+punish_lockdown_6                       禁足 (6小时)
+punish_lockdown_12                      禁足 (12小时)
+punish_lockdown_24                      禁足 (24小时)
+punish_solitary_6                       关禁闭 (6小时)
+punish_solitary_12                      关禁闭 (12小时)
+punish_solitary_24                      关禁闭 (24小时)
+punish_solitary_perm                    关禁闭（无限期）
+punish_lockdown_perm                    禁足（无限期）
+punish_solitary                         关禁闭
+punish_lockdown                         禁足
 punish_none                             无
 punish_timer                            *X小时 *Y分钟
 punish_timer_minutes                    *X分钟
-punish_active                           活跃
-punish_permanent                        （永久性）
+punish_active                           执行中
+punish_permanent                        （无限期）
 punish_end                              结束惩罚
 
 # =============================================================================
@@ -910,38 +910,38 @@ punish_end                              结束惩罚
 
 misconduct_reporttype_none                  无
 misconduct_reporttype_complaint             抱怨
-misconduct_reporttype_destruction           破坏
-misconduct_reporttype_escapeattempt         尝试越狱
-misconduct_reporttype_injuredprisoner       伤害犯人
-misconduct_reporttype_injuredstaff          伤害监狱员工
-misconduct_reporttype_seriousinjury         导致重伤
+misconduct_reporttype_destruction           破坏公物
+misconduct_reporttype_escapeattempt         试图逃狱
+misconduct_reporttype_injuredprisoner       攻击囚犯
+misconduct_reporttype_injuredstaff          攻击员工
+misconduct_reporttype_seriousinjury         重伤
 misconduct_reporttype_murder                谋杀
 misconduct_reporttype_contrabandweapons     搜出武器
 misconduct_reporttype_contrabandtools       搜出工具
 misconduct_reporttype_contrabandnarcotics   搜出毒品
 misconduct_reporttype_contrabandluxuries    搜出奢侈品
-misconduct_reporttype_intoxicated           醉了
-misconduct_title                            =[不良行为]=
+misconduct_reporttype_intoxicated           中毒
+misconduct_title                            =[违规]=
 
-misconduct_report_addiction                 对*X上瘾
-misconduct_report_recoving                  从*X瘾中恢复
-misconduct_report_alcoholic                 酒精
-misconduct_report_recovingalcoholic         酒鬼
+misconduct_report_addiction                 对 *X 上瘾
+misconduct_report_recoving                  正在戒掉 *X
+misconduct_report_alcoholic                 酒鬼
+misconduct_report_recovingalcoholic         正在戒酒
 
 
 # =============================================================================
 # Research Names + Captions
 # =============================================================================
 
-research_required                       你需要一个 *X 来准备这份报告
-research_requireunlock                  你需要研究“ *X ”解锁该报告
+research_required                       你需要 *X 来准备这份报告
+research_requireunlock                  你需要研究“ *X ”来解锁该报告
 research_approved                       批准
-research_cost                           成本: *X
-research_costperitem                    + *X 每件。
+research_cost                           费用: *X
+research_costperitem                    + *X /件。
 research_timetounlock                   解锁时间: *X小时
-research_movementpenalty                运动处罚: *X%
+research_movementpenalty                移动处罚: *X%
 research_protectionbonus                保护: *X%
-research_tap_to_authorise               点击以授权
+research_tap_to_authorise               点此授权
 
 research_none                           无
 research_warden                         典狱长
@@ -953,64 +953,64 @@ research_finance                        财政
 research_landexpansion                  土地扩张
 research_cctv                           监视
 research_riotguards                     防暴警卫
-research_health                         健康
+research_health                         医疗
 research_cleaning                       清洁
 research_groundskeeping                 园艺
 research_clone                          克隆
 research_deployment                     部署
 research_patrols                        巡逻
-research_dogs                           狗
-research_prisonlabour                   监狱劳工
+research_dogs                           警犬
+research_prisonlabour                   监狱劳动
 research_education                      教育
-research_contraband                     违禁品
+research_contraband                     情报训练
 research_policy                         监狱政策
 research_armoury                        军械库
 research_bodyarmour                     防护甲
 research_tazers                         电击器
-research_tazersforeveryone              电击器配备
+research_tazersforeveryone              量产电击器
 research_bankloans                      银行贷款
 research_lowertaxes1                    税收减免
 research_lowertaxes2                    离岸避税区
-research_remoteaccess                   远程访问
+research_remoteaccess                   远程操控
 research_extragrant                     额外拨款
 research_advancedmanagement             精细化管理
-research_deathrow                       死囚
+research_deathrow                       死刑犯
 research_permanentpunishment            永久性惩罚
 research_removemincellsize              小牢房
-research_reduceexecutionliability       降低处决责任
-research_legalprep                      文件准备
-research_legaldefense                   正当防卫
+research_reduceexecutionliability       降低行刑责任
+research_legalprep                      法律筹备
+research_legaldefense                   法律辩护
 
-researchtooltip_warden                  解锁典狱长及整个官僚系统。打开员工工具栏来任命典狱长。\n\n与其他管理层相同，典狱长需要有自己的办公室。
+researchtooltip_warden                  解锁典狱长及整个监狱制度系统。打开员工工具栏来任命典狱长。\n\n与其他管理层相同，典狱长需要有自己的办公室。
 researchtooltip_security                解锁看守长，可以从员工工具栏中任命。看守长可以解锁部署界面，并且可以提供实时的监狱风险等级报告，用来发现潜在的安全隐患。\n\n与其他管理层相同，看守长需要有自己的办公室。
 researchtooltip_maintenance             解锁工头。在员工工具栏中雇用。\n\n与其他管理层相同，工头需要有自己的办公室。
 researchtooltip_legal                   解锁律师，可以从员工工具栏中雇用。解锁大量的调研选项以增加你对监狱的控制权。\n\n与其他管理层相同，律师需要有自己的办公室。
-researchtooltip_deployment              在监狱指定区域（必须为封闭区域）中部署警卫，\n\n他们会在该区域内随机走动、巡逻
+researchtooltip_deployment              让你可以指派警卫到监狱的特定区域内站岗。
 researchtooltip_patrols                 在监狱某些重点区域（例如外围）制定巡逻路线，并指定警卫按照该路线巡逻
-researchtooltip_dogs                    解锁训狗师及警卫犬。警卫犬可以轻易的嗅出违禁物及逃跑隧道。\n\n警卫犬也因其出色的速度被用来追捕逃犯。
-researchtooltip_cctv                    解锁CCTV摄像头及监控设备。使用这些设备来监视没有看守警戒的区域。\n\n同时解锁电话监听系统，可以让你监听囚犯打出的电话以获得重要情报。
-researchtooltip_remoteaccess            为远程控制和自动门解锁高科技设备。门自动化可以打开，使用远程门控制系统（由一名保安操作），或者每天的特定时间由门定时器打开。
-researchtooltip_riotguards              (当前无任何用途)\n 解锁“防暴警卫”，这些武装人员更适用处置暴力状况
-researchtooltip_maintainance            解锁工头。雇用工头可以解锁狱中劳役、花匠等研究。\n\n与其他管理层相同，工头需要有自己的办公室。
+researchtooltip_dogs                    解锁训狗师及警犬。警犬可以轻易的嗅出违禁物及逃跑地道。\n\n警犬也因其出色的速度被用来追捕逃犯。
+researchtooltip_cctv                    解锁摄像头及监控设备。使用这些设备来监视没有看守警戒的区域。\n\n同时解锁电话监听系统，可以让你监听囚犯打出的电话以获得重要情报。
+researchtooltip_remoteaccess            解锁远程控制和自动门禁等高科技设备。使用控制系统远程打开门禁（由一名保安操作），或者每天的特定时间由门定时器打开。
+researchtooltip_riotguards              (目前暂无用处)\n 解锁“防暴警卫”，这些武装人员更适用处置暴力状况
+researchtooltip_maintainance            解锁工头。雇用工头可以解锁狱中劳役、园丁等研究。\n\n与其他管理层相同，工头需要有自己的办公室。
 researchtooltip_clone                   解锁主工具栏上的克隆工具。用这个工具可以快速复制监狱区域，比如牢房。\n\n用法是选择一个区域，按鼠标右键拖动复制，然后左键点击你要粘贴的地方。
 researchtooltip_groundskeeping          解锁“园丁”，为室外区域保持整洁，同时栽种树木收获木材
 researchtooltip_cleaning                解锁“清洁工”，他会清洁监狱内的所有区域，也可协助监狱洗衣房服务
-researchtooltip_health                  解锁“医生”以及“诊所”和“停尸房”。受伤的囚犯和员工会被带到诊所和医生那里包扎治疗。、
+researchtooltip_health                  解锁“医生”以及“医务室”和“停尸房”。受伤的囚犯和员工会被带到诊所和医生那里包扎治疗。、
 researchtooltip_MentalHealth            解锁心理医师，为你提供宝贵的囚犯心理状态分析。\n\n与其他管理层相同，心理医师需要有自己的办公室。
 researchtooltip_finance                 解锁会计师，可以为你撰写财务报告。\n\n如果你有足够的资金储备，还可以让你每天使用超出预算的资金。\n\n与其他管理层相同，会计师需要有自己的办公室。
-researchtooltip_landexpansion           允许你购买临近的土地，从而扩展你监狱的范围并超过其最初的边界
+researchtooltip_landexpansion           允许你购买临近的土地，从而扩展你监狱的范围
 researchtooltip_prisonlabour            允许你让犯人在你的监狱内工作（做饭，洗衣等等）可以帮你减少所需的工资数量，帮你赚钱，并同时教给你的犯人们新技能。\n\n同时会解锁工作室和洗衣房
 researchtooltip_education               解锁实行教育改革课程的能力。雇用外部教师以进行改革。
-researchtooltip_contraband              训练你的警卫们，让他们提升追踪和反偷运技巧。解锁供需报告，投运地图（显示你监狱内所有可能发生盗窃的地方），并追踪所有偷运和盗窃发生的地点。
+researchtooltip_contraband              训练你的警卫们，让他们提升追踪和反偷运技巧。解锁供需报告，违禁品报地图（显示你监狱内所有可能发生盗窃的地方），并追踪所有偷运和盗窃发生的地点。
 researchtooltip_policy                  解锁政策报告，使你可以增加或减少针对所有不当行为的处罚量，以及自行启动搜索举止不端的囚犯及其牢房的能力。
-researchtooltip_armoury                 解锁该武器库可以让你在你的监狱内部署装备武器的警卫。
-researchtooltip_bodyarmour              为你的所有警卫和训犬师都装备护甲。护甲可以帮助你的警卫在打斗中吸收伤害，但是会减慢他们的移动速度。\n\n警卫们必须前往武器库获取该装备，而且他们每拿一个护甲都需要你来买单
-researchtooltip_tazers                  允许你穿护甲的警卫装备电击器，电击器是一种非常有效的单发武器，可以立刻将大部分目标电晕。电击器在发射一次以后，需要整整一个小时来充能。\n\n穿护甲的警卫必须前往武器库获取该装备，而且他们每拿一个电击器都需要你来买单。
+researchtooltip_armoury                 解锁武器库，并可以让你在你的监狱内部署武装警卫。
+researchtooltip_bodyarmour              为你的所有警卫和训犬师都装备护甲。护甲可以帮助你的警卫在打斗中降低受到的伤害，但是会减慢他们的移动速度。\n\n警卫们必须前往武器库获取该装备，而且他们每拿一个护甲都需要你来买单
+researchtooltip_tazers                  允许你武装警卫装备电击器，电击器是一种非常有效的单发武器，可以立刻将大部分目标电晕。电击器在发射一次以后，需要整整一个小时来充能。\n\n穿护甲的警卫必须前往武器库获取该装备，而且他们每拿一个电击器都需要你来买单。
 researchtooltip_tazersforeveryone       扩展电击器项目，这样你的普通警卫和训犬师也会携带防御用电击器。\n\n他们必须前往武器库获取该装备，而且他们每拿一个电击器都需要你来买单
 researchtooltip_bankloans               允许你从银行借贷大笔款项，但每天都需支付利息。偿还贷款会提升你的信用评级并在之后允许你进行更大额度的贷款。
 researchtooltip_lowertaxes1             降低政府税收并将企业所得税率仅为15%。\n\n每$10,000收入就能节省 $1,500 税收。
 researchtooltip_lowertaxes2             你的会计将金融手段发挥到极致，把官方账户和商业活动移至外国并享有超高优惠税率。 你的企业所得税将会降到1%。\n\n每$10,000收入就能节省 $3,000 税收。
-researchtooltip_extragrant              使你可以同时接受3笔津贴而不是2笔。
+researchtooltip_extragrant              使你可以同时接受3笔补助而不是2笔。
 researchtooltip_advancedmanagement      使你可以对你的监狱进行精细管理，令其各部分得以精确的按照你的指令行事。\n\n解锁食物后勤管理，使你可以指定每个餐厅的对应厨房，以及餐厅的使用人员。与之相似，清洗后勤管理可以让你规划每个区分配的洗涤资源。\n\n同时解锁部署调动程序，可以让你定制守卫一天内不同时间段的部署。\n\n解锁改革计划调动程序，可以让你手动更改日常日程安排。
 researchtooltip_permanentpunishment     有时候即使被关进监狱也并不算保险。你的律师可以通过处理一些文件来把一个犯人”合理“的永久关在牢房里。
 researchtooltip_removemincellsize       通常牢房要满足一定尺寸以达到法定标准。不过想想如果不限定尺寸你可以多腾出来多少地方！移除普通牢房的最小尺寸要求。
@@ -1019,7 +1019,7 @@ researchtooltip_legalprep               每个监狱都有一点不可告人的�
 researchtooltip_legaldefense            情况很糟糕——有人走漏了风声，你被点了名。如果你处理不了这种情况，或许可以让你的律师试试。完成此项研究来移除已收到的所有警告，以避免被解雇。
 
 research_legaldefense_adviser1          似乎你的律师做了些工作让你撇清了干系。看来这次我是没法解雇你了。但也只有这一次了。
-research_legaldefense_adviser2          迅速让你的监狱恢复秩序并正常运作。那样的把戏只能使一次，以后并不能指望它了。
+research_legaldefense_adviser2          迅速让你的监狱恢复秩序并正常运作。这些小把戏不是每次都会成功，无法永远保护你。
 
 research_missingadministrator           需求：
 
@@ -1032,10 +1032,10 @@ research_missingadministrator           需求：
 roomrequirement_required                需求：
 roomrequirement_recommended             推荐：
 roomrequirement_minimumsize             最小尺寸 *W x *H
-roomrequirement_minimumsize_short   尺寸*W x *H
+roomrequirement_minimumsize_short   尺寸 *W x *H
 roomrequirement_indoor                  室内
 roomrequirement_outdoor                 室外
-roomrequirement_solidground             坚硬地面
+roomrequirement_solidground             坚固的地面
 roomrequirement_secure                  安全（至少在一扇门后面）
 roomrequirement_secure_short        安全
 roomrequirement_enclosed                封闭（四周是围墙和门）
@@ -1044,18 +1044,18 @@ requirement_entrance                    需要入口
 roomrequirement_title                   =[房间需求]=
 roomrequirement_passed                  [满足]
 roomrequirement_failed                  [不满足]
-roomrequirement_adjacentobject          相邻于房子：
+roomrequirement_adjacentobject          相邻房间：
 
 # =============================================================================
 # Unlocks
 # =============================================================================
 
-unlock_title                            一解锁
+unlock_title                            已解锁
 
 unlock_special_electricity              电力系统
 unlock_special_food                     食物准备
 unlock_special_officersafety            工作人员安全
-unlock_special_misbehavior              行为失当
+unlock_special_misbehavior              不当行為
 unlock_special_accounting               会计
 unlock_special_gangs                    帮派
 
@@ -1070,16 +1070,16 @@ click_to_continue                       点击继续……
 incoming_call                           来电……
 
 adviser_name_none                       无
-adviser_name_ceo                        总裁
-adviser_name_warden                     狱卒
+adviser_name_ceo                        执行长
+adviser_name_warden                     监狱长
 adviser_name_governer                   州长
 adviser_name_chief                      保安主管
 adviser_name_doctor                     医生
-adviser_name_kingpin                    主要任务
+adviser_name_kingpin                    金平
 adviser_name_edwardshooter              爱德华
 adviser_name_edwardsinner               爱德华
 adviser_name_edwardinmate               爱德华
-adviser_name_edwardswife                爱德华的老婆苏珊
+adviser_name_edwardswife                爱德华的老婆 苏珊
 adviser_name_priest                     牧师
 adviser_name_newsreader                 CDNC新闻
 
@@ -1093,15 +1093,15 @@ report_prisoners                        囚犯
 report_jobs                             工作
 report_needs                            需求
 report_threats                          威胁
-report_regime                           管理制度
+report_regime                           日程
 report_policy                           政策
 report_grants                           补助
 report_finance                          财政
 report_valuation                        估价
 report_contraband                       违禁品
 report_programs                         课程
-report_schedule                         调度程序
-report_intake                           接收
+report_schedule                         调度
+report_intake                           收容
 
 report_grants_bankloan                  银行贷款
 report_grants_bankloan_text             你可以从银行处获得一大笔贷款。为此银行将每天收取一定的利息并直接从你的现金流中扣除。\n\n如果你按时还款，你的信誉等级会逐渐提高，银行将愿意贷给你更多的钱。\n反之如果你错过还款，你的信誉等级将会降低，当你下次需要贷款时银行可能会拒绝你。\n\n注意：你的贷款靠支付每日利息是无法还清的。
@@ -1109,21 +1109,21 @@ report_grants_max1                      你一次只能接受一项补助。\n�
 report_grants_max2                      你一次只能接受不超过两项补助。\n让你的会计来解除这种限制。
 report_grants_max3                      你一次只能接受不超过三项补助。
 report_grants_bankloan_amount           当前银行贷款：*X
-report_grants_bankloan_interest         利息：*X每天
-report_grants_bankloan_max              最大贷款数：*X
-report_grants_creditrating              你的信用评级: *X
+report_grants_bankloan_interest         利息：*X/天
+report_grants_bankloan_max              最高贷款额度：*X
+report_grants_creditrating              你的信用额度: *X
 report_grants_inprogress_tt             (进行中)
-report_grants_completed_tt              (完成)
-report_grants_locked_tt                 (锁定)
+report_grants_completed_tt              (已完成)
+report_grants_locked_tt                 (未解锁)
 report_grants_advancepayment            *X 预付款
-report_grants_completionbonus           *X 任务完成奖励
+report_grants_completionbonus           *X 完成奖励
 report_grants_objectives                [目标]
 report_grants_prereqs                   [前提条件]
-report_grants_completed                 完成
-report_grants_locked                    锁定
+report_grants_completed                 已完成
+report_grants_locked                    未解锁
 report_grants_inprogress                进行中
-report_grants_hidden                    (还有 *X 隐藏的)
-report_grants_taptoaccept               点击以接受
+report_grants_hidden                    ( *X 项已隐藏)
+report_grants_taptoaccept               点击接受
 report_grants_cancelfee                 取消费用：*X
 
 report_staff_title                      员工数：*X
@@ -1133,46 +1133,46 @@ report_staff_group_guards               警卫
 report_staff_group_staff                员工
 report_staff_group_administrators       管理者
 report_staff_group_prisoners            囚犯
-report_staff_group_prisoners_high       高危险
-report_staff_group_prisoners_normal     中等危险
-report_staff_group_prisoners_low        低危险
-report_staff_group_prisoners_protected  保护性拘留
-report_staff_group_prisoners_supermax   极大
-report_staff_group_prisoners_deathrow   死囚
+report_staff_group_prisoners_high       重刑犯
+report_staff_group_prisoners_normal     普通犯
+report_staff_group_prisoners_low        轻刑犯
+report_staff_group_prisoners_protected  保护收容
+report_staff_group_prisoners_supermax   超重刑犯
+report_staff_group_prisoners_deathrow   死刑犯
 
 report_staff_fire                       开除
 
-report_intake_title                     接收
+report_intake_title                     囚犯收容
 report_intake_catheader_cat             类别
-report_intake_catheader_pay             收入
-report_intake_catheader_available       可收数
+report_intake_catheader_pay             费用
+report_intake_catheader_available       名额
 report_intake_catheader_amount          比例
-report_intake_next_header               下一批接收：*X
-report_intake_cat_minsec                低危险度
-report_intake_cat_normal                中危险度
-report_intake_cat_maxsec                高危险度
-report_intake_cat_deathrow              死囚
-report_intake_slider_minsec             调整低风险犯人的接收比例
-report_intake_slider_normal             调整中风险犯人的接收比例
-report_intake_slider_maxsec             调整高风险犯人的接收比例
-report_intake_slider_deathrow           调整死刑犯的接收比例
-report_intake_closed                    不开放
-report_intake_locked                    锁住
-report_intakemaxperdaydesc              每日接收
-report_intakemaxperdaydesc_tooltip      你希望接收的下一批犯人数量
+report_intake_next_header               下一批收容：*X
+report_intake_cat_minsec                轻刑犯
+report_intake_cat_normal                普通犯
+report_intake_cat_maxsec                重刑犯
+report_intake_cat_deathrow              死刑犯
+report_intake_slider_minsec             调整轻刑犯收容比例
+report_intake_slider_normal             调整普通犯收容比例
+report_intake_slider_maxsec             调整重刑犯收容比例
+report_intake_slider_deathrow           调整死刑犯收容比例
+report_intake_closed                    关闭
+report_intake_locked                    锁定
+report_intakemaxperdaydesc              每日新收容人数
+report_intakemaxperdaydesc_tooltip      你希望下一批接收的犯人数量
 report_intakemaxperdaydecr              <<
 report_intakemaxperdayincr              >>
 report_intakemaxperdaynone              无
 report_intakemaxperdayall               全部
-reports_intakedelivernow                开始接收
-report_intakepayment                    收入
+reports_intakedelivernow                开始收容
+report_intakepayment                    费用
 report_intakeall                        全部
-report_intake_list_tooltip_title        接收类别
-report_intake_list_tooltip              可接收囚犯类别的列表。\n\n下面的人头数表示每个类别可被押送的囚犯数量。这个数量会根据滚动条的数值随时间而增长。\n\n你可以通过调节滚动条来改变下批接收犯人的种类比例。
-report_intake_list_tooltip_dr           \n\n你需要在接收死刑犯前为其指定好死刑犯牢房。死刑犯的接收要比常规犯人慢很多。你不会看到很多死刑犯，因为这种犯人实在太罕见了。
-report_intake_buttons_tooltip_title     下批接收
-report_intake_buttons_tooltip           你可以在这个部分增加或减少你希望接收的下一批犯人数量。\n\n选择”无“监狱将不会对新囚犯开放。选择”全部“将接收所有可被接收的囚犯。\n\n每类犯人的数目可以用上面的滚动条调节。
-report_intake_overview_tooltip_title    犯人接收概况
+report_intake_list_tooltip_title        收容类别
+report_intake_list_tooltip              可收容囚犯类别的列表。\n\n下面的人头数表示每个类别可被押送的囚犯数量。这个数量会根据滚动条的数值随时间而增长。\n\n你可以通过调节滚动条来改变下批收容犯人的种类比例。
+report_intake_list_tooltip_dr           \n\n你需要在收容死刑犯前为其指定好死刑犯牢房。死刑犯的收容要比常规犯人慢很多。你不会看到很多死刑犯，因为这种犯人实在太罕见了。
+report_intake_buttons_tooltip_title     下批收容
+report_intake_buttons_tooltip           你可以在这个部分增加或减少你希望收容的下一批犯人数量。\n\n选择”无“监狱将不会对新囚犯开放。选择”全部“将收容所有可被收容的囚犯。\n\n每类犯人的数目可以用上面的滚动条调节。
+report_intake_overview_tooltip_title    犯人收容概况
 report_intake_overview_tooltip          你可以在此查看下一波囚犯的押送及可获资金。押送犯人的数目及类别可以用上面的滚动条及按钮调整。可获资金由犯人的数目及类别决定。
 
 valuation_categoryprison                监狱价值
@@ -1180,16 +1180,16 @@ valuation_construction                  房产
 valuation_objects                       设备
 valuation_stock                         存货与材料
 valuation_staff                         员工
-valuation_startupgrant                  开始授权
+valuation_startupgrant                  起始资金补助
 valuation_capacity                      犯人容量
-valuation_cash                          现金
+valuation_cash                          目前资金
 valuation_debt                          银行贷款
-valuation_categoryperformance           安全性
-valuation_bonustimewithoutincident      [Bonus] 无事故时间
-valuation_finedeath                     [惩罚] 过去24小时的死亡人数
-valuation_fineescape                    [惩罚] 过去24小时的逃跑人数
-valuation_total                         总共
-valuation_sell                          卖出
+valuation_categoryperformance           安全措施
+valuation_bonustimewithoutincident      [加分] 无事故时间
+valuation_finedeath                     [扣分] 过去24小时的死亡人数
+valuation_fineescape                    [扣分] 过去24小时的逃跑人数
+valuation_total                         总计
+valuation_sell                          出售
 valuation_sellprison                    出售监狱
 valuation_sell_tooltip                  出售你的监狱可以让你获利并拥有更多资金开始另一家监狱。\n\n你可以继续运营这个监狱，但每间监狱只能卖一次。所有收入将会转移到你的新地方。
 valuation_sold                          卖出此监狱获得：*X
@@ -1198,7 +1198,7 @@ valuation_sellsome                      售出股份
 valuation_buysome                       购买股份
 valuation_shares                        买入及卖出股份
 valuation_shares_tooltip                你可以售出监狱50%的股份给外面的投资者。你会马上收到现金。作为对他们投资的回报，当你售出你的监狱时，股份持有者将会获得相应份额的钱。\n\n也就是说如果你出售了30%的股份，在售出监狱时你就只能获得70%的出售收入。你随时可以买回之前售出的股票——尽管价格可能比你当初卖它们的时候高。
-valuation_ownership                     你拥有*X%的你的监狱
+valuation_ownership                     你拥有 *X% 的监狱股份
 valuation_saleprice                     售价: *X
 valuation_title                         =[估价]=
 valuation_totalprisonvalue              监狱总价值 : *X
@@ -1211,8 +1211,8 @@ salecondition_title                     销售需求
 salecondition_cannotsell                你必须满足以下条件才能出售监狱或卖出股份。
 salecondition_minimumvalue              最低$50,000的估值
 salecondition_cashflow                  正资金流
-salecondition_accountant                驻监狱会计
-salecondition_minprisoners              至少20个犯人
+salecondition_accountant                聘用监狱会计
+salecondition_minprisoners              至少20名囚犯
 salecondition_recentdeaths              最近没有死亡
 salecondition_recentescapes             最近没有逃逸
 salecondition_passed                    [通过]
