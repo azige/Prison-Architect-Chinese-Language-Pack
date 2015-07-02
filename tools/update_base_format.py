@@ -2,9 +2,9 @@
 
 import re
 
-BASE_FILE_NAME = "base-language.txt"
-ORIGIN_FILE_NAME = "base-language-alpha34.txt"
-OUTPUT_FILE_NAME = "output.txt"
+BASE_FILE_NAME = "../data/language/base-language.txt"
+ORIGIN_FILE_NAME = "../data/language/base-language-alpha34.txt"
+OUTPUT_FILE_NAME = BASE_FILE_NAME
 
 trans = dict()
 
@@ -24,7 +24,7 @@ with open(BASE_FILE_NAME) as inf:
 
         key = line[:index]
         value = line[index + 1:]
-        trans[key] = value
+        trans[key] = value.strip()
 
 print("translated string size: %d" % len(trans))
 
@@ -45,9 +45,9 @@ with open(ORIGIN_FILE_NAME) as base:
             value = trans[key]
             if value is None:
                 print("Missing translation: %s" % key)
-                value = "[TODO]" + match.group(3)
+                value = "[TODO]" + match.group(3) + "\n"
             else:
                 value += "\n"
 
-            output.write("%s%s%s" % (key, space, trans[key]))
+            output.write("%s%s%s" % (key, space, value))
 
