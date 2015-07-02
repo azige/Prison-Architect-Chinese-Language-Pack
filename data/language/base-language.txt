@@ -345,7 +345,7 @@ sector_jobs_max 最大工作 *X
 sector_jobs_qualified 合格犯人: *X
 sector_jobs_required （需要: *X）
 sector_noaccess 无法访问
-sector_insecure [TODO]INSECURE
+sector_insecure 不安全
 
 patrol_assign_1 安排警卫巡逻：
 patrol_assign_2 在现有的巡逻广场点击
@@ -1023,8 +1023,6 @@ research_legaldefense_adviser2 迅速让你的监狱恢复秩序并正常运作�
 
 research_missingadministrator 需求：
 
-
-
 # =============================================================================
 # Room Requirements
 # =============================================================================
@@ -1042,9 +1040,9 @@ roomrequirement_enclosed 封闭（四周是围墙和门）
 roomrequirement_enclosed_short 封闭
 requirement_entrance 需要入口
 roomrequirement_title =[房间需求]=
-roomrequirement_passed [通过]
-roomrequirement_failed [失败]
-roomrequirement_adjacentobject [TODO]Adjacent to Room:
+roomrequirement_passed [满足]
+roomrequirement_failed [不满足]
+roomrequirement_adjacentobject 相邻于房子: 
 
 # =============================================================================
 # Unlocks
@@ -1200,7 +1198,7 @@ valuation_shares 买入及卖出股份
 valuation_shares_tooltip 你可以售出监狱50%的股份给外面的投资者。你会马上收到现金。作为对他们投资的回报，当你售出你的监狱时，股份持有者将会获得相应份额的钱。\n\n也就是说如果你出售了30%的股份，在售出监狱时你就只能获得70%的出售收入。你随时可以买回之前售出的股票——尽管价格可能比你当初卖它们的时候高。
 valuation_ownership 你拥有*X%的你的监狱
 valuation_saleprice 售价: *X
-valuation_title =[VALUATION]=
+valuation_title =[估价]=
 valuation_totalprisonvalue 监狱总价值 : *X
 valuation_subcashreserves 最低现金储备 : *X
 valuation_tenpercentprice 10%的价格 : *X
@@ -1254,7 +1252,7 @@ job_failurecount 失败 *X 次
 job_feedprisoner 给犯人食物
 job_healprisoner 治疗犯人
 job_delivermail 发邮件
-       
+
 finances_title 经济
 finances_income 收入
 finances_expenses 支出
@@ -2117,7 +2115,7 @@ equipment_rifle 步枪
 equipment_dogleash 狗绳
 equipment_assaultrifle 突击步枪
 equipment_woodenpickaxe 木质镐头
-equipment_cbradio [TODO]Cb radio
+equipment_cbradio 收音机
 
 research_requires_short 需要一个 *X
 
