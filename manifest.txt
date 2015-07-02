@@ -1,8 +1,9 @@
-
 Name                 "Chinese translation"  
+Author               CzBiX  
 Description          "Translations extract from 3DM's Chinese patch(based Alpha 33). I modified to support Alpla 34"  
+Version              v34.1
+Date                 02/07/2015  
 IsTranslation        true  
 FileID               F472866886  
 UpdateTime           1435725089  
 SteamAuthor          A76561198044699602  
-Author               CzBiX  
