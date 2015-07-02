@@ -14,7 +14,7 @@ dialog_name                             Name
 dialog_type                             Type
 dialog_x                                X
 dialog_y                                Y
-dialog_z								Z
+dialog_z                                Z
 dialog_w                                W
 dialog_h                                H
 dialog_exit                             Exit
@@ -49,8 +49,8 @@ dialogeditor_window                     Window
 dialogeditor_grid                       Grid
 dialogeditor_caption                    Caption
 dialogeditor_component                  Component
-dialogeditor_select						Select
-dialogeditor_create						Create
+dialogeditor_select                     Select
+dialogeditor_create                     Create
 dialogeditor_background                 BG img
 dialogeditor_panel                      Panel
 
@@ -68,7 +68,7 @@ dialogcomponent_selectionlistitem       SelectionListItem
 dialogcomponent_scrollbar               Scrollbar
 dialogcomponent_progressbar             ProgressBar
 dialogcomponent_canvas                  Canvas
-dialogcomponent_iconbox					IconBox
+dialogcomponent_iconbox                 IconBox
 
 dialogposition_absolute                 Absolute
 dialogposition_relative                 Relative
@@ -93,15 +93,15 @@ profiler_reset                          Reset
 
 soundchannelviewer_title                Sound Channels
 soundeditor_title                       Sound Editor
-soundinstanceeditor_title				Sound Instance Editor
+soundinstanceeditor_title               Sound Instance Editor
 
-soundeditor_positiontitle		        Position Type
-soundeditor_instancetitle		        Instance Type
-soundeditor_looptitle			        Loop Type
-soundeditor_sourcetypetitle		        Sound Type
-soundeditor_soundnametitle		        Sound Name
+soundeditor_positiontitle               Position Type
+soundeditor_instancetitle               Instance Type
+soundeditor_looptitle                   Loop Type
+soundeditor_sourcetypetitle             Sound Type
+soundeditor_soundnametitle              Sound Name
 
-soundeditor_volumetitle			        Volume
+soundeditor_volumetitle                 Volume
 soundeditor_frequencytitle              Frequency
 soundeditor_mindistancetitle            Min Distance
 soundeditor_attacktitle                 Attack
@@ -134,7 +134,7 @@ samplebank                              (Sample Bank)
 
 interfacemode_done                            Done
 interfacemode_destroy                         Destroy
-interfacemode_foundations				      Foundations
+interfacemode_foundations                     Foundations
 interfacemode_construction                    Materials
 interfacemode_planning                        Planning
 interfacemode_objects                         Objects
@@ -200,10 +200,10 @@ interfacelogistics_targettingfood               Food Distribution
 interfacelogistics_targettinglaundry            Laundry Distribution
 interfacelogistics_roomquality                  Room Quality
 
-interfaceplanning_wall							Walls
-interfaceplanning_object						Objects
-interfaceplanning_route							Pathways
-interfaceplanning_clear							Clear
+interfaceplanning_wall                          Walls
+interfaceplanning_object                        Objects
+interfaceplanning_route                         Pathways
+interfaceplanning_clear                         Clear
 
 interfacecontraband_source                      Dangers
 interfacecontraband_day                         -24 Hours
@@ -215,27 +215,27 @@ interfacecontraband_gangs                       Gangs
 interfaceclone_copy                             Copy
 interfaceclone_paste                            Paste
 
-interfacetopbar_todo							Todo
-interfacetopbar_balance							Bank *B
-interfacetopbar_budget							Cashflow *C
-interfacetopbar_income							Income *I
-interfacetopbar_expenses						Costs *C
-interfacetopbar_day								DAY *D
+interfacetopbar_todo                            Todo
+interfacetopbar_balance                         Bank *B
+interfacetopbar_budget                          Cashflow *C
+interfacetopbar_income                          Income *I
+interfacetopbar_expenses                        Costs *C
+interfacetopbar_day                             DAY *D
 
-interfacetopbar_title_balance					Bank Balance
-interfacetopbar_title_budget					Daily Cashflow
-interfacetopbar_title_cctv						CCTV
-interfacetopbar_title_day						Day
-interfacetopbar_title_prisoners					Prisoners
-interfacetopbar_title_guards					Guards
+interfacetopbar_title_balance                   Bank Balance
+interfacetopbar_title_budget                    Daily Cashflow
+interfacetopbar_title_cctv                      CCTV
+interfacetopbar_title_day                       Day
+interfacetopbar_title_prisoners                 Prisoners
+interfacetopbar_title_guards                    Guards
 interfacetopbar_title_tension                   Danger
 
-interfacetopbar_tooltip_balance					How much cash you have in the bank.\n\nClick to raise more funds through the Grants list.
-interfacetopbar_tooltip_budget					The amount of money you will receive each day, based on your current expenses and income.\n\nClick to access a detailed financial breakdown of income and expenses. 
-interfacetopbar_tooltip_cctv					The number of CCTV cameras and monitors you currently have.
-interfacetopbar_tooltip_day						How long you've been running your prison.
-interfacetopbar_tooltip_prisoners				The number of prisoners you currently have, and how many you can hold, in your prison.
-interfacetopbar_tooltip_guards					How many guards you have available for work in your prison.
+interfacetopbar_tooltip_balance                 How much cash you have in the bank.\n\nClick to raise more funds through the Grants list.
+interfacetopbar_tooltip_budget                  The amount of money you will receive each day, based on your current expenses and income.\n\nClick to access a detailed financial breakdown of income and expenses. 
+interfacetopbar_tooltip_cctv                    The number of CCTV cameras and monitors you currently have.
+interfacetopbar_tooltip_day                     How long you've been running your prison.
+interfacetopbar_tooltip_prisoners               The number of prisoners you currently have, and how many you can hold, in your prison.
+interfacetopbar_tooltip_guards                  How many guards you have available for work in your prison.
 interfacetopbar_tooltip_tension                 The overall danger level of your prison, according to your security chief.
 
 interfacetopbar_tooltip_recenttransactions      Recent Transactions
@@ -256,11 +256,11 @@ interfacetopbar_tooltip_dogs                    + *X Dog handlers
 
 interfacetopbar_unlimitedfunds                  UNLIMITED FUNDS
 
-interfacetopbar_budget_moneyin					Money In: $*M /day
-interfacetopbar_budget_moneyout					Money Out: $*M /day
+interfacetopbar_budget_moneyin                  Money In: $*M /day
+interfacetopbar_budget_moneyout                 Money Out: $*M /day
 interfacetopbar_budget_cantgonegative           You cannot have a negative cashflow (ie have more expenses than income) until you have hired an Accountant to manage your finances.
 
-interfacetopbar_prisoners_types					Currently holding *X Prisoners:
+interfacetopbar_prisoners_types                 Currently holding *X Prisoners:
 interfacetopbar_prisoners_capacity              Maximum safe capacity: *X
 interfacetopbar_prisonercells_shared            Shared capacity: *X
 interfacetopbar_prisonercells_unlocked          Unlocked capacity: *X
@@ -272,8 +272,8 @@ interfacetopbar_prisonercells_supermaxonly      SuperMax capacity: *X
 interfacetopbar_prisonercells_deathrowonly      Death Row capacity: *X
 interfacetopbar_prisonercells_staffonly         Unavailable: *X
 
-interfacetopbar_cctv_current					Currently running *C cameras
-interfacetopbar_cctv_cap						Space for *C cameras
+interfacetopbar_cctv_current                    Currently running *C cameras
+interfacetopbar_cctv_cap                        Space for *C cameras
 
 interfacetopbar_tension_currentlevel            The danger level is *X
 interfacetopbar_tension_increasing              and is increasing
@@ -355,10 +355,10 @@ patrol_assign_2                                 Click on an existing patrol squa
 # Hardware Compatibility
 # =============================================================================
 
-hardware_compat_title					Hardware Compatibility Test
-hardware_compat_message					With your permission, we would like to collect the following hardware data from your computer.\n\nThis information is completely anonymous and will help us to ensure Prison Architect is supported on the widest possible range of computer hardware.\n\nThank you!
-hardware_compat_accept					Accept
-hardware_compat_decline					Decline
+hardware_compat_title                   Hardware Compatibility Test
+hardware_compat_message                 With your permission, we would like to collect the following hardware data from your computer.\n\nThis information is completely anonymous and will help us to ensure Prison Architect is supported on the widest possible range of computer hardware.\n\nThank you!
+hardware_compat_accept                  Accept
+hardware_compat_decline                 Decline
 
 connectionmenu_connect                  Connect
 connectionmenu_disconnect               Disconnect
@@ -377,25 +377,25 @@ buildtoolbar_lockdown                   Lockdown
 buildtoolbar_shakedown                  Shakedown
 buildtoolbar_weaponsfree                Freefire
 
-buildtoolbar_tooltip_reports			Open up the reports window to see information on your prisoners, staff, income, grants, and more.
-buildtoolbar_tooltip_bangup				Send all (willing) prisoners back to their cells. This will make your prisoners very angry if you leave them locked up for too long.
-buildtoolbar_tooltip_lockdown			Instantly lock all doors in the prison.
+buildtoolbar_tooltip_reports            Open up the reports window to see information on your prisoners, staff, income, grants, and more.
+buildtoolbar_tooltip_bangup             Send all (willing) prisoners back to their cells. This will make your prisoners very angry if you leave them locked up for too long.
+buildtoolbar_tooltip_lockdown           Instantly lock all doors in the prison.
 buildtoolbar_tooltip_shakedown          Order an immediate search of all Cells. This will take some time and will annoy the hell out of your inmates.
 buildtoolbar_tooltip_weaponsfree        Authorises your armed guards to use lethal force.
 
-buildtoolbar_cost						Cost: $*C
-buildtoolbar_cost_sqrft					Cost: $*C /sq
-buildtoolbar_wages						Wages : $*W per day
-buildtoolbar_outdoor					Outdoor only
-buildtoolbar_indoor						Indoor only
-buildtoolbar_walk_speed					Walk Speed : *S
-buildtoolbar_walk_speed_slow			Slow
-buildtoolbar_walk_speed_norm			Normal
-buildtoolbar_walk_speed_fast			Fast
+buildtoolbar_cost                       Cost: $*C
+buildtoolbar_cost_sqrft                 Cost: $*C /sq
+buildtoolbar_wages                      Wages : $*W per day
+buildtoolbar_outdoor                    Outdoor only
+buildtoolbar_indoor                     Indoor only
+buildtoolbar_walk_speed                 Walk Speed : *S
+buildtoolbar_walk_speed_slow            Slow
+buildtoolbar_walk_speed_norm            Normal
+buildtoolbar_walk_speed_fast            Fast
 buildtoolbar_locked                     LOCKED
-buildtoolbar_locked_research			LOCKED (You require *B)
-buildtoolbar_locked_administrator		LOCKED (*B required)
-buildtoolbar_room						Room
+buildtoolbar_locked_research            LOCKED (You require *B)
+buildtoolbar_locked_administrator       LOCKED (*B required)
+buildtoolbar_room                       Room
 
 buildtoolbar_electrical                 - Electrical
 buildtoolbar_highpower                  - High Powered 
@@ -403,109 +403,109 @@ buildtoolbar_water                      - Requires Water Connection
 buildtoolbar_wired                      - Wired (connects to other wired objects)
 buildtoolbar_modcontent                 - Mod Content
 
-buildtoolbar_popup_foundations			Construct/Demolish buildings in order to shape your prison.
-buildtoolbar_popup_construction			Different types of floors and walls.
-buildtoolbar_popup_planning				Plan out your prison without the fear of workers actually doing anything.
-buildtoolbar_popup_designation			Designate areas of your prison with a specific function.
-buildtoolbar_popup_objects				Place useful items around your prison.
-buildtoolbar_popup_overlays				Visually identify weaknesses in your prison's layout.
-buildtoolbar_popup_utilities			Plumbing and electrical systems.
-buildtoolbar_popup_staff				Employ the necessary people to keep your prison running.
-buildtoolbar_popup_deployment			Assign staff to areas of your prison.
+buildtoolbar_popup_foundations          Construct/Demolish buildings in order to shape your prison.
+buildtoolbar_popup_construction         Different types of floors and walls.
+buildtoolbar_popup_planning             Plan out your prison without the fear of workers actually doing anything.
+buildtoolbar_popup_designation          Designate areas of your prison with a specific function.
+buildtoolbar_popup_objects              Place useful items around your prison.
+buildtoolbar_popup_overlays             Visually identify weaknesses in your prison's layout.
+buildtoolbar_popup_utilities            Plumbing and electrical systems.
+buildtoolbar_popup_staff                Employ the necessary people to keep your prison running.
+buildtoolbar_popup_deployment           Assign staff to areas of your prison.
 buildtoolbar_popup_logistics            Assign prisoners to work around your prison. Also manual control over the canteen and laundry assignments.
-buildtoolbar_popup_research				Unlock new possibilities for your prison.
-buildtoolbar_popup_emergencies			Call in the emergency services if things take a turn for the worse.
-buildtoolbar_popup_spawn				Spawn? The fuck does this do?
-buildtoolbar_popup_clone				Copy and paste your existing structures.
-buildtoolbar_popup_properties			Find out about shit.
+buildtoolbar_popup_research             Unlock new possibilities for your prison.
+buildtoolbar_popup_emergencies          Call in the emergency services if things take a turn for the worse.
+buildtoolbar_popup_spawn                Spawn? The fuck does this do?
+buildtoolbar_popup_clone                Copy and paste your existing structures.
+buildtoolbar_popup_properties           Find out about shit.
 buildtoolbar_popup_contraband           Show the sources of Contraband, and all recently recovered contraband in your prison. Also shows your Confidential Informants and their information.
 buildtoolbar_popup_grading              See your overall prison grading on four key metrics - Punishment, Reform, Security, and Health. Also shows the re-offending rate for your prison.
-buildtoolbar_popup_room_cell			Where your prisoners live.
-buildtoolbar_popup_room_holdingcell		A room where new recruits are placed until a cell is found for them.
-buildtoolbar_popup_room_solitary		An isolated form of imprisonment for the worst of the worst.
-buildtoolbar_popup_room_canteen			Where your prisoners will take their afternoon tea.
-buildtoolbar_popup_room_kitchen			Area for cooks to prepare food for your prisoners.
-buildtoolbar_popup_room_shower			Used to keep your prisoners squeaky clean, and lice free.
-buildtoolbar_popup_room_yard			Let your prisoners see the sun for a few hours a day under the watchful eye of your sniper towers.
-buildtoolbar_popup_room_storage			Area designated to hold any materials your prison staff need.
-buildtoolbar_popup_room_deliveries		Where your goods, materials, and prisoners are dropped off.
-buildtoolbar_popup_room_garbage			Where your waste is collected from.
-buildtoolbar_popup_room_execution		Where you send your prisoners to die.
-buildtoolbar_popup_room_workshop		Where you send your prisoners to die of boredom while making you car license plates.
-buildtoolbar_popup_room_security		Offices for your Officers.
-buildtoolbar_popup_room_office			An area for your administrative staff to work.
-buildtoolbar_popup_room_medicalward		Area for your medical staff to work.
-buildtoolbar_popup_room_morgue			Where you send your dead prisoners and staff to.
-buildtoolbar_popup_room_commonroom		Allowing your prisoners some free time to relax.
+buildtoolbar_popup_room_cell            Where your prisoners live.
+buildtoolbar_popup_room_holdingcell     A room where new recruits are placed until a cell is found for them.
+buildtoolbar_popup_room_solitary        An isolated form of imprisonment for the worst of the worst.
+buildtoolbar_popup_room_canteen         Where your prisoners will take their afternoon tea.
+buildtoolbar_popup_room_kitchen         Area for cooks to prepare food for your prisoners.
+buildtoolbar_popup_room_shower          Used to keep your prisoners squeaky clean, and lice free.
+buildtoolbar_popup_room_yard            Let your prisoners see the sun for a few hours a day under the watchful eye of your sniper towers.
+buildtoolbar_popup_room_storage         Area designated to hold any materials your prison staff need.
+buildtoolbar_popup_room_deliveries      Where your goods, materials, and prisoners are dropped off.
+buildtoolbar_popup_room_garbage         Where your waste is collected from.
+buildtoolbar_popup_room_execution       Where you send your prisoners to die.
+buildtoolbar_popup_room_workshop        Where you send your prisoners to die of boredom while making you car license plates.
+buildtoolbar_popup_room_security        Offices for your Officers.
+buildtoolbar_popup_room_office          An area for your administrative staff to work.
+buildtoolbar_popup_room_medicalward     Area for your medical staff to work.
+buildtoolbar_popup_room_morgue          Where you send your dead prisoners and staff to.
+buildtoolbar_popup_room_commonroom      Allowing your prisoners some free time to relax.
 buildtoolbar_popup_room_kennel          Where your dogs live.
 buildtoolbar_popup_room_chapel          What happens when a bureaucratic committee gets together and designs a solution to inmate's religious needs? A 'Multi Faith Prayer Room', that's what. We refer to it as the Chapel.
 buildtoolbar_popup_room_paroleroom      Your prisoners will be eligible for parole after serving 50% and 75% of their terms. Their fate will be decided in this room, with the Warden and the Chief.\n\nNb Extra security is advised. Prisoners have been known to become quite upset when their parole is denied.
 buildtoolbar_popup_room_library         Your prison will be sent boxes of discarded and used books from around the country. Prisoners will need to sort those books onto the shelves.
 buildtoolbar_popup_room_intake          Where your prisoners are first taken when they arrive.
 
-buildtoolbar_popup_obj_bed				Not too soft, not too hard, just right. Well, actually, really hard and too small.
-buildtoolbar_popup_obj_toilet			A basic human right, if you believe all those crackpots.
-buildtoolbar_popup_obj_table			Goes excellently with a chair.
-buildtoolbar_popup_obj_chair			Goes brilliantly with a table.
-buildtoolbar_popup_obj_bench			For sitting on.
-buildtoolbar_popup_obj_electricchair	To deliver 2000V of justice.
-buildtoolbar_popup_obj_jaildoor			Keep your prisoners where they should be.
-buildtoolbar_popup_obj_jaildoorlarge	Keep lots of your prisoners where they should be.
-buildtoolbar_popup_obj_door				A simple door.
-buildtoolbar_popup_obj_solitarydoor		A heavyset door to stop even the strongest of prisoners from escaping.
-buildtoolbar_popup_obj_staffdoor		A locked door that can be opened by any member of staff, not just Guards.
-buildtoolbar_popup_obj_window			To glimpse the sun through.
-buildtoolbar_popup_obj_windowlarge		To glimpse lots of the sun through.
-buildtoolbar_popup_obj_tree				Taking steps against global warming is all of our responsibility.
-buildtoolbar_popup_obj_light			Ensure you can see your prisoners at all times of the day.
-buildtoolbar_popup_obj_cooker			Give your prisoners the life of luxury with hot food.
-buildtoolbar_popup_obj_fridge			Keep your food supplies from rotting.
-buildtoolbar_popup_obj_bin				Tidiness is important when it comes to contraband.
-buildtoolbar_popup_obj_sink				All employees are required to wash their hands.
-buildtoolbar_popup_obj_servingtable		Dish up food to your prisoners.
-buildtoolbar_popup_obj_showerhead		The head of a shower. For showering.
-buildtoolbar_popup_obj_bookshelf		A shelf that holds books. 
-buildtoolbar_popup_obj_officedesk		Your staff need to write things down a lot. Give them a shiny office desk to do it on.
-buildtoolbar_popup_obj_filingcabinet	Your staff need to keep the things they write ordered nicely.
-buildtoolbar_popup_obj_medicalbed		A place to hold the narcotics until your prisoners steal them.
-buildtoolbar_popup_obj_morgueslab		Ensure the dead have a respectful place to rest before moving.
-buildtoolbar_popup_obj_drain			Remove water from the floor.
-buildtoolbar_popup_obj_sprinkler		Automatically sprays the area with water in the event of a fire.
-buildtoolbar_popup_obj_metaldetector	Find contraband on your prisoners that pass through these. Will require a guard to be nearby to take the contraband.
-buildtoolbar_popup_obj_weightsbench		Allow your prisoners to exercise, which keeps them happy.
-buildtoolbar_popup_obj_phonebooth		Prisoners might want to talk to their family, and these handy phonebooths let them.
-buildtoolbar_popup_obj_tv				Pacify your prisoners with mind-numbing mediocrity.
-buildtoolbar_popup_obj_largetv			Allow lots of your prisoners to share the experience of brain rot.
-buildtoolbar_popup_obj_pooltable		Remove the monotony of prison life with a game of pool. 
-buildtoolbar_popup_obj_dismantleobject	Remove an object from your prison.
+buildtoolbar_popup_obj_bed              Not too soft, not too hard, just right. Well, actually, really hard and too small.
+buildtoolbar_popup_obj_toilet           A basic human right, if you believe all those crackpots.
+buildtoolbar_popup_obj_table            Goes excellently with a chair.
+buildtoolbar_popup_obj_chair            Goes brilliantly with a table.
+buildtoolbar_popup_obj_bench            For sitting on.
+buildtoolbar_popup_obj_electricchair    To deliver 2000V of justice.
+buildtoolbar_popup_obj_jaildoor         Keep your prisoners where they should be.
+buildtoolbar_popup_obj_jaildoorlarge    Keep lots of your prisoners where they should be.
+buildtoolbar_popup_obj_door             A simple door.
+buildtoolbar_popup_obj_solitarydoor     A heavyset door to stop even the strongest of prisoners from escaping.
+buildtoolbar_popup_obj_staffdoor        A locked door that can be opened by any member of staff, not just Guards.
+buildtoolbar_popup_obj_window           To glimpse the sun through.
+buildtoolbar_popup_obj_windowlarge      To glimpse lots of the sun through.
+buildtoolbar_popup_obj_tree             Taking steps against global warming is all of our responsibility.
+buildtoolbar_popup_obj_light            Ensure you can see your prisoners at all times of the day.
+buildtoolbar_popup_obj_cooker           Give your prisoners the life of luxury with hot food.
+buildtoolbar_popup_obj_fridge           Keep your food supplies from rotting.
+buildtoolbar_popup_obj_bin              Tidiness is important when it comes to contraband.
+buildtoolbar_popup_obj_sink             All employees are required to wash their hands.
+buildtoolbar_popup_obj_servingtable     Dish up food to your prisoners.
+buildtoolbar_popup_obj_showerhead       The head of a shower. For showering.
+buildtoolbar_popup_obj_bookshelf        A shelf that holds books. 
+buildtoolbar_popup_obj_officedesk       Your staff need to write things down a lot. Give them a shiny office desk to do it on.
+buildtoolbar_popup_obj_filingcabinet    Your staff need to keep the things they write ordered nicely.
+buildtoolbar_popup_obj_medicalbed       A place to hold the narcotics until your prisoners steal them.
+buildtoolbar_popup_obj_morgueslab       Ensure the dead have a respectful place to rest before moving.
+buildtoolbar_popup_obj_drain            Remove water from the floor.
+buildtoolbar_popup_obj_sprinkler        Automatically sprays the area with water in the event of a fire.
+buildtoolbar_popup_obj_metaldetector    Find contraband on your prisoners that pass through these. Will require a guard to be nearby to take the contraband.
+buildtoolbar_popup_obj_weightsbench     Allow your prisoners to exercise, which keeps them happy.
+buildtoolbar_popup_obj_phonebooth       Prisoners might want to talk to their family, and these handy phonebooths let them.
+buildtoolbar_popup_obj_tv               Pacify your prisoners with mind-numbing mediocrity.
+buildtoolbar_popup_obj_largetv          Allow lots of your prisoners to share the experience of brain rot.
+buildtoolbar_popup_obj_pooltable        Remove the monotony of prison life with a game of pool. 
+buildtoolbar_popup_obj_dismantleobject  Remove an object from your prison.
 buildtoolbar_popup_obj_altar            Relays your prayers directly to your higher power of choice.
 buildtoolbar_popup_obj_pews             Seats for the faithful. Made from the hardest, most unpadded of woods.
 buildtoolbar_popup_obj_prayermat        Protect your prisoners from the dirty floor while they offer their prayers. 
 
-buildtoolbar_popup_staff_workman		Will build your prison for you, based on the plans you provide them.
-buildtoolbar_popup_staff_guard			Used to keep your prisoners in check and out of trouble.
+buildtoolbar_popup_staff_workman        Will build your prison for you, based on the plans you provide them.
+buildtoolbar_popup_staff_guard          Used to keep your prisoners in check and out of trouble.
 buildtoolbar_popup_staff_armedguard     Armed with a shotgun, prisoners will think twice before attacking this fellow.\n\nNote: Each armed guard requires his own locker in the Armoury.
-buildtoolbar_popup_staff_doctor			Automatically heals all nearby injured people, whether they are guards or prisoners.
-buildtoolbar_popup_staff_cook			Feeds your prisoners with the meals they prepare.
-buildtoolbar_popup_staff_gardener		Keeps your prison grounds nice and tidy.
-buildtoolbar_popup_staff_janitor		Keeps the inside of your prison nice and tidy. Can also help with the prison laundry.
-buildtoolbar_popup_staff_warden			The grand overseer of your prison. Required before you can research and hire advanced staff members.
-buildtoolbar_popup_staff_chief			An advanced staff member that gives access to the deployment, CCTV, and riot guards research items.
-buildtoolbar_popup_staff_foreman		An advanced staff member that allows you to gain access to Janitors and Gardeners.
-buildtoolbar_popup_staff_psychologist	An advanced staff member that allows you to gain an insight in to the minds of your prisoners. 
-buildtoolbar_popup_staff_accountant		An advanced staff member that gives access to your financial reports.
-buildtoolbar_popup_staff_lawyer			An advanced staff member that helps you bend some of the rules for greater control over your prison.
+buildtoolbar_popup_staff_doctor         Automatically heals all nearby injured people, whether they are guards or prisoners.
+buildtoolbar_popup_staff_cook           Feeds your prisoners with the meals they prepare.
+buildtoolbar_popup_staff_gardener       Keeps your prison grounds nice and tidy.
+buildtoolbar_popup_staff_janitor        Keeps the inside of your prison nice and tidy. Can also help with the prison laundry.
+buildtoolbar_popup_staff_warden         The grand overseer of your prison. Required before you can research and hire advanced staff members.
+buildtoolbar_popup_staff_chief          An advanced staff member that gives access to the deployment, CCTV, and riot guards research items.
+buildtoolbar_popup_staff_foreman        An advanced staff member that allows you to gain access to Janitors and Gardeners.
+buildtoolbar_popup_staff_psychologist   An advanced staff member that allows you to gain an insight in to the minds of your prisoners. 
+buildtoolbar_popup_staff_accountant     An advanced staff member that gives access to your financial reports.
+buildtoolbar_popup_staff_lawyer         An advanced staff member that helps you bend some of the rules for greater control over your prison.
 
-buildtoolbar_popup_uts_powerstation		Generates electricity to be used in your prison.
-buildtoolbar_popup_uts_capacitor		Increases the amount of electricity generated when placed next to a power station.
-buildtoolbar_popup_uts_electricalcable	Distributes electricity around your prison.
-buildtoolbar_popup_uts_powerswitch		Toggles the availability of electricity to any cable connected to it.\n\nRight click to toggle on/off state.
-buildtoolbar_popup_uts_waterpumpstation	Provides a source of water to your prison.
-buildtoolbar_popup_uts_pipevalve		Toggles the availability of water to any pipe connected to it.
-buildtoolbar_popup_uts_pipelarge		Distributes a large amount of water around your prison. Probably big enough for someone to crawl to freedom through five hundred yards of shit smelling foulness.
-buildtoolbar_popup_uts_pipesmall		Distributes water around your prison.
-buildtoolbar_popup_uts_cctv				Keep an eye on your prison without the need for guards to be everywhere at once.\n\nYou must Connect a CCTV Monitor to this camera for it to work.
-buildtoolbar_popup_uts_cctvmonitor		Designed to be built in a Security Room, and operated by a Guard. Monitors the CCTV cameras around your prison remotely.\n\nUse the Connect tool to connect this monitor to your CCTV cameras.\n\nNote: A maximum of eight cameras can be viewed at once. If you connect more than eight cameras, the monitor will cycle through them gradually, giving only partial coverage.
+buildtoolbar_popup_uts_powerstation     Generates electricity to be used in your prison.
+buildtoolbar_popup_uts_capacitor        Increases the amount of electricity generated when placed next to a power station.
+buildtoolbar_popup_uts_electricalcable  Distributes electricity around your prison.
+buildtoolbar_popup_uts_powerswitch      Toggles the availability of electricity to any cable connected to it.\n\nRight click to toggle on/off state.
+buildtoolbar_popup_uts_waterpumpstation Provides a source of water to your prison.
+buildtoolbar_popup_uts_pipevalve        Toggles the availability of water to any pipe connected to it.
+buildtoolbar_popup_uts_pipelarge        Distributes a large amount of water around your prison. Probably big enough for someone to crawl to freedom through five hundred yards of shit smelling foulness.
+buildtoolbar_popup_uts_pipesmall        Distributes water around your prison.
+buildtoolbar_popup_uts_cctv             Keep an eye on your prison without the need for guards to be everywhere at once.\n\nYou must Connect a CCTV Monitor to this camera for it to work.
+buildtoolbar_popup_uts_cctvmonitor      Designed to be built in a Security Room, and operated by a Guard. Monitors the CCTV cameras around your prison remotely.\n\nUse the Connect tool to connect this monitor to your CCTV cameras.\n\nNote: A maximum of eight cameras can be viewed at once. If you connect more than eight cameras, the monitor will cycle through them gradually, giving only partial coverage.
 buildtoolbar_popup_uts_DoorControlSystem  Designed to be built in a Security Room, and operated by a Guard. Can be used to remotely open doors around your prison.\n\nUse the Connect tool to connect this system to your Door Servos. The Door Servos should be built over the doors you wish to control remotely.\n\nNote: You can connect this to as many Servos as you wish, however the Guard operating the system can open a maximum of two doors per second.
 buildtoolbar_popup_uts_phonemonitor     Designed to be built in a Security Room and operated by a Guard. Allows you to monitor all outgoing phone calls made by inmates, giving you vital insights into planned illegal activity.\n\nUse the Connect tool to connect this system to your Phone Booths.
 buildtoolbar_popup_uts_Servo            Place a servo over a door you wish to control remotely. Ensure the motor gear is directly above the door.\n\nOnce installed, the door will be opened when the Servo itself is triggered - typically by a Door Control System, or a Door Timer.\n\nServos can be chained together, so that when the first one opens it will trigger the later ones.
@@ -513,9 +513,9 @@ buildtoolbar_popup_uts_LogicCircuit     Advanced architects only.\n\nA simple ci
 buildtoolbar_popup_uts_LogicBridge      Advanced architects only.\n\nTakes its incoming signal, and bridges it onto Electrical Cable installed in the same square. That Electrical cable will carry the signal to any other Logic Circuits installed on the same Electrical Cable.\n\nCan be used to 'broadcast' a common signal all around your prison, eg Useful to pass around a common Clock signal.
 buildtoolbar_popup_uts_DoorTimer        Can be used to automatically open doors at certain times of day.\n\nUse the Connect tool to connect this timer to your Door Servos.
 buildtoolbar_popup_uts_Wire             Connect your remote access systems together.
-buildtoolbar_popup_uts_showallwires		Show every connected wire in your prison.
+buildtoolbar_popup_uts_showallwires     Show every connected wire in your prison.
 buildtoolbar_popup_uts_remotedoor       A strong metal door that cannot be opened with a key (Can only be opened remotely). Use this to prevent mass escape events when a prisoner has Jail Keys.
-buildtoolbar_popup_uts_dismantleutility	Remove a utility object from your prison.
+buildtoolbar_popup_uts_dismantleutility Remove a utility object from your prison.
 buildtoolbar_popup_uts_pressurepad      Sends a signal to connected objects whenever something is on top of the pad.
 buildtoolbar_popup_uts_statuslight      Lights up either red or green, depending on the signal it is receiving. 
 
@@ -585,7 +585,7 @@ codex_cutscenes                         Cutscenes
 codex_qualifications                    Qualifications
 codex_load                              Load Prison
 codex_save                              Save Prison
-codex_performance						Performance Test
+codex_performance                       Performance Test
 codex_developer_load                    (Developer) Load Map
 codex_developer_save                    (Developer) Save Map
 codex_contacts                          Contacts
@@ -596,9 +596,9 @@ codex_introduction                      Introduction
 codex_restartintroduction               Restart Introduction
 codex_help                              Help (wiki)
 codex_opensavefolder                    Open Save Folder
-codex_options							Options
-codex_nitgs								Names in the Game
-codex_workshop							Prison Sharing
+codex_options                           Options
+codex_nitgs                             Names in the Game
+codex_workshop                          Prison Sharing
 codex_checkforupdates                   Check for updates
 codex_preorder                          Pre-order Now
 codex_termsconditions                   Terms and Conditions
@@ -612,36 +612,36 @@ codex_new_small                         Small
 codex_new_medium                        Medium
 codex_new_large                         Large
 
-codex_options_graphics					Graphics
-codex_options_resolution				Resolution
-codex_options_resolutionauto			Auto
-codex_options_windowed					Windowed
-codex_options_highdpi					High DPI
-codex_options_filtering					Filtering
-codex_options_nofiltering				Off
-codex_options_multisampled				Multisampled
-codex_options_supersampled				Supersampled
+codex_options_graphics                  Graphics
+codex_options_resolution                Resolution
+codex_options_resolutionauto            Auto
+codex_options_windowed                  Windowed
+codex_options_highdpi                   High DPI
+codex_options_filtering                 Filtering
+codex_options_nofiltering               Off
+codex_options_multisampled              Multisampled
+codex_options_supersampled              Supersampled
 
-codex_options_audio						Audio
-codex_options_volume					Master Volume
-codex_options_frequency					Mix Frequency
-codex_options_swapstero					Swap Stereo
-codex_options_dspenabled				Enable DSP
-codex_options_11khz						11025 Hz
-codex_options_22khz						22050 Hz
-codex_options_44khz						44100 Hz
+codex_options_audio                     Audio
+codex_options_volume                    Master Volume
+codex_options_frequency                 Mix Frequency
+codex_options_swapstero                 Swap Stereo
+codex_options_dspenabled                Enable DSP
+codex_options_11khz                     11025 Hz
+codex_options_22khz                     22050 Hz
+codex_options_44khz                     44100 Hz
 
 codex_options_clocktype                 Clock Type
 codex_options_clocktype_analogue        Analogue
 codex_options_clocktype_12h             12 Hour
 codex_options_clocktype_24h             24 Hour
 
-codex_options_gameplay					Game
-codex_options_autosave					Autosave Timer
-codex_options_renderrooms				Room Checkerbox
-codex_options_apply						Apply
+codex_options_gameplay                  Game
+codex_options_autosave                  Autosave Timer
+codex_options_renderrooms               Room Checkerbox
+codex_options_apply                     Apply
 
-codex_options_language					Language
+codex_options_language                  Language
 
 codex_enabled                           Enabled
 codex_disabled                          Disabled
@@ -666,53 +666,53 @@ codex_tooltip_gangs                     Some prisoners will arrive with gang all
 codex_option_funds                      Funds
 codex_tooltip_funds                     You will start with this much money in your bank account. Sell your established prisons from the Valuation screen to start with more funds.
 
-codex_transfer							Transfer
-codex_transferring						Transferring
-codex_in_prison							Currently Incarcerated
+codex_transfer                          Transfer
+codex_transferring                      Transferring
+codex_in_prison                         Currently Incarcerated
 codex_useravatar                        This is me
 codex_tooltip_useravatar                Mark this prisoner as your own entry. If you should somehow end up in prison yourself, this is the prisoner that will represent you.
 codex_tooltip_flagbio                   Report this bio as objectionable or offensive.
 
-codex_workshop_current					Current Prison
-codex_workshop_publish					Publish this prison
-codex_workshop_update					Update
-codex_workshop_play						Play
-codex_workshop_downloading				Downloading
-codex_workshop_download_failed			Download Failed
-codex_workshop_publishing				Publishing...
-codex_workshop_new						NEW
-codex_workshop_title					Title
-codex_workshop_desc						Description
-codex_workshop_view_in_workshop			View in Steam Workshop
-codex_workshop_heading_pubed			Your published prisons
-codex_workshop_heading_subed			Subscribed prisons
-codex_workshop_published_by				Published by *P
-codex_workshop_published_by_you			Published by you
-codex_workshop_published_good			Prison Published
-codex_workshop_published_good_msg		Your prison has been published successfully.
-codex_workshop_published_bad			Failed To Publish Prison
-codex_workshop_published_bad_msg		Your prison failed to publish.
-codex_workshop_published_bad_msg_new	Your new prison has failed to publish. Please try again.
-codex_workshop_busy						Some magic is already happening with Steam. Please wait for that to finish first, then try again.
-codex_workshop_file_exists				You've already published a prison with this name. Please pick a different name.
-codex_workshop_generic_fail				Failed to publish your prison. Please try again.
-codex_workshop_download_bad				Failed To Download Prison
-codex_workshop_pa_workshop				Open Prison Architect Workshop
-codex_workshop_agreement				By submitting this item, you agree to the [url=http://steamcommunity.com/sharedfiles/workshoplegalagreement]workshop terms of service[/url].
+codex_workshop_current                  Current Prison
+codex_workshop_publish                  Publish this prison
+codex_workshop_update                   Update
+codex_workshop_play                     Play
+codex_workshop_downloading              Downloading
+codex_workshop_download_failed          Download Failed
+codex_workshop_publishing               Publishing...
+codex_workshop_new                      NEW
+codex_workshop_title                    Title
+codex_workshop_desc                     Description
+codex_workshop_view_in_workshop         View in Steam Workshop
+codex_workshop_heading_pubed            Your published prisons
+codex_workshop_heading_subed            Subscribed prisons
+codex_workshop_published_by             Published by *P
+codex_workshop_published_by_you         Published by you
+codex_workshop_published_good           Prison Published
+codex_workshop_published_good_msg       Your prison has been published successfully.
+codex_workshop_published_bad            Failed To Publish Prison
+codex_workshop_published_bad_msg        Your prison failed to publish.
+codex_workshop_published_bad_msg_new    Your new prison has failed to publish. Please try again.
+codex_workshop_busy                     Some magic is already happening with Steam. Please wait for that to finish first, then try again.
+codex_workshop_file_exists              You've already published a prison with this name. Please pick a different name.
+codex_workshop_generic_fail             Failed to publish your prison. Please try again.
+codex_workshop_download_bad             Failed To Download Prison
+codex_workshop_pa_workshop              Open Prison Architect Workshop
+codex_workshop_agreement                By submitting this item, you agree to the [url=http://steamcommunity.com/sharedfiles/workshoplegalagreement]workshop terms of service[/url].
 
-codex_options_timelapse					Time Lapse
-codex_timelapse_record					Record Time Lapse
-codex_timelapse_stop					Stop Time Lapse
-codex_timelapse_camera					Camera Mode
-codex_timelapse_resolution				Resolution
-codex_timelapse_customresw				Custom Res Width
-codex_timelapse_customresh				Custom Res Height
-codex_timelapse_resolution				Resolution
-codex_timelapse_fps						Playback Rate
-codex_timelapse_interval				Capture Interval
-codex_timelapse_quality					Quality
-codex_timelapse_unsupported				This feature is unavailable on your hardware.
-codex_timelapse_savesettings			Save Settings
+codex_options_timelapse                 Time Lapse
+codex_timelapse_record                  Record Time Lapse
+codex_timelapse_stop                    Stop Time Lapse
+codex_timelapse_camera                  Camera Mode
+codex_timelapse_resolution              Resolution
+codex_timelapse_customresw              Custom Res Width
+codex_timelapse_customresh              Custom Res Height
+codex_timelapse_resolution              Resolution
+codex_timelapse_fps                     Playback Rate
+codex_timelapse_interval                Capture Interval
+codex_timelapse_quality                 Quality
+codex_timelapse_unsupported             This feature is unavailable on your hardware.
+codex_timelapse_savesettings            Save Settings
 
 codex_timelapse_cam_zoom                Zoom Camera
 codex_timelapse_cam_fitmap              Fit Map
@@ -724,48 +724,48 @@ codex_timelapse_quality_med             Medium
 codex_timelapse_quality_low             Low
 codex_timelapse_interval_value          *X Game Minutes
 
-codex_performance_running				Performance Test Running
-codex_performance_time					Time Left: *Ts
-codex_performance_current				Current Frame Time: *Tms
-codex_performance_min					Min Frame Time: *Tms
-codex_performance_avg					Average Frame Time: *Tms
-codex_performance_max					Max Frame Time: *Tms
-codex_performance_numframes				Num Frames: *T
+codex_performance_running               Performance Test Running
+codex_performance_time                  Time Left: *Ts
+codex_performance_current               Current Frame Time: *Tms
+codex_performance_min                   Min Frame Time: *Tms
+codex_performance_avg                   Average Frame Time: *Tms
+codex_performance_max                   Max Frame Time: *Tms
+codex_performance_numframes             Num Frames: *T
 
-codex_last_modified						Last Modified: *T
-codex_sortbydesc						Sort By Date
-codex_sortname							Name
-codex_sortdate							Date
-codex_apply								Apply
+codex_last_modified                     Last Modified: *T
+codex_sortbydesc                        Sort By Date
+codex_sortname                          Name
+codex_sortdate                          Date
+codex_apply                             Apply
 codex_select                            Select
 
-codex_mods								Mods
-codex_mod_activetitle					Active Mods
-codex_mod_inactivetitle					Available Mods
-codex_mod_deactivate					Deactivate all mods
-codex_mod_wiki							Find more mods (Wiki)
-codex_mod_openmodsfolder				Open Mods Folder
-codex_mod_moresteammods					Find more mods (Steam Workshop)
+codex_mods                              Mods
+codex_mod_activetitle                   Active Mods
+codex_mod_inactivetitle                 Available Mods
+codex_mod_deactivate                    Deactivate all mods
+codex_mod_wiki                          Find more mods (Wiki)
+codex_mod_openmodsfolder                Open Mods Folder
+codex_mod_moresteammods                 Find more mods (Steam Workshop)
 codex_mod_findsteamtranslations         Find more translations (Steam Workshop)
 codex_authortitle                       Author
 codex_versiontitle                      Version
 codex_datetitle                         Date
 codex_urltitle                          URL
-codex_typetitle							Type
-codex_mod_graphicsandsound				Graphics and Sounds
-codex_mod_translation					Translation
-codex_mod_scenario						Scenario
-codex_mod_content						Content
-codex_mod_load_scenario					Play Scenario
-codex_publishmod						Publish This Mod
+codex_typetitle                         Type
+codex_mod_graphicsandsound              Graphics and Sounds
+codex_mod_translation                   Translation
+codex_mod_scenario                      Scenario
+codex_mod_content                       Content
+codex_mod_load_scenario                 Play Scenario
+codex_publishmod                        Publish This Mod
 
-codex_mod_update						Update This Mod
-codex_mod_published_good				Mod Published
-codex_mod_published_good_msg			Your mod has been published successfully.
-codex_mod_published_bad					Failed To Publish Mod
-codex_mod_published_bad_msg				Your mod failed to publish.
-codex_mod_modsupdated					Mods Updated
-codex_mod_modsupdated_msg				Some of your active mods have been updated. Click OK to apply the new changes. Your game will be autosaved.
+codex_mod_update                        Update This Mod
+codex_mod_published_good                Mod Published
+codex_mod_published_good_msg            Your mod has been published successfully.
+codex_mod_published_bad                 Failed To Publish Mod
+codex_mod_published_bad_msg             Your mod failed to publish.
+codex_mod_modsupdated                   Mods Updated
+codex_mod_modsupdated_msg               Some of your active mods have been updated. Click OK to apply the new changes. Your game will be autosaved.
 codex_mod_translationcaption            Is this a translation to another language?
 
 codex_language                          Language
@@ -783,10 +783,10 @@ codex_save_confirm                      Are you sure you wish to overwrite *X wi
 # Graphics Change Confirmation
 # =============================================================================
 
-graphicschange_message					Do you wish to keep these graphics options? These changes will revert in
-graphicschange_time						seconds.
-graphicschange_accept					Accept
-graphicschange_revert					Revert
+graphicschange_message                  Do you wish to keep these graphics options? These changes will revert in
+graphicschange_time                     seconds.
+graphicschange_accept                   Accept
+graphicschange_revert                   Revert
 
 # =============================================================================
 # Script
@@ -834,25 +834,25 @@ biography_prisoner_priors               Priors:
 # Rap Sheet
 # =============================================================================
 
-rapsheet_age							Age:
-rapsheet_category						Category:
-rapsheet_traits							Known Traits:
-rapsheet_conviction_text				*C - *Y years
-rapsheet_found_text						(Plea: *P)
-rapsheet_convictions					Convictions
-rapsheet_misconductstitle				Recent Misconduct
+rapsheet_age                            Age:
+rapsheet_category                       Category:
+rapsheet_traits                         Known Traits:
+rapsheet_conviction_text                *C - *Y years
+rapsheet_found_text                     (Plea: *P)
+rapsheet_convictions                    Convictions
+rapsheet_misconductstitle               Recent Misconduct
 rapsheet_biography                      Biography
-rapsheet_guilty							Guilty
-rapsheet_notguilty						Not guilty
-rapsheet_served							Served
-rapsheet_served_time					Served *Y years
-rapsheet_time							*Y years
-rapsheet_bio							Sentenced to *Y years for *A.
-rapsheet_bio_med						Sentenced to *Y years for multiple crimes including *A, and *B.
-rapsheet_bio_long						Sentenced to *Y years for multiple crimes including *A, *B, and *C.
-rapsheet_category_minsec				Minimum Security
-rapsheet_category_normal				Normal Security
-rapsheet_category_maxsec				Maximum Security
+rapsheet_guilty                         Guilty
+rapsheet_notguilty                      Not guilty
+rapsheet_served                         Served
+rapsheet_served_time                    Served *Y years
+rapsheet_time                           *Y years
+rapsheet_bio                            Sentenced to *Y years for *A.
+rapsheet_bio_med                        Sentenced to *Y years for multiple crimes including *A, and *B.
+rapsheet_bio_long                       Sentenced to *Y years for multiple crimes including *A, *B, and *C.
+rapsheet_category_minsec                Minimum Security
+rapsheet_category_normal                Normal Security
+rapsheet_category_maxsec                Maximum Security
 rapsheet_category_protected             Protective Custody
 rapsheet_category_supermax              SuperMax
 rapsheet_category_deathrow              Death Row
@@ -1032,14 +1032,14 @@ research_missingadministrator           REQUIRED:
 roomrequirement_required                REQUIRED:
 roomrequirement_recommended             Recommended: 
 roomrequirement_minimumsize             Minimum Size *W x *H
-roomrequirement_minimumsize_short	Size *W x *H
+roomrequirement_minimumsize_short   Size *W x *H
 roomrequirement_indoor                  Indoors
 roomrequirement_outdoor                 Outdoor
 roomrequirement_solidground             Solid Ground
 roomrequirement_secure                  Secure (behind at least one Door)
-roomrequirement_secure_short		Secure
+roomrequirement_secure_short        Secure
 roomrequirement_enclosed                Enclosed (surrounded by walls and doors)
-roomrequirement_enclosed_short		Enclosed
+roomrequirement_enclosed_short      Enclosed
 requirement_entrance                    Requires Entrance
 roomrequirement_title                   =[Room Requirements]=
 roomrequirement_passed                  [PASSED] 
@@ -1243,7 +1243,7 @@ job_escortprisoner                      Escort Prisoner to *X
 job_punishprisoner                      Process Prisoner
 job_searchobject                        Search *X 
 job_searchentity                        Search Prisoner
-job_searchingentity						Searching Prisoner
+job_searchingentity                     Searching Prisoner
 job_searchcell                          Search Cell
 job_searchcellblock                     Search Cell Block
 job_improvecellindoor                   Clean indoor area
@@ -1486,13 +1486,13 @@ action_getbook                          Get Book
 action_pray                             Praying
 action_shopping                         Shopping
 
-status_effect_title						=[Status Effects]=
-status_effect_none						None
-status_effect_suppressed				Suppressed
-status_effect_goodfood					Well Fed
-status_effect_drunk						Drunk
+status_effect_title                     =[Status Effects]=
+status_effect_none                      None
+status_effect_suppressed                Suppressed
+status_effect_goodfood                  Well Fed
+status_effect_drunk                     Drunk
 status_effect_high                      High
-status_effect_withdrawal				Withdrawal
+status_effect_withdrawal                Withdrawal
 status_effect_tazed                     Tazed
 status_effect_overdosed                 Overdosed
 status_effect_surrendered               Surrendered
@@ -1627,7 +1627,7 @@ objective_intake_arrivals               *X prisoners arriving 8am
 objective_intake_closed                 Your prison is closed to new inmates
 objective_intake_closed2                (See the Prisoner's Report)
 objective_intake_closed3                (See the Intake Report)
-objective_intake_specials				Special Transfers:
+objective_intake_specials               Special Transfers:
 objective_intake_categories             Categories: 
 objective_intake_minsec                 Min, 
 objective_intake_medsec                 Normal, 
@@ -2431,7 +2431,7 @@ roomgrading_unoccupied                  Unoccupied
 # Campaign info
 # =============================================================================
 
-campaignchapter_chapternumber			Chapter *C
+campaignchapter_chapternumber           Chapter *C
 
 
 # =============================================================================
