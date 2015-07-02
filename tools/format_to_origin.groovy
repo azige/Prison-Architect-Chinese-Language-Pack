@@ -27,11 +27,14 @@ origin.eachLine{
         return
     }
     
-    def kv = str.split(/\s+/, 2)
-    if (map[kv[0]]){
-        sb << String.format('%-40s', kv[0]) << map[kv[0]] << '\n'
+	def matcher = str =~ /(\w+)(\s+)(.+)/
+	def key = matcher[0][1]
+	def space = matcher[0][2]
+	def value = matcher[0][3]
+    if (map[key]){
+        sb << key << space << map[key] << '\n'
     }else{
-        sb << String.format('%-40s', kv[0]) << '[TODO]' << kv[1] << '\n'
+        sb << key << space << '[TODO]' << value << '\n'
     }
 }
 
