@@ -1044,7 +1044,7 @@ requirement_entrance                    需要入口
 roomrequirement_title                   =[房间需求]=
 roomrequirement_passed                  [满足]
 roomrequirement_failed                  [不满足]
-roomrequirement_adjacentobject          相邻于房子:
+roomrequirement_adjacentobject          相邻于房子: 
 
 # =============================================================================
 # Unlocks
@@ -2117,7 +2117,7 @@ equipment_rifle                         步枪
 equipment_dogleash                      狗绳
 equipment_assaultrifle                  突击步枪
 equipment_woodenpickaxe                 木质镐头
-equipment_cbradio                       收音机
+equipment_cbradio                       对讲机
 
 research_requires_short                 需要一个 *X
 
