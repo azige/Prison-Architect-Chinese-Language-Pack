@@ -1943,8 +1943,8 @@ object_tv                                电视
 object_largetv                           大型电视
 object_pooltable                         台球桌
 object_polaroid                          拍立得
-object_cctv                              监控系统
-object_cctvmonitor                       闭路电视监控
+object_cctv                              监控摄像头
+object_cctvmonitor                       闭路电视监控器
 object_laundrymachine                    洗衣机
 object_laundrybasket                     洗衣篮
 object_ironingboard                      熨衣板
@@ -1958,7 +1958,7 @@ object_sofachairsingle                   沙发
 object_sofachairdouble                   宽沙发
 object_drinkmachine                      饮水机
 object_arcadecabinet                     过道箱
-object_radio                             无线电
+object_radio                             收音机
 object_bookshelflarge                    图书馆书架
 object_weaponrack                        武器架
 object_treestump                         树桩
