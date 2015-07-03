@@ -209,7 +209,7 @@ interfacecontraband_source                      危险
 interfacecontraband_day                         -24小时
 interfacecontraband_week                        -7天
 interfacecontraband_alltime                     -30天
-interfacecontraband_informants                  告密者
+interfacecontraband_informants                  线人
 interfacecontraband_gangs                       帮派
 
 interfaceclone_copy                             复制
@@ -236,7 +236,7 @@ interfacetopbar_tooltip_cctv                    目前拥有的监控摄像头�
 interfacetopbar_tooltip_day                     经营监狱的时间。
 interfacetopbar_tooltip_prisoners               目前拥有的监狱数量以及可容纳犯人数。
 interfacetopbar_tooltip_guards                  监狱中空闲的警卫数量
-interfacetopbar_tooltip_tension                 看守长报告的监狱整体风险等级。
+interfacetopbar_tooltip_tension                 保安主管报告的监狱整体风险等级。
 
 interfacetopbar_tooltip_recenttransactions      最近的交易记录
 
@@ -335,7 +335,7 @@ interface_skip                                  跳过
 
 interface_foundationsinprogress                 地基建设中
 riot_underway                                   发生暴动
-riot_status_prisoners                           *X 名囚犯发生暴动
+riot_status_prisoners                           *X 名囚犯正在暴动
 shakedown_underway                              搜查进行中
 shakedown_found                                 查获：
 
@@ -669,7 +669,7 @@ codex_tooltip_funds                     你携带此数额的银行存款开始�
 codex_transfer                          移送
 codex_transferring                      移送中
 codex_in_prison                         监闭中
-codex_useravatar                        我自己
+codex_useravatar                        标为我自己
 codex_tooltip_useravatar                把这个囚犯标记为你自己。如果你最后不知怎么的入狱了，这个囚犯就是你的写照。
 codex_tooltip_flagbio                   举报此人物传记包含争议内容。
 
@@ -708,7 +708,7 @@ codex_timelapse_resolution              分辨率
 codex_timelapse_customresw              定制分辨率宽度
 codex_timelapse_customresh              定制分辨率高度
 codex_timelapse_resolution              分辨率
-codex_timelapse_fps                     播放速率
+codex_timelapse_fps                     帧率
 codex_timelapse_interval                拍摄间隔
 codex_timelapse_quality                 质量
 codex_timelapse_unsupported             你的硬件无法使用该功能。
@@ -799,7 +799,7 @@ scriptdebugger_title                    脚本调试工具（F3）
 # =============================================================================
 
 modnotification_title                   出现模组变动
-modnotification_info                    当前监狱被保存时正在使用以下模组。强烈建议在开始游戏前下载并激活这些模组。
+modnotification_info                    当前监狱被保存时正在使用以下模组。\n强烈建议在开始游戏前下载并激活这些模组。
 modnotification_playnow                 开始游戏
 modnotification_active                  启用
 modnotification_inactive                禁用
@@ -824,8 +824,8 @@ biography_prisoner_age                  年龄：*X
 biography_prisoner_traits               特徵:
 biography_prisoner_convicted            被控 *C（辩护 *P）
 biography_prisoner_sentenced            被判 *X 年刑期
-biography_parole_now                    已可申请保释
-biography_parole_later                  可于 *X 年后申请保释
+biography_parole_now                    现在有资格申请假释
+biography_parole_later                  可于 *X 年后申请假释
 biography_prisoner_served               已服刑 *X 年
 biography_prisoner_priors               前科：
 
@@ -878,7 +878,7 @@ rapsheet_reform_failed                  失败
 rapsheet_reform_failcount               失败 *X 次
 
 rapsheet_grading_punishment             惩罚
-rapsheet_grading_health                 医疗
+rapsheet_grading_health                 健康
 rapsheet_grading_security               安全
 rapsheet_grading_reform                 改造
 rapsheet_grading_points                 *X 分 :
@@ -920,7 +920,7 @@ misconduct_reporttype_contrabandweapons     搜出武器
 misconduct_reporttype_contrabandtools       搜出工具
 misconduct_reporttype_contrabandnarcotics   搜出毒品
 misconduct_reporttype_contrabandluxuries    搜出奢侈品
-misconduct_reporttype_intoxicated           中毒
+misconduct_reporttype_intoxicated           瘾症发作
 misconduct_title                            =[违规]=
 
 misconduct_report_addiction                 对 *X 上瘾
@@ -939,8 +939,8 @@ research_approved                       批准
 research_cost                           费用: *X
 research_costperitem                    + *X /件。
 research_timetounlock                   解锁时间: *X小时
-research_movementpenalty                移动处罚: *X%
-research_protectionbonus                保护: *X%
+research_movementpenalty                移动速度降低: *X%
+research_protectionbonus                防护提升: *X%
 research_tap_to_authorise               点此授权
 
 research_none                           无
@@ -1311,7 +1311,7 @@ victory_failure                         失败
 victory_warning                         警告
 victory_remaining                       余下的
 victory_death                           死亡
-victory_escapes                         逃逸
+victory_escapes                         越狱
 victory_counter                         (*X今天)
 victory_executions                      不合法的处决
 victory_innocentsexecuted               处决了无辜的囚犯
@@ -1324,7 +1324,7 @@ victory_warning_toomanyescapes          如果今天有更多犯人越狱，你�
 victory_prisoners_units                 放置
 victory_prisonersreleased_units         释放
 victory_toomanydeaths_units             死亡
-victory_toomanyescapes_units            逃逸
+victory_toomanyescapes_units            越狱
 victory_prisonersparoled                犯人被假释
 victory_prisonersreoffended             再犯
 
@@ -1416,9 +1416,9 @@ contraband_supplyanddemand              补给与需求
 contraband_narcotics                    麻醉剂
 contraband_weapons                      武器
 contraband_tools                        工具
-contraband_luxuries                     奢侈享受
+contraband_luxuries                     奢侈品
 contraband_metal                        金属
-contraband_smelly                       气味难闻
+contraband_smelly                       气味强烈
 contraband_rangedweapon                 远程武器
 contraband_improvised                   临时性的
 
@@ -1434,15 +1434,15 @@ contraband_log_dog                      警犬
 contraband_log_found                    找到
 contraband_log_owner                    主人
 
-schedule_zone_shared                    共享
-schedule_zone_minseconly                低级安保
-schedule_zone_medseconly                中级安保
-schedule_zone_maxseconly                高级安保
-schedule_zone_protectedonly             保护性拘留
-schedule_zone_supermaxonly              最大
-schedule_zone_deathrowonly              死囚
-schedule_zone_staffonly                 员工通道
-schedule_zone_unlocked                  已解锁
+schedule_zone_shared                    共享区
+schedule_zone_minseconly                低级安保区
+schedule_zone_medseconly                中级安保区
+schedule_zone_maxseconly                高级安保区
+schedule_zone_protectedonly             保护性拘留区
+schedule_zone_supermaxonly              最大区
+schedule_zone_deathrowonly              死囚区
+schedule_zone_staffonly                 员工通道区
+schedule_zone_unlocked                  已解锁区
 
 
 
@@ -1479,8 +1479,8 @@ action_destroying                       破坏
 action_spoiling                         惯坏
 action_fighting                         打架
 action_rioting                          暴乱
-action_hostagetaking                    人质扣留
-action_reformprogram                    劳改程序
+action_hostagetaking                    挟持人质
+action_reformprogram                    改造课程
 action_changeclothes                    换衣服
 action_getbook                          取得书本
 action_pray                             祈祷
@@ -1496,7 +1496,7 @@ status_effect_withdrawal                戒毒
 status_effect_tazed                     电晕
 status_effect_overdosed                 过量服入
 status_effect_surrendered               投降
-status_effect_calming                   宣称
+status_effect_calming                   镇静
 status_effect_angst                     愤怒
 
 experience_totaltime                    总时间
@@ -1506,7 +1506,7 @@ experience_regime                       管理制度
 experience_sleep                        睡觉
 experience_work                         工作
 experience_class                        上课
-experience_freetime                     空闲时间
+experience_freetime                     自由时间
 experience_moodbad                      坏
 experience_moodnormal                   一般
 experience_moodgood                     好
@@ -1514,7 +1514,7 @@ experience_nocondition                  无
 experience_kod                          被打倒
 experience_hurt                         受伤
 experience_suppressed                   被镇压
-experience_intoxicated                  酒醉
+experience_intoxicated                  瘾症发作
 experience_wellfed                      饮食良好
 experience_exercise                     锻炼
 
@@ -1600,7 +1600,7 @@ nameplate_working                       工作
 nameplate_stationed                     站岗
 nameplate_patrolling                    巡逻中
 nameplate_resting                       休息
-nameplate_tired                         精疲力竭
+nameplate_tired                         疲劳
 nameplate_injured                       受伤
 nameplate_unconscious                   晕厥
 nameplate_dead                          死亡
@@ -1626,7 +1626,7 @@ objective_prisonerintake                收监量
 objective_intake_arrivals               上午8点有 *X 个犯人要来
 objective_intake_closed                 监狱不再接收新的犯人
 objective_intake_closed2                （见该囚犯的报告）
-objective_intake_closed3                （检视收入报表）
+objective_intake_closed3                （检视收容报表）
 objective_intake_specials               特别转移：
 objective_intake_categories             种类：
 objective_intake_minsec                 低危险度，
@@ -1657,7 +1657,7 @@ objective_incident_medical              *X 需要治疗
 objective_incident_dead                 *X 具尸体
 
 objective_prisonerparole                罪犯假释
-objective_parole_count                  *X 罪犯可以获得假释
+objective_parole_count                  *X 罪犯可以申请假释
 
 objective_payment_receivedfull          报酬: *X 已收到
 objective_payment_receivedpart          报酬: *X 已收到 总量 *Y
@@ -1855,7 +1855,7 @@ object_tree                              树
 object_light                             灯
 object_cooker                            厨具
 object_fridge                            冰箱
-object_bin                               桶
+object_bin                               垃圾桶
 object_sink                              水槽
 object_servingtable                      配餐桌
 object_showerhead                        花洒喷头
@@ -1967,7 +1967,7 @@ object_superiorbed                       高级床
 object_doorcontrolsystem                 门控系统
 object_phonemonitor                      电话窃听器
 object_servo                             门伺服器
-object_doortimer                         狱门计时器
+object_doortimer                         定时门控器
 object_pressurepad                       压力板
 object_statuslight                       状况灯
 object_wire                              连接
@@ -1981,7 +1981,7 @@ object_cutscenepolaroid                  宝丽来动画
 object_cutscenecamera                    监控摄像头
 object_cutscenecue                       动画提示
 object_foodwaste                         食物浪费
-object_altar                             神坛
+object_altar                             祭坛
 object_pews                              长凳
 object_prayermat                         跪垫
 object_paroleofficer                     假释官
@@ -1995,12 +1995,12 @@ object_ruinedbook                        毁坏的书
 object_foodbowl                          食物
 object_appealslawyer                     上诉律师
 object_appealsmagistrate                 上诉法官
-object_mailsatchel                       邮差包
+object_mailsatchel                       邮件包
 object_mailunsorted                      未分类邮件
 object_mailsorted                        已分类邮件
 object_prisonermail                      邮件
 object_prisonermailopened                邮件（已打开）
-object_shopfront                         商店前台
+object_shopfront                         商店柜台
 object_shopgoods                         商店货物
 object_shopshelf                         商店货架
 
@@ -2010,9 +2010,9 @@ material_buildingconcrete                建筑（混凝土）
 material_demolish                        铲平
 material_clearindoorarea                 清除室内区域
 material_demolishwalls                   拆墙
-material_removetunnels                   拆除地道
+material_removetunnels                   填埋地道
 material_canceljobs                      取消工作
-material_dirt                            灰尘
+material_dirt                            泥土
 material_sand                            砂砾
 material_pavingstone                     铺路石
 material_grass                           草
@@ -2034,7 +2034,7 @@ material_whitetiles                      白色瓷砖
 material_fancytiles                      花式瓷砖
 material_concretewall                    混凝土墙
 material_brickwall                       砖墙
-material_perimeterwall                   外围墙壁
+material_perimeterwall                   围墙
 material_burntfloor                      烧焦的地板
 material_burntwall                       烧焦的墙
 material_buildingframe                   建筑框架
@@ -2042,7 +2042,7 @@ material_roof                            屋顶
 
 room_none                                无
 room_cell                                牢房
-room_holdingcell                         拘留室
+room_holdingcell                         拘留牢房
 room_solitary                            禁闭室
 room_superiorcell                        高级牢房
 room_canteen                             食堂
@@ -2050,7 +2050,7 @@ room_kitchen                             厨房
 room_shower                              淋浴间
 room_yard                                庭院
 room_storage                             仓库
-room_deliveries                          进货区
+room_deliveries                          卸货区
 room_garbage                             垃圾区
 room_execution                           行刑室
 room_workshop                            工作车间
@@ -2060,7 +2060,7 @@ room_medicalward                         医务室
 room_morgue                              停尸房
 room_commonroom                          公共娱乐室
 room_laundry                             洗衣房
-room_visitation                          探视间
+room_visitation                          探望室
 room_cleaningcupboard                    清洁用品室
 room_kennel                              警犬休息室
 room_armoury                             军械库
@@ -2151,7 +2151,7 @@ reformerror_noroom                      不具备相应功能房间或未安排�
 reformerror_nofreetimeslot              所有房间或工作时间段都被安排满了
 reformerror_staffonly                   所有房间只限雇员出入
 reformerror_noobjects                   没有装备
-reformerror_noregimetime                无管理机制时间
+reformerror_noregimetime                无安排时间
 reformerror_noteachers                  无教师
 
 reform_interested                       *X 感兴趣
@@ -2210,7 +2210,7 @@ regime_shower                           淋浴间
 regime_yard                             庭院
 regime_work                             工作
 regime_lockdown                         锁闭
-regime_freetime                         空闲时间
+regime_freetime                         自由时间
 regime_currenttime                      现在
 regime_unspecified                      未指明的
 
@@ -2242,12 +2242,12 @@ doortimer_state_open                    打开
 doortimer_state_closed                  已关闭
 
 doortimer_security_none                 任何警卫
-doortimer_security_minsec               最小安保措施
-doortimer_security_normal               普通安保措施
-doortimer_security_maxsec               最大安保措施
-doortimer_security_Protected            保护性拘留
-doortimer_security_SuperMax             极大
-doortimer_security_DeathRow             死囚
+doortimer_security_minsec               轻刑犯
+doortimer_security_normal               普通犯
+doortimer_security_maxsec               重刑犯
+doortimer_security_Protected            保护收容
+doortimer_security_SuperMax             超重刑犯
+doortimer_security_DeathRow             死刑犯
 
 
 # =============================================================================
@@ -2345,10 +2345,10 @@ prisoner_dayswithoutincident            *X天没有闹事
 prisoner_availablemoney                 现金：$*X
 
 informant_suspicion                     怀疑
-informant_title                         告密者
-informant_none                          没有机密文件记录
+informant_title                         线人
+informant_none                          你的记录上没有线人
 informant_hint                          （帮助受到威胁的犯人——比如单独禁闭）
-informant_recruitable                   （潜在告密者）
+informant_recruitable                   （潜在线人）
 informant_target                        目标
 
 contraband_owner                        所有者： *X
@@ -2414,7 +2414,7 @@ deploymentscheduler_title               计划部署
 supplyanddemand_supplyheader            供给
 supplyanddemand_demandheader            需求
 
-tooltip_multipleobjects                 按TAB旋转对象
+tooltip_multipleobjects                 按TAB切换对象
 remotedoor_noservo                      没有连上伺服器的遥控门不会打开
 
 roomgrading                             房间等级
