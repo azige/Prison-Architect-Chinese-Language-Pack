@@ -1004,9 +1004,9 @@ researchtooltip_education               解锁实行教育改革课程的能力�
 researchtooltip_contraband              训练你的警卫们，让他们提升追踪和反偷运技巧。解锁供需报告，违禁品报地图（显示你监狱内所有可能发生盗窃的地方），并追踪所有偷运和盗窃发生的地点。
 researchtooltip_policy                  解锁政策报告，使你可以增加或减少针对所有不当行为的处罚量，以及自行启动搜索举止不端的囚犯及其牢房的能力。
 researchtooltip_armoury                 解锁武器库，并可以让你在你的监狱内部署武装警卫。
-researchtooltip_bodyarmour              为你的所有警卫和训犬师都装备护甲。护甲可以帮助你的警卫在打斗中降低受到的伤害，但是会减慢他们的移动速度。\n\n警卫们必须前往武器库获取该装备，而且他们每拿一个护甲都需要你来买单
+researchtooltip_bodyarmour              为你的所有警卫和警犬训练员都装备护甲。护甲可以帮助你的警卫在打斗中降低受到的伤害，但是会减慢他们的移动速度。\n\n警卫们必须前往武器库获取该装备，而且他们每拿一个护甲都需要你来买单
 researchtooltip_tazers                  允许你武装警卫装备电击器，电击器是一种非常有效的单发武器，可以立刻将大部分目标电晕。电击器在发射一次以后，需要整整一个小时来充能。\n\n穿护甲的警卫必须前往武器库获取该装备，而且他们每拿一个电击器都需要你来买单。
-researchtooltip_tazersforeveryone       扩展电击器项目，这样你的普通警卫和训犬师也会携带防御用电击器。\n\n他们必须前往武器库获取该装备，而且他们每拿一个电击器都需要你来买单
+researchtooltip_tazersforeveryone       扩展电击器项目，这样你的普通警卫和警犬训练员也会携带防御用电击器。\n\n他们必须前往武器库获取该装备，而且他们每拿一个电击器都需要你来买单
 researchtooltip_bankloans               允许你从银行借贷大笔款项，但每天都需支付利息。偿还贷款会提升你的信用评级并在之后允许你进行更大额度的贷款。
 researchtooltip_lowertaxes1             降低政府税收并将企业所得税率仅为15%。\n\n每$10,000收入就能节省 $1,500 税收。
 researchtooltip_lowertaxes2             你的会计将金融手段发挥到极致，把官方账户和商业活动移至外国并享有超高优惠税率。 你的企业所得税将会降到1%。\n\n每$10,000收入就能节省 $3,000 税收。
@@ -1723,7 +1723,7 @@ objective_grant_basicsecurity_research              通过行政系统解锁巡�
 objective_grant_enhancedsecurity                    政府安全评级
 objective_grant_enhancedsecurity_description        政府对超过特定规模大小的监狱安全有特定要求，并会重罚那些存在不足的监狱。确保这方面不会出现问题。
 objective_grant_enhancedsecurity_armoury            建立一座兵工厂
-objective_grant_enhancedsecurity_kennel             建立一座狗舍
+objective_grant_enhancedsecurity_kennel             建立一间警犬休息室
 objective_grant_enhancedsecurity_guards             雇用两名武装守卫
 objective_grant_enhancedsecurity_dogs               雇用两名驯狗师
 objective_grant_enhancedsecurity_patroldogs         将两名驯狗师分配到一个猎犬巡逻队
@@ -1844,7 +1844,7 @@ object_electricchair                     电椅
 object_jaildoor                          监狱门
 object_jaildoorlarge                     大型监狱门
 object_door                              门
-object_solitarydoor                      单独禁闭门
+object_solitarydoor                      禁闭门
 object_staffdoor                         员工门
 object_remotedoor                        遥控门
 object_roadgate                          道路大门
@@ -1857,7 +1857,7 @@ object_cooker                            厨具
 object_fridge                            冰箱
 object_bin                               桶
 object_sink                              水槽
-object_servingtable                      服务台
+object_servingtable                      配餐桌
 object_showerhead                        花洒喷头
 object_brick                             砖
 object_concrete                          混凝土
@@ -1867,8 +1867,8 @@ object_ingredientscooking                材料（正在烹饪）
 object_ingredientscooked                 材料（已烹饪好）
 object_ingredientsspoiled                成分（已变质）
 object_meal                              餐食
-object_foodtray                          食品托盘
-object_foodtraydirty                     食品托盘（脏）
+object_foodtray                          餐盘
+object_foodtraydirty                     餐盘（脏）
 object_grassturf                         草坪
 object_prisoneruniform                   囚服
 object_dirtyprisoneruniform              囚服（脏）
@@ -1878,7 +1878,7 @@ object_sheetmetal                        金属薄片
 object_licenseplateblank                 车牌（空）
 object_licenseplate                      车牌
 object_log                               圆木
-object_wood                              木头
+object_wood                              木板
 object_workman                           工人
 object_truckdriver                       卡车司机
 object_guard                             警卫
@@ -1895,9 +1895,9 @@ object_avatar                            替身
 object_actor                             演员
 object_visitor                           访客
 object_executionwitness                  处决目击者
-object_doghandler                        训犬师
+object_doghandler                        警犬训练员
 object_dog                               警犬
-object_dogcrate                          狗舍
+object_dogcrate                          狗笼
 object_teacher                           教师
 object_soldier                           士兵
 object_warden                            典狱长
@@ -1947,13 +1947,13 @@ object_cctv                              监控系统
 object_cctvmonitor                       闭路电视监控
 object_laundrymachine                    洗衣机
 object_laundrybasket                     洗衣篮
-object_ironingboard                      烫衣板
+object_ironingboard                      熨衣板
 object_visitortable                      访客桌
 object_workshopsaw                       电锯工作台
-object_workshoppress                     作业冲压机
+object_workshoppress                     冲压工作台
 object_carpentertable                    木匠工作台
 object_boombox                           立体扬声器
-object_guardlocker                       警卫更衣柜
+object_guardlocker                       警卫锁柜
 object_sofachairsingle                   沙发
 object_sofachairdouble                   宽沙发
 object_drinkmachine                      饮水机
@@ -1965,7 +1965,7 @@ object_treestump                         树桩
 object_schooldesk                        书桌
 object_superiorbed                       高级床
 object_doorcontrolsystem                 门控系统
-object_phonemonitor                      电话窃听
+object_phonemonitor                      电话窃听器
 object_servo                             门伺服器
 object_doortimer                         狱门计时器
 object_pressurepad                       压力板
@@ -1976,7 +1976,7 @@ object_dismantleutility                  拆除设施
 object_sellobject                        出售物品
 object_canceljobs                        取消工作
 object_showallwires                      显示电路
-object_tidywires                         整齐的线缆
+object_tidywires                         整理线缆
 object_cutscenepolaroid                  宝丽来动画
 object_cutscenecamera                    监控摄像头
 object_cutscenecue                       动画提示
@@ -2043,36 +2043,36 @@ material_roof                            屋顶
 room_none                                无
 room_cell                                牢房
 room_holdingcell                         拘留室
-room_solitary                            单独牢房
+room_solitary                            禁闭室
 room_superiorcell                        高级牢房
 room_canteen                             食堂
 room_kitchen                             厨房
 room_shower                              淋浴间
 room_yard                                庭院
 room_storage                             仓库
-room_deliveries                          货运区
-room_garbage                             垃圾
+room_deliveries                          进货区
+room_garbage                             垃圾区
 room_execution                           行刑室
-room_workshop                            工坊车间
-room_security                            安全
+room_workshop                            工作车间
+room_security                            保安室
 room_office                              办公室
 room_medicalward                         医务室
 room_morgue                              停尸房
 room_commonroom                          公共娱乐室
 room_laundry                             洗衣房
-room_visitation                          探视
+room_visitation                          探视间
 room_cleaningcupboard                    清洁用品室
-room_kennel                              狗窝
+room_kennel                              警犬休息室
 room_armoury                             军械库
 room_staffroom                           员工休息室
 room_library                             图书馆
-room_forestry                            园丁种植区
+room_forestry                            林场
 room_classroom                           教室
-room_exports                             出口
+room_exports                             出货区
 room_chapel                              教堂
 room_intake                              接待处
 room_clearrooms                          清除房间
-room_paroleroom                          假释
+room_paroleroom                          假释会议间
 room_mailroom                            邮件收发室
 room_shop                                商店
 
