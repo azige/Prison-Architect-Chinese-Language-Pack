@@ -1863,9 +1863,9 @@ object_brick                             砖
 object_concrete                          混凝土
 object_steel                             钢
 object_ingredients                       食材
-object_ingredientscooking                食材（正在烹饪）
-object_ingredientscooked                 食材（已烹饪好）
-object_ingredientsspoiled                食材（已变质）
+object_ingredientscooking                食物（烹制中）
+object_ingredientscooked                 食物
+object_ingredientsspoiled                变质食物
 object_meal                              餐食
 object_foodtray                          餐盘
 object_foodtraydirty                     餐盘（脏）
