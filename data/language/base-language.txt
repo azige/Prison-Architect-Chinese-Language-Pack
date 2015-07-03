@@ -1862,10 +1862,10 @@ object_showerhead                        花洒喷头
 object_brick                             砖
 object_concrete                          混凝土
 object_steel                             钢
-object_ingredients                       材料
-object_ingredientscooking                材料（正在烹饪）
-object_ingredientscooked                 材料（已烹饪好）
-object_ingredientsspoiled                成分（已变质）
+object_ingredients                       食材
+object_ingredientscooking                食材（正在烹饪）
+object_ingredientscooked                 食材（已烹饪好）
+object_ingredientsspoiled                食材（已变质）
 object_meal                              餐食
 object_foodtray                          餐盘
 object_foodtraydirty                     餐盘（脏）
