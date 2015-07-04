@@ -70,9 +70,9 @@ dialogcomponent_progressbar             进度条
 dialogcomponent_canvas                  菜单
 dialogcomponent_iconbox                 图标盒
 
-dialogposition_absolute                 绝对
-dialogposition_relative                 相关
-dialogposition_scaled                   鳞状构造
+dialogposition_absolute                 绝对位置
+dialogposition_relative                 相对位置
+dialogposition_scaled                   按比例放置
 
 
 # =============================================================================
@@ -133,7 +133,7 @@ samplebank                              (样品库)
 # =============================================================================
 
 interfacemode_done                            完成
-interfacemode_destroy                         销毁
+interfacemode_destroy                         拆除
 interfacemode_foundations                     地基
 interfacemode_construction                    建材
 interfacemode_planning                        规划
