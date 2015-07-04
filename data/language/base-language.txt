@@ -2506,7 +2506,7 @@ objective_deathrow_cellobjects2         建造一个厕所
 objective_deathrow_executionobjects     建造一张电椅
 
 adviser_deathrow_optional1              重要的部分已经搞定了，但你还需要作一些改进
-adviser_deathrow_optional2              不过这不是必须的要求，完全由你来决定，就看你对是否重视囚犯和他们的生活环境了。
+adviser_deathrow_optional2              不过这不是必须的要求，完全由你来决定，就看你是否重视囚犯和他们的生活环境了。
 adviser_deathrow_optional3              可以用一扇向外的窗户和一个小书架来改善牢房环境
 adviser_deathrow_optional4              而且较高品质的地板材料会让此设施看起来更好 - 比如木地板或马赛克瓷砖
 adviser_deathrow_optional5              你可以在外面加上一些照明设施，如果你认为需要的话，还可以加上一条铺好的路
