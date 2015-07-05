@@ -283,14 +283,14 @@ interfacetopbar_tension_happyprisoners          - *X 名囚犯表示受到良好
 interfacetopbar_tension_unhappyprisoners        + *X 名囚犯正在严重的抱怨
 interfacetopbar_tension_lockedupprisoners       + *X 名囚犯正在自己的牢房或禁闭室禁足中
 interfacetopbar_tension_riotingprisoners        + *X 名囚犯正在暴动
-interfacetopbar_tension_wellfedprisoners        - *X 名囚犯觉得满足
-interfacetopbar_tension_suppressedprisoners     = *X 名囚犯受压抑(报怨)
+interfacetopbar_tension_wellfedprisoners        - *X 名囚犯饮食良好
+interfacetopbar_tension_suppressedprisoners     = *X 名囚犯被镇压(报怨)
 interfacetopbar_tension_activeriotguards        + *X 名防暴警察正在现场
 interfacetopbar_tension_activearmedguards       + *X 名武装警卫执勤中
 interfacetopbar_tension_recentdeaths            + *X 个人最近被杀了
 interfacetopbar_tension_recentsearches          + *X 名囚犯最近被无故搜身
 interfacetopbar_tension_angrygangmembers        + *X 名帮派成员非常愤怒（领袖被惩罚）
-interfacetopbar_tension_recentpunishments       = (镇压) 近期执行了 *X 项处罚
+interfacetopbar_tension_recentpunishments       = (威慑) 近期执行了 *X 项处罚
 interfacetopbar_tension_recentcalmed            -*X 个囚犯最近被安抚过
 
 interfacecontrol_mainmenu                       主菜单（Esc）
@@ -514,7 +514,7 @@ buildtoolbar_popup_uts_LogicBridge      进阶建筑师专用。\n\n接收输入
 buildtoolbar_popup_uts_DoorTimer        在每天固定的时段自动开门。\n\n使用连接工具将门禁伺服器连接到这台门禁定时器上。
 buildtoolbar_popup_uts_Wire             连接你的远程遥控系统。
 buildtoolbar_popup_uts_showallwires     显示所有已连接的电缆。
-buildtoolbar_popup_uts_remotedoor       无法用钥匙打开的坚固金属门(只能远程打开)。用这种门可以有效防止囚犯偷钥匙逃狱。
+buildtoolbar_popup_uts_remotedoor       无法用钥匙打开的坚固金属门(只能远程打开)。用这种门可以有效防止囚犯偷钥匙越狱。
 buildtoolbar_popup_uts_dismantleutility 从监狱中移除一件设施
 buildtoolbar_popup_uts_pressurepad      当有物体压在上面时，发出一个讯号给连接的设备。
 buildtoolbar_popup_uts_statuslight      依照接收到的讯号亮红或绿灯。
@@ -657,7 +657,7 @@ codex_tooltip_forests                   土地上会出现树林。
 codex_option_buildings                  生成建筑
 codex_tooltip_buildings                 随机的遗弃建筑将出现在地图上。你可以选择利用这些建筑。
 codex_option_failure                    失败条件
-codex_tooltip_failure                   额外的挑战！当你把事情弄得一塌糊涂时会结束游戏。（暴乱、破产、过多的死亡及逃逸等等）
+codex_tooltip_failure                   额外的挑战！当你把事情弄得一塌糊涂时会结束游戏。（暴乱、破产、过多的死亡及越狱等等）
 codex_option_unlimitedfunds             无限资金
 codex_tooltip_unlimitedfunds            纯沙盒模式！你一开始就拥有无限多的金钱，再也不用担心没钱修马桶了！
 codex_option_gangs                      帮派
@@ -911,7 +911,7 @@ punish_end                              结束惩罚
 misconduct_reporttype_none                  无
 misconduct_reporttype_complaint             抱怨
 misconduct_reporttype_destruction           破坏公物
-misconduct_reporttype_escapeattempt         试图逃狱
+misconduct_reporttype_escapeattempt         试图越狱
 misconduct_reporttype_injuredprisoner       攻击囚犯
 misconduct_reporttype_injuredstaff          攻击员工
 misconduct_reporttype_seriousinjury         致人重伤
@@ -987,7 +987,7 @@ researchtooltip_maintenance             解锁工头。在员工工具栏中雇�
 researchtooltip_legal                   解锁律师，可以从员工工具栏中雇用。解锁大量的调研选项以增加你对监狱的控制权。\n\n与其他管理层相同，律师需要有自己的办公室。
 researchtooltip_deployment              让你可以指派警卫到监狱的特定区域内站岗。
 researchtooltip_patrols                 在监狱某些重点区域（例如外围）制定巡逻路线，并指定警卫按照该路线巡逻
-researchtooltip_dogs                    解锁训狗师及警犬。警犬可以轻易的嗅出违禁物及逃跑地道。\n\n警犬也因其出色的速度被用来追捕逃犯。
+researchtooltip_dogs                    解锁警犬训练员及警犬。警犬可以轻易的嗅出违禁物及越狱地道。\n\n警犬也因其出色的速度被用来追捕逃犯。
 researchtooltip_cctv                    解锁摄像头及监控设备。使用这些设备来监视没有看守警戒的区域。\n\n同时解锁电话监听系统，可以让你监听囚犯打出的电话以获得重要情报。
 researchtooltip_remoteaccess            解锁远程控制和自动门禁等高科技设备。使用控制系统远程打开门禁（由一名保安操作），或者每天的特定时间由门定时器打开。
 researchtooltip_riotguards              (目前暂无用处)\n 解锁“防暴警卫”，这些武装人员更适用处置暴力状况
@@ -1302,7 +1302,7 @@ victory_Income                          日常利润
 victory_Prisoners                       监狱容量
 victory_PrisonersReleased               释放囚犯数
 victory_prisonersdied                   服刑期间死亡数
-victory_prisonersescaped                越狱犯人数
+victory_prisonersescaped                越狱人数
 victory_Bankrupt                        破产
 victory_Riot                            失控\n暴乱
 victory_TooManyDeaths                   玩忽\n职守
@@ -1334,8 +1334,8 @@ victory_advisernotice_toomanydeaths1    别说我们没警告过你。你因最�
 victory_advisernotice_toomanydeaths2    你因罪被判了十年刑期。你被关进自己的监狱了！祝你好运，不要掉肥皂。
 victory_adviserwarning_riot1            你的监狱失控了。现在镇压这次骚乱，否则政府就要干涉并用武力收回这座监狱。
 victory_advisernotice_riot1             你已无法控制控制这次骚乱。政府已撤销我们的监狱合同，正派国民警卫队来夺回这座监狱。
-victory_adviserwarning_toomanyescapes1  我们这里正酝酿着一场公共关系灾难，因为最近太多犯人逃走了，而这是你的过失。
-victory_adviserwarning_toomanyescapes2  封锁这里并确保没有其他人再逃逸，否则舆论会期待你的头成盘中餐的。
+victory_adviserwarning_toomanyescapes1  我们这里正面临一场公关危机，因为最近太多犯人越狱了，而这是你的过失。
+victory_adviserwarning_toomanyescapes2  封锁这里并确保没有其他人再越狱，否则舆论会期待你的头成盘中餐的。
 victory_advisernotice_toomanyescapes1   你已经失败了。这座监狱成了媒体的笑柄，他们需要指责某人。
 victory_advisernotice_toomanyescapes2   那个人就是你。你被解雇了。
 victory_adviserwarning_bankrupt1        我们破产了！你糟糕的管理能力把监狱弄得入不敷出。
@@ -1358,7 +1358,7 @@ score_reoffendingrate                   再犯率
 score_prisonersreleased                 *X 犯人被释放了
 score_minimumprisonersreleased          必须有 *X 犯人被释放后才能得到报告
 score_deaths                            *X犯人在监禁期间死亡
-score_escapes                           *X犯人逃走
+score_escapes                           *X犯人越狱
 score_reoffendingchance                 估计再犯几率
 score_startingreoffendingchance         预计到达：*X%
 score_prisonersparoled                  提前假释数（再犯）
@@ -1382,11 +1382,11 @@ score_tooltip_clemencywarning           这个犯人获得宽大处理的几率�
 experiencefactor_FractionalLockedUp     *X% 持续关押
 experiencefactor_FractionalReform       *X% 持续劳改
 experiencefactor_fractionalWorking      *X% 持续工作
-experiencefactor_fractionalsuppressed   *X% 持续被压制
+experiencefactor_fractionalsuppressed   *X% 持续被镇压
 experiencefactor_fractionalinjured      *X% 持续带有未处理的损伤
 experiencefactor_fractionalintoxicated  *X% 持续处于醉瘾状态（毒品/酗酒/戒毒）
 experiencefactor_fractionalmisbehaving  *X% 持续不遵守规矩
-experiencefactor_fractionalarmedguard   *X% 持续被看守或被压制
+experiencefactor_fractionalarmedguard   *X% 持续被看守或被镇压
 experiencefactor_fractionalwellfed      *X% 持续吃得好
 experiencefactor_fractionalexercising   *X% 持续锻炼
 experiencefactor_fractionalfreetime     *X% 狱中自由时间
@@ -1399,7 +1399,7 @@ experiencefactor_passedexpertprograms           通过 *X 专家课程
 experiencefactor_YearsServed            服刑 *X 年
 experiencefactor_fights                 参与暴力事件
 experiencefactor_murders                在你的监狱中犯下*X次谋杀
-experiencefactor_escapeattempts         尝试逃跑*X次
+experiencefactor_escapeattempts         尝试越狱*X次
 experiencefactor_addictions             *X种成瘾症状
 experiencefactor_gangmembership         帮派成员
 
@@ -1551,7 +1551,7 @@ reputation_tough                        抗打
 reputation_volatile                     暴力倾向
 reputation_snitch                       告密者
 reputation_deadly                       致命
-reputation_stoical                      坚韧
+reputation_stoical                      坚忍
 reputation_fearless                     无畏
 reputation_exlaw                        前执法者
 reputation_copkiller                    警察杀手
@@ -1570,7 +1570,7 @@ reputation_fighter_high                 搏击专家
 
 reputation_legendary_high               --传奇--
 reputation_snitch_high                  告密者
-reputation_stoical_high                 坚韧
+reputation_stoical_high                 坚忍
 reputation_fearless_high                无畏
 reputation_copkiller_high               警察杀手
 reputation_instigator_high              教唆犯
@@ -1580,7 +1580,7 @@ reputationtooltip_legendary             这名罪犯是犯罪世界中的有一�
 reputationtooltip_strong                这名罪犯在打架中力气更大
 reputationtooltip_tough                 这名罪犯能在打架中承受更多的打击。他有时候也能承受来自电击枪的打击。
 reputationtooltip_volatile              这名犯人极易毫无预兆或没有理由的发狂。
-reputationtooltip_stoical               这名罪犯在被独自关押的时候不会感到被压制。他丝毫不在意。
+reputationtooltip_stoical               这名罪犯在被独关押的时候不会感到被镇压。他丝毫不在意。
 reputationtooltip_snitch                这名罪犯是名告密者，因此他的生命也许受到来自其他罪犯的威胁。不要将他和其他罪犯放在一起太久。
 reputationtooltip_deadly                这名犯人精通致命格斗动作，有时可以一击致人死地。
 reputationtooltip_exlaw                 这名罪犯曾经是一个警察或者其他执法人员。他的性命可能受到威胁。
@@ -1981,7 +1981,7 @@ object_cutscenepolaroid                  宝丽来动画
 object_cutscenecamera                    监控摄像头
 object_cutscenecue                       动画提示
 object_foodwaste                         食物残渣
-object_altar                             祭坛
+object_altar                             教堂讲台
 object_pews                              长凳
 object_prayermat                         跪垫
 object_paroleofficer                     假释官
@@ -2042,7 +2042,7 @@ material_roof                            屋顶
 
 room_none                                无
 room_cell                                牢房
-room_holdingcell                         拘留牢房
+room_holdingcell                         集体牢房
 room_solitary                            禁闭室
 room_superiorcell                        高级牢房
 room_canteen                             食堂
@@ -2236,18 +2236,18 @@ schedule_editor_unpin                   取消固定此课程的安排
 # DoorTimer stuff
 # =============================================================================
 
-doortimer_title                         狱门计时控制
-doortimer_connected_servos              *X已连接伺服器
+doortimer_title                         控制定时门控器
+doortimer_connected_servos              已连接 *X 伺服器
 doortimer_state_open                    打开
 doortimer_state_closed                  关闭
 
 doortimer_security_none                 任何警卫
-doortimer_security_minsec               轻刑犯
-doortimer_security_normal               普通犯
-doortimer_security_maxsec               重刑犯
-doortimer_security_Protected            重点保护
-doortimer_security_SuperMax             超重刑犯
-doortimer_security_DeathRow             死刑犯
+doortimer_security_minsec               按轻刑犯日程
+doortimer_security_normal               按普通犯日程
+doortimer_security_maxsec               按重刑犯日程
+doortimer_security_Protected            按重点保护日程
+doortimer_security_SuperMax             按超重刑犯日程
+doortimer_security_DeathRow             按死刑犯日程
 
 
 # =============================================================================
@@ -2347,7 +2347,7 @@ prisoner_availablemoney                 现金：$*X
 informant_suspicion                     怀疑度
 informant_title                         线人
 informant_none                          你没有线人名单
-informant_hint                          （招募被压制的犯人——比如单独禁闭）
+informant_hint                          （招募被镇压的犯人——比如单独禁闭）
 informant_recruitable                   （潜在线人）
 informant_target                        目标
 
