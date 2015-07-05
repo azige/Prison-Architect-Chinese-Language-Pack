@@ -648,7 +648,7 @@ codex_disabled                          关闭
 
 codex_option_intake                     持续接收新囚犯
 codex_tooltip_intake                    启用后，你每天都会接收到随机数目的新囚犯。\n\n如果禁用，你可以通过点击报告书的接收栏来调整犯人的接收。
-codex_option_fogofwar                   战场迷雾
+codex_option_fogofwar                   战争迷雾
 codex_tooltip_fogofwar                  除非有警卫巡逻或是有闭路监视器在区域内，否则你将无法看见监狱内的状况
 codex_option_lakes                      生成湖泊
 codex_tooltip_lakes                     随机产生的湖泊会阻隔你的土地。警告：实验性功能。
@@ -661,7 +661,7 @@ codex_tooltip_failure                   额外的挑战！当你把事情弄得�
 codex_option_unlimitedfunds             无限资金
 codex_tooltip_unlimitedfunds            纯沙盒模式！你一开始就拥有无限多的金钱，再也不用担心没钱修马桶了！
 codex_option_gangs                      帮派
-codex_tooltip_gangs                     某些囚犯在入监时在为帮派效忠，他们会攻击敌对帮派成员。这将为监狱管理带来额外的挑战。
+codex_tooltip_gangs                     一些囚犯将带着对帮派的忠诚踏入监狱，他们会攻击敌对帮派成员。这将为监狱管理带来额外的挑战。
 
 codex_option_funds                      资金
 codex_tooltip_funds                     你携带此数额的银行存款开始游戏。在估值界面卖掉你建好的监狱来获得更多资金吧！
@@ -967,7 +967,7 @@ research_policy                         监狱规章
 research_armoury                        军械库
 research_bodyarmour                     防护甲
 research_tazers                         电击器
-research_tazersforeveryone              列装重点保护
+research_tazersforeveryone              列装电击器
 research_bankloans                      银行贷款
 research_lowertaxes1                    税收减免
 research_lowertaxes2                    避税天堂
@@ -1029,7 +1029,7 @@ research_missingadministrator           需要有：
 # Room Requirements
 # =============================================================================
 
-roomrequirement_required                需要有：
+roomrequirement_required                需要：
 roomrequirement_recommended             推荐：
 roomrequirement_minimumsize             最小尺寸 *W x *H
 roomrequirement_minimumsize_short   尺寸 *W x *H
@@ -1514,7 +1514,7 @@ experience_nocondition                  无
 experience_kod                          被击晕
 experience_hurt                         受伤
 experience_suppressed                   被制服
-experience_intoxicated                  毒品中毒
+experience_intoxicated                  毒瘾发作
 experience_wellfed                      饮食良好
 experience_exercise                     锻炼
 
@@ -1541,8 +1541,8 @@ need_name_literacy                      文化
 needs_locked                            （需要心理学家来显示犯人的需求）
 needs_title                             =[需求]=
 
-reputation_title                        名声
-reputation_hidden                       （未知名声）
+reputation_title                        特性
+reputation_hidden                       （特性）
 reputation_hidden_short                 ???
 
 reputation_legendary                    --传奇--
@@ -1834,7 +1834,7 @@ grant_property_atmost                               不高于*X
                                                                                                        
 object_none                              无
 object_box                               盒子
-object_stack                             一堆材料
+object_stack                             一堆物品
 object_bed                               床
 object_toilet                            厕所
 object_table                             桌子
@@ -2305,7 +2305,7 @@ object_dump                             垃圾
 object_todo                             待办： *X
 object_sale_price                       售价: *X
 
-object_door_cyclepermissions            单击循环进入权限
+object_door_cyclepermissions            单击切换进入权限
 object_door_cyclepermissions_1          （开，员工专用，关闭）
 
 object_firemen_hosehelp_intro           消防队员会帮助扑灭附近的火灾
@@ -2333,7 +2333,7 @@ prisoner_roomquality_waybelowaverage    远低于平均
 prisoner_attendance                     出勤
 prisoner_concentration                  专心
 prisoner_understanding                  理解
-prisoner_concentration_0                糟透了
+prisoner_concentration_0                非常差
 prisoner_concentration_1                差
 prisoner_concentration_2                一般
 prisoner_concentration_3                好
