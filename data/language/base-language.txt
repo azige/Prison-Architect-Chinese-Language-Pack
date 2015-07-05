@@ -1548,11 +1548,11 @@ reputation_hidden_short                 ???
 reputation_legendary                    --传奇--
 reputation_strong                       强壮
 reputation_tough                        抗打
-reputation_volatile                     情绪不稳
+reputation_volatile                     暴力倾向
 reputation_snitch                       告密者
 reputation_deadly                       致命
 reputation_stoical                      坚韧
-reputation_fearless                     无惧
+reputation_fearless                     无畏
 reputation_exlaw                        前执法者
 reputation_copkiller                    警察杀手
 reputation_quick                        敏捷
@@ -1569,9 +1569,9 @@ reputation_quick_high                   极其敏捷
 reputation_fighter_high                 搏击专家
 
 reputation_legendary_high               --传奇--
-reputation_snitch_high                  告密
+reputation_snitch_high                  告密者
 reputation_stoical_high                 坚韧
-reputation_fearless_high                无惧
+reputation_fearless_high                无畏
 reputation_copkiller_high               警察杀手
 reputation_instigator_high              教唆犯
 reputation_gangmember_high              帮派成员
@@ -1587,7 +1587,7 @@ reputationtooltip_exlaw                 这名罪犯曾经是一个警察或者�
 reputationtooltip_copkiller             这名罪犯因谋杀一名警察而获刑入狱。你的狱卒可能在看守他的时候无法控制自己而使用过度武力。
 reputationtooltip_fearless              这名罪犯不会受到武装看守的威吓，并且在打斗中比较不会轻易投降。
 reputationtooltip_quick                 这名罪犯跑得特别快。
-reputationtooltip_instigator            这名罪犯在其周围鼓动起不满情绪。当他闹事的时候，周围的囚犯也很可能做同样的事。
+reputationtooltip_instigator            这名罪犯擅长煽动周围囚犯的情绪。当他闹事的时候，周围的囚犯也很可能做同样的事。
 reputationtooltip_fighter               这名犯人擅长防御格斗动作。他可以缴械对手，甚至在打斗中夺走对方武器。
 reputationtooltip_gangmember            这名犯人属于一个帮派。它会保护同帮派的成员并且怀有对敌对帮派的仇恨。
 
