@@ -1562,7 +1562,7 @@ reputation_gangmember                   帮派成员
 
 reputation_strong_high                  极其强壮
 reputation_tough_high                   极其抗打
-reputation_volatile_high                极其情绪不稳
+reputation_volatile_high                极其暴力倾向
 reputation_deadly_high                  极其致命
 reputation_exlaw_high                   前狱卒
 reputation_quick_high                   极其敏捷
@@ -1580,7 +1580,7 @@ reputationtooltip_legendary             这名罪犯是犯罪世界中的有一�
 reputationtooltip_strong                这名罪犯在打架中力气更大
 reputationtooltip_tough                 这名罪犯能在打架中承受更多的打击。他有时候也能承受来自电击枪的打击。
 reputationtooltip_volatile              这名犯人极易毫无预兆或没有理由的发狂。
-reputationtooltip_stoical               这名罪犯在被独关押的时候不会感到被镇压。他丝毫不在意。
+reputationtooltip_stoical               这名罪犯在被独自关押的时候不会感到被镇压。他丝毫不在意。
 reputationtooltip_snitch                这名罪犯是名告密者，因此他的生命也许受到来自其他罪犯的威胁。不要将他和其他罪犯放在一起太久。
 reputationtooltip_deadly                这名犯人精通致命格斗动作，有时可以一击致人死地。
 reputationtooltip_exlaw                 这名罪犯曾经是一个警察或者其他执法人员。他的性命可能受到威胁。
