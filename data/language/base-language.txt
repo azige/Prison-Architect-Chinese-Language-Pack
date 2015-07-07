@@ -28,7 +28,7 @@ dialog_up                               上
 dialog_down                             下
 dialog_yes                              是
 dialog_no                               否
-dialog_loading                          读取中...
+dialog_loading                          加载中...
 dialog_low                              低
 dialog_medium                           中
 dialog_high                             高
@@ -42,7 +42,7 @@ ellipsis                                ……
 
 dialogeditor_title                      对话编辑器
 dialogeditor_back                       后退
-dialogeditor_front                      前部
+dialogeditor_front                      前进
 dialogeditor_reloadlanguage             重新载入语言
 dialogeditor_test                       测试
 dialogeditor_window                     窗户
@@ -2309,7 +2309,7 @@ object_door_cyclepermissions            单击切换进入权限
 object_door_cyclepermissions_1          （开，员工专用，关闭）
 
 object_firemen_hosehelp_intro           消防队员会帮助扑灭附近的火灾
-object_firemen_hosehelp                 按H手动使用水龙带
+object_firemen_hosehelp                 按H手动使用消防水枪
 
 object_inactive                         未启动
 object_cctv_moremonitors                建造更多闭路电视监控
@@ -2320,7 +2320,7 @@ administrator_requiresoffice            需要办公室
 administrator_requiresoffice_2          *X需要办公室
 office_ownership                        *X的办公室
 
-teacher_teaching                        教育中
+teacher_teaching                        教学中
 teacher_preparing                       准备中
 
 prisoner_assignedto                     需要： *X
@@ -2341,18 +2341,18 @@ prisoner_concentration_4                非常好
 prisoner_passchance                     成功几率：*X%
 prisoner_informant                      线人
 
-prisoner_dayswithoutincident            *X天没有闹事
+prisoner_dayswithoutincident            *X天平安无事
 prisoner_availablemoney                 现金：$*X
 
 informant_suspicion                     怀疑度
 informant_title                         线人
-informant_none                          你没有线人名单
+informant_none                          你没有招募线人
 informant_hint                          （招募被镇压的犯人——比如单独禁闭）
 informant_recruitable                   （潜在线人）
 informant_target                        目标
 
-contraband_owner                        持有者： *X
-contraband_ownerunknown                 持有者未知
+contraband_owner                        所有者： *X
+contraband_ownerunknown                 所有者未知
 contraband_stolenfrom                   *Y 小时前从 *X 处偷走
 contraband_smuggledthrough              *Y小时前通过*X偷运进来
 contraband_smuggledin                   *Y 小时前被犯人偷运
@@ -2360,7 +2360,7 @@ contraband_type                         类型：*X
 
 staff_exhausted                         疲惫不堪
 staff_tired                             累了
-staff_needsrest                         员工喜欢在员工室休息
+staff_needsrest                         员工更喜欢在员工室休息
 
 dog_needskennel                         狗需要犬舍休息
 
