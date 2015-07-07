@@ -456,7 +456,7 @@ buildtoolbar_popup_obj_solitarydoor     极其坚固的门，即使是最强壮�
 buildtoolbar_popup_obj_staffdoor        一道上锁的大门，不只警卫能开，所有员工都能开
 buildtoolbar_popup_obj_window           可以看一眼阳光
 buildtoolbar_popup_obj_windowlarge      可以看很多眼阳光
-buildtoolbar_popup_obj_tree             可以长大看书挣钱
+buildtoolbar_popup_obj_tree             可以长大砍树挣钱
 buildtoolbar_popup_obj_light            确保一整天都能看见犯人们的一举一动
 buildtoolbar_popup_obj_cooker           用热腾腾的饭菜让犯人们享受一下吧
 buildtoolbar_popup_obj_fridge           避免你的食材变质坏掉
