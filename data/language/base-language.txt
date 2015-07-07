@@ -441,7 +441,7 @@ buildtoolbar_popup_room_kennel          警犬住的地方
 buildtoolbar_popup_room_chapel          当委员会聚在一起讨论设计如何处理囚犯们的宗教需求时会怎样？一个“多信仰祷告室”诞生了。我们管这种东西叫小礼拜堂。
 buildtoolbar_popup_room_paroleroom      当囚犯服刑期满 50% 和 75% 时，就有资格申请假释，他们的命运将会在这间房间内，由典狱长和保安队长决定。\n\n建议安排额外的狱警戒备，当犯人知道他们假释被驳回的时候通常会异常沮丧。
 buildtoolbar_popup_room_library         全国各地会送一些不要的或使用过的书籍给你的监狱，囚犯要协助将书本分类并上架。
-buildtoolbar_popup_room_intake          囚犯刚抵达的时候会先带到这裡。
+buildtoolbar_popup_room_intake          囚犯刚抵达的时候会先带到这里。
 
 buildtoolbar_popup_obj_bed              不会太软、也不会太硬，硬度刚刚好。嗯，事实上嘛，真的很硬又很小
 buildtoolbar_popup_obj_toilet           一项基本人权，假如你相信那些狂想家
@@ -597,7 +597,7 @@ codex_restartintroduction               重新开始介绍
 codex_help                              帮助（维基百科）
 codex_opensavefolder                    打开存档文件夹
 codex_options                           选项
-codex_nitgs                             游戏中的名字
+codex_nitgs                             浏览&创作自定义囚犯
 codex_workshop                          分享监狱
 codex_checkforupdates                   检查更新
 codex_preorder                          立刻预购
