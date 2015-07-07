@@ -404,7 +404,7 @@ buildtoolbar_wired                      - 需接线(连接至其他接线单元)
 buildtoolbar_modcontent                 - 模组内容
 
 buildtoolbar_popup_foundations          建造/拆除 建筑来打造你的监狱
-buildtoolbar_popup_construction         不同类型的地面与墙壁
+buildtoolbar_popup_construction         选择材料建造不同类型的地面与墙壁
 buildtoolbar_popup_planning             仅规划监狱而不进行建造
 buildtoolbar_popup_designation          标出特定功能的监狱区域
 buildtoolbar_popup_objects              在监狱内安装各种实用的设施
@@ -1576,11 +1576,11 @@ reputation_copkiller_high               警察杀手
 reputation_instigator_high              教唆犯
 reputation_gangmember_high              帮派成员
 
-reputationtooltip_legendary             这名罪犯是犯罪世界中的有一个传奇人物，拥有多种技能与能力，他极其危险。
-reputationtooltip_strong                这名罪犯在打架中力气更大
-reputationtooltip_tough                 这名罪犯能在打架中承受更多的打击。他有时候也能承受来自电击枪的打击。
-reputationtooltip_volatile              这名犯人极易毫无预兆或没有理由的发狂。
-reputationtooltip_stoical               这名罪犯在被独自关押的时候不会感到被镇压。他丝毫不在意。
+reputationtooltip_legendary             这名罪犯是江湖上的传奇人物之一，在社会这所大学校里面练就了许多本领，严重威胁监狱安全。
+reputationtooltip_strong                这名罪犯体格强壮身经百战，斗殴时越战越勇。
+reputationtooltip_tough                 这名罪犯是天生的肉盾，甚至能承受来自电击枪的打击而不晕倒。
+reputationtooltip_volatile              这名犯人极易毫无预兆地发狂。
+reputationtooltip_stoical               这名罪犯丝毫不在意被独自关押。（不会因紧闭而产生压抑状态）
 reputationtooltip_snitch                这名罪犯是名告密者，因此他的生命也许受到来自其他罪犯的威胁。不要将他和其他罪犯放在一起太久。
 reputationtooltip_deadly                这名犯人精通致命格斗动作，有时可以一击致人死地。
 reputationtooltip_exlaw                 这名罪犯曾经是一个警察或者其他执法人员。他的性命可能受到威胁。
