@@ -1923,7 +1923,7 @@ object_medicalbed                        医疗床
 object_morgueslab                        停尸台
 object_equipment                         装备
 object_prop                              道具
-object_dummy                             占位物
+object_dummy                             假人
 object_powerstation                      电站
 object_capacitor                         电容器
 object_electricalcable                   电缆
