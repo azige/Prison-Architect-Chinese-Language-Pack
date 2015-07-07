@@ -1580,7 +1580,7 @@ reputationtooltip_legendary             这名罪犯是江湖上的传奇人物�
 reputationtooltip_strong                这名罪犯体格强壮身经百战，斗殴时越战越勇。
 reputationtooltip_tough                 这名罪犯是天生的肉盾，甚至能承受来自电击枪的打击而不晕倒。
 reputationtooltip_volatile              这名犯人极易毫无预兆地发狂。
-reputationtooltip_stoical               这名罪犯丝毫不在意被独自关押。（不会因紧闭而产生压抑状态）
+reputationtooltip_stoical               这名罪犯丝毫不在意被独自关押。（不会因禁闭、单独关押而产生压抑状态）
 reputationtooltip_snitch                这名罪犯是名告密者，因此他的生命也许受到来自其他罪犯的威胁。不要将他和其他罪犯放在一起太久。
 reputationtooltip_deadly                这名犯人精通致命格斗动作，有时可以一击致人死地。
 reputationtooltip_exlaw                 这名罪犯曾经是一个警察或者其他执法人员。他的性命可能受到威胁。
