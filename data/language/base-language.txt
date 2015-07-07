@@ -1585,10 +1585,10 @@ reputationtooltip_snitch                这名罪犯是名告密者，因此他�
 reputationtooltip_deadly                这名犯人精通致命格斗动作，有时可以一击致人死地。
 reputationtooltip_exlaw                 这名罪犯曾经是一个警察或者其他执法人员。他的性命可能受到威胁。
 reputationtooltip_copkiller             这名罪犯因谋杀一名警察而获刑入狱。你的狱卒可能在看守他的时候无法控制自己而使用过度武力。
-reputationtooltip_fearless              这名罪犯不会受到武装看守的威吓，并且在打斗中比较不会轻易投降。
+reputationtooltip_fearless              这名罪犯不会受到武警的威吓，并且在打斗中比较不会轻易投降。
 reputationtooltip_quick                 这名罪犯跑得特别快。
-reputationtooltip_instigator            这名罪犯擅长煽动周围囚犯的情绪。当他闹事的时候，周围的囚犯也很可能做同样的事。
-reputationtooltip_fighter               这名犯人擅长防御格斗动作。他可以缴械对手，甚至在打斗中夺走对方武器。
+reputationtooltip_instigator            这名罪犯擅长煽动周围囚犯的情绪。当他闹事的时候，周围的囚犯也很可能一拥而上。
+reputationtooltip_fighter               这名犯人擅长擒拿格斗和缴械，甚至可以在打斗中夺走对方武器。
 reputationtooltip_gangmember            这名犯人属于一个帮派。它会保护同帮派的成员并且怀有对敌对帮派的仇恨。
 
 
