@@ -280,18 +280,18 @@ interfacetopbar_tension_increasing              且正在上升
 interfacetopbar_tension_decreasing              且正在降低
 interfacetopbar_tension_description             潜在危险因素：
 interfacetopbar_tension_happyprisoners          - *X 名囚犯表示受到良好的对待
-interfacetopbar_tension_unhappyprisoners        + *X 名囚犯正在严重的抱怨
+interfacetopbar_tension_unhappyprisoners        + *X 名囚犯整日吐槽
 interfacetopbar_tension_lockedupprisoners       + *X 名囚犯正在自己的牢房或禁闭室禁足中
 interfacetopbar_tension_riotingprisoners        + *X 名囚犯正在暴动
-interfacetopbar_tension_wellfedprisoners        - *X 名囚犯饮食良好
+interfacetopbar_tension_wellfedprisoners        - *X 名囚犯吃饱了
 interfacetopbar_tension_suppressedprisoners     = *X 名囚犯被镇压(报怨)
-interfacetopbar_tension_activeriotguards        + *X 名防暴警察正在现场
+interfacetopbar_tension_activeriotguards        + *X 名防暴警察就位
 interfacetopbar_tension_activearmedguards       + *X 名武警执勤中
 interfacetopbar_tension_recentdeaths            + *X 个人最近被杀了
 interfacetopbar_tension_recentsearches          + *X 名囚犯最近被无故搜身
 interfacetopbar_tension_angrygangmembers        + *X 名帮派成员非常愤怒（领袖被惩罚）
 interfacetopbar_tension_recentpunishments       = (威慑) 近期执行了 *X 项处罚
-interfacetopbar_tension_recentcalmed            -*X 个囚犯最近被安抚过
+interfacetopbar_tension_recentcalmed            -*X 个囚犯最近很老实
 
 interfacecontrol_mainmenu                       主菜单（Esc）
 interfacecontrol_mainmenu_tooltip               开启主菜单（新游戏/读取/存档/退出 等）
