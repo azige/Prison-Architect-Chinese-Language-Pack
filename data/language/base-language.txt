@@ -45,7 +45,7 @@ dialogeditor_back                       后退
 dialogeditor_front                      前部
 dialogeditor_reloadlanguage             重载语言
 dialogeditor_test                       测试
-dialogeditor_window                     窗户
+dialogeditor_window                     窗口
 dialogeditor_grid                       网格
 dialogeditor_caption                    标题
 dialogeditor_component                  组件
@@ -152,7 +152,7 @@ interfacemode_emergencies                     紧急
 interfacemode_clone                           克隆
 interfacemode_contraband                      情报
 interfacemode_grading                         评价
-interfacemode_spawn                           （重生）
+interfacemode_spawn                           （复活）
 interfacemode_properties                      （属性）
 interfacemode_cutscenes                       （过场）
 interfacemode_selection                       选择
@@ -194,8 +194,8 @@ interfacedeployment_zonegreen                   绿色区域
 interfacedeployment_zoneblue                    蓝色区域
 interfacedeployment_zoneyellow                  黄色区域
 
-interfacelogistics_jobs                         监狱劳动
-interfacelogistics_removejobs                   移除劳动名额
+interfacelogistics_jobs                         监狱劳动改造
+interfacelogistics_removejobs                   移除劳改名额
 interfacelogistics_targettingfood               食物分配
 interfacelogistics_targettinglaundry            衣物分配
 interfacelogistics_roomquality                  房间品质
@@ -217,13 +217,13 @@ interfaceclone_paste                            粘贴
 
 interfacetopbar_todo                            待办事项
 interfacetopbar_balance                         存款 *B
-interfacetopbar_budget                          资金流动 *C
+interfacetopbar_budget                          现金流 *C
 interfacetopbar_income                          收入 *I
 interfacetopbar_expenses                        支出 *C
 interfacetopbar_day                             第 *D 天
 
 interfacetopbar_title_balance                   银行存款
-interfacetopbar_title_budget                    每日资金流动
+interfacetopbar_title_budget                    每日现金流
 interfacetopbar_title_cctv                      监控摄像头
 interfacetopbar_title_day                       天数
 interfacetopbar_title_prisoners                 囚犯
@@ -231,7 +231,7 @@ interfacetopbar_title_guards                    警卫
 interfacetopbar_title_tension                   危险等级
 
 interfacetopbar_tooltip_balance                 银行内的存款金额。\n\n点击补助清单以获得更多资金。
-interfacetopbar_tooltip_budget                  根据目前支出和收入所算出每天监狱能获取的金额。\n\n点击进入详细的收支清单。
+interfacetopbar_tooltip_budget                  根据目前监狱日常支出和收入计算出每天监狱能获取的金额。（注意：不包括建筑费用）\n\n点击进入详细的收支清单。
 interfacetopbar_tooltip_cctv                    目前拥有的监控摄像头与监视器数量。
 interfacetopbar_tooltip_day                     经营监狱的时间。
 interfacetopbar_tooltip_prisoners               目前拥有的监狱数量以及可容纳犯人数。
@@ -258,7 +258,7 @@ interfacetopbar_unlimitedfunds                  无限资金
 
 interfacetopbar_budget_moneyin                  收入: $*M /天
 interfacetopbar_budget_moneyout                 支出: $*M /天
-interfacetopbar_budget_cantgonegative           在聘请会计师管理监狱财务之前，资金流动不可为负的 (也就是支出大于收入) 。
+interfacetopbar_budget_cantgonegative           在聘请会计师管理监狱财务之前，现金流不可为负的 (也就是支出大于收入) 。
 
 interfacetopbar_prisoners_types                 目前容纳 *X 名囚犯：
 interfacetopbar_prisoners_capacity              最大安全容纳：*X
@@ -421,7 +421,7 @@ buildtoolbar_popup_properties           查明那该死的东西
 buildtoolbar_popup_contraband           显示违禁品的来源，以及所有最近被发现的违禁品。同时显示你的秘密检举人及其情报。
 buildtoolbar_popup_grading              查看你的监狱整体等级基于四个关键指标——惩罚，教化，安全，医疗，同时显示囚犯出狱后的再犯率。
 buildtoolbar_popup_room_cell            囚犯生活的地方
-buildtoolbar_popup_room_holdingcell     当新进囚犯还没有分配个人牢房时，会先收容在集体牢房内
+buildtoolbar_popup_room_holdingcell     当新进囚犯还没有分配个人牢房时，会先收容在拘留牢房内
 buildtoolbar_popup_room_solitary        专为坏蛋中的战斗蛋设计而建的独立惩戒措施，俗称“小黑屋”
 buildtoolbar_popup_room_canteen         囚犯喝下午茶的地方
 buildtoolbar_popup_room_kitchen         厨师为囚犯准备食物的地方
@@ -2042,7 +2042,7 @@ material_roof                            屋顶
 
 room_none                                无
 room_cell                                牢房
-room_holdingcell                         集体牢房
+room_holdingcell                         拘留牢房
 room_solitary                            禁闭室
 room_superiorcell                        高级牢房
 room_canteen                             食堂
