@@ -270,14 +270,14 @@ interfacetopbar_prisonercells_maxseconly        重刑犯专区容量：*X
 interfacetopbar_prisonercells_protectedonly     重点保护专区容量：*X
 interfacetopbar_prisonercells_supermaxonly      超重刑犯专区容量：*X
 interfacetopbar_prisonercells_deathrowonly      死刑犯专区容量：*X
-interfacetopbar_prisonercells_staffonly         员工专区：*X
+interfacetopbar_prisonercells_staffonly         因设为员工专区而无法使用的牢房数量：*X
 
 interfacetopbar_cctv_current                    目前有 *C 个摄像头在工作
 interfacetopbar_cctv_cap                        还可安装 *C 个摄像头
 
 interfacetopbar_tension_currentlevel            目前危险等级为 *X
-interfacetopbar_tension_increasing              且正在提高中
-interfacetopbar_tension_decreasing              且正在降低中
+interfacetopbar_tension_increasing              且正在上升
+interfacetopbar_tension_decreasing              且正在降低
 interfacetopbar_tension_description             潜在危险因素：
 interfacetopbar_tension_happyprisoners          - *X 名囚犯表示受到良好的对待
 interfacetopbar_tension_unhappyprisoners        + *X 名囚犯正在严重的抱怨
