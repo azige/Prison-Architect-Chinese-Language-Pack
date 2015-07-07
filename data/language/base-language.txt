@@ -1597,7 +1597,7 @@ reputationtooltip_gangmember            这名犯人属于一个帮派。它会�
 # ============================================================================= 
 
 nameplate_working                       工作
-nameplate_stationed                     站岗
+nameplate_stationed                     已就位
 nameplate_patrolling                    巡逻中
 nameplate_resting                       休息
 nameplate_tired                         疲劳
@@ -1618,7 +1618,7 @@ objective_feedallprisoners              喂饱所有囚犯
 objective_caption_prisoners             囚犯
 objective_caption_meals                 餐食
 objective_readceosletter                读首席执行官的来信
-objective_actionrequired                事件报告
+objective_actionrequired                事故报告
 
 objective_deathrowinmates               死刑犯状态
 
@@ -1634,22 +1634,22 @@ objective_intake_medsec                 中危险度，
 objective_intake_maxsec                 高危险度
 objective_intake_deathrow               死囚
 
-objective_builddeliveriesroom           设定配送区域
+objective_builddeliveriesroom           建造囚犯接收甄别区域
 
 objective_outgoing                      即将释放的囚犯
 objective_outgoing_count                *X 罪犯即将被释放
 objective_outgoing_timer                (*X 小时)
 
 objective_visitors                      访客（上午8点——下午8点）
-objective_visitors_waiting              有 *X 个家庭等待探视
-objective_visitors_onsite               监狱里来了 *Y 个团体共 *X 人的探视者
+objective_visitors_waiting              有 *X 个等待探视的家属
+objective_visitors_onsite               监狱里来了 *Y 组共计 *X 人的探视者
 
 objective_staffexhausted                员工疲惫不堪
 objective_reststaff_exhausted           *X 名员工已经疲惫不堪
 objective_reststaff_resting             （ *X 名员工正在休息）
 objective_reststaff_needstaffroom       建立员工休息室，这样他们累了就可以休息了
 
-objective_punishment_solitary           *X 人在单独禁闭
+objective_punishment_solitary           *X 人被单独禁闭
 objective_punishment_solitary_queue     *X 人等待单独禁闭
 objective_punishment_solitary_mix       *X 人在单独禁闭 (+ *Y 等待)
 objective_punishment_lockdown           *X 人被禁足
@@ -1662,7 +1662,7 @@ objective_parole_count                  *X 罪犯可以申请假释
 objective_payment_receivedfull          报酬: *X 已收到
 objective_payment_receivedpart          报酬: *X 已收到 总量 *Y
 
-objective_grant_bootstraps                  基础拘留中心
+objective_grant_bootstraps                  建设拘留所
 objective_grant_bootstraps_description      把一片空地变成一座正常运作的监狱。政府的合约为你提供了建造监狱基础设施所必须的资金。
 objective_grant_bootstraps_holdingcell      建造牢房
 objective_grant_bootstraps_shower           建造淋浴房
@@ -1672,14 +1672,14 @@ objective_grant_bootstraps_canteen          建造食堂
 objective_grant_bootstraps_guard            雇用至少两名狱警
 objective_grant_bootstraps_chef             雇佣至少两名厨师
 
-objective_grant_administration                          行政中心
+objective_grant_administration                          建设狱政管理部门
 objective_grant_administration_description              每个监狱项目需要一个健全的行政设施，以确保顺利运作，使该项目正常发挥作用。\n\n这个合同为一位典狱长、一位会计师和他们的办公室提供了经费，可以让我们使用完备的联邦行政系统
 objective_grant_administration_offices                  建造两个办公室
 objective_grant_administration_warden                   雇佣一位典狱长
 objective_grant_administration_accountant_research      通过行政系统解锁财政
 objective_grant_administration_accountant               雇用一名会计
 
-objective_grant_firstcellblock                  囚室 A
+objective_grant_firstcellblock                  一期工程
 objective_grant_firstcellblock_description      基础设施已经建立并运作了。现在是时候建造第一间牢房，\n\n把现有的囚犯转入他们自己的牢房了
 objective_grant_firstcellblock_cells            将监狱牢房的容量提高到15人
 
@@ -1786,32 +1786,32 @@ objective_grant_longterminvestment                  长期投资
 objective_grant_longterminvestment_description      将钱财用于长期投资，并最终给予你与你的初始投资额相称的大量回报。
 objective_grant_longterminvestment_wait             等待资金……
 
-objective_grant_cellblock50                         牢房区B
+objective_grant_cellblock50                         二期工程
 objective_grant_cellblock50_description             是时候扩建你的监狱了，使其不仅仅是一个简单的收容场所。
-objective_grant_cellblock50_cells                   将你的犯人容量提高到50
+objective_grant_cellblock50_cells                   将你的监狱的犯人容量提高到50
 
-objective_grant_cellblock100                        牢房区C
+objective_grant_cellblock100                        三期工程
 objective_grant_cellblock100_description            通过继续扩建监狱来充分利用土地。
-objective_grant_cellblock100_cells                  将你的犯人容量提高到100
+objective_grant_cellblock100_cells                  将你的监狱的犯人容量提高到100
 
-objective_grant_cellblock200                        牢房区D
+objective_grant_cellblock200                        四期工程
 objective_grant_cellblock200_description            更多犯人意味着更多政府资金。
-objective_grant_cellblock200_cells                  将你的犯人容量提高到200
+objective_grant_cellblock200_cells                  将你的监狱的犯人容量提高到200
 
-objective_grant_cellblock500                        牢房区E
+objective_grant_cellblock500                        五期工程
 objective_grant_cellblock500_description            政府会为最大的监狱提供非常多的财政激励。是时候朝这个目标努力了。
-objective_grant_cellblock500_cells                  将你的犯人容量提高到500
+objective_grant_cellblock500_cells                  将你的监狱的犯人容量提高到500
 
 objective_grant_nutritionresearch                   犯人营养调查
-objective_grant_nutritionresearch_description       一个独立的调查小组愿意提供资金来参加一个关于不同的同住者饮食习惯影响的实验。
+objective_grant_nutritionresearch_description       一个独立的调查小组愿意提供资金来实施一个饮食习惯变化对同住者的影响的实验。
 objective_grant_nutritionresearch_poor              两天中每天提供1餐低份量低种类餐食。
 objective_grant_nutritionresearch_good              两天中每天提供3餐高份量高种类餐食。
 
 objective_grant_drugsearch                          取缔毒品
-objective_grant_drugsearch_description              近来大监狱中的毒品使用越来越受人关注。采取主动力场并让人看看你在处理这个问题。
+objective_grant_drugsearch_description              近来大监狱中的毒品使用越来越受人关注。采取主动立场并让人看看你在处理这个问题。
 objective_grant_drugsearch_find                     搜出十份毒品
 
-objective_grant_contrabandsupply                    清除工具
+objective_grant_contrabandsupply                    切断工具来源
 objective_grant_contrabandsupply_description        随着其他监狱中涉及偷窃物品的时间，一个组织正在监狱中针对工具和武器的分布做调查研究。实验的这部分包括尝试着从你的犯人那儿夺走所有类似的物品。
 objective_grant_contrabandsupply_tools              移除偷窃工具的供给
 objective_grant_contrabandsupply_weapons            移除偷窃武器的供给
