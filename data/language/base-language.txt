@@ -372,9 +372,9 @@ connectionmenu_done                     完成
 
 buildtoolbar_title                      建造
 buildtoolbar_reports                    监狱报告
-buildtoolbar_bangup                     拘禁
-buildtoolbar_lockdown                   全部关押
-buildtoolbar_shakedown                  彻底搜查
+buildtoolbar_bangup                     全体回房
+buildtoolbar_lockdown                   全面封锁
+buildtoolbar_shakedown                  全部搜查
 buildtoolbar_weaponsfree                自由开火
 
 buildtoolbar_tooltip_reports            打开报告窗口，查看有关你的囚犯、员工、收入、政府补助等信息
