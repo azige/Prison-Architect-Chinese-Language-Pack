@@ -236,7 +236,7 @@ interfacetopbar_tooltip_cctv                    目前拥有的监控摄像头�
 interfacetopbar_tooltip_day                     经营监狱的时间。
 interfacetopbar_tooltip_prisoners               目前拥有的监狱数量以及可容纳犯人数。
 interfacetopbar_tooltip_guards                  监狱中空闲的狱警数量
-interfacetopbar_tooltip_tension                 保安主管报告的监狱整体风险等级。
+interfacetopbar_tooltip_tension                 警长报告的监狱整体风险等级。
 
 interfacetopbar_tooltip_recenttransactions      最近的交易记录
 
@@ -284,7 +284,7 @@ interfacetopbar_tension_unhappyprisoners        + *X 名囚犯整日吐槽
 interfacetopbar_tension_lockedupprisoners       + *X 名囚犯正在自己的牢房或禁闭室禁足中
 interfacetopbar_tension_riotingprisoners        + *X 名囚犯正在暴动
 interfacetopbar_tension_wellfedprisoners        - *X 名囚犯营养充足
-interfacetopbar_tension_suppressedprisoners     = *X 名囚犯被镇压(报怨)
+interfacetopbar_tension_suppressedprisoners     = *X 名囚犯在报怨
 interfacetopbar_tension_activeriotguards        + *X 名防暴警察就位
 interfacetopbar_tension_activearmedguards       + *X 名武警执勤中
 interfacetopbar_tension_recentdeaths            + *X 个人最近被杀了
@@ -416,7 +416,7 @@ buildtoolbar_popup_logistics            指派囚犯在监狱内进行后勤劳�
 buildtoolbar_popup_research             为监狱解锁更多功能。
 buildtoolbar_popup_emergencies          呼叫紧急支援协助解决监狱内的恶性事件
 buildtoolbar_popup_spawn                重生？这是干嘛的？
-buildtoolbar_popup_clone                你可以复制和粘贴现有的建筑结构。
+buildtoolbar_popup_clone                你可以复制和粘贴现有的建筑结构。（包括物品）
 buildtoolbar_popup_properties           查明那该死的东西
 buildtoolbar_popup_contraband           显示违禁品的来源，以及所有最近被发现的违禁品。同时显示你的秘密检举人及其情报。
 buildtoolbar_popup_grading              查看你的监狱整体等级基于四个关键指标——惩罚，教化，安全，医疗，同时显示囚犯出狱后的再犯率。
@@ -437,9 +437,9 @@ buildtoolbar_popup_room_office          行政人员工作的区域
 buildtoolbar_popup_room_medicalward     医护人员工作的区域
 buildtoolbar_popup_room_morgue          死掉的囚犯和员工会送到这裡
 buildtoolbar_popup_room_commonroom      囚犯在自由活动时间可以休息的地方
-buildtoolbar_popup_room_kennel          警犬住的地方
-buildtoolbar_popup_room_chapel          当委员会聚在一起讨论设计如何处理囚犯们的宗教需求时会怎样？一个“多信仰祷告室”诞生了。我们管这种东西叫小礼拜堂。
-buildtoolbar_popup_room_paroleroom      当囚犯服刑期满 50% 和 75% 时，就有资格申请假释，他们的命运将会在这间房间内，由典狱长和保安队长决定。\n\n建议安排额外的狱警戒备，当犯人知道他们假释被驳回的时候通常会异常沮丧。
+buildtoolbar_popup_room_kennel          警犬和警犬训练员待的地方
+buildtoolbar_popup_room_chapel          当管理层聚在一起讨论设计如何处理囚犯们的宗教需求时会怎样？一个“多信仰祷告室”诞生了。我们管这种东西叫小礼拜堂。
+buildtoolbar_popup_room_paroleroom      当囚犯服刑期满 50% 和 75% 时，就有资格申请假释，他们的命运将会在这间房间内，由典狱长和警长决定。\n\n建议安排额外的狱警戒备，当犯人知道他们假释被驳回的时候通常会异常沮丧。
 buildtoolbar_popup_room_library         全国各地会送一些不要的或使用过的书籍给你的监狱，囚犯要协助将书本分类并上架。
 buildtoolbar_popup_room_intake          囚犯刚抵达的时候会先带到这里。
 
@@ -456,9 +456,9 @@ buildtoolbar_popup_obj_solitarydoor     极其坚固的门，即使是最强壮�
 buildtoolbar_popup_obj_staffdoor        一道上锁的大门，不只狱警能开，所有员工都能开
 buildtoolbar_popup_obj_window           可以看一眼阳光
 buildtoolbar_popup_obj_windowlarge      可以看很多眼阳光
-buildtoolbar_popup_obj_tree             防止全球变暖人人有责
+buildtoolbar_popup_obj_tree             可以长大砍树挣钱
 buildtoolbar_popup_obj_light            确保一整天都能看见犯人们的一举一动
-buildtoolbar_popup_obj_cooker           用热腾腾的饭菜让犯人们奢侈一下吧
+buildtoolbar_popup_obj_cooker           用热腾腾的饭菜让犯人们享受一下吧
 buildtoolbar_popup_obj_fridge           避免你的食材变质坏掉
 buildtoolbar_popup_obj_bin              违禁品一定要搜剿干净
 buildtoolbar_popup_obj_sink             所有的员工都必需要洗手
@@ -489,7 +489,7 @@ buildtoolbar_popup_staff_doctor         自动治疗附近受伤的人，不管�
 buildtoolbar_popup_staff_cook           准备食物并分配给你的犯人们
 buildtoolbar_popup_staff_gardener       让你的监狱地面干净整洁
 buildtoolbar_popup_staff_janitor        让你的监狱内部干净整洁，也可以协助监狱的洗衣服务
-buildtoolbar_popup_staff_warden         你监狱的大总管，在你雇佣高级员工之前必须有一个大总管
+buildtoolbar_popup_staff_warden         你监狱的大总管，在你雇佣高级员工之前必须有一个典狱长
 buildtoolbar_popup_staff_chief          这个高级员工可以让你接触到部署，监视和防暴警察相关的科研项目
 buildtoolbar_popup_staff_foreman        这个高级员工可以让你雇佣清洁工和园丁
 buildtoolbar_popup_staff_psychologist   一个高级员工，可以让你洞察囚犯们的心理活动
@@ -1055,7 +1055,7 @@ unlock_title                            已解锁
 unlock_special_electricity              电力系统
 unlock_special_food                     食物准备
 unlock_special_officersafety            工作人员安全
-unlock_special_misbehavior              不当行為
+unlock_special_misbehavior              不当行为
 unlock_special_accounting               会计
 unlock_special_gangs                    帮派
 
@@ -1070,10 +1070,10 @@ click_to_continue                       点击继续……
 incoming_call                           来电……
 
 adviser_name_none                       无
-adviser_name_ceo                        执行长
-adviser_name_warden                     监狱长
+adviser_name_ceo                        执行主管
+adviser_name_warden                     典狱长
 adviser_name_governer                   州长
-adviser_name_chief                      保安主管
+adviser_name_chief                      警长
 adviser_name_doctor                     医生
 adviser_name_kingpin                    金平
 adviser_name_edwardshooter              爱德华
@@ -1569,7 +1569,7 @@ reputation_quick_high                   极其敏捷
 reputation_fighter_high                 搏击专家
 
 reputation_legendary_high               --传奇--
-reputation_snitch_high                  告密者
+reputation_snitch_high                  线人
 reputation_stoical_high                 坚忍
 reputation_fearless_high                无畏
 reputation_copkiller_high               警察杀手
@@ -1664,7 +1664,7 @@ objective_payment_receivedpart          报酬: *X 已收到 总量 *Y
 
 objective_grant_bootstraps                  建设拘留所
 objective_grant_bootstraps_description      把一片空地变成一座正常运作的监狱。政府的合约为你提供了建造监狱基础设施所必须的资金。
-objective_grant_bootstraps_holdingcell      建造牢房
+objective_grant_bootstraps_holdingcell      建造拘留牢房
 objective_grant_bootstraps_shower           建造淋浴房
 objective_grant_bootstraps_yard             建造庭院
 objective_grant_bootstraps_kitchen          建造厨房
@@ -1716,7 +1716,7 @@ objective_grant_visitation_phones                   建造至少5个电话亭
 objective_grant_basicsecurity                       安全程序认证
 objective_grant_basicsecurity_description           因为员工没有经验，所以新监狱有一些常见安全漏洞。增加安保强度来避免出现一些会影响我们声誉的问题。
 objective_grant_basicsecurity_chief                 雇用一名安全专家（需要一个办公室）
-objective_grant_basicsecurity_guards                雇用十个守卫
+objective_grant_basicsecurity_guards                雇用十个警卫
 objective_grant_basicsecurity_patrols               将三名守卫分配到巡逻路线
 objective_grant_basicsecurity_research              通过行政系统解锁巡逻队
 
@@ -1724,10 +1724,10 @@ objective_grant_enhancedsecurity                    政府安全评级
 objective_grant_enhancedsecurity_description        政府对超过特定规模大小的监狱安全有特定要求，并会重罚那些存在不足的监狱。确保这方面不会出现问题。
 objective_grant_enhancedsecurity_armoury            建立一个军械库
 objective_grant_enhancedsecurity_kennel             建立一间警犬休息室
-objective_grant_enhancedsecurity_guards             雇用两名武装守卫
+objective_grant_enhancedsecurity_guards             雇用两名武警
 objective_grant_enhancedsecurity_dogs               雇用两名警犬训练员
 objective_grant_enhancedsecurity_patroldogs         将两名警犬训练员分配到一个警犬巡逻队
-objective_grant_enhancedsecurity_patrolarmed        将两名武装守卫分配到一个巡逻队
+objective_grant_enhancedsecurity_patrolarmed        将两名武警分配到一个巡逻队
 
 objective_grant_advancedsecurity                    实行最高保安级别设施
 objective_grant_advancedsecurity_description        保证大量罪人的安全或许很难，但是违背规定的花销远比实施适当的安保措施花销大得多。在你的监狱中安装必要的仪器设备。
@@ -1909,7 +1909,7 @@ object_lawyer                            律师
 object_supplytruck                       供给卡车
 object_prisonerbus                       囚车
 object_fireengine                        消防车
-object_riotvan                           防暴车
+object_riotvan                           防暴警车
 object_ambulance                         救护车
 object_hearse                            灵车
 object_trooptruck                        运兵车
