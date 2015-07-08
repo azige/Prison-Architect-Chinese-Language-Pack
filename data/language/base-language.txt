@@ -1489,7 +1489,7 @@ action_shopping                         购物
 status_effect_title                     =[状态效果]=
 status_effect_none                      无
 status_effect_suppressed                被制服
-status_effect_goodfood                  饮食良好
+status_effect_goodfood                  营养充足
 status_effect_drunk                     醉酒
 status_effect_high                      嗨翻了
 status_effect_withdrawal                戒毒
@@ -1515,7 +1515,7 @@ experience_kod                          被击晕
 experience_hurt                         受伤
 experience_suppressed                   被制服
 experience_intoxicated                  毒瘾发作
-experience_wellfed                      饮食良好
+experience_wellfed                      营养充足
 experience_exercise                     锻炼
 
 need_name_nothing                       无
