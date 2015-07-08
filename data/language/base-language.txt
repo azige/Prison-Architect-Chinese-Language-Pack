@@ -1662,7 +1662,7 @@ objective_parole_count                  *X 罪犯可以申请假释
 objective_payment_receivedfull          报酬: *X 已收到
 objective_payment_receivedpart          报酬: *X 已收到 总量 *Y
 
-objective_grant_bootstraps                  建设拘留所
+objective_grant_bootstraps                  基础监禁中心
 objective_grant_bootstraps_description      把一片空地变成一座正常运作的监狱。政府的合约为你提供了建造监狱基础设施所必须的资金。
 objective_grant_bootstraps_holdingcell      建造拘留牢房
 objective_grant_bootstraps_shower           建造淋浴房
