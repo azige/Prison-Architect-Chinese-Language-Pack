@@ -283,7 +283,7 @@ interfacetopbar_tension_happyprisoners          - *X 名囚犯表示受到良好
 interfacetopbar_tension_unhappyprisoners        + *X 名囚犯整日吐槽
 interfacetopbar_tension_lockedupprisoners       + *X 名囚犯正在自己的牢房或禁闭室禁足中
 interfacetopbar_tension_riotingprisoners        + *X 名囚犯正在暴动
-interfacetopbar_tension_wellfedprisoners        - *X 名囚犯吃饱了
+interfacetopbar_tension_wellfedprisoners        - *X 名囚犯营养充足
 interfacetopbar_tension_suppressedprisoners     = *X 名囚犯被镇压(报怨)
 interfacetopbar_tension_activeriotguards        + *X 名防暴警察就位
 interfacetopbar_tension_activearmedguards       + *X 名武警执勤中
