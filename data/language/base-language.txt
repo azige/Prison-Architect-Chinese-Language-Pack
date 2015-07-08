@@ -1597,7 +1597,7 @@ reputationtooltip_gangmember            这名犯人属于一个帮派。它会�
 # ============================================================================= 
 
 nameplate_working                       工作
-nameplate_stationed                     已就位
+nameplate_stationed                     站岗
 nameplate_patrolling                    巡逻中
 nameplate_resting                       休息
 nameplate_tired                         疲劳
