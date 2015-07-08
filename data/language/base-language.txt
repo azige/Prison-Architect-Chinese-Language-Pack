@@ -982,7 +982,7 @@ research_legalprep                      法律筹备
 research_legaldefense                   法律辩护
 
 researchtooltip_warden                  解锁典狱长及整个监狱制度系统。打开员工工具栏来任命典狱长。\n\n与其他管理层相同，典狱长需要有自己的办公室。
-researchtooltip_security                解锁看守长，可以从员工工具栏中任命。看守长可以解锁部署界面，并且可以提供实时的监狱风险等级报告，用来发现潜在的安全隐患。\n\n与其他管理层相同，看守长需要有自己的办公室。
+researchtooltip_security                解锁警长，可以从员工工具栏中任命。警长可以解锁部署界面，并且可以提供实时的监狱风险等级报告，用来发现潜在的安全隐患。\n\n与其他管理层相同，警长需要有自己的办公室。
 researchtooltip_maintenance             解锁工头。在员工工具栏中雇用。\n\n与其他管理层相同，工头需要有自己的办公室。
 researchtooltip_legal                   解锁律师，可以从员工工具栏中雇用。解锁大量的调研选项以增加你对监狱的控制权。\n\n与其他管理层相同，律师需要有自己的办公室。
 researchtooltip_deployment              让你可以指派狱警到监狱的特定区域内站岗。
