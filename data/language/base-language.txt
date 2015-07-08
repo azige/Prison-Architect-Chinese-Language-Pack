@@ -171,9 +171,9 @@ interfaceproperty_sectorprisoner                暴动
 interfaceproperty_tunnel                        地道
 
 interfacedeployment_guards                      狱警
-interfacedeployment_patrols                     狱警巡逻队
-interfacedeployment_dogpatrols                  警犬巡逻队
-interfacedeployment_armedpatrols                武警巡逻队
+interfacedeployment_patrols                     狱警巡逻
+interfacedeployment_dogpatrols                  警犬巡逻
+interfacedeployment_armedpatrols                武警巡逻
 interfacedeployment_removeguards                移除警卫
 interfacedeployment_clearpatrols                移除巡逻路线
 interfacedeployment_targetting                  后勤
