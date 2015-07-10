@@ -806,98 +806,98 @@ END
 # Reputation
 
 BEGIN Reputation
-    Name            Legendary
+    Name            传奇
     ChanceLow       0
     ChanceMedium    0
     ChanceHigh      1
 END
 
 BEGIN Reputation
-    Name            Strong
+    Name            强壮
     ChanceLow       0
     ChanceMedium    5
     ChanceHigh      15
 END
 
 BEGIN Reputation
-    Name            Tough
+    Name            抗打
     ChanceLow       0
     ChanceMedium    5
     ChanceHigh      15
 END
 
 BEGIN Reputation
-    Name            Quick
+    Name            敏捷
     ChanceLow       3
     ChanceMedium    5
     ChanceHigh      3
 END
 
 BEGIN Reputation
-    Name            Volatile
+    Name            暴力倾向
     ChanceLow       0
     ChanceMedium    3
     ChanceHigh      7
 END
 
 BEGIN Reputation
-    Name            Stoical
+    Name            坚忍
     ChanceLow       0
     ChanceMedium    10
     ChanceHigh      20
 END
 
 BEGIN Reputation
-    Name            Fearless
+    Name            无畏
     ChanceLow       0
     ChanceMedium    5
     ChanceHigh      15
 END
 
 BEGIN Reputation
-    Name            Deadly
+    Name            致命
     ChanceLow       0
     ChanceMedium    1
     ChanceHigh      2
 END
 
 BEGIN Reputation
-    Name            Snitch
+    Name            告密者
     ChanceLow       3
     ChanceMedium    2
     ChanceHigh      1
 END
 
 BEGIN Reputation
-    Name            ExLaw
+    Name            前执法者
     ChanceLow       3
     ChanceMedium    2
     ChanceHigh      1
 END
 
 BEGIN Reputation
-    Name            CopKiller
+    Name            警察杀手
     ChanceLow       0
     ChanceMedium    0
     ChanceHigh      5
 END
 
 BEGIN Reputation
-    Name            Instigator
+    Name            教唆犯
     ChanceLow       0
     ChanceMedium    1
     ChanceHigh      3
 END
 
 BEGIN Reputation
-    Name            Fighter
+    Name            搏击高手
     ChanceLow       1
     ChanceMedium    2
     ChanceHigh      5
 END
 
 BEGIN Reputation
-    Name            GangMember
+    Name            帮派成员
     ChanceLow       0
     ChanceMedium    5
     ChanceHigh      15
