@@ -280,11 +280,11 @@ interfacetopbar_tension_increasing              且正在上升
 interfacetopbar_tension_decreasing              且正在降低
 interfacetopbar_tension_description             潜在危险因素：
 interfacetopbar_tension_happyprisoners          - *X 名囚犯表示受到良好的对待
-interfacetopbar_tension_unhappyprisoners        + *X 名囚犯整日吐槽
+interfacetopbar_tension_unhappyprisoners        + *X 名囚犯整日抱怨
 interfacetopbar_tension_lockedupprisoners       + *X 名囚犯正在自己的牢房或禁闭室禁足中
 interfacetopbar_tension_riotingprisoners        + *X 名囚犯正在暴动
 interfacetopbar_tension_wellfedprisoners        - *X 名囚犯营养充足
-interfacetopbar_tension_suppressedprisoners     = *X 名囚犯在报怨
+interfacetopbar_tension_suppressedprisoners     = *X 名囚犯被镇压（服从）
 interfacetopbar_tension_activeriotguards        + *X 名防暴警察就位
 interfacetopbar_tension_activearmedguards       + *X 名武警执勤中
 interfacetopbar_tension_recentdeaths            + *X 个人最近被杀了
@@ -1569,7 +1569,7 @@ reputation_quick_high                   极其敏捷
 reputation_fighter_high                 搏击专家
 
 reputation_legendary_high               --传奇--
-reputation_snitch_high                  线人
+reputation_snitch_high                  告密者
 reputation_stoical_high                 坚忍
 reputation_fearless_high                无畏
 reputation_copkiller_high               警察杀手
