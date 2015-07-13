@@ -421,7 +421,7 @@ buildtoolbar_popup_properties           查明那该死的东西
 buildtoolbar_popup_contraband           显示违禁品的来源，以及所有最近被发现的违禁品。同时显示你的秘密检举人及其情报。
 buildtoolbar_popup_grading              查看你的监狱整体等级基于四个关键指标——惩罚，教化，安全，医疗，同时显示囚犯出狱后的再犯率。
 buildtoolbar_popup_room_cell            囚犯生活的地方
-buildtoolbar_popup_room_holdingcell     当新进囚犯还没有分配个人牢房时，会先收容在拘留牢房内
+buildtoolbar_popup_room_holdingcell     当新进囚犯还没有分配个人牢房时，会先收容在临时牢房内。这种牢房可供集体居住。
 buildtoolbar_popup_room_solitary        专为坏蛋中的战斗蛋设计而建的独立惩戒措施，俗称“小黑屋”
 buildtoolbar_popup_room_canteen         囚犯喝下午茶的地方
 buildtoolbar_popup_room_kitchen         厨师为囚犯准备食物的地方
@@ -437,7 +437,7 @@ buildtoolbar_popup_room_office          行政人员工作的区域
 buildtoolbar_popup_room_medicalward     医护人员工作的区域
 buildtoolbar_popup_room_morgue          死掉的囚犯和员工会送到这裡
 buildtoolbar_popup_room_commonroom      囚犯在自由活动时间可以休息的地方
-buildtoolbar_popup_room_kennel          警犬和警犬训练员待的地方
+buildtoolbar_popup_room_kennel          警犬和警犬训导员待的地方
 buildtoolbar_popup_room_chapel          当管理层聚在一起讨论设计如何处理囚犯们的宗教需求时会怎样？一个“多信仰祷告室”诞生了。我们管这种东西叫小礼拜堂。
 buildtoolbar_popup_room_paroleroom      当囚犯服刑期满 50% 和 75% 时，就有资格申请假释，他们的命运将会在这间房间内，由典狱长和警长决定。\n\n建议安排额外的狱警戒备，当犯人知道他们假释被驳回的时候通常会异常沮丧。
 buildtoolbar_popup_room_library         全国各地会送一些不要的或使用过的书籍给你的监狱，囚犯要协助将书本分类并上架。
@@ -987,7 +987,7 @@ researchtooltip_maintenance             解锁工头。在员工工具栏中雇�
 researchtooltip_legal                   解锁律师，可以从员工工具栏中雇用。解锁大量的调研选项以增加你对监狱的控制权。\n\n与其他管理层相同，律师需要有自己的办公室。
 researchtooltip_deployment              让你可以指派狱警到监狱的特定区域内站岗。
 researchtooltip_patrols                 在监狱某些重点区域（例如外围）制定巡逻路线，并指定狱警按照该路线巡逻
-researchtooltip_dogs                    解锁警犬训练员及警犬。警犬可以轻易的嗅出违禁物及越狱地道。\n\n警犬也因其出色的速度被用来追捕逃犯。
+researchtooltip_dogs                    解锁警犬训导员及警犬。警犬可以轻易的嗅出违禁物及越狱地道。\n\n警犬也因其出色的速度被用来追捕逃犯。
 researchtooltip_cctv                    解锁摄像头及监控设备。使用这些设备来监视没有看守警戒的区域。\n\n同时解锁电话监听系统，可以让你监听囚犯打出的电话以获得重要情报。
 researchtooltip_remoteaccess            解锁远程控制和自动门禁等高科技设备。使用控制系统远程打开门禁（由一名保安操作），或者每天的特定时间由门定时器打开。
 researchtooltip_riotguards              (目前暂无用处)\n 解锁“防暴警察”，这些武装人员更适用处置暴力状况
@@ -1004,9 +1004,9 @@ researchtooltip_education               解锁实行教育改造课程的能力�
 researchtooltip_contraband              训练你的狱警们，让他们提高追查违禁品的能力。解锁供需报告，违禁品报地图（显示你监狱内所有可能发生盗窃的地方），并追踪所有偷运和盗窃发生的地点。
 researchtooltip_policy                  解锁政策报告，使你可以增加或减少针对所有不当行为的处罚量，以及自行启动搜查举止不端的囚犯及其牢房的能力。
 researchtooltip_armoury                 解锁军械库，并可以让你在你的监狱内部署武警。
-researchtooltip_bodyarmour              为你的所有狱警和警犬训练员都装备护甲。护甲可以帮助你的狱警在打斗中降低受到的伤害，但是会减慢他们的移动速度。\n\n狱警们必须前往军械库获取该装备，而且他们每装备一个护甲都需要你来买单
+researchtooltip_bodyarmour              为你的所有狱警和警犬训导员都装备护甲。护甲可以帮助你的狱警在打斗中降低受到的伤害，但是会减慢他们的移动速度。\n\n狱警们必须前往军械库获取该装备，而且他们每装备一个护甲都需要你来买单
 researchtooltip_tazers                  允许你武装狱警装备电击器，电击器是一种非常有效的单发武器，可以立刻将大部分目标电晕。电击器在发射一次以后，需要整整一个小时来充能。\n\n穿护甲的狱警必须前往军械库获取该装备，而且他们每装备一个电击器都需要你来买单。
-researchtooltip_tazersforeveryone       大量装备电击器，这样你的普通狱警和警犬训练员也会携带防御用电击器。\n\n他们必须前往军械库获取该装备，而且他们每拿一个电击器都需要你来买单
+researchtooltip_tazersforeveryone       大量装备电击器，这样你的普通狱警和警犬训导员也会携带防御用电击器。\n\n他们必须前往军械库获取该装备，而且他们每拿一个电击器都需要你来买单
 researchtooltip_bankloans               允许你从银行借贷大笔款项，但每天都需支付利息。偿还贷款会提升你的信用评级并在之后允许你进行更大额度的贷款。
 researchtooltip_lowertaxes1             降低政府税收并将企业所得税率仅为15%。\n\n每$10,000收入就能节省 $1,500 税收。
 researchtooltip_lowertaxes2             你的会计将金融手段发挥到极致，把官方账户和商业活动移至外国并享有超高优惠税率。 你的企业所得税将会降到1%。\n\n每$10,000收入就能节省 $3,000 税收。
@@ -1488,7 +1488,7 @@ action_shopping                         购物
 
 status_effect_title                     =[状态效果]=
 status_effect_none                      无
-status_effect_suppressed                被制服
+status_effect_suppressed                被镇压
 status_effect_goodfood                  营养充足
 status_effect_drunk                     醉酒
 status_effect_high                      嗨翻了
@@ -1513,7 +1513,7 @@ experience_moodgood                     好
 experience_nocondition                  无
 experience_kod                          被击晕
 experience_hurt                         受伤
-experience_suppressed                   被制服
+experience_suppressed                   被镇压
 experience_intoxicated                  毒瘾发作
 experience_wellfed                      营养充足
 experience_exercise                     锻炼
@@ -1580,7 +1580,7 @@ reputationtooltip_legendary             这名罪犯是江湖上的传奇人物�
 reputationtooltip_strong                这名罪犯体格强壮身经百战，斗殴时越战越勇。
 reputationtooltip_tough                 这名罪犯是天生的肉盾，甚至能承受来自电击枪的打击而不晕倒。
 reputationtooltip_volatile              这名犯人极易毫无预兆地发狂。
-reputationtooltip_stoical               这名罪犯丝毫不在意被独自关押。（不会因禁闭、单独关押而产生压抑状态）
+reputationtooltip_stoical               这名罪犯丝毫不在意被独自关押。（不会因禁闭、单独关押而产生被镇压状态）
 reputationtooltip_snitch                这名罪犯是名告密者，因此他的生命也许受到来自其他罪犯的威胁。不要将他和其他罪犯放在一起太久。
 reputationtooltip_deadly                这名犯人精通致命格斗动作，有时可以一击致人死地。
 reputationtooltip_exlaw                 这名罪犯曾经是一个警察或者其他执法人员。他的性命可能受到威胁。
@@ -1664,7 +1664,7 @@ objective_payment_receivedpart          报酬: *X 已收到 总量 *Y
 
 objective_grant_bootstraps                  基础监禁中心
 objective_grant_bootstraps_description      把一片空地变成一座正常运作的监狱。政府的合约为你提供了建造监狱基础设施所必须的资金。
-objective_grant_bootstraps_holdingcell      建造拘留牢房
+objective_grant_bootstraps_holdingcell      建造临时牢房
 objective_grant_bootstraps_shower           建造淋浴房
 objective_grant_bootstraps_yard             建造庭院
 objective_grant_bootstraps_kitchen          建造厨房
@@ -1725,8 +1725,8 @@ objective_grant_enhancedsecurity_description        政府对超过特定规模�
 objective_grant_enhancedsecurity_armoury            建立一个军械库
 objective_grant_enhancedsecurity_kennel             建立一间警犬休息室
 objective_grant_enhancedsecurity_guards             雇用两名武警
-objective_grant_enhancedsecurity_dogs               雇用两名警犬训练员
-objective_grant_enhancedsecurity_patroldogs         将两名警犬训练员分配到一个警犬巡逻队
+objective_grant_enhancedsecurity_dogs               雇用两名警犬训导员
+objective_grant_enhancedsecurity_patroldogs         将两名警犬训导员分配到一个警犬巡逻队
 objective_grant_enhancedsecurity_patrolarmed        将两名武警分配到一个巡逻队
 
 objective_grant_advancedsecurity                    实行最高保安级别设施
@@ -1895,7 +1895,7 @@ object_avatar                            头像
 object_actor                             人物
 object_visitor                           访客
 object_executionwitness                  死刑见证人
-object_doghandler                        警犬训练员
+object_doghandler                        警犬训导员
 object_dog                               警犬
 object_dogcrate                          狗笼
 object_teacher                           教师
@@ -2042,7 +2042,7 @@ material_roof                            屋顶
 
 room_none                                无
 room_cell                                牢房
-room_holdingcell                         拘留牢房
+room_holdingcell                         临时牢房
 room_solitary                            禁闭室
 room_superiorcell                        高级牢房
 room_canteen                             食堂
