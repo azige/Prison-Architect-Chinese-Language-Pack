@@ -137,11 +137,11 @@ interfacemode_destroy                         拆除
 interfacemode_foundations                     地基
 interfacemode_construction                    建材
 interfacemode_planning                        规划
-interfacemode_objects                         物件
-interfacemode_designation                     房间
-interfacemode_utilities                       设施
-interfacemode_staff                           员工
-interfacemode_deployment                      部署
+interfacemode_objects                         物品
+interfacemode_designation                     房间规划
+interfacemode_utilities                       基础设施
+interfacemode_staff                           雇佣员工
+interfacemode_deployment                      警卫部署
 interfacemode_logistics                       后勤
 interfacemode_prisoners                       囚犯
 interfacemode_needs                           需求
@@ -252,13 +252,13 @@ interfacetopbar_tooltip_guardactive             （*X 名行动中）
 interfacetopbar_tooltip_guarddoingjob           （*X 名正在进行任务）
 interfacetopbar_tooltip_idle                    （*X 空闲）
 interfacetopbar_tooltip_armedguards             + *X 武警
-interfacetopbar_tooltip_dogs                    + *X 警犬员
+interfacetopbar_tooltip_dogs                    + *X 警犬训导员
 
 interfacetopbar_unlimitedfunds                  无限资金
 
 interfacetopbar_budget_moneyin                  收入: $*M /天
 interfacetopbar_budget_moneyout                 支出: $*M /天
-interfacetopbar_budget_cantgonegative           在聘请会计师管理监狱财务之前，现金流不可为负的 (也就是支出大于收入) 。
+interfacetopbar_budget_cantgonegative           在聘请会计师管理监狱财务之前，现金流不可为负 (也就是支出大于收入) 。
 
 interfacetopbar_prisoners_types                 目前容纳 *X 名囚犯：
 interfacetopbar_prisoners_capacity              最大安全容纳：*X
@@ -435,11 +435,11 @@ buildtoolbar_popup_room_workshop        派囚犯制造汽车牌照，无聊到�
 buildtoolbar_popup_room_security        狱警的办公室
 buildtoolbar_popup_room_office          行政人员工作的区域
 buildtoolbar_popup_room_medicalward     医护人员工作的区域
-buildtoolbar_popup_room_morgue          死掉的囚犯和员工会送到这裡
+buildtoolbar_popup_room_morgue          死掉的囚犯和员工会送到这里
 buildtoolbar_popup_room_commonroom      囚犯在自由活动时间可以休息的地方
 buildtoolbar_popup_room_kennel          警犬和警犬训导员待的地方
 buildtoolbar_popup_room_chapel          当管理层聚在一起讨论设计如何处理囚犯们的宗教需求时会怎样？一个“多信仰祷告室”诞生了。我们管这种东西叫小礼拜堂。
-buildtoolbar_popup_room_paroleroom      当囚犯服刑期满 50% 和 75% 时，就有资格申请假释，他们的命运将会在这间房间内，由典狱长和警长决定。\n\n建议安排额外的狱警戒备，当犯人知道他们假释被驳回的时候通常会异常沮丧。
+buildtoolbar_popup_room_paroleroom      当囚犯服刑期满 50% 和 75% 时，就有资格申请假释，他们的命运将会在这间房间内，由典狱长和警长决定。\n\n建议安排额外的狱警戒备，当犯人知道他们假释被驳回的时候通常会异常愤怒，有可能攻击其他人。
 buildtoolbar_popup_room_library         全国各地会送一些不要的或使用过的书籍给你的监狱，囚犯要协助将书本分类并上架。
 buildtoolbar_popup_room_intake          囚犯刚抵达的时候会先带到这里。
 
@@ -461,7 +461,7 @@ buildtoolbar_popup_obj_light            确保一整天都能看见犯人们的�
 buildtoolbar_popup_obj_cooker           用热腾腾的饭菜让犯人们享受一下吧
 buildtoolbar_popup_obj_fridge           避免你的食材变质坏掉
 buildtoolbar_popup_obj_bin              违禁品一定要搜剿干净
-buildtoolbar_popup_obj_sink             所有的员工都必需要洗手
+buildtoolbar_popup_obj_sink             所有的员工都必需要洗手，餐盘也需要使用后清洗
 buildtoolbar_popup_obj_servingtable     将食物分配给犯人们
 buildtoolbar_popup_obj_showerhead       淋浴用的花洒喷头
 buildtoolbar_popup_obj_bookshelf        放书的架子
@@ -487,8 +487,8 @@ buildtoolbar_popup_staff_guard          帮你看管囚犯并避免他们滋事
 buildtoolbar_popup_staff_armedguard     配戴散弹枪，囚犯在攻击这家伙之前一般会三思。\n\n注意：每个配备枪械的武警都需要在军械库里拥有自己的储物柜。
 buildtoolbar_popup_staff_doctor         自动治疗附近受伤的人，不管是警卫还是犯人
 buildtoolbar_popup_staff_cook           准备食物并分配给你的犯人们
-buildtoolbar_popup_staff_gardener       让你的监狱地面干净整洁
-buildtoolbar_popup_staff_janitor        让你的监狱内部干净整洁，也可以协助监狱的洗衣服务
+buildtoolbar_popup_staff_gardener       让你的监狱外部地面干净整洁
+buildtoolbar_popup_staff_janitor        让你的监狱内部地面干净整洁，也可以协助监狱的洗衣服务
 buildtoolbar_popup_staff_warden         你监狱的大总管，在你雇佣高级员工之前必须有一个典狱长
 buildtoolbar_popup_staff_chief          这个高级员工可以让你接触到部署，监视和防暴警察相关的科研项目
 buildtoolbar_popup_staff_foreman        这个高级员工可以让你雇佣清洁工和园丁
@@ -632,9 +632,9 @@ codex_options_22khz                     22050 Hz
 codex_options_44khz                     44100 Hz
 
 codex_options_clocktype                 时钟类型
-codex_options_clocktype_analogue        指针
-codex_options_clocktype_12h             12小时制
-codex_options_clocktype_24h             24小时制
+codex_options_clocktype_analogue        模拟时钟
+codex_options_clocktype_12h             数字时钟（12小时）
+codex_options_clocktype_24h             数字时钟（24小时）
 
 codex_options_gameplay                  游戏
 codex_options_autosave                  自动保存间隔
@@ -965,7 +965,7 @@ research_education                      教育
 research_contraband                     情报
 research_policy                         监狱规章
 research_armoury                        军械库
-research_bodyarmour                     防护甲
+research_bodyarmour                     护甲
 research_tazers                         电击器
 research_tazersforeveryone              列装电击器
 research_bankloans                      银行贷款
@@ -1090,7 +1090,7 @@ adviser_name_newsreader                 CDNC新闻
 
 report_staff                            员工
 report_prisoners                        囚犯
-report_jobs                             工作
+report_jobs                             工作列表
 report_needs                            需求
 report_threats                          威胁
 report_regime                           日程
@@ -1441,7 +1441,7 @@ schedule_zone_maxseconly                重刑犯区
 schedule_zone_protectedonly             重点保护区
 schedule_zone_supermaxonly              超重刑犯区
 schedule_zone_deathrowonly              死囚区
-schedule_zone_staffonly                 员工通道区
+schedule_zone_staffonly                 员工区
 schedule_zone_unlocked                  没上锁区
 
 
@@ -1537,7 +1537,7 @@ need_name_drugs                         毒品
 need_name_alcohol                       酒精
 need_name_starving                      挨饿
 need_name_spirituality                  精神
-need_name_literacy                      文化
+need_name_literacy                      阅读
 needs_locked                            （需要心理学家来显示犯人的需求）
 needs_title                             =[需求]=
 
@@ -1836,14 +1836,14 @@ object_none                              无
 object_box                               盒子
 object_stack                             一堆物品
 object_bed                               床
-object_toilet                            厕所
+object_toilet                            马桶
 object_table                             桌子
 object_chair                             椅子
-object_bench                             板凳
+object_bench                             长凳
 object_electricchair                     电椅
 object_jaildoor                          监狱门
 object_jaildoorlarge                     大型监狱门
-object_door                              门
+object_door                              普通门
 object_solitarydoor                      禁闭门
 object_staffdoor                         员工门
 object_remotedoor                        遥控门
@@ -1853,7 +1853,7 @@ object_window                            窗户
 object_windowlarge                       大型窗户
 object_tree                              树
 object_light                             灯
-object_cooker                            厨具
+object_cooker                            炉子
 object_fridge                            冰箱
 object_bin                               垃圾桶
 object_sink                              水槽
