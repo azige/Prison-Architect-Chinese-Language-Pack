@@ -271,6 +271,7 @@ interfacetopbar_prisonercells_protectedonly     重点保护专区容量：*X
 interfacetopbar_prisonercells_supermaxonly      超重刑犯专区容量：*X
 interfacetopbar_prisonercells_deathrowonly      死刑犯专区容量：*X
 interfacetopbar_prisonercells_staffonly         因设为员工专区而无法使用的牢房数量：*X
+interfacetopbar_prisoners_nocells               [TODO]*X Prisoners are unable to be assigned a cell
 
 interfacetopbar_cctv_current                    目前有 *C 个摄像头在工作
 interfacetopbar_cctv_cap                        还可安装 *C 个摄像头
@@ -519,6 +520,10 @@ buildtoolbar_popup_uts_dismantleutility 从监狱中移除一件设施
 buildtoolbar_popup_uts_pressurepad      当有物体压在上面时，发出一个讯号给连接的设备。
 buildtoolbar_popup_uts_statuslight      依照接收到的讯号亮红或绿灯。
 
+buildtoolbar_popup_autolights_name      [TODO]Auto Lights
+buildtoolbar_popup_autolights           [TODO]Automatic Light Placement
+buildtoolbar_popup_autolights_desc      [TODO]When selected, lights will automatically be placed throughout your newly created buildings once they are finished.
+
 buildtoolbar_contraband_source          显示所有违禁品可能被偷取的地点。
 buildtoolbar_contraband_day             显示最近24小时没收的违禁品。
 buildtoolbar_contraband_week            显示最近7天内没收的违禁品。
@@ -584,7 +589,9 @@ codex_campaign                          剧情模式
 codex_cutscenes                         过场动画
 codex_qualifications                    资格
 codex_load                              载入监狱
+codex_loadcampaign                      [TODO]Load Campaign
 codex_save                              保存监狱
+codex_savecampaign                      [TODO]Save Campaign
 codex_performance                       性能测试
 codex_developer_load                    （开发者）加载地图
 codex_developer_save                    （开发者）保存地图
@@ -1069,7 +1076,7 @@ unlock_electricity_caption              允许建造电线和电站，为所有�
 click_to_continue                       点击继续……
 incoming_call                           来电……
 
-adviser_name_none                       无
+adviser_name_unknown                    [TODO]Unknown
 adviser_name_ceo                        执行主管
 adviser_name_warden                     典狱长
 adviser_name_governer                   州长
@@ -1427,6 +1434,7 @@ contraband_key_demand                   需求
 contraband_log_stolen                   被偷
 contraband_log_position                 放置
 contraband_log_smuggled                 偷运进来
+contraband_log_traded                   [TODO]TRADED
 contraband_log_thrown                   扔进来
 contraband_log_hidden                   藏起
 contraband_log_detected                 被发现
@@ -2118,6 +2126,8 @@ equipment_dogleash                      狗绳
 equipment_assaultrifle                  突击步枪
 equipment_woodenpickaxe                 木质镐头
 equipment_cbradio                       对讲机
+equipment_axe                           [TODO]Axe
+equipment_spade                         [TODO]Spade
 
 research_requires_short                 需要一个 *X
 
@@ -2290,6 +2300,11 @@ execution_error_NoRouteFromRoad         错误：不能进入\n死刑见证人�
 execution_error_NoSpaceInRoom           错误：空间不足\n行刑室没有足够的空间容纳前来的人。
 execution_error_NoRoom                  在进行处决前你需要一间行刑室。
 
+roomerror_nokitchen                     [TODO]There are no kitchens capable of sending food to this canteen
+roomerror_noprisoners                   [TODO]There are no prisoners assigned to eat at this canteen
+roomerror_nocanteen_cells               [TODO]There are no canteens accessible by this cell. Prisoners in this cell will have nowhere to eat
+roomerror_nocanteen_kitchen             [TODO]There are no canteens accessible by this kitchen. It will not cook any food for meal time
+
 
 # =============================================================================
 # Misc
@@ -2357,6 +2372,11 @@ contraband_stolenfrom                   *Y 小时前从 *X 处偷走
 contraband_smuggledthrough              *Y小时前通过*X偷运进来
 contraband_smuggledin                   *Y 小时前被犯人偷运
 contraband_type                         类型：*X
+contraband_tradevalue_title             [TODO]Trade prices
+contraband_tradevalue_low               [TODO]$
+contraband_tradevalue_medium            [TODO]$$
+contraband_tradevalue_high              [TODO]$$$
+contraband_tradevalue_veryhigh          [TODO]$$$$
 
 staff_exhausted                         疲惫不堪
 staff_tired                             累了
@@ -2425,6 +2445,11 @@ roomgrading_item                        物品： *X
 roomgrading_result                      等级 *X
 roomgrading_currentoccupant             住此牢房的囚犯应该住等级 *X 牢房
 roomgrading_unoccupied                  没有人住
+
+roomerror_nokitchen                     [TODO]There are no kitchens capable of sending food to this canteen
+roomerror_noprisoners                   [TODO]There are no prisoners assigned to eat at this canteen
+roomerror_nocanteen_cells               [TODO]There are no canteens accessible by this cell. Prisoners in this cell will have nowhere to eat
+roomerror_nocanteen_kitchen             [TODO]There are no canteens accessible by this kitchen. It will not cook any food for meal time
 
 
 # =============================================================================
