@@ -520,9 +520,9 @@ buildtoolbar_popup_uts_dismantleutility 从监狱中移除一件设施
 buildtoolbar_popup_uts_pressurepad      当有物体压在上面时，发出一个讯号给连接的设备。
 buildtoolbar_popup_uts_statuslight      依照接收到的讯号亮红或绿灯。
 
-buildtoolbar_popup_autolights_name      [TODO]Auto Lights
-buildtoolbar_popup_autolights           [TODO]Automatic Light Placement
-buildtoolbar_popup_autolights_desc      [TODO]When selected, lights will automatically be placed throughout your newly created buildings once they are finished.
+buildtoolbar_popup_autolights_name      自动布置灯
+buildtoolbar_popup_autolights           自动布置灯
+buildtoolbar_popup_autolights_desc      当启用的时候，新规划建筑的时候会自动在其中布置电灯。
 
 buildtoolbar_contraband_source          显示所有违禁品可能被偷取的地点。
 buildtoolbar_contraband_day             显示最近24小时没收的违禁品。
@@ -1434,7 +1434,7 @@ contraband_key_demand                   需求
 contraband_log_stolen                   被偷
 contraband_log_position                 放置
 contraband_log_smuggled                 偷运进来
-contraband_log_traded                   [TODO]TRADED
+contraband_log_traded                   交易
 contraband_log_thrown                   扔进来
 contraband_log_hidden                   藏起
 contraband_log_detected                 被发现
@@ -2300,10 +2300,10 @@ execution_error_NoRouteFromRoad         错误：不能进入\n死刑见证人�
 execution_error_NoSpaceInRoom           错误：空间不足\n行刑室没有足够的空间容纳前来的人。
 execution_error_NoRoom                  在进行处决前你需要一间行刑室。
 
-roomerror_nokitchen                     [TODO]There are no kitchens capable of sending food to this canteen
-roomerror_noprisoners                   [TODO]There are no prisoners assigned to eat at this canteen
-roomerror_nocanteen_cells               [TODO]There are no canteens accessible by this cell. Prisoners in this cell will have nowhere to eat
-roomerror_nocanteen_kitchen             [TODO]There are no canteens accessible by this kitchen. It will not cook any food for meal time
+roomerror_nokitchen                     没有厨房为此食堂提供食物。
+roomerror_noprisoners                   没有犯人被指派到此食堂就餐。
+roomerror_nocanteen_cells               牢房没有连通到食堂，居住在此的犯人无处觅食。
+roomerror_nocanteen_kitchen             厨房没有连通到食堂，此处不会为犯人们提供午饭。
 
 
 # =============================================================================
@@ -2372,11 +2372,11 @@ contraband_stolenfrom                   *Y 小时前从 *X 处偷走
 contraband_smuggledthrough              *Y小时前通过*X偷运进来
 contraband_smuggledin                   *Y 小时前被犯人偷运
 contraband_type                         类型：*X
-contraband_tradevalue_title             [TODO]Trade prices
-contraband_tradevalue_low               [TODO]$
-contraband_tradevalue_medium            [TODO]$$
-contraband_tradevalue_high              [TODO]$$$
-contraband_tradevalue_veryhigh          [TODO]$$$$
+contraband_tradevalue_title             交易价格
+contraband_tradevalue_low               $
+contraband_tradevalue_medium            $$
+contraband_tradevalue_high              $$$
+contraband_tradevalue_veryhigh          $$$$
 
 staff_exhausted                         疲惫不堪
 staff_tired                             累了
