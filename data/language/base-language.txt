@@ -2445,11 +2445,11 @@ roomgrading_item                        物品： *X
 roomgrading_result                      等级 *X
 roomgrading_currentoccupant             住此牢房的囚犯应该住等级 *X 牢房
 roomgrading_unoccupied                  没有人住
-
-roomerror_nokitchen                     [TODO]There are no kitchens capable of sending food to this canteen
-roomerror_noprisoners                   [TODO]There are no prisoners assigned to eat at this canteen
-roomerror_nocanteen_cells               [TODO]There are no canteens accessible by this cell. Prisoners in this cell will have nowhere to eat
-roomerror_nocanteen_kitchen             [TODO]There are no canteens accessible by this kitchen. It will not cook any food for meal time
+# 这里是不是重复了，参看2303行
+# roomerror_nokitchen                     [TODO]There are no kitchens capable of sending food to this canteen
+# roomerror_noprisoners                   [TODO]There are no prisoners assigned to eat at this canteen
+# roomerror_nocanteen_cells               [TODO]There are no canteens accessible by this cell. Prisoners in this cell will have nowhere to eat
+# roomerror_nocanteen_kitchen             [TODO]There are no canteens accessible by this kitchen. It will not cook any food for meal time
 
 
 # =============================================================================
