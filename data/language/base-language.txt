@@ -249,7 +249,7 @@ interfacetopbar_tooltip_guardpatrolling         *X 名巡逻中
 interfacetopbar_tooltip_guardavailable          *X 名空闲中
 interfacetopbar_tooltip_guardresting            *X 名休息中
 interfacetopbar_tooltip_guardactive             （*X 名行动中）
-interfacetopbar_tooltip_guarddoingjob           （*X 名正在进行任务）
+interfacetopbar_tooltip_guarddoingjob           *X 名正在工作
 interfacetopbar_tooltip_idle                    （*X 空闲）
 interfacetopbar_tooltip_armedguards             + *X 武警
 interfacetopbar_tooltip_dogs                    + *X 警犬员
@@ -271,7 +271,7 @@ interfacetopbar_prisonercells_protectedonly     重点保护专区容量：*X
 interfacetopbar_prisonercells_supermaxonly      超重刑犯专区容量：*X
 interfacetopbar_prisonercells_deathrowonly      死刑犯专区容量：*X
 interfacetopbar_prisonercells_staffonly         因设为员工专区而无法使用的牢房数量：*X
-interfacetopbar_prisoners_nocells               [TODO]*X Prisoners are unable to be assigned a cell
+interfacetopbar_prisoners_nocells               *X 囚犯无法分配牢房
 
 interfacetopbar_cctv_current                    目前有 *C 个摄像头在工作
 interfacetopbar_cctv_cap                        还可安装 *C 个摄像头
@@ -589,9 +589,9 @@ codex_campaign                          剧情模式
 codex_cutscenes                         过场动画
 codex_qualifications                    资格
 codex_load                              载入监狱
-codex_loadcampaign                      [TODO]Load Campaign
+codex_loadcampaign                      载入战役
 codex_save                              保存监狱
-codex_savecampaign                      [TODO]Save Campaign
+codex_savecampaign                      保存战役
 codex_performance                       性能测试
 codex_developer_load                    （开发者）加载地图
 codex_developer_save                    （开发者）保存地图
@@ -1076,7 +1076,7 @@ unlock_electricity_caption              允许建造电线和电站，为所有�
 click_to_continue                       点击继续……
 incoming_call                           来电……
 
-adviser_name_unknown                    [TODO]Unknown
+adviser_name_unknown                    未知
 adviser_name_ceo                        执行主管
 adviser_name_warden                     典狱长
 adviser_name_governer                   州长
@@ -2126,8 +2126,8 @@ equipment_dogleash                      狗绳
 equipment_assaultrifle                  突击步枪
 equipment_woodenpickaxe                 木质镐头
 equipment_cbradio                       对讲机
-equipment_axe                           [TODO]Axe
-equipment_spade                         [TODO]Spade
+equipment_axe                           斧子
+equipment_spade                         铲子
 
 research_requires_short                 需要一个 *X
 
