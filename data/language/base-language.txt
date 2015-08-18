@@ -150,7 +150,7 @@ interfacemode_overlays                        图层
 interfacemode_research                        行政
 interfacemode_emergencies                     紧急
 interfacemode_clone                           复制
-interfacemode_contraband                      情报
+interfacemode_contraband                      违禁品及情报
 interfacemode_grading                         评价
 interfacemode_spawn                           （复活）
 interfacemode_properties                      （属性）
@@ -170,7 +170,7 @@ interfaceproperty_territoryguard                警卫
 interfaceproperty_sectorprisoner                暴动
 interfaceproperty_tunnel                        地道
 
-interfacedeployment_guards                      狱警
+interfacedeployment_guards                      狱警部署
 interfacedeployment_patrols                     狱警巡逻
 interfacedeployment_dogpatrols                  警犬巡逻
 interfacedeployment_armedpatrols                武警巡逻
@@ -205,7 +205,7 @@ interfaceplanning_object                        物体
 interfaceplanning_route                         道路
 interfaceplanning_clear                         清空
 
-interfacecontraband_source                      危险
+interfacecontraband_source                      违禁品来源
 interfacecontraband_day                         过去24小时
 interfacecontraband_week                        过去7天
 interfacecontraband_alltime                     过去30天
@@ -461,7 +461,7 @@ buildtoolbar_popup_obj_light            确保一整天都能看见犯人们的�
 buildtoolbar_popup_obj_cooker           用热腾腾的饭菜让犯人们享受一下吧
 buildtoolbar_popup_obj_fridge           避免你的食材变质坏掉
 buildtoolbar_popup_obj_bin              违禁品一定要搜剿干净
-buildtoolbar_popup_obj_sink             所有的员工都必需要洗手，餐盘也需要使用后清洗
+buildtoolbar_popup_obj_sink             所有的员工都必须要洗手，餐盘也需要使用后清洗
 buildtoolbar_popup_obj_servingtable     将食物分配给犯人们
 buildtoolbar_popup_obj_showerhead       淋浴用的花洒喷头
 buildtoolbar_popup_obj_bookshelf        放书的架子
@@ -473,8 +473,8 @@ buildtoolbar_popup_obj_drain            避免地板上产生积水
 buildtoolbar_popup_obj_sprinkler        发生火灾时自动喷水
 buildtoolbar_popup_obj_metaldetector    藏有违禁品的囚犯路过时会被探测出来，但仍需要在附近安排狱警才能没收违禁品
 buildtoolbar_popup_obj_weightsbench     允许犯人们锻炼、活动，令他们保持愉悦心情
-buildtoolbar_popup_obj_phonebooth       这些电话可以让犯人和他们的家属通话
-buildtoolbar_popup_obj_tv               用肥皂剧安抚犯人们躁动的心。
+buildtoolbar_popup_obj_phonebooth       这些电话可以让犯人和他们的家属通话，你也可以监听
+buildtoolbar_popup_obj_tv               用肥皂剧安抚犯人们躁动的心
 buildtoolbar_popup_obj_largetv          让一堆囚犯们可以共享他们的脑残时刻
 buildtoolbar_popup_obj_pooltable        玩把台球来打发监狱千篇一律的生活
 buildtoolbar_popup_obj_dismantleobject  移除一个物体。
@@ -484,7 +484,7 @@ buildtoolbar_popup_obj_prayermat        使你的犯人们在祈祷时不用跪�
 
 buildtoolbar_popup_staff_workman        根据你所提供的设计为你建造监狱
 buildtoolbar_popup_staff_guard          帮你看管囚犯并避免他们滋事
-buildtoolbar_popup_staff_armedguard     配戴散弹枪，囚犯在攻击这家伙之前一般会三思。\n\n注意：每个配备枪械的武警都需要在军械库里拥有自己的储物柜。
+buildtoolbar_popup_staff_armedguard     配备霰弹枪，囚犯在攻击这家伙之前一般会三思。\n\n注意：每个配备枪械的武警都需要在军械库里拥有自己的储物柜。
 buildtoolbar_popup_staff_doctor         自动治疗附近受伤的人，不管是警卫还是犯人
 buildtoolbar_popup_staff_cook           准备食物并分配给你的犯人们
 buildtoolbar_popup_staff_gardener       让你的监狱外部地面干净整洁
@@ -496,7 +496,7 @@ buildtoolbar_popup_staff_psychologist   一个高级员工，可以让你洞察�
 buildtoolbar_popup_staff_accountant     高级员工，可以为你撰写财务报告。
 buildtoolbar_popup_staff_lawyer         高级员工，可以为你的监狱拿到一些特权。
 
-buildtoolbar_popup_uts_powerstation     产生监狱所需要的电力
+buildtoolbar_popup_uts_powerstation     从电网得到监狱所需要的电力
 buildtoolbar_popup_uts_capacitor        建在发电站旁可以提高发电量。
 buildtoolbar_popup_uts_electricalcable  为你的监狱分配电力
 buildtoolbar_popup_uts_powerswitch      切换所有与它连通的电线的通电情况。\n\n右击开启/关闭通电状态。
@@ -693,7 +693,7 @@ codex_workshop_published_good_msg       发布监狱成功
 codex_workshop_published_bad            发布监狱失败
 codex_workshop_published_bad_msg        你的监狱发布失败
 codex_workshop_published_bad_msg_new    你的新监狱未能发布。请重试
-codex_workshop_busy                     Steam正在煮泡面。等她结束再试一次。
+codex_workshop_busy                     Steam Workshop正在煮泡面。等她结束再试一次。
 codex_workshop_file_exists              你已经发布了一个该名字的监狱，请重新命名
 codex_workshop_generic_fail             无法发布你的监狱，请重试
 codex_workshop_download_bad             下载该监狱失败
@@ -836,7 +836,7 @@ biography_prisoner_priors               前科：
 
 rapsheet_age                            年龄：
 rapsheet_category                       类别：
-rapsheet_traits                         已知特徵：
+rapsheet_traits                         已知特征：
 rapsheet_conviction_text                *C - *Y 年
 rapsheet_found_text                     （辩护： *P ）
 rapsheet_convictions                    定罪
