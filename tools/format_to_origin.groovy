@@ -1,5 +1,5 @@
 
-def origin = new File("../data/language/base-language-alpha34.txt")
+def origin = new File("../data/language/base-language-origin.txt")
 def target = new File("../data/language/base-language.txt")
 
 def map = [:]

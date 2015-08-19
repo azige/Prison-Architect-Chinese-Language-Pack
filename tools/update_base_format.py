@@ -5,7 +5,7 @@ import re
 
 BASE_PATH = os.path.dirname(__file__)
 BASE_FILE_NAME = os.path.join(BASE_PATH, "../data/language/base-language.txt")
-ORIGIN_FILE_NAME = os.path.join(BASE_PATH, "../data/language/base-language-alpha34.txt")
+ORIGIN_FILE_NAME = os.path.join(BASE_PATH, "../data/language/base-language-origin.txt")
 OUTPUT_FILE_NAME = BASE_FILE_NAME
 
 trans = dict()
