@@ -1861,7 +1861,7 @@ object_window                            窗户
 object_windowlarge                       大型窗户
 object_tree                              树
 object_light                             灯
-object_cooker                            炉子
+object_cooker                            炊具
 object_fridge                            冰箱
 object_bin                               垃圾桶
 object_sink                              水槽
