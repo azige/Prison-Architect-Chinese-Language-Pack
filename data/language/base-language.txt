@@ -1964,7 +1964,7 @@ object_boombox                           立体扬声器
 object_guardlocker                       武警储物柜
 object_sofachairsingle                   沙发
 object_sofachairdouble                   宽沙发
-object_drinkmachine                      饮料售卖机
+object_drinkmachine                      饮料机
 object_arcadecabinet                     过道箱
 object_radio                             收音机
 object_bookshelflarge                    图书馆书架
