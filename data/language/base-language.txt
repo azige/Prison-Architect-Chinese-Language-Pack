@@ -413,7 +413,7 @@ buildtoolbar_popup_overlays             显示监狱的安全弱点
 buildtoolbar_popup_utilities            管道与电气系统
 buildtoolbar_popup_staff                雇用人员运营你的监狱
 buildtoolbar_popup_deployment           指派员工到监狱内特定区域
-buildtoolbar_popup_logistics            指派囚犯在监狱内进行后勤劳动工作，并可手动指派餐厅和衣物清洗工作
+buildtoolbar_popup_logistics            指派囚犯在监狱内进行后勤劳动工作，并可手动指派食物和洗衣分配
 buildtoolbar_popup_research             为监狱解锁更多功能。
 buildtoolbar_popup_emergencies          呼叫紧急支援协助解决监狱内的恶性事件
 buildtoolbar_popup_spawn                重生？这是干嘛的？
@@ -454,7 +454,7 @@ buildtoolbar_popup_obj_jaildoor         把囚犯关在他们应该在的地方
 buildtoolbar_popup_obj_jaildoorlarge    把很多囚犯关在他们该在的地方
 buildtoolbar_popup_obj_door             一道简单的门
 buildtoolbar_popup_obj_solitarydoor     极其坚固的门，即使是最强壮的犯人也撼不动它
-buildtoolbar_popup_obj_staffdoor        一道上锁的大门，不只狱警能开，所有员工都能开
+buildtoolbar_popup_obj_staffdoor        一道上锁的门，不只狱警能开，所有员工都能开
 buildtoolbar_popup_obj_window           可以看一眼阳光
 buildtoolbar_popup_obj_windowlarge      可以看很多眼阳光
 buildtoolbar_popup_obj_tree             可以长大砍树挣钱
@@ -472,7 +472,7 @@ buildtoolbar_popup_obj_medicalbed       在这些麻醉药品被犯人偷走之�
 buildtoolbar_popup_obj_morgueslab       在灵车来之前请确保死者有地方安息
 buildtoolbar_popup_obj_drain            避免地板上产生积水
 buildtoolbar_popup_obj_sprinkler        发生火灾时自动喷水
-buildtoolbar_popup_obj_metaldetector    藏有违禁品的囚犯路过时会被探测出来，但仍需要在附近安排狱警才能没收违禁品
+buildtoolbar_popup_obj_metaldetector    藏有金属违禁品的囚犯路过时会被探测出来，但仍需要在附近安排狱警才能没收违禁品
 buildtoolbar_popup_obj_weightsbench     允许犯人们锻炼、活动，令他们保持愉悦心情
 buildtoolbar_popup_obj_phonebooth       这些电话可以让犯人和他们的家属通话，你也可以监听
 buildtoolbar_popup_obj_tv               用肥皂剧安抚犯人们躁动的心
@@ -561,7 +561,7 @@ statustoolbar_finances                  经济
 statustoolbar_regime                    日程
 statustoolbar_escapemap                 安全
 statustoolbar_electricity               电力
-statustoolbar_stats                     状态
+statustoolbar_stats                     统计
 statustoolbar_danger                    危险
 statustoolbar_jobs                      工作
 statustoolbar_gangs                     帮派
@@ -953,7 +953,7 @@ research_tap_to_authorise               点此授权
 research_none                           无
 research_warden                         典狱长
 research_maintainance                   维护
-research_security                       狱警
+research_security                       安全
 research_legal                          法律顾问
 research_mentalhealth                   心理健康
 research_finance                        财政
@@ -1097,7 +1097,7 @@ adviser_name_newsreader                 CDNC新闻
 
 report_staff                            员工
 report_prisoners                        囚犯
-report_jobs                             工作列表
+report_jobs                             工作队列
 report_needs                            需求
 report_threats                          威胁
 report_regime                           日程
@@ -1298,7 +1298,7 @@ meal_cost                               每个犯人的花费
 reports_paroletitle                     假释政策
 parole_title                            假释通过率
 parole_info                             假释截至：*P%
-parole_desc                             如果犯人的再犯率低于此值，将在假释听证之后被释放。
+parole_desc                             如果犯人的预计再犯率低于此值，将在假释听证之后被释放。
 parole_fine                             累犯罚款
 parole_reward                           提早释放奖励
 
@@ -1343,7 +1343,7 @@ victory_adviserwarning_riot1            你的监狱失控了。现在镇压这�
 victory_advisernotice_riot1             你已无法控制控制这次骚乱。政府已撤销我们的监狱合同，正派国民警卫队来夺回这座监狱。
 victory_adviserwarning_toomanyescapes1  我们这里正面临一场公关危机，因为最近太多犯人越狱了，而这是你的过失。
 victory_adviserwarning_toomanyescapes2  封锁这里并确保没有其他人再越狱，否则舆论会期待你的头成盘中餐的。
-victory_advisernotice_toomanyescapes1   你已经失败了。这座监狱成了媒体的笑柄，他们需要指责某人。
+victory_advisernotice_toomanyescapes1   你已经失败了。这座监狱成了媒体的笑柄，他们需要某人来背黑锅。
 victory_advisernotice_toomanyescapes2   那个人就是你。你被解雇了。
 victory_adviserwarning_bankrupt1        我们破产了！你糟糕的管理能力把监狱弄得入不敷出。
 victory_adviserwarning_bankrupt2        快点找到一个方法来解决这个问题，否则你会被解雇。
@@ -1413,11 +1413,11 @@ experiencefactor_gangmembership         帮派成员
 legend_key                              钥匙：
 
 needs_graphscale_title                  囚犯数：
-needs_key_critical                      情况严重
+needs_key_critical                      严重
 needs_key_high                          高
 needs_key_med                           中
 needs_key_satisfied                     身心满足
-needs_key_active                        活跃
+needs_key_active                        需求正在被满足
 
 contraband_supplyanddemand              供给与需求
 contraband_narcotics                    麻醉品
@@ -1425,7 +1425,7 @@ contraband_weapons                      武器
 contraband_tools                        工具
 contraband_luxuries                     奢侈品
 contraband_metal                        金属
-contraband_smelly                       气味强烈
+contraband_smelly                       气味强烈（可以被警犬嗅出）
 contraband_rangedweapon                 远程武器
 contraband_improvised                   临时制造的
 
@@ -1450,7 +1450,7 @@ schedule_zone_protectedonly             重点保护区
 schedule_zone_supermaxonly              超重刑犯区
 schedule_zone_deathrowonly              死囚区
 schedule_zone_staffonly                 员工区
-schedule_zone_unlocked                  没上锁区
+schedule_zone_unlocked                  不上锁区
 
 
 
@@ -1544,7 +1544,7 @@ need_name_clothing                      衣服
 need_name_drugs                         毒品
 need_name_alcohol                       酒精
 need_name_starving                      挨饿
-need_name_spirituality                  精神
+need_name_spirituality                  宗教
 need_name_literacy                      阅读
 needs_locked                            （需要心理学家来显示犯人的需求）
 needs_title                             =[需求]=
@@ -1707,12 +1707,12 @@ objective_grant_maintenance                         维护监狱
 objective_grant_maintenance_description             监狱和运动场的基本保养与维护非常重要，关乎工作人员和犯人的安全。雇佣一些必要的人员让你的监狱整洁有序。
 objective_grant_maintenance_research_root           通过行政系统解锁维护
 objective_grant_maintenance_research_cleaning       通过行政系统解锁清理
-objective_grant_maintenance_research_groundskeeping 通过行政系统解锁维护运动场
+objective_grant_maintenance_research_groundskeeping 通过行政系统解锁园丁
 objective_grant_maintenance_foreman                 雇佣一个工头（需要一间办公室）
 objective_grant_maintenance_janitor                 雇佣两个看门人
 objective_grant_maintenance_gardener                雇佣一个园丁
 
-objective_grant_visitation                          探访权
+objective_grant_visitation                          探视权
 objective_grant_visitation_description              由于无法满足犯人的探视权，这片区域许多其他的设施正面临诉讼。投资者们不希望陷入丑闻，他们正提供拨款以确保设施正常运作。
 objective_grant_visitation_room                     建造1个探访室
 objective_grant_visitation_tables                   添加至少3张探访桌
@@ -1723,7 +1723,7 @@ objective_grant_visitation_phones                   建造至少5个电话亭
 
 objective_grant_basicsecurity                       安全程序认证
 objective_grant_basicsecurity_description           因为员工没有经验，所以新监狱有一些常见安全漏洞。增加安保强度来避免出现一些会影响我们声誉的问题。
-objective_grant_basicsecurity_chief                 雇用一名安全专家（需要一个办公室）
+objective_grant_basicsecurity_chief                 雇用一名警长（需要一个办公室）
 objective_grant_basicsecurity_guards                雇用十个警卫
 objective_grant_basicsecurity_patrols               将三名守卫分配到巡逻路线
 objective_grant_basicsecurity_research              通过行政系统解锁巡逻队
@@ -1741,7 +1741,7 @@ objective_grant_advancedsecurity                    实行最高保安级别设�
 objective_grant_advancedsecurity_description        保证大量罪人的安全或许很难，但是违背规定的花销远比实施适当的安保措施花销大得多。在你的监狱中安装必要的仪器设备。
 objective_grant_advancedsecurity_guards             提高你的保安部队规模
 objective_grant_advancedsecurity_researchcctv       通过行政系统解锁闭路电视
-objective_grant_advancedsecurity_researchbodyarmour 通过行政系统解锁防弹衣
+objective_grant_advancedsecurity_researchbodyarmour 通过行政系统解锁护甲
 objective_grant_advancedsecurity_researchtazers     通过行政系统解锁电击器
 objective_grant_advancedsecurity_office             建造一座安保办公室
 objective_grant_advancedsecurity_cctvmonitor        建造一个闭路电视监视器
@@ -1755,7 +1755,7 @@ objective_grant_prisonerworkforce_laundry           建造一个洗衣房
 objective_grant_prisonerworkforce_kitchenclass      让三名犯人完成厨房安全和卫生课程
 objective_grant_prisonerworkforce_laundryassigned   将三名犯人分配到洗衣房工作
 objective_grant_prisonerworkforce_kitchenassigned   将三名犯人分配到厨房工作
-objective_grant_prisonerworkforce_cleaningassigned  将三名犯人分配到橱柜清洗间工作
+objective_grant_prisonerworkforce_cleaningassigned  将三名犯人分配到清洁工作
 
 objective_grant_educationreformprogram              教育改造计划
 objective_grant_educationreformprogram_description  一些活动小组在奋力争取在监狱中实施教育课程的工作中获得了支持。建立几间教室并让他们支持我们。
@@ -1961,10 +1961,10 @@ object_workshopsaw                       电锯工作台
 object_workshoppress                     冲压工作台
 object_carpentertable                    木匠工作台
 object_boombox                           立体扬声器
-object_guardlocker                       武警用锁柜
+object_guardlocker                       武警储物柜
 object_sofachairsingle                   沙发
 object_sofachairdouble                   宽沙发
-object_drinkmachine                      饮水机
+object_drinkmachine                      饮料售卖机
 object_arcadecabinet                     过道箱
 object_radio                             收音机
 object_bookshelflarge                    图书馆书架
@@ -2050,7 +2050,7 @@ material_roof                            屋顶
 
 room_none                                无
 room_cell                                牢房
-room_holdingcell                         临时牢房
+room_holdingcell                         集体牢房
 room_solitary                            禁闭室
 room_superiorcell                        高级牢房
 room_canteen                             食堂
@@ -2066,7 +2066,7 @@ room_security                            保安室
 room_office                              办公室
 room_medicalward                         医务室
 room_morgue                              停尸房
-room_commonroom                          公共娱乐室
+room_commonroom                          公共休息室
 room_laundry                             洗衣房
 room_visitation                          探望室
 room_cleaningcupboard                    清洁用品室
@@ -2139,8 +2139,8 @@ reformprogram_kitcheninduction          厨房安全与卫生
 reformprogram_therapy                   行为疗法
 reformprogram_methadone                 毒品成瘾的药品治疗
 reformprogram_alcoholicsmeeting         酗酒者集体理疗
-reformprogram_tazertraining             守卫电击枪训练
-reformprogram_spiritualguidance         精神指导
+reformprogram_tazertraining             警卫电击枪训练
+reformprogram_spiritualguidance         宗教指导
 reformprogram_parolehearing             假释听证会
 reformprogram_deathrowappeal            死刑上诉
 
@@ -2191,7 +2191,7 @@ reform_program_intake_referralviolence          参加者：暴力
 reform_program_intake_referraldrugaddiction     参加者：毒品成瘾
 reform_program_intake_referralalcoholism        参加者：酗酒
 reform_program_intake_guards                    只针对狱警
-reform_program_intake_parole                    已度过50%或70%的刑期后
+reform_program_intake_parole                    已度过50%或75%的刑期后
 reform_program_intake_needrequired              每名犯人在参加前都有特殊需求
 reform_program_intake_deathrow                  犯人被判死刑
 
@@ -2649,5 +2649,5 @@ clock_speed_2                           >>
 clock_speed_5                           >>>
 clock_speed_half                        ……
 clock_add_hour                          +
-clock_am                                早上
+clock_am                                上午
 clock_pm                                下午
