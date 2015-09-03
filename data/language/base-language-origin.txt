@@ -204,6 +204,15 @@ interfaceplanning_wall							Walls
 interfaceplanning_object						Objects
 interfaceplanning_route							Pathways
 interfaceplanning_clear							Clear
+interfaceplanning_zone1							Zone 1
+interfaceplanning_zone2							Zone 2
+interfaceplanning_zone3							Zone 3
+interfaceplanning_zone4							Zone 4
+interfaceplanning_zone5							Zone 5
+interfaceplanning_zone6							Zone 6
+interfaceplanning_zone7							Zone 7
+interfaceplanning_zone8							Zone 8
+interfaceplanning_zone9							Zone 9
 
 interfacecontraband_source                      Dangers
 interfacecontraband_day                         -24 Hours
@@ -333,6 +342,8 @@ interface_contents_container                    Contents : *X
 interface_contents_stack                        Contents : *X x *Y 
 
 interface_skip                                  SKIP
+
+interface_error_riotmove                        Cannot Enter: Riot
 
 interface_foundationsinprogress                 Foundations in progress
 riot_underway                                   RIOT UNDERWAY
@@ -601,6 +612,7 @@ codex_play                              Play
 codex_polaroids                         Polaroids
 codex_introduction                      Introduction
 codex_restartintroduction               Restart Introduction
+codex_restartchapter                    Restart Chapter
 codex_help                              Help (wiki)
 codex_opensavefolder                    Open Save Folder
 codex_options							Options
@@ -669,6 +681,8 @@ codex_option_unlimitedfunds             Unlimited Funds
 codex_tooltip_unlimitedfunds            Pure Sandbox Mode! You can spend as much money as you like right from the start, without having to worry or wait for more later.
 codex_option_gangs                      Gangs
 codex_tooltip_gangs                     Some prisoners will arrive with gang allegiences, and will attack rival gang members on site. Extra challenge.
+codex_option_events                     Events
+codex_tooltip_events                    Causes events to occur during the game to keep you on your toes. Adds extra challenge and an element of unpredictability. 
 
 codex_option_funds                      Funds
 codex_tooltip_funds                     You will start with this much money in your bank account. Sell your established prisons from the Valuation screen to start with more funds.
@@ -1089,6 +1103,7 @@ adviser_name_edwardinmate               Edward
 adviser_name_edwardswife                Edward's Wife Susan
 adviser_name_priest                     The Priest
 adviser_name_newsreader                 CDNC News
+adviser_name_mayor 						Mayor Calvin Heller
 
 
 # =============================================================================
@@ -1506,6 +1521,9 @@ status_effect_overdosed                 Overdosed
 status_effect_surrendered               Surrendered
 status_effect_calming                   Calming
 status_effect_angst                     Angry
+status_effect_wounded                   Bleeding
+status_effect_virus                     Sick
+status_effect_virusdeadly               Sick
 
 experience_totaltime                    Total Time
 experience_misconduct                   Misconduct
@@ -1567,6 +1585,7 @@ reputation_quick                        Quick
 reputation_instigator                   Instigator
 reputation_fighter                      Skilled Fighter
 reputation_gangmember                   Gang Member
+reputation_federalwitness               Federal Witness
 
 reputation_strong_high                  Extremely Strong
 reputation_tough_high                   Extremely Tough
@@ -1598,6 +1617,7 @@ reputationtooltip_quick                 This prisoner is an unusually fast runne
 reputationtooltip_instigator            This prisoner sows seeds of discontent in all those nearby. When he causes trouble, nearby prisoners will feel compelled to do the same.
 reputationtooltip_fighter               This prisoner is skilled in defensive combat moves. He can disarm his opponent, or even take their weapon from them in a fight.
 reputationtooltip_gangmember            This prisoner belongs to a gang. He will defend his fellow gang members and will harbour hatred towards rival gangs.
+reputationtooltip_federalwitness        This prisoner is a witness in an important legal case, and as such as been targeted for death by a gang or crime boss.
 
 
 # =============================================================================
@@ -1616,6 +1636,7 @@ nameplate_released                      RELEASED
 nameplate_researching                   Researching
 nameplate_overdose                      OVERDOSED
 nameplate_starving                      STARVING
+nameplate_wounded                       BLEEDING
 
 
 # =============================================================================
@@ -2451,6 +2472,7 @@ roomerror_noprisoners                   There are no prisoners assigned to eat a
 roomerror_nocanteen_cells               There are no canteens accessible by this cell. Prisoners in this cell will have nowhere to eat
 roomerror_nocanteen_kitchen             There are no canteens accessible by this kitchen. It will not cook any food for meal time
 
+ceos_letter                             Dear Sir/Madam,\n\n\nCongratulations on completing your basic induction - you are now a fully qualified Prison Architect!  Soon you'll be designing, building and running your own prisons starting from nothing but an empty plot of land and a few stacks of bricks.  Before you get started, I thought I might share some important lessons with you.\n\n1. Every prison needs a Warden - he should be one of your first hires.  Build him a nice office and he'll open up a whole range of advanced facilities via the bureaucracy system.\n\n2. Individual jail cells are expensive, especially early on when funds are very tight.  Save money by starting with a single large Holding Cell, which can be shared between many prisoners at once.\n\n3. Get your Kitchen and Canteen up and running before the first prisoners show up, and be sure to hire some Cooks - nothing irritates a prisoner more than an empty stomach!\n\n4. Many items require a water connection.  Water is provided by a Water Pump Station, and pipes are built in the Utilities view.  Use Small Pipes to connect individual items together, then use Large Pipes to connect back to the station.  Small pipes can only carry water so far before they lose pressure.\n\nThat's about everything - good luck!\n\nThe CEO,\nPrison Architects Corp.\n\nps. Share tips with fellow Architects at www.prison-architect.com
 
 # =============================================================================
 # Campaign info
@@ -2539,14 +2561,14 @@ adviser_deathrow_optional5              Outside you could add some lighting, and
 adviser_deathrow_transfer05             This is the man in question, Edward Romsey.  A teacher once, would you believe.
 adviser_deathrow_transfer06             It's not our place to decide if he deserves this.  The Law has made that decision.  We're just here to do a job.
 adviser_deathrow_transfer1              Once you are satisfied the facility is ready, you can begin the Prisoner Transfer to his new cell.
-adviser_deathrow_transfer2              Simply click on him to select him, then Right Click just outside his Cell to initiate the transfer.
+adviser_deathrow_transfer2              Simply click on the polaroid in his cell to initiate the transfer.
 
 objective_deathrow_path                 (OPTIONAL) Build a Path to the new facility
 objective_deathrow_window               (OPTIONAL) Add a Window to the Cell
 objective_deathrow_bookshelf            (OPTIONAL) Add a bookshelf to the Cell
 objective_deathrow_flooring             (OPTIONAL) Redo the flooring with higher quality materials
 objective_deathrow_outerlights          (OPTIONAL) Create some outdoor lighting around the facility
-objective_deathrow_transferinmate       When you are done, begin the Prisoner Transfer.  Click to select him, then Right Click in the zone outside his cell.
+objective_deathrow_transferinmate       When you are done, begin the Prisoner Transfer by clicking on the polaroid in Edward's cell.
 
 adviser_deathrow_setupmurder1           Don't shed one tear for this guy.  He's a stone cold killer, guilty as charged. 
 adviser_deathrow_setupmurder2           He even confessed.  Wanna hear his description of what he did?  
@@ -2637,6 +2659,7 @@ finance_cost_executionfine              Improper Execution Fine
 finance_cost_executioncompensation      Execution Compensation
 finance_cost_shopintake                 Shop Intake
 finance_cost_prisonerwages              Prisoner Wages 
+finance_cost_fine                       Fine
 
 
 # =============================================================================
@@ -2651,3 +2674,88 @@ clock_speed_half                        ...
 clock_add_hour                          +
 clock_am                                am
 clock_pm                                pm
+
+# =============================================================================
+# Events
+# =============================================================================
+
+event_powerstationfire                  A power surge has caused our generator to overload and catch fire!
+event_powerstationfire_x                A power surge has caused a catastrophic overload in our generator, and the whole thing has exploded!
+event_powerstationfirelarge             A power surge has caused our generator to overload and catch fire!
+event_powerstationfirelarge_x           A power surge has caused a catastrophic overload in our generator, and the whole thing has exploded!
+event_kitchenfire                       A fire has started in the kitchen!
+event_waterpipeburst                    A water pipe has burst and is flooding the area. Fix it before the damage becomes too severe.
+event_bulkintake                        A disaster at a nearby prison has rendered a whole section of the facility unusable. We have no choice but to transfer the prisoners there to your prison, as there are no other suitable facilities nearby. They will be arriving soon.
+event_workshopaccident                  A prisoner has been seriously wounded in a workshop accident, and can't be moved! Send a doctor, quickly!
+event_subsidence                        Subsidence of the land has destroyed a section of our outer wall. You should have it repaired, immediately! 
+event_earthquake                        A local earthquake has caused a section of the prison to collapse! 
+event_virus                             We've been getting reports of sickness from a number of prisoners. It might be worth identifying and quarantining the infected to stop it from spreading. 
+event_virus_x                           We've been getting reports of sickness from a number of prisoners, and the symptoms seem quite severe. You should consider quarantining the sick and treating them before it spreads too far. 
+
+event_massassassination_1               The identities of a number of witnesses in a federal prosecution case have been leaked, and some of them are inmates in our prison.
+event_massassassination_2               Hits have been taken out on them, but we need them alive. You need to identify the prisoners and keep them in one piece until their court date comes up.
+event_massassassination_3_x             We're learning about this late, so you don't have much time before these hits go live. 
+
+event_tvremovaldemand_1                 The media have started a campaign over the amenities granted to prisoners, and it's brining a lot of heat on my office.
+event_tvremovaldemand_2                 I'm passing a bill which bans TVs in common areas in prisons, so I need you to remove all TVs from your common rooms or you will be fined. You have 12 hours.
+event_tvremovaldemand_fine              You've failed to remove TVs from your common rooms, which is now required by law. You've been fined, and will receive increasingly severe fines until you comply. 
+event_tvremovaldemand_complete          The media have moved on to something else and the bill banning TVs from common areas has been repealed. Feel free to re-install them if you wish.
+
+event_weightsremovaldemand_1            The media have started a campaign over the amenities granted to prisoners, and it's brining a lot of heat on my office.
+event_weightsremovaldemand_2            I'm passing a bill which bans exercise equipment in prison yards, so I need you to remove all Weights Benches from your Yards or you will be fined. You have 12 hours.
+event_weightsremovaldemand_fine         You've failed to remove all Weights Benches from your yards, which is now required by law. You've been fined, and will receive increasingly severe fines until you comply. 
+event_weightsremovaldemand_complete     The media have moved on to something else and the bill banning weights benches from yards has been repealed. Feel free to re-install them if you wish.
+
+event_lessfooddemand_1                  The board has decided to experiment with a number of cost-saving measures across our facilities, and your prison is being included.
+event_lessfooddemand_2                  We need you to reduce the meal quantity and meal variation policies in your prison to low, so we can see what effect this has on overall budgets.
+event_lessfooddemand_fine               Since you've decided not to implement the new food policies we've asked for, we're going to take the potential savings directly from your funds. This will continue to happen until you do as I've asked.
+event_lessfooddemand_complete           The food budget experiment is over and the results are inconclusive. You are free to set your food policies back to whatever you wish.
+
+event_removevisitationdemand_1          An incident at another facility has highlighted potential issues with security checks when it comes to family visitation in prisons.
+event_removevisitationdemand_2          Until the processes can be properly reviewed, all visitation must be suspended. You have 6 hours to remove all Visitation rooms from your prison.
+event_removevisitationdemand_fine       You have failed to remove the Visitation rooms from your prison, despite the current security issues. You've been fined, and will continue to be fined until you comply. 
+event_removevisitationdemand_complete   We've completed our security review of the visitation process, and Visitation rooms can now be re-added to your prison if you choose. 
+
+event_lessworkdemand_1                  I've just received word that the prisoners are unhappy with how much time they have to work during the day, and are planning to cause trouble if it isn't reduced.
+event_lessworkdemand_2                  A guard overheard someone say that if they had to work for more than 2 hours they were going to "tear this place apart."
+event_lessworkdemand_ignore             It looks like the prisoners have given up and settled down. They aren't happy about it, but it's good to show them who's boss around here.
+event_lessworkdemand_complete           The prisoners have settled down about their work hours now - I guess they saw the last few days as something of a vacation. We can put them back to work without trouble.       
+
+event_moresleepdemand_1                 We've received complaints that the prisoners aren't allowed to sleep enough, and are getting very irritable about it.
+event_moresleepdemand_2                 They've said that if they aren't given at least 7 hours of sleep a night, they are going to start causing trouble. 
+event_moresleepdemand_ignore            Looks like the prisoners have finally run out of steam and given up their protests about lack of sleep. Guess they were too tired.
+event_moresleepdemand_complete          The whole issue with the prisoners' sleep schedules has finally blown over, so you can change them again without issue if you want.
+
+event_morefreetimedemand_1              The prisoners are apparently unhappy with how little free time they have in their daily schedules.
+event_morefreetimedemand_2              The guards have been hearing whispers that if things don't change soon, the prisoners are going to start causing some damage.
+event_morefreetimedemand_ignore         The prisoners have settled down and stopped causing trouble over their lack of free time. Maybe they realised they'd have even less if they are always in solitary.
+event_morefreetimedemand_complete       The prisoners demands for more free time have been indulged for long enough, so you can feel free to change their schedule again as you wish.
+
+# =============================================================================
+# Events Objectives (shown in todo list)
+# =============================================================================
+
+objective_bulkintake                    Incoming Prisoners
+objective_tvremovaldemand               Remove TVs from Common Rooms
+objective_tvremovaldemand_child         Ensure there are no TVs in Common Rooms
+objective_weightsremovaldemand          Remove Weights Benches from Yards
+objective_weightsremovaldemand_child    Ensure there are no Weights Benches in Yards
+objective_lessfooddemand                Reduce Meal Quantity and Variation to Low
+objective_lessfooddemand_child          Change the prisoners meal quantity and meal variation policies to low
+objective_removevisitationdemand        Remove All Visitation Rooms
+objective_removevisitationdemand_child  Ensure no visitation rooms in the prison until the security review is complete
+objective_virus                         Virus Outbreak
+objective_virus_child                   Total Infected Prisoners: 
+objective_massassassination             Federal Witness\nCourt Date
+objective_massassassination_child       Surviving witnesses: 
+objective_lessworkdemand                Prisoners Demand Less Work
+objective_lessworkdemand_child          Reduce work to 2 hours a day or less
+objective_moresleepdemand               Give Prisoners More Sleep
+objective_moresleepdemand_child         Increase sleep time to at least 7 hours a day
+objective_morefreetimedemand            Give Prisoners More Free Time
+objective_morefreetimedemand_child      Increase free time to at least 6 hours a day
+
+# =============================================================================
+
+campaigncutscene_tooltip 				(Click to trigger the next chapter of the story)
+
