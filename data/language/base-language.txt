@@ -2697,9 +2697,9 @@ event_massassassination_2               他们已经受到迫害，我们必须�
 event_massassassination_3_x             时间紧迫，请在迫害加重前采取行动。
 
 event_tvremovaldemand_1                 媒体发起了保障囚犯设施的运动，我的办公室因此忙得不可开交。
-event_tvremovaldemand_2                 我正发起禁用公共区域内电视的法案，因此我需要你在12小时内移除所有公共区域的电视，否则你将受到罚款。
-event_tvremovaldemand_fine              你未按法令需求从公共区域移除所有电视，因此向你收取罚款。在达到法令要求前罚金将持续增加。
-event_tvremovaldemand_complete          媒体将焦点移向了别处，同时禁止公共区域电视的法案已被废除。现在你可以在公共区域重新安装电视了。
+event_tvremovaldemand_2                 我正发起禁用公共区域内闭路电视的法案，因此我需要你在12小时内移除所有公共区域的闭路电视，否则你将受到罚款。
+event_tvremovaldemand_fine              你未按法令需求从公共区域移除所有闭路电视，因此向你收取罚款。在达到法令要求前罚金将持续增加。
+event_tvremovaldemand_complete          媒体将焦点移向了别处，同时禁止公共区域闭路电视的法案已被废除。现在你可以在公共区域重新安装闭路电视了。
 
 event_weightsremovaldemand_1            媒体发起了保障囚犯设施的运动，我的办公室因此忙得不可开交。
 event_weightsremovaldemand_2            我正发起禁用庭院健身器材的法案，因此我需要你在12小时内移除所有庭院内的健身器材，否则你将受到罚款。
@@ -2735,25 +2735,25 @@ event_morefreetimedemand_complete       犯人们对于更多自由时间的要�
 # Events Objectives (shown in todo list)
 # =============================================================================
 
-objective_bulkintake                    [TODO]Incoming Prisoners
-objective_tvremovaldemand               [TODO]Remove TVs from Common Rooms
-objective_tvremovaldemand_child         [TODO]Ensure there are no TVs in Common Rooms
-objective_weightsremovaldemand          [TODO]Remove Weights Benches from Yards
-objective_weightsremovaldemand_child    [TODO]Ensure there are no Weights Benches in Yards
-objective_lessfooddemand                [TODO]Reduce Meal Quantity and Variation to Low
-objective_lessfooddemand_child          [TODO]Change the prisoners meal quantity and meal variation policies to low
-objective_removevisitationdemand        [TODO]Remove All Visitation Rooms
-objective_removevisitationdemand_child  [TODO]Ensure no visitation rooms in the prison until the security review is complete
-objective_virus                         [TODO]Virus Outbreak
-objective_virus_child                   [TODO]Total Infected Prisoners: 
-objective_massassassination             [TODO]Federal Witness\nCourt Date
-objective_massassassination_child       [TODO]Surviving witnesses: 
-objective_lessworkdemand                [TODO]Prisoners Demand Less Work
-objective_lessworkdemand_child          [TODO]Reduce work to 2 hours a day or less
-objective_moresleepdemand               [TODO]Give Prisoners More Sleep
-objective_moresleepdemand_child         [TODO]Increase sleep time to at least 7 hours a day
-objective_morefreetimedemand            [TODO]Give Prisoners More Free Time
-objective_morefreetimedemand_child      [TODO]Increase free time to at least 6 hours a day
+objective_bulkintake                    接受囚犯
+objective_tvremovaldemand               从公共区域移除所有闭路电视
+objective_tvremovaldemand_child         确保公共区域没有闭路电视
+objective_weightsremovaldemand          从庭院移除所有健身器材
+objective_weightsremovaldemand_child    确保庭院里没有健身器材
+objective_lessfooddemand                提供低质量、少数量的食物
+objective_lessfooddemand_child          降低食物质量、减少食物数量
+objective_removevisitationdemand        移除所有探望室
+objective_removevisitationdemand_child  在安全评估完成前，确保监狱里没有探望室
+objective_virus                         爆发病毒
+objective_virus_child                   总共感染的囚犯: 
+objective_massassassination             联邦证人\n开庭时间
+objective_massassassination_child       存活的证人：
+objective_lessworkdemand                减少囚犯工作时间
+objective_lessworkdemand_child          减少工作时间到每天 2 小时或更少
+objective_moresleepdemand               增加囚犯睡眠时间
+objective_moresleepdemand_child         让囚犯每天最少能睡 7 小时
+objective_morefreetimedemand            增加囚犯空闲时间
+objective_morefreetimedemand_child      让囚犯每天最少空闲 6 小时
 
 # =============================================================================
 
