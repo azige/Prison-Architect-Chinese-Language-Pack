@@ -2679,57 +2679,57 @@ clock_pm                                下午
 # Events
 # =============================================================================
 
-event_powerstationfire                  [TODO]A power surge has caused our generator to overload and catch fire!
-event_powerstationfire_x                [TODO]A power surge has caused a catastrophic overload in our generator, and the whole thing has exploded!
-event_powerstationfirelarge             [TODO]A power surge has caused our generator to overload and catch fire!
-event_powerstationfirelarge_x           [TODO]A power surge has caused a catastrophic overload in our generator, and the whole thing has exploded!
-event_kitchenfire                       [TODO]A fire has started in the kitchen!
-event_waterpipeburst                    [TODO]A water pipe has burst and is flooding the area. Fix it before the damage becomes too severe.
-event_bulkintake                        [TODO]A disaster at a nearby prison has rendered a whole section of the facility unusable. We have no choice but to transfer the prisoners there to your prison, as there are no other suitable facilities nearby. They will be arriving soon.
-event_workshopaccident                  [TODO]A prisoner has been seriously wounded in a workshop accident, and can't be moved! Send a doctor, quickly!
-event_subsidence                        [TODO]Subsidence of the land has destroyed a section of our outer wall. You should have it repaired, immediately! 
-event_earthquake                        [TODO]A local earthquake has caused a section of the prison to collapse! 
-event_virus                             [TODO]We've been getting reports of sickness from a number of prisoners. It might be worth identifying and quarantining the infected to stop it from spreading. 
-event_virus_x                           [TODO]We've been getting reports of sickness from a number of prisoners, and the symptoms seem quite severe. You should consider quarantining the sick and treating them before it spreads too far. 
+event_powerstationfire                  电力波动已导致发电机超载并起火！
+event_powerstationfire_x                电力波动已导致发电机严重超载并爆炸！
+event_powerstationfirelarge             电力波动已导致发电机超载并燃起大火！
+event_powerstationfirelarge_x           电力波动已导致发电机严重超载并剧烈爆炸！
+event_kitchenfire                       厨房起火！
+event_waterpipeburst                    一处水管发生破裂并导致水流外溢。请尽快修复以避免严重后果！
+event_bulkintake                        附近监狱发生的事故导致一片设施陷入瘫痪，又因为附近没有其他监狱，我们迫不得已向您的监狱转移囚犯。他们很快就会到达。
+event_workshopaccident                  一个囚犯在车间严重受伤，请速遣一名医生前往救治！
+event_subsidence                        地面沉降已摧毁我们的部分外墙，请立即修复！
+event_earthquake                        一场地震已导致监狱某处被毁！
+event_virus                             我们收到部分囚犯患病的报告，建议找到并隔离这些囚犯以组织疾病传播。
+event_virus_x                           我们收到部分囚犯患病、症状严重的报告，请在疾病大量传播前隔离并治疗这些囚犯！
 
-event_massassassination_1               [TODO]The identities of a number of witnesses in a federal prosecution case have been leaked, and some of them are inmates in our prison.
-event_massassassination_2               [TODO]Hits have been taken out on them, but we need them alive. You need to identify the prisoners and keep them in one piece until their court date comes up.
-event_massassassination_3_x             [TODO]We're learning about this late, so you don't have much time before these hits go live. 
+event_massassassination_1               一些联邦起诉案件的目击者身份已被泄出，其中部分人是我们监狱中的囚犯。
+event_massassassination_2               他们已经受到迫害，我们必须保证他们的人身安全。你需要查出这些犯人并保证他们直到开庭前不再受伤害。
+event_massassassination_3_x             时间紧迫，请在迫害加重前采取行动。
 
-event_tvremovaldemand_1                 [TODO]The media have started a campaign over the amenities granted to prisoners, and it's brining a lot of heat on my office.
-event_tvremovaldemand_2                 [TODO]I'm passing a bill which bans TVs in common areas in prisons, so I need you to remove all TVs from your common rooms or you will be fined. You have 12 hours.
-event_tvremovaldemand_fine              [TODO]You've failed to remove TVs from your common rooms, which is now required by law. You've been fined, and will receive increasingly severe fines until you comply. 
-event_tvremovaldemand_complete          [TODO]The media have moved on to something else and the bill banning TVs from common areas has been repealed. Feel free to re-install them if you wish.
+event_tvremovaldemand_1                 媒体发起了保障囚犯设施的运动，我的办公室因此忙得不可开交。
+event_tvremovaldemand_2                 我正发起禁用公共区域内电视的法案，因此我需要你在12小时内移除所有公共区域的电视，否则你将受到罚款。
+event_tvremovaldemand_fine              你未按法令需求从公共区域移除所有电视，因此向你收取罚款。在达到法令要求前罚金将持续增加。
+event_tvremovaldemand_complete          媒体将焦点移向了别处，同时禁止公共区域电视的法案已被废除。现在你可以在公共区域重新安装电视了。
 
-event_weightsremovaldemand_1            [TODO]The media have started a campaign over the amenities granted to prisoners, and it's brining a lot of heat on my office.
-event_weightsremovaldemand_2            [TODO]I'm passing a bill which bans exercise equipment in prison yards, so I need you to remove all Weights Benches from your Yards or you will be fined. You have 12 hours.
-event_weightsremovaldemand_fine         [TODO]You've failed to remove all Weights Benches from your yards, which is now required by law. You've been fined, and will receive increasingly severe fines until you comply. 
-event_weightsremovaldemand_complete     [TODO]The media have moved on to something else and the bill banning weights benches from yards has been repealed. Feel free to re-install them if you wish.
+event_weightsremovaldemand_1            媒体发起了保障囚犯设施的运动，我的办公室因此忙得不可开交。
+event_weightsremovaldemand_2            我正发起禁用庭院健身器材的法案，因此我需要你在12小时内移除所有庭院内的健身器材，否则你将受到罚款。
+event_weightsremovaldemand_fine         你未按法令需求从庭院移除所有健身器材，因此向你收取罚款。在达到法令要求前罚金将持续增加。
+event_weightsremovaldemand_complete     媒体将焦点移向了别处，同时禁止庭院内健身器材的法案已被废除。现在你可以在公共区域重新安装健身器材了。
 
-event_lessfooddemand_1                  [TODO]The board has decided to experiment with a number of cost-saving measures across our facilities, and your prison is being included.
-event_lessfooddemand_2                  [TODO]We need you to reduce the meal quantity and meal variation policies in your prison to low, so we can see what effect this has on overall budgets.
-event_lessfooddemand_fine               [TODO]Since you've decided not to implement the new food policies we've asked for, we're going to take the potential savings directly from your funds. This will continue to happen until you do as I've asked.
-event_lessfooddemand_complete           [TODO]The food budget experiment is over and the results are inconclusive. You are free to set your food policies back to whatever you wish.
+event_lessfooddemand_1                  董事会决定进行一定量的削减开支的实验，实验范围包含你的监狱。
+event_lessfooddemand_2                  我们需要你在监狱提供低质量、少数量的食物。以此我们可以知道这在总体开支上的影响。
+event_lessfooddemand_fine               鉴于你未依照我们的要求实施食物方案，我们将直接从你的资金抽取预估节省的资金。除非你依我们的要求实施食物方案。
+event_lessfooddemand_complete           食物预算实验已经结束，结果尚无定论。你可以自由实施食物方案了。
 
-event_removevisitationdemand_1          [TODO]An incident at another facility has highlighted potential issues with security checks when it comes to family visitation in prisons.
-event_removevisitationdemand_2          [TODO]Until the processes can be properly reviewed, all visitation must be suspended. You have 6 hours to remove all Visitation rooms from your prison.
-event_removevisitationdemand_fine       [TODO]You have failed to remove the Visitation rooms from your prison, despite the current security issues. You've been fined, and will continue to be fined until you comply. 
-event_removevisitationdemand_complete   [TODO]We've completed our security review of the visitation process, and Visitation rooms can now be re-added to your prison if you choose. 
+event_removevisitationdemand_1          另一处机构的一次事件表明监狱内的家庭探视存在隐患。
+event_removevisitationdemand_2          在探视流程被检阅前，停止所有探视。请在6小时内从你的监狱移除所有探望室。
+event_removevisitationdemand_fine       除了目前的安全问题，你未从监狱移除探望室，你已被处以罚款。在你移除所有探视室之前罚金会持续增加。
+event_removevisitationdemand_complete   我们已经完成了探视流程的安全检阅，探视室可以重新安置了。
 
-event_lessworkdemand_1                  [TODO]I've just received word that the prisoners are unhappy with how much time they have to work during the day, and are planning to cause trouble if it isn't reduced.
-event_lessworkdemand_2                  [TODO]A guard overheard someone say that if they had to work for more than 2 hours they were going to "tear this place apart."
-event_lessworkdemand_ignore             [TODO]It looks like the prisoners have given up and settled down. They aren't happy about it, but it's good to show them who's boss around here.
-event_lessworkdemand_complete           [TODO]The prisoners have settled down about their work hours now - I guess they saw the last few days as something of a vacation. We can put them back to work without trouble.       
+event_lessworkdemand_1                  我听说犯人们对工作时长表示不满，若工作时间不削减，他们将谋划暴动。
+event_lessworkdemand_2                  一个守卫偷听到某人说：“如果我们每天要工作2小时以上，那还不如把这破监狱拆了。”
+event_lessworkdemand_ignore             犯人们似乎已经放弃并稳定下来，但他们并不满意。但是让他们知道这里是到底该听谁的总是好的。
+event_lessworkdemand_complete           犯人们已经就他们目前的工作时间稳定下来了。我猜他们把之前几天看作假期了，现在我们可以安全地让他们回来继续工作了。
 
-event_moresleepdemand_1                 [TODO]We've received complaints that the prisoners aren't allowed to sleep enough, and are getting very irritable about it.
-event_moresleepdemand_2                 [TODO]They've said that if they aren't given at least 7 hours of sleep a night, they are going to start causing trouble. 
-event_moresleepdemand_ignore            [TODO]Looks like the prisoners have finally run out of steam and given up their protests about lack of sleep. Guess they were too tired.
-event_moresleepdemand_complete          [TODO]The whole issue with the prisoners' sleep schedules has finally blown over, so you can change them again without issue if you want.
+event_moresleepdemand_1                 我们收到囚犯们关于睡眠不足的抱怨，他们对此表示非常不满。
+event_moresleepdemand_2                 他们表示如果他们每晚的睡眠不足7小时的话，他们将谋划暴动。
+event_moresleepdemand_ignore            看起来犯人们已经泄气并放弃了关于缺乏睡眠的抗议。也许他们真的太累了。
+event_moresleepdemand_complete          犯人睡觉安排的事件已经彻底结束，你可以再次改动他们的睡觉时间了。
 
-event_morefreetimedemand_1              [TODO]The prisoners are apparently unhappy with how little free time they have in their daily schedules.
-event_morefreetimedemand_2              [TODO]The guards have been hearing whispers that if things don't change soon, the prisoners are going to start causing some damage.
-event_morefreetimedemand_ignore         [TODO]The prisoners have settled down and stopped causing trouble over their lack of free time. Maybe they realised they'd have even less if they are always in solitary.
-event_morefreetimedemand_complete       [TODO]The prisoners demands for more free time have been indulged for long enough, so you can feel free to change their schedule again as you wish.
+event_morefreetimedemand_1              犯人们显然不满意他们目前享有的自由时间。
+event_morefreetimedemand_2              守卫听到消息，如果情况没有改善，犯人们将搞破坏。
+event_morefreetimedemand_ignore         犯人们已经稳定下来，停止因为没有自由时间而惹麻烦。也许他们意识到如果僵持下去，他们的自由时间只会变得更少。
+event_morefreetimedemand_complete       犯人们对于更多自由时间的要求已经被纵容得够久了，你现在可以重新规划他们的自由时间了。
 
 # =============================================================================
 # Events Objectives (shown in todo list)
