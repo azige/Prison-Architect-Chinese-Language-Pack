@@ -359,8 +359,6 @@ sector_jobs_required                            （需要: *X）
 sector_noaccess                                 无法进入
 sector_insecure                                 不安全
 
-patrol_assign_1                                 安排狱警巡逻：
-patrol_assign_2                                 请点选已规划好的巡逻路线
 
 
 # =============================================================================
@@ -541,6 +539,20 @@ buildtoolbar_contraband_week            显示最近7天内没收的违禁品。
 buildtoolbar_contraband_alltime         显示历史上所有被没收的违禁品
 buildtoolbar_contraband_informants      显示你的秘密线人所收集的情报。
 
+buildtoolbar_deployment_Guards          [TODO]Assign guards to the sectors of your prison.
+buildtoolbar_deployment_Patrols         [TODO]Click and drag to create patrol routes.\n\nTo assign a guard to a patrol route, click again on an existing patrol square.\nRight click and drag to clear guard patrols.
+buildtoolbar_deployment_DogPatrols      [TODO]Click and drag to create patrol routes.\n\nTo assign a guard to a patrol route, click again on an existing patrol square.\nRight click and drag to clear guard patrols.
+buildtoolbar_deployment_ArmedPatrols    [TODO]Click and drag to create patrol routes.\n\nTo assign a guard to a patrol route, click again on an existing patrol square.\nRight click and drag to clear guard patrols.
+buildtoolbar_deployment_SharedZone      [TODO]All prisoners will be allowed in this sector.
+buildtoolbar_deployment_MinSecZone      [TODO]Only minimum security prisoners will be permitted to enter this sector.
+buildtoolbar_deployment_MedSecZone      [TODO]Only medium security prisoners will be permitted to enter this sector.
+buildtoolbar_deployment_MaxSecZone      [TODO]Only maximum security prisoners will be permitted to enter this sector.
+buildtoolbar_deployment_ProtectedZone   [TODO]Only 'protected custody' prisoners will be permitted to enter this sector.
+buildtoolbar_deployment_SuperMaxZone    [TODO]Only 'superMax' security prisoners will be permitted to enter this sector.
+buildtoolbar_deployment_DeathRowZone    [TODO]Only 'death row' prisoners will be permitted to enter this sector.
+buildtoolbar_deployment_StaffOnlyZone   [TODO]Only staff will be permitted to enter this sector.
+buildtoolbar_deployment_UnlockedZone    [TODO]Anyone will be permitted to enter this zone, and all doors will be unlocked.
+
 job_matsassigned                        已分配的建材
 job_matsavailable                       可用的建材
 job_awaitingmaterials                   正在等待建材
@@ -606,6 +618,7 @@ codex_savecampaign                      保存战役
 codex_performance						性能测试
 codex_developer_load                    （开发者）加载地图
 codex_developer_save                    （开发者）保存地图
+codex_developer_clearach                [TODO](Developer) Clear Achievements
 codex_contacts                          联系人
 codex_materials                         材料
 codex_play                              开始游戏
@@ -630,6 +643,7 @@ codex_new_worldsize                     世界大小
 codex_new_small                         小
 codex_new_medium                        中
 codex_new_large                         大
+codex_new_selectwarden                  [TODO]Choose your warden
 
 codex_options_graphics					画质
 codex_options_resolution				分辨率
@@ -799,6 +813,7 @@ codex_language_searching_workshop       搜寻 Steam 创意工坊
 codex_language_community                这些语言包由社区制作和维护 — 谢谢你!
 
 codex_save_confirm                      你确定要用当前监狱覆盖 *X 吗？
+codex_researtchapter_confirm            [TODO]Are you sure you wish to restart the current chapter? Unsaved progress will be lost.
 
 # =============================================================================
 # Graphics Change Confirmation
@@ -1525,6 +1540,9 @@ status_effect_wounded                   出血
 status_effect_virus                     生病
 status_effect_virusdeadly               生病
 
+condition_treated                       [TODO]Treated
+condition_needstreating                 [TODO]Needs Treating
+
 experience_totaltime                    总时间
 experience_misconduct                   不当行为
 experience_lockeddown                   关押
@@ -2009,6 +2027,7 @@ object_tidywires                         整理线缆
 object_cutscenepolaroid                  宝丽来动画
 object_cutscenecamera                    监控摄像头
 object_cutscenecue                       动画提示
+object_cutscenecaption                   [TODO]Cutscene Caption
 object_foodwaste                         食物残渣
 object_altar                             教堂讲台
 object_pews                              长凳
@@ -2344,8 +2363,12 @@ object_sale_price                       售价: *X
 object_door_cyclepermissions            单击切换进入权限
 object_door_cyclepermissions_1          （开，员工专用，关闭）
 
+object_firemen_hosehelp_move            [TODO]Click Right Mouse to order your Firemen to move there
 object_firemen_hosehelp_intro           消防队员会帮助扑灭附近的火灾
 object_firemen_hosehelp                 按H手动使用消防水枪
+
+interface_clone_help_copy               [TODO]Hold Right Mouse and drag to select an area to clone
+interface_clone_help_paste              [TODO]Click Left Mouse to copy selected area
 
 object_inactive                         未启动
 object_cctv_moremonitors                建造更多闭路电视监控
@@ -2756,6 +2779,84 @@ objective_morefreetimedemand            增加囚犯空闲时间
 objective_morefreetimedemand_child      让囚犯每天最少空闲 6 小时
 
 # =============================================================================
+# Custom warden strings
+# =============================================================================
 
-campaigncutscene_tooltip 				（点击开始故事的下一章节）
+warden_default_name                     [TODO]The Warden
+warden_default_desc                     [TODO]The most balanced individual on the planet, he does his job and nothing else. People just call him The Warden.
+warden_lobbyist_name                    [TODO]The Lobbyist
+warden_lobbyist_desc                    [TODO]The Lobbyist has friends in high places, and makes sure the more easily controlled prisoners end up coming his way.\n\n - Halves the likelihood of receiving prisoners who are Violent, Lethal, Volatile, Deadly or Fighters.
+warden_lobbyist_desc_short              [TODO]- Halves the likelihood of receiving prisoners who are Violent, Lethal, Volatile, Deadly or Fighters.
+warden_fear_name                        [TODO]Rita
+warden_fear_desc                        [TODO]Ruthless and terrifying, Rita has a reputation for running her facilities through judicial application of fear. Rumours of her carrying a whip may be exaggerated.\n\n - Halves likelihood of prisoners being Stoical or Fearless\n - Prisoners are suppressed twice as quickly
+warden_fear_desc_short                  [TODO]- Halves likelihood of prisoners being Stoical or Fearless\n - Prisoners are suppressed twice as quickly
+warden_tunnels_name                     [TODO]J.W. Periwinkle
+warden_tunnels_desc                     [TODO]Warden Periwinkle says he was a sapper in the war. He never says which war, specifically, but he certainly knows everything about digging tunnels.\n\n - Guard Dogs have a 50% chance of fully uncovering any tunnels they detect
+warden_tunnels_desc_short               [TODO]- Guard Dogs have a 50% chance of fully uncovering any tunnels they detect
+warden_calming_name                     [TODO]The Pacifier
+warden_calming_desc                     [TODO]The Pacifier has an unusual talent for being able to calm even the most violent individuals. Even being in the same room as him is enough to make people docile and compliant.\n\n - Reduces the overall temperature of your prison, making your inmates less likely to cause trouble
+warden_calming_desc_short               [TODO]- Reduces the overall temperature of your prison, making your inmates less likely to cause trouble
+warden_contraband_name                  [TODO]Saphara Acknova
+warden_contraband_desc                  [TODO]Saphara Acknova has a spotless reputation and a squeaky clean record. But behind the scenes, shady deals and under the table offerings are nothing uncommon for her.\n\n - Gets a small cut of the re-sale value of each piece of contraband found\n - Prisoners found with contraband will be 'fined' directly from their savings
+warden_contraband_desc_short            [TODO]- Gets a small cut of the re-sale value of each piece of contraband found\n - Prisoners found with contraband will be 'fined' directly from their savings
+buildtoolbar_wardenlobbyist             [TODO]The Lobbyist
+buildtoolbar_tooltip_wardenlobbyist     [TODO]Get less violent criminals in your prison
+interfacetopbar_tension_calmingwarden   [TODO]- Your Warden is having a calming effect on prisoners
+warden_consultingfee                    [TODO]Consulting Fee
 
+# =============================================================================
+# Crime names
+# =============================================================================
+
+crime_bribery                     [TODO]Bribery
+crime_aggravatedburglary          [TODO]Aggravated Burglary
+crime_burglary                    [TODO]Burglary
+crime_arson                       [TODO]Arson
+crime_criminaldamage              [TODO]Criminal Damage
+crime_vandalism                   [TODO]Vandalism
+crime_violentdisorder             [TODO]Violent Disorder
+crime_possession                  [TODO]Possession
+crime_possessionintenttosupply    [TODO]Possession Intent To Supply
+crime_forgery                     [TODO]Forgery
+crime_fraud                       [TODO]Fraud
+crime_counterfeightingcurrency    [TODO]Counterfeighting Currency
+crime_falseaccounting             [TODO]False Accounting
+crime_insidertrading              [TODO]Insider Trading
+crime_moneylaundering             [TODO]Money Laundering
+crime_aggravatedvehicletheft      [TODO]Aggravated Vehicle Theft
+crime_joyriding                   [TODO]Joy Riding
+crime_dangerousdriving            [TODO]Dangerous Driving
+crime_deathbydangerousdriving     [TODO]Death By Dangerous Driving
+crime_drivingunderinfluence       [TODO]Driving Under Influence
+crime_kidnapping                  [TODO]Kidnapping
+crime_falseimprisonment           [TODO]False Imprisonment
+crime_torture                     [TODO]Torture
+crime_assault                     [TODO]Assault
+crime_aggravatedassault           [TODO]Aggravated Assault
+crime_assaultinganofficer         [TODO]Assaulting An Officer
+crime_greviousbodilyharm          [TODO]Grevious Bodily Harm
+crime_murder                      [TODO]Murder
+crime_attemptedmurder             [TODO]Attempted Murder
+crime_manslaughter                [TODO]Manslaughter
+crime_pervertingcourseofjustice   [TODO]Perverting Course Of Justice
+crime_contemptofcourt             [TODO]Contempt Of Court
+crime_drunkdisorderlybehaviour    [TODO]Drunk Disorderly Behaviour
+crime_escapingfromlawfulcustody   [TODO]Escaping From Lawful Custody
+crime_perjury                     [TODO]Perjury
+crime_rioting                     [TODO]Rioting
+crime_espionage                   [TODO]Espionage
+crime_violentdisorder             [TODO]Violent Disorder
+crime_trafficking                 [TODO]Trafficking
+crime_armedrobbery                [TODO]Armed Robbery
+crime_robbery                     [TODO]Robbery
+crime_carjacking                  [TODO]Car Jacking
+crime_blackmail                   [TODO]Blackmail
+crime_handlingstolengoods         [TODO]Handling Stolen Goods
+crime_videogamepiracy             [TODO]Video Game Piracy
+crime_indievideogamepiracy        [TODO]Indie Video Game Piracy
+crime_shoplifting                 [TODO]Shoplifting
+crime_pickpocketing               [TODO]Pickpocketing
+crime_cartheft                    [TODO]Car Theft
+crime_rape                        [TODO]Rape
+crime_grossindecency              [TODO]Gross Indecency
+crime_voyeurism                   [TODO]Voyeurism
