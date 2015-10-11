@@ -359,8 +359,6 @@ sector_jobs_required                            (Required: *X)
 sector_noaccess                                 NO ACCESS
 sector_insecure                                 INSECURE
 
-patrol_assign_1                                 To assign guards to patrols:
-patrol_assign_2                                 Click on an existing patrol square
 
 
 # =============================================================================
@@ -514,8 +512,8 @@ buildtoolbar_popup_uts_electricalcable	Distributes electricity around your priso
 buildtoolbar_popup_uts_powerswitch		Toggles the availability of electricity to any cable connected to it.\n\nRight click to toggle on/off state.
 buildtoolbar_popup_uts_waterpumpstation	Provides a source of water to your prison.
 buildtoolbar_popup_uts_pipevalve		Toggles the availability of water to any pipe connected to it.
-buildtoolbar_popup_uts_pipelarge		Distributes a large amount of water around your prison. Probably big enough for someone to crawl to freedom through five hundred yards of shit smelling foulness.
-buildtoolbar_popup_uts_pipesmall		Distributes water around your prison.
+buildtoolbar_popup_uts_pipelarge		Distributes a large volume of water around your prison, under high pressure. Probably big enough for someone to crawl to freedom through five hundred yards of shit smelling foulness.\n\nNb not generally used to connect to sinks, shower heads etc - the pressure is too high. Use a small pipe for that.
+buildtoolbar_popup_uts_pipesmall		Used to connect items like toilets, showers, sinks etc to your large pipe network. The pressure is much lower, so there is a limited length that a small pipe can run for before the pressure becomes too low.
 buildtoolbar_popup_uts_cctv				Keep an eye on your prison without the need for guards to be everywhere at once.\n\nYou must Connect a CCTV Monitor to this camera for it to work.
 buildtoolbar_popup_uts_cctvmonitor		Designed to be built in a Security Room, and operated by a Guard. Monitors the CCTV cameras around your prison remotely.\n\nUse the Connect tool to connect this monitor to your CCTV cameras.\n\nNote: A maximum of eight cameras can be viewed at once. If you connect more than eight cameras, the monitor will cycle through them gradually, giving only partial coverage.
 buildtoolbar_popup_uts_DoorControlSystem  Designed to be built in a Security Room, and operated by a Guard. Can be used to remotely open doors around your prison.\n\nUse the Connect tool to connect this system to your Door Servos. The Door Servos should be built over the doors you wish to control remotely.\n\nNote: You can connect this to as many Servos as you wish, however the Guard operating the system can open a maximum of two doors per second.
@@ -540,6 +538,20 @@ buildtoolbar_contraband_day             Shows all contraband confiscated in the 
 buildtoolbar_contraband_week            Shows all contraband confiscated in the last 7 days.
 buildtoolbar_contraband_alltime         Shows all contraband confiscated in the history of your prison.
 buildtoolbar_contraband_informants      Shows information gathered by your confidential informants.
+
+buildtoolbar_deployment_Guards          Assign guards to the sectors of your prison.
+buildtoolbar_deployment_Patrols         Click and drag to create patrol routes.\n\nTo assign a guard to a patrol route, click again on an existing patrol square.\nRight click and drag to clear guard patrols.
+buildtoolbar_deployment_DogPatrols      Click and drag to create patrol routes.\n\nTo assign a guard to a patrol route, click again on an existing patrol square.\nRight click and drag to clear guard patrols.
+buildtoolbar_deployment_ArmedPatrols    Click and drag to create patrol routes.\n\nTo assign a guard to a patrol route, click again on an existing patrol square.\nRight click and drag to clear guard patrols.
+buildtoolbar_deployment_SharedZone      All prisoners will be allowed in this sector.
+buildtoolbar_deployment_MinSecZone      Only minimum security prisoners will be permitted to enter this sector.
+buildtoolbar_deployment_MedSecZone      Only medium security prisoners will be permitted to enter this sector.
+buildtoolbar_deployment_MaxSecZone      Only maximum security prisoners will be permitted to enter this sector.
+buildtoolbar_deployment_ProtectedZone   Only 'protected custody' prisoners will be permitted to enter this sector.
+buildtoolbar_deployment_SuperMaxZone    Only 'superMax' security prisoners will be permitted to enter this sector.
+buildtoolbar_deployment_DeathRowZone    Only 'death row' prisoners will be permitted to enter this sector.
+buildtoolbar_deployment_StaffOnlyZone   Only staff will be permitted to enter this sector.
+buildtoolbar_deployment_UnlockedZone    Anyone will be permitted to enter this zone, and all doors will be unlocked.
 
 job_matsassigned                        Materials Assigned
 job_matsavailable                       Materials Available
@@ -606,6 +618,7 @@ codex_savecampaign                      Save Campaign
 codex_performance						Performance Test
 codex_developer_load                    (Developer) Load Map
 codex_developer_save                    (Developer) Save Map
+codex_developer_clearach                (Developer) Clear Achievements
 codex_contacts                          Contacts
 codex_materials                         Materials
 codex_play                              Play
@@ -617,7 +630,7 @@ codex_help                              Help (wiki)
 codex_opensavefolder                    Open Save Folder
 codex_options							Options
 codex_nitgs								Names in the Game
-codex_workshop							Prison Sharing
+codex_workshop							Prison Sharing (Steam Workshop)
 codex_checkforupdates                   Check for updates
 codex_preorder                          Pre-order Now
 codex_termsconditions                   Terms and Conditions
@@ -630,6 +643,7 @@ codex_new_worldsize                     World Size
 codex_new_small                         Small
 codex_new_medium                        Medium
 codex_new_large                         Large
+codex_new_selectwarden                  Choose your warden
 
 codex_options_graphics					Graphics
 codex_options_resolution				Resolution
@@ -796,9 +810,10 @@ codex_language_download                 Download
 codex_language_failed_download          Failed To Download Translation
 codex_language_failed_download_msg      Your selected translation has failed to download.
 codex_language_searching_workshop       Searching Steam Workshop
-codex_language_community                These translation packs are created and maintained by the community - Thank You!
+codex_language_community                This translation is created and maintained by the community - Thank You!
 
 codex_save_confirm                      Are you sure you wish to overwrite *X with the current prison?
+codex_researtchapter_confirm            Are you sure you wish to restart the current chapter? Unsaved progress will be lost.
 
 # =============================================================================
 # Graphics Change Confirmation
@@ -1102,7 +1117,7 @@ adviser_name_edwardsinner               Edward
 adviser_name_edwardinmate               Edward
 adviser_name_edwardswife                Edward's Wife Susan
 adviser_name_priest                     The Priest
-adviser_name_newsreader                 CDNC News
+adviser_name_newsreader                 CNDC News
 adviser_name_mayor 						Mayor Calvin Heller
 
 
@@ -1525,6 +1540,9 @@ status_effect_wounded                   Bleeding
 status_effect_virus                     Sick
 status_effect_virusdeadly               Sick
 
+condition_treated                       Treated
+condition_needstreating                 Needs Treating
+
 experience_totaltime                    Total Time
 experience_misconduct                   Misconduct
 experience_lockeddown                   Lockdown
@@ -1712,7 +1730,7 @@ objective_grant_firstcellblock                  Cell Block A
 objective_grant_firstcellblock_description      The basics are up and running.  It is time to build your first cell block, and transfer the existing prisoners into cells of their own.
 objective_grant_firstcellblock_cells            Raise your Prisoner Capacity to 15
 
-objective_grant_health                      Health and Well Being
+objective_grant_health                      Inmate Health and Well Being
 objective_grant_health_description          The physical and mental health of our inmates is very important to us.  This grant is to facilitate the construction of a state of the art medical ward, and to hire doctors and psychologists to look after the inmates health needs.
 objective_grant_health_ward                 Build a medical ward
 objective_grant_health_doctors              Hire at least two doctors
@@ -1778,13 +1796,13 @@ objective_grant_prisonerworkforce_laundryassigned   Assign three prisoners to wo
 objective_grant_prisonerworkforce_kitchenassigned   Assign three prisoners to work in the Kitchen
 objective_grant_prisonerworkforce_cleaningassigned  Assign three prisoners to work in the Cleaning Cupboard
 
-objective_grant_educationreformprogram              Education Reform Program
-objective_grant_educationreformprogram_description  A number of campaign groups are gaining weight in their push for education programs to be implemented in prisons. Set up some classrooms to keep them off our backs.
+objective_grant_educationreformprogram              The Reform through Education Initiative
+objective_grant_educationreformprogram_description  A prominent campaign group is conducting a large scale social experiment into the effects of education on prisoner re-offending rates. Set up some classrooms and begin educating your prisoners.
 objective_grant_educationreformprogram_research     Unlock Education through Bureaucracy
 objective_grant_educationreformprogram_classroom    Build a Classroom
 objective_grant_educationreformprogram_desks        Build twenty school desks
-objective_grant_educationreformprogram_foundationed Have fifteen prisoners pass the Foundation Education Course
-objective_grant_educationreformprogram_generaled    Have five prisoners pass the General Education Course
+objective_grant_educationreformprogram_foundationed Have ten prisoners pass the Foundation Education Course
+objective_grant_educationreformprogram_generaled    Have one prisoner pass the General Education Course
 
 objective_grant_prisonlabour                        Prison Manufacturing Facility
 objective_grant_prisonlabour_description            Financiers want you to increase your prison's profitability, and are willing to invest funds to help build workshops and turn your prisoners into a labour force.
@@ -2009,6 +2027,7 @@ object_tidywires                         Tidy Wires
 object_cutscenepolaroid                  Cutscene Polaroid
 object_cutscenecamera                    Cutscene Camera
 object_cutscenecue                       Cutscene Cue
+object_cutscenecaption                   Cutscene Caption
 object_foodwaste                         Food Waste
 object_altar                             Altar
 object_pews                              Pews
@@ -2344,8 +2363,12 @@ object_sale_price                       Sale Price: *X
 object_door_cyclepermissions            Click to cycle Access Permissions
 object_door_cyclepermissions_1          (Open, Staff Only, Closed)
 
+object_firemen_hosehelp_move            Click Right Mouse to order your Firemen to move there
 object_firemen_hosehelp_intro           Firemen will aim hoses at any nearby fire
 object_firemen_hosehelp                 Press H to Aim their hoses manually
+
+interface_clone_help_copy               Hold Right Mouse and drag to select an area to clone
+interface_clone_help_paste              Click Left Mouse to copy selected area
 
 object_inactive                         INACTIVE
 object_cctv_moremonitors                Build more CCTV Monitors
@@ -2472,7 +2495,7 @@ roomerror_noprisoners                   There are no prisoners assigned to eat a
 roomerror_nocanteen_cells               There are no canteens accessible by this cell. Prisoners in this cell will have nowhere to eat
 roomerror_nocanteen_kitchen             There are no canteens accessible by this kitchen. It will not cook any food for meal time
 
-ceos_letter                             Dear Sir/Madam,\n\n\nCongratulations on completing your basic induction - you are now a fully qualified Prison Architect!  Soon you'll be designing, building and running your own prisons starting from nothing but an empty plot of land and a few stacks of bricks.  Before you get started, I thought I might share some important lessons with you.\n\n1. Every prison needs a Warden - he should be one of your first hires.  Build him a nice office and he'll open up a whole range of advanced facilities via the bureaucracy system.\n\n2. Individual jail cells are expensive, especially early on when funds are very tight.  Save money by starting with a single large Holding Cell, which can be shared between many prisoners at once.\n\n3. Get your Kitchen and Canteen up and running before the first prisoners show up, and be sure to hire some Cooks - nothing irritates a prisoner more than an empty stomach!\n\n4. Many items require a water connection.  Water is provided by a Water Pump Station, and pipes are built in the Utilities view.  Use Small Pipes to connect individual items together, then use Large Pipes to connect back to the station.  Small pipes can only carry water so far before they lose pressure.\n\nThat's about everything - good luck!\n\nThe CEO,\nPrison Architects Corp.\n\nps. Share tips with fellow Architects at www.prison-architect.com
+ceos_letter                             Dear Sir/Madam,\n\n\nCongratulations on completing your basic induction - you are now a fully qualified Prison Architect!  Soon you'll be designing, building and running your own prisons starting from nothing but an empty plot of land and a few stacks of bricks.  Before you get started, I thought I might share some important lessons with you.\n\n1. Every prison needs a Warden - he should be one of your first hires.  Build him a nice office and he'll open up a whole range of advanced facilities via the bureaucracy system.\n\n2. Individual jail cells are expensive, especially early on when funds are very tight.  Save money by starting with a single large Holding Cell, which can be shared between many prisoners at once.\n\n3. Get your Kitchen and Canteen up and running before the first prisoners show up, and be sure to hire some Cooks - nothing irritates a prisoner more than an empty stomach!\n\n4. Building a prison is an expensive undertaking, and you need to become a master of raising large volumes of money through grants and contracts. You can access these grants through the 'Reports' screens.\n\nThat's about everything - good luck!\n\nThe CEO,\nPrison Architects Corp.
 
 # =============================================================================
 # Campaign info
@@ -2487,14 +2510,14 @@ campaignchapter_chapternumber			Chapter *C
 
 campaignchapter_deathrow                Death Row
 
-campaignchapter_deathrow_description    We've been contracted to build an Execution Chamber at this prison, in time for the scheduled execution of one of their in-mates.
+campaignchapter_deathrow_description    We've been contracted to build an Execution Chamber at this prison, in time for the scheduled execution of one of their inmates.
 
 campaigncutscene_deathrowmurder         Double Murder
 campaigncutscene_deathrowconfession     Confession
 
 adviser_deathrow_murder1                I knew I'd catch you two here.
 adviser_deathrow_murder2                Edward! I...
-adviser_deathrow_murder25               Don't.  Just....Don't.
+adviser_deathrow_murder25               Don't.  Just... don't.
 adviser_deathrow_murder3                What are you going to do?
 
 adviser_deathrow_church1                Can I help you?
@@ -2537,7 +2560,7 @@ adviser_deathrow_internaldoors2          You can rotate an object before placeme
 
 objective_deathrow_buildinternaldoors   Build internal doors (Middle Click or press R to rotate an object)
 
-adviser_deathrow_designation1           That's looking good.  We now need to Designate Rooms within those spaces.
+adviser_deathrow_designation1           That's looking good.  We now need to designate Rooms within those spaces.
 adviser_deathrow_designation2           Designate a Cell in the smaller area where our condemned inmate will live.
 adviser_deathrow_designation3           Then designate the Execution Room itself in the larger area.
 
@@ -2565,7 +2588,7 @@ adviser_deathrow_transfer2              Simply click on the polaroid in his cell
 
 objective_deathrow_path                 (OPTIONAL) Build a Path to the new facility
 objective_deathrow_window               (OPTIONAL) Add a Window to the Cell
-objective_deathrow_bookshelf            (OPTIONAL) Add a bookshelf to the Cell
+objective_deathrow_bookshelf            (OPTIONAL) Add a Bookshelf to the Cell
 objective_deathrow_flooring             (OPTIONAL) Redo the flooring with higher quality materials
 objective_deathrow_outerlights          (OPTIONAL) Create some outdoor lighting around the facility
 objective_deathrow_transferinmate       When you are done, begin the Prisoner Transfer by clicking on the polaroid in Edward's cell.
@@ -2609,19 +2632,19 @@ adviser_deathrow_testchair_2            I'm just going to turn it on for a few s
 adviser_deathrow_testchair_3            Well, that didn't work.  Looks like we drew too much power, and tripped a circuit breaker in the power station.  The whole prison is dark.
 adviser_deathrow_testchair_4            We're going to need more juice to be able to handle the power spike that the electric chair generates.
 adviser_deathrow_testchair_5            First, we need to turn the power back on.   This is a two step process:
-adviser_deathrow_testchair_5b           Switch the power station back on by clicking on it.  
+adviser_deathrow_testchair_5b           Switch the power station back on by clicking on it, and selecting Switch On in the menu that appears.
 adviser_deathrow_testchair_6            Then build three more capacitors so we have enough Power Capacity to handle the electric chair.
-adviser_deathrow_testchair_7            Once you've done that, test the Electric chair again by clicking on it in Utilities Mode to turn it on.
+adviser_deathrow_testchair_7            Once you've done that, test the Electric chair again by clicking on it and selecting Switch On in the menu.
 
-objective_deathrow_poweron              Turn the Power Station back on. (In Utilities Mode, click on the Power Station to restart it)
+objective_deathrow_poweron              Turn the Power Station back on. (Click the power station, then select Switch On from the menu)
 objective_deathrow_expandpower          Expand the power station with three new Capacitors
-objective_deathrow_chairworking         Test the chair again (click on it in Utilities Mode to turn it on)
+objective_deathrow_chairworking         Test the chair again (click on it, and select Switch On)
 
 adviser_deathrow_execution_1            Well done.  I believe we are finished with this job.
 adviser_deathrow_execution_2            What happens now is out of our hands.  We did a professional job, and that's important in our business.
 adviser_deathrow_execution_3            Try not to worry about what happens next.  
 
-adviser_deathrow_setupexecution1        It is time Edward. 
+adviser_deathrow_setupexecution1        It is time, Edward. 
 adviser_deathrow_setupexecution2        You have done the right thing, even though this world will not forgive you for it.
 adviser_deathrow_setupexecution3        You will be with God soon, and He will have the final judgement on you.
 
@@ -2697,13 +2720,13 @@ event_massassassination_2               Hits have been taken out on them, but we
 event_massassassination_3_x             We're learning about this late, so you don't have much time before these hits go live. 
 
 event_tvremovaldemand_1                 The media have started a campaign over the amenities granted to prisoners, and it's brining a lot of heat on my office.
-event_tvremovaldemand_2                 I'm passing a bill which bans TVs in common areas in prisons, so I need you to remove all TVs from your common rooms or you will be fined. You have 12 hours.
-event_tvremovaldemand_fine              You've failed to remove TVs from your common rooms, which is now required by law. You've been fined, and will receive increasingly severe fines until you comply. 
+event_tvremovaldemand_2                 I'm passing a bill which bans TVs in common areas in prisons, so I need you to remove all TVs from your common rooms or you will be fined. You have 6 hours.
+event_tvremovaldemand_fine              You've failed to remove TVs from your common rooms, which is now required by law. You've been fined, and will continue to receive fines until you comply. 
 event_tvremovaldemand_complete          The media have moved on to something else and the bill banning TVs from common areas has been repealed. Feel free to re-install them if you wish.
 
 event_weightsremovaldemand_1            The media have started a campaign over the amenities granted to prisoners, and it's brining a lot of heat on my office.
-event_weightsremovaldemand_2            I'm passing a bill which bans exercise equipment in prison yards, so I need you to remove all Weights Benches from your Yards or you will be fined. You have 12 hours.
-event_weightsremovaldemand_fine         You've failed to remove all Weights Benches from your yards, which is now required by law. You've been fined, and will receive increasingly severe fines until you comply. 
+event_weightsremovaldemand_2            I'm passing a bill which bans exercise equipment in prison yards, so I need you to remove all Weights Benches from your Yards or you will be fined. You have 6 hours.
+event_weightsremovaldemand_fine         You've failed to remove all Weights Benches from your yards, which is now required by law. You've been fined, and will continue to receive fines until you comply. 
 event_weightsremovaldemand_complete     The media have moved on to something else and the bill banning weights benches from yards has been repealed. Feel free to re-install them if you wish.
 
 event_lessfooddemand_1                  The board has decided to experiment with a number of cost-saving measures across our facilities, and your prison is being included.
@@ -2712,7 +2735,7 @@ event_lessfooddemand_fine               Since you've decided not to implement th
 event_lessfooddemand_complete           The food budget experiment is over and the results are inconclusive. You are free to set your food policies back to whatever you wish.
 
 event_removevisitationdemand_1          An incident at another facility has highlighted potential issues with security checks when it comes to family visitation in prisons.
-event_removevisitationdemand_2          Until the processes can be properly reviewed, all visitation must be suspended. You have 6 hours to remove all Visitation rooms from your prison.
+event_removevisitationdemand_2          Until the processes can be properly reviewed, all visitation must be suspended. You have 12 hours to remove all Visitation rooms from your prison.
 event_removevisitationdemand_fine       You have failed to remove the Visitation rooms from your prison, despite the current security issues. You've been fined, and will continue to be fined until you comply. 
 event_removevisitationdemand_complete   We've completed our security review of the visitation process, and Visitation rooms can now be re-added to your prison if you choose. 
 
@@ -2756,6 +2779,84 @@ objective_morefreetimedemand            Give Prisoners More Free Time
 objective_morefreetimedemand_child      Increase free time to at least 6 hours a day
 
 # =============================================================================
+# Custom warden strings
+# =============================================================================
 
-campaigncutscene_tooltip 				(Click to trigger the next chapter of the story)
+warden_default_name                     The Warden
+warden_default_desc                     The most balanced individual on the planet, he does his job and nothing else. People just call him The Warden.
+warden_lobbyist_name                    The Lobbyist
+warden_lobbyist_desc                    The Lobbyist has friends in high places, and makes sure the more easily controlled prisoners end up coming his way.\n\n - Halves the likelihood of receiving prisoners who are Violent, Lethal, Volatile, Deadly or Fighters.
+warden_lobbyist_desc_short              - Halves the likelihood of receiving prisoners who are Violent, Lethal, Volatile, Deadly or Fighters.
+warden_fear_name                        Rita
+warden_fear_desc                        Ruthless and terrifying, Rita has a reputation for running her facilities through judicial application of fear. Rumours of her carrying a whip may be exaggerated.\n\n - Halves likelihood of prisoners being Stoical or Fearless\n - Prisoners are suppressed twice as quickly
+warden_fear_desc_short                  - Halves likelihood of prisoners being Stoical or Fearless\n - Prisoners are suppressed twice as quickly
+warden_tunnels_name                     J.W. Periwinkle
+warden_tunnels_desc                     Warden Periwinkle says he was a sapper in the war. He never says which war, specifically, but he certainly knows everything about digging tunnels.\n\n - Guard Dogs have a 50% chance of fully uncovering any tunnels they detect
+warden_tunnels_desc_short               - Guard Dogs have a 50% chance of fully uncovering any tunnels they detect
+warden_calming_name                     The Pacifier
+warden_calming_desc                     The Pacifier has an unusual talent for being able to calm even the most violent individuals. Even being in the same room as him is enough to make people docile and compliant.\n\n - Reduces the overall temperature of your prison, making your inmates less likely to cause trouble
+warden_calming_desc_short               - Reduces the overall temperature of your prison, making your inmates less likely to cause trouble
+warden_contraband_name                  Saphara Acknova
+warden_contraband_desc                  Saphara Acknova has a spotless reputation and a squeaky clean record. But behind the scenes, shady deals and under the table offerings are nothing uncommon for her.\n\n - Gets a small cut of the re-sale value of each piece of contraband found\n - Prisoners found with contraband will be 'fined' directly from their savings
+warden_contraband_desc_short            - Gets a small cut of the re-sale value of each piece of contraband found\n - Prisoners found with contraband will be 'fined' directly from their savings
+buildtoolbar_wardenlobbyist             The Lobbyist
+buildtoolbar_tooltip_wardenlobbyist     Get less violent criminals in your prison
+interfacetopbar_tension_calmingwarden   - Your Warden is having a calming effect on prisoners
+warden_consultingfee                    Consulting Fee
 
+# =============================================================================
+# Crime names
+# =============================================================================
+
+crime_bribery                     Bribery
+crime_aggravatedburglary          Aggravated Burglary
+crime_burglary                    Burglary
+crime_arson                       Arson
+crime_criminaldamage              Criminal Damage
+crime_vandalism                   Vandalism
+crime_violentdisorder             Violent Disorder
+crime_possession                  Possession
+crime_possessionintenttosupply    Possession Intent To Supply
+crime_forgery                     Forgery
+crime_fraud                       Fraud
+crime_counterfeightingcurrency    Counterfeighting Currency
+crime_falseaccounting             False Accounting
+crime_insidertrading              Insider Trading
+crime_moneylaundering             Money Laundering
+crime_aggravatedvehicletheft      Aggravated Vehicle Theft
+crime_joyriding                   Joy Riding
+crime_dangerousdriving            Dangerous Driving
+crime_deathbydangerousdriving     Death By Dangerous Driving
+crime_drivingunderinfluence       Driving Under Influence
+crime_kidnapping                  Kidnapping
+crime_falseimprisonment           False Imprisonment
+crime_torture                     Torture
+crime_assault                     Assault
+crime_aggravatedassault           Aggravated Assault
+crime_assaultinganofficer         Assaulting An Officer
+crime_greviousbodilyharm          Grevious Bodily Harm
+crime_murder                      Murder
+crime_attemptedmurder             Attempted Murder
+crime_manslaughter                Manslaughter
+crime_pervertingcourseofjustice   Perverting Course Of Justice
+crime_contemptofcourt             Contempt Of Court
+crime_drunkdisorderlybehaviour    Drunk Disorderly Behaviour
+crime_escapingfromlawfulcustody   Escaping From Lawful Custody
+crime_perjury                     Perjury
+crime_rioting                     Rioting
+crime_espionage                   Espionage
+crime_violentdisorder             Violent Disorder
+crime_trafficking                 Trafficking
+crime_armedrobbery                Armed Robbery
+crime_robbery                     Robbery
+crime_carjacking                  Car Jacking
+crime_blackmail                   Blackmail
+crime_handlingstolengoods         Handling Stolen Goods
+crime_videogamepiracy             Video Game Piracy
+crime_indievideogamepiracy        Indie Video Game Piracy
+crime_shoplifting                 Shoplifting
+crime_pickpocketing               Pickpocketing
+crime_cartheft                    Car Theft
+crime_rape                        Rape
+crime_grossindecency              Gross Indecency
+crime_voyeurism                   Voyeurism
