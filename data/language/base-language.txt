@@ -1118,7 +1118,7 @@ adviser_name_edwardinmate               爱德华
 adviser_name_edwardswife                爱德华的老婆 苏珊
 adviser_name_priest                     牧师
 adviser_name_newsreader                 CDNC新闻
-adviser_name_mayor 						市长 Calvin Heller 
+adviser_name_mayor 						市长 Calvin Heller
 
 
 # =============================================================================
@@ -2768,7 +2768,7 @@ objective_lessfooddemand_child          降低食物质量、减少食物数量
 objective_removevisitationdemand        移除所有探望室
 objective_removevisitationdemand_child  在安全评估完成前，确保监狱里没有探望室
 objective_virus                         爆发病毒
-objective_virus_child                   总共感染的囚犯: 
+objective_virus_child                   总共感染的囚犯:
 objective_massassassination             联邦证人\n开庭时间
 objective_massassassination_child       存活的证人：
 objective_lessworkdemand                减少囚犯工作时间
