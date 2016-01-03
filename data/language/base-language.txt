@@ -2852,11 +2852,11 @@ crime_robbery                     盗窃
 crime_carjacking                  汽车抢劫
 crime_blackmail                   勒索
 crime_handlingstolengoods         收受赃物
-crime_videogamepiracy             使用盗版游戏&视频
-crime_indievideogamepiracy        [TODO]Indie Video Game Piracy
+crime_videogamepiracy             video game piracy
+crime_indievideogamepiracy        indie video game piracy  
 crime_shoplifting                 入店行窃
 crime_pickpocketing               扒窃
 crime_cartheft                    汽车偷盗
 crime_rape                        强奸
 crime_grossindecency              严重猥亵 
-crime_voyeurism                   窥阴癖
+crime_voyeurism                   偷窥狂
