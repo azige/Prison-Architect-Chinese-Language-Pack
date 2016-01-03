@@ -2808,55 +2808,55 @@ warden_consultingfee                    [TODO]Consulting Fee
 # Crime names
 # =============================================================================
 
-crime_bribery                     [TODO]Bribery
-crime_aggravatedburglary          [TODO]Aggravated Burglary
-crime_burglary                    [TODO]Burglary
-crime_arson                       [TODO]Arson
-crime_criminaldamage              [TODO]Criminal Damage
-crime_vandalism                   [TODO]Vandalism
-crime_violentdisorder             [TODO]Violent Disorder
-crime_possession                  [TODO]Possession
-crime_possessionintenttosupply    [TODO]Possession Intent To Supply
-crime_forgery                     [TODO]Forgery
-crime_fraud                       [TODO]Fraud
-crime_counterfeightingcurrency    [TODO]Counterfeighting Currency
-crime_falseaccounting             [TODO]False Accounting
-crime_insidertrading              [TODO]Insider Trading
-crime_moneylaundering             [TODO]Money Laundering
-crime_aggravatedvehicletheft      [TODO]Aggravated Vehicle Theft
-crime_joyriding                   [TODO]Joy Riding
-crime_dangerousdriving            [TODO]Dangerous Driving
-crime_deathbydangerousdriving     [TODO]Death By Dangerous Driving
-crime_drivingunderinfluence       [TODO]Driving Under Influence
-crime_kidnapping                  [TODO]Kidnapping
-crime_falseimprisonment           [TODO]False Imprisonment
-crime_torture                     [TODO]Torture
-crime_assault                     [TODO]Assault
-crime_aggravatedassault           [TODO]Aggravated Assault
-crime_assaultinganofficer         [TODO]Assaulting An Officer
-crime_greviousbodilyharm          [TODO]Grevious Bodily Harm
-crime_murder                      [TODO]Murder
-crime_attemptedmurder             [TODO]Attempted Murder
-crime_manslaughter                [TODO]Manslaughter
-crime_pervertingcourseofjustice   [TODO]Perverting Course Of Justice
-crime_contemptofcourt             [TODO]Contempt Of Court
-crime_drunkdisorderlybehaviour    [TODO]Drunk Disorderly Behaviour
-crime_escapingfromlawfulcustody   [TODO]Escaping From Lawful Custody
-crime_perjury                     [TODO]Perjury
-crime_rioting                     [TODO]Rioting
-crime_espionage                   [TODO]Espionage
-crime_violentdisorder             [TODO]Violent Disorder
-crime_trafficking                 [TODO]Trafficking
-crime_armedrobbery                [TODO]Armed Robbery
-crime_robbery                     [TODO]Robbery
-crime_carjacking                  [TODO]Car Jacking
-crime_blackmail                   [TODO]Blackmail
-crime_handlingstolengoods         [TODO]Handling Stolen Goods
-crime_videogamepiracy             [TODO]Video Game Piracy
-crime_indievideogamepiracy        [TODO]Indie Video Game Piracy
-crime_shoplifting                 [TODO]Shoplifting
-crime_pickpocketing               [TODO]Pickpocketing
-crime_cartheft                    [TODO]Car Theft
-crime_rape                        [TODO]Rape
-crime_grossindecency              [TODO]Gross Indecency
-crime_voyeurism                   [TODO]Voyeurism
+crime_bribery                     受贿
+crime_aggravatedburglary          严重的入室行窃
+crime_burglary                    入室行窃
+crime_arson                       纵火
+crime_criminaldamage              刑事损害
+crime_vandalism                   破坏公物
+crime_violentdisorder             暴乱
+crime_possession                  非法占有
+crime_possessionintenttosupply    非法占有并意图销售
+crime_forgery                     伪造
+crime_fraud                       欺诈
+crime_counterfeightingcurrency    伪造假钞
+crime_falseaccounting             伪造账目
+crime_insidertrading              内幕交易
+crime_moneylaundering             洗钱
+crime_aggravatedvehicletheft      严重的车辆行窃
+crime_joyriding                   盗车驾驶
+crime_dangerousdriving            危险驾驶
+crime_deathbydangerousdriving     危险驾驶造成他人死亡
+crime_drivingunderinfluence       醉酒驾驶
+crime_kidnapping                  绑架
+crime_falseimprisonment           非法监禁他人
+crime_torture                     对他人酷刑
+crime_assault                     袭击
+crime_aggravatedassault           严重的袭击
+crime_assaultinganofficer         袭击警员
+crime_greviousbodilyharm          恶意人身伤害
+crime_murder                      谋杀
+crime_attemptedmurder             谋杀未遂
+crime_manslaughter                过失杀人
+crime_pervertingcourseofjustice   滥用职权
+crime_contemptofcourt             蔑视法庭
+crime_drunkdisorderlybehaviour    酒后乱性
+crime_escapingfromlawfulcustody   保释期内逃脱
+crime_perjury                     作伪证
+crime_rioting                     骚乱
+crime_espionage                   间谍活动
+crime_violentdisorder             暴乱
+crime_trafficking                 人口贩卖
+crime_armedrobbery                持械抢劫
+crime_robbery                     盗窃
+crime_carjacking                  汽车抢劫
+crime_blackmail                   勒索
+crime_handlingstolengoods         收受赃物
+crime_videogamepiracy             video game piracy
+crime_indievideogamepiracy        indie video game piracy  
+crime_shoplifting                 入店行窃
+crime_pickpocketing               扒窃
+crime_cartheft                    汽车偷盗
+crime_rape                        强奸
+crime_grossindecency              严重猥亵 
+crime_voyeurism                   偷窥狂
