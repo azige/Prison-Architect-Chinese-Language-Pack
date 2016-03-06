@@ -226,7 +226,7 @@ interfacecontraband_gangs                       帮派
 interfacecallout_fireengine                     消防车
 interfacecallout_riotpolice                     防暴警察
 interfacecallout_armedpolice                    武装警察
-interfacecallout_paramedics                     护理人员
+interfacecallout_paramedics                     急救人员
 interfacecallout_soldiers                       军队士兵
 
 interfaceclone_copy                             复制
@@ -417,7 +417,7 @@ buildtoolbar_walk_speed_slow			慢
 buildtoolbar_walk_speed_norm			一般
 buildtoolbar_walk_speed_fast			快
 buildtoolbar_locked                     锁定
-buildtoolbar_locked_research			锁定（需要研究 *B ）
+buildtoolbar_locked_research			锁定（需要 *B ）
 buildtoolbar_locked_administrator		锁定（需要 *B）
 buildtoolbar_room						房间
 
@@ -1247,16 +1247,16 @@ report_intakeclosed_tooltip             你的监狱不再收人了，直到你�
 report_intakenumperday                  每日收人量
 report_intakenumperday_tooltip          接下来要收监的囚犯数。\n\n你可以滑动滑块来调整每个等级的囚犯人数。
 report_intaketotalprisoners             囚犯总人数
-report_intaketotalprisoners_tooltip     你要收监的囚犯总人数，会每天自动达到你设定的人数。\n\n你可以滑动滑块来调整每个等级的囚犯人数。
-report_intakeallavailable               全部适用
-report_intakeallavailable_tooltip       全部适用，囚犯会在明天达到。
-report_intakefillcapacity               承受能力
+report_intaketotalprisoners_tooltip     你要收监的囚犯总人数，每天会自动达到你设定的人数。\n\n你可以滑动滑块来调整每个等级的囚犯人数。
+report_intakeallavailable               全部可用
+report_intakeallavailable_tooltip       全部可用，囚犯会在明天达到。
+report_intakefillcapacity               填满监狱
 report_intakefillcapacity_tooltip       尽可能多收囚犯。\n\n你可以滑动滑块来调整每个等级的囚犯人数。
 reports_intaketypenone                  关闭
-reports_intaketypefillcapacity          承受能力
+reports_intaketypefillcapacity          填满监狱
 reports_intaketypetotalprisoners        囚犯总人数
 reports_intaketypenumperday             每日人数
-reports_intaketypeallavailable          全部适用
+reports_intaketypeallavailable          全部可用
 report_intakemaxperdaydecr              <<
 report_intakemaxperdayincr              >>
 report_intakemaxperdaynone              无
@@ -1754,10 +1754,10 @@ objective_intake_medsec                 中危险度，
 objective_intake_maxsec                 高危险度
 objective_intake_deathrow               死囚
 objective_intake_typeclosed             关闭
-objective_intake_typefillcapacity       承受能力
+objective_intake_typefillcapacity       填满监狱
 objective_intake_typetotalprisoners     填充到 *X
 objective_intake_typenumperday          每天 *X
-objective_intake_typeallavailable       全部适用
+objective_intake_typeallavailable       全部可用
 
 objective_builddeliveriesroom           建造囚犯接收甄别区域
 
@@ -1785,7 +1785,7 @@ objective_prisonerparole                罪犯假释
 objective_parole_count                  *X 罪犯可以申请假释
 
 objective_payment_receivedfull          报酬: *X 已收到
-objective_payment_receivedpart          报酬: *X 已收到 总量 *Y
+objective_payment_receivedpart          报酬: *X 已收到 总共 *Y
 
 objective_grant_bootstraps                  基础监禁中心
 objective_grant_bootstraps_description      把一片空地变成一座正常运作的监狱。政府的合约为你提供了建造监狱基础设施所必须的资金。
