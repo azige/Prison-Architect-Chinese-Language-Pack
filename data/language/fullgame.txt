@@ -855,7 +855,7 @@ codex_escapemode_new                    新的逃脱
 codex_escapemode_load                   载入逃脱
 codex_escapemode_save                   保存逃脱
 codex_escapemode_workshop               逃脱模式（Steam）
-codex_escapemode_workshop_star_rating   [TODO]*S Stars or over
+codex_escapemode_workshop_star_rating   *S 星或以上
 
 escapemode_combat_attack                攻击
 escapemode_combat_attack_button         点击左键
