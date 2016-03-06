@@ -297,9 +297,9 @@ interfacetopbar_cctv_current					目前有 *C 个摄像头在工作
 interfacetopbar_cctv_cap						还可安装 *C 个摄像头
 
 interfacetopbar_tension_currentlevel            目前危险等级为 *X
-interfacetopbar_tension_currentlevellow         [TODO]Low
-interfacetopbar_tension_currentlevelmedium      [TODO]Medium
-interfacetopbar_tension_currentlevelhigh        [TODO]High
+interfacetopbar_tension_currentlevellow         低
+interfacetopbar_tension_currentlevelmedium      中
+interfacetopbar_tension_currentlevelhigh        高
 interfacetopbar_tension_increasing              且正在上升
 interfacetopbar_tension_decreasing              且正在降低
 interfacetopbar_tension_description             潜在危险因素：
@@ -644,7 +644,7 @@ codex_developer_clearach                （开发者）清除成就
 codex_contacts                          联系人
 codex_materials                         材料
 codex_play                              开始游戏
-codex_play_escape                       [TODO]Play Escape Mode
+codex_play_escape                       开始逃脱模式
 codex_polaroids                         拍立得
 codex_introduction                      介绍
 codex_restartintroduction               重新开始介绍
@@ -1608,7 +1608,7 @@ status_effect_angst                     愤怒
 status_effect_wounded                   出血
 status_effect_virus                     生病
 status_effect_virusdeadly               生病
-status_effect_overheating               [TODO]Overheating
+status_effect_overheating               发烧
 
 condition_treated                       已治疗
 condition_needstreating                 需要治疗
@@ -2606,12 +2606,12 @@ roomgrading_cell_cleanliness            洁净度高于 *X%
 roomgrading_cell_outsidewindow          朝着室外的窗
 roomgrading_cell_item                   物品： *X
 
-roomgrading_dormitory_roomsize          每名囚犯至少 *X 格子
+roomgrading_dormitory_roomsize          每名囚犯至少 *X 格
 roomgrading_dormitory_cleanliness       洁净度高于 *X%
 roomgrading_dormitory_outsidewindow     每8名囚犯1扇对外的窗
 roomgrading_dormitory_item              物品 : 每4名囚犯一个 *X
 
-roomgrading_sharedcell_roomsize          每名囚犯至少 *X 格子
+roomgrading_sharedcell_roomsize          每名囚犯至少 *X 格
 roomgrading_sharedcell_cleanliness       洁净度高于 *X%
 roomgrading_sharedcell_outsidewindow     朝着室外的窗
 roomgrading_sharedcell_item              物品 : 每4名囚犯一个 *X
