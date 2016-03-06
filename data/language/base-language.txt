@@ -645,7 +645,7 @@ codex_contacts                          联系人
 codex_materials                         材料
 codex_play                              开始游戏
 codex_play_escape                       开始逃脱模式
-codex_polaroids                         拍立得
+codex_polaroids                         贴画
 codex_introduction                      介绍
 codex_restartintroduction               重新开始介绍
 codex_restartchapter                    重新开始章节

@@ -1,6 +1,6 @@
 
-campaigncutscene_tooltip 				[TODO](Click to trigger the next chapter of the story)
-campaignchapter_locked                  [TODO](Locked)
+campaigncutscene_tooltip 				（点击开始下一章）
+campaignchapter_locked                  （锁定）
 
 
 # =============================================================================
@@ -821,25 +821,25 @@ credits_pa2                             [TODO]ARCHITECT
 # =============================================================================
 
 
-codex_mcexport                          [TODO]Export Prison For Minecraft
-codex_mcexportname						[TODO]Minecraft Exporter
-codex_worldnametitle					[TODO]World Name
-codex_seedtitle							[TODO]Seed
-codex_gamemodetitle						[TODO]Game Mode
-codex_mapfeattitle						[TODO]Map Features
-codex_cheatstitle						[TODO]Cheats
-codex_timeofdaytitle					[TODO]Time of Day
-codex_rainingtitle						[TODO]Raining
-codex_thunderingtitle					[TODO]Thundering
-codex_generatortitle					[TODO]Generator
-codex_scaletitle						[TODO]Scale
-codex_exporttomc						[TODO]Export
-codex_mcexport_default					[TODO]Default
-codex_mcexport_flat						[TODO]Flat
-codex_mcexport_largebiomes				[TODO]LargeBiomes
-codex_mcexport_survival					[TODO]Survival
-codex_mcexport_creative					[TODO]Creative
-codex_mcexport_adventure				[TODO]Adventure
+codex_mcexport                          导出监狱到 Minecraft
+codex_mcexportname						Minecraft 导出器
+codex_worldnametitle					世界名称
+codex_seedtitle							种子
+codex_gamemodetitle						游戏模式
+codex_mapfeattitle						地图功能
+codex_cheatstitle						作弊
+codex_timeofdaytitle					时间
+codex_rainingtitle						下雨
+codex_thunderingtitle					闪电
+codex_generatortitle					生成器
+codex_scaletitle						缩放
+codex_exporttomc						导出
+codex_mcexport_default					默认
+codex_mcexport_flat						平坦
+codex_mcexport_largebiomes				巨型生物群系
+codex_mcexport_survival					生存
+codex_mcexport_creative					创作
+codex_mcexport_adventure				冒险
 
 
 # =============================================================================
@@ -849,19 +849,19 @@ codex_mcexport_adventure				[TODO]Adventure
 escapemode_help_title                   [TODO]Escape - It's your only way out
 escapemode_help                         [TODO]Step One: Reputation - Your reputation means everything in here\n\n• Boost your reputation by starting fights. Hurting people will really get you noticed but breaking things is a good place to start. The more damage you can cause in one fight the better.\n• Leave no witnesses. If a guard spots you fighting you'll get punished for it, unless of course they're no longer around.\n• Getting knocked out looks bad. You're better off ending a fight on your own terms.\n\nStep Two: Squad - Recruit others to join your escape attempt\n\n• Whistle to call them over and they'll stick with you everywhere you go. (Click their name in the top left)\n• They'll even join you in fights which can help you increase your reputation even faster.\n• Train up your squad. You'll never know when having a skilled fighter or competitive sprinter nearby will end up being useful.\n\nStep Three: Contraband - You'll need weapons and tools\n\n• Find a room where there will be something you want. Take a look around and you'll quickly find something useful you can steal.\n• Watch out for metal detectors and guards trying to search you. If you're found with anything they'll grab it and throw you in solitary.\n• Stash your equipment. You can hide your findings in your cell or the cells of others, just remember where you've left things.\n\nStep Four: Tunnels - The quiet way out\n\n• Grab a digging tool and start a tunnel from the toilet in your cell.\n• Digging is slow. Get your squad members to help you dig.\n• Don't get spotted. If a guard sees you entering or exiting a tunnel you'll be rumbled.\n\nGood luck. You're going to need it.
 
-codex_escapemode                        [TODO]Escape Mode
-codex_escapemode_developer              [TODO](Developer) Escape Mode
-codex_escapemode_new                    [TODO]New Escape Attempt
-codex_escapemode_load                   [TODO]Load Escape Attempt
-codex_escapemode_save                   [TODO]Save Escape Attempt
-codex_escapemode_workshop               [TODO]Escape Mode (Steam Workshop)
+codex_escapemode                        逃脱模式
+codex_escapemode_developer              （开发者）逃脱模式
+codex_escapemode_new                    新的逃脱
+codex_escapemode_load                   载入逃脱
+codex_escapemode_save                   保存逃脱
+codex_escapemode_workshop               逃脱模式（Steam）
 codex_escapemode_workshop_star_rating   [TODO]*S Stars or over
 
-escapemode_combat_attack                [TODO]Attack
-escapemode_combat_attack_button         [TODO]Left Click
+escapemode_combat_attack                攻击
+escapemode_combat_attack_button         点击左键
 escapemode_combat_lunge                 [TODO]Lunge
 escapemode_combat_lunge_button          [TODO]Shift
-escapemode_dig_button                   [TODO]Hold Left Click
+escapemode_dig_button                   按住左键
 escapemode_dig                          [TODO]Dig
 escapemode_surrender                    [TODO]Surrender
 escapemode_surrender_safe               [TODO]End Fight
