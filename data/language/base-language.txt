@@ -2437,7 +2437,7 @@ roomerror_nocanteen_cells               牢房没有连通到食堂，居住在�
 roomerror_nocanteen_kitchen             厨房没有连通到食堂，此处不会为犯人们提供午饭。
 roomerror_deathrow_sharedcell           死刑犯需要独立的牢房
 roomerror_nonursery                     家庭牢房需要一个托儿所
-roomerror_laundryoverloaded             [TODO]Laundry Baskets are unable to be unloaded. The Laundry may be too small to meet the demand.
+roomerror_laundryoverloaded             无法取出洗衣篮，可能洗衣房太小了。
 
 # =============================================================================
 # Misc

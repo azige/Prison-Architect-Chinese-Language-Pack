@@ -16,8 +16,8 @@ adviser_food_fire_2                     [TODO]Someone's started a fire in the pr
 adviser_food_fire_3                     [TODO]Use the Emergency Services button in the toolbar to call the fire brigade. 
 adviser_food_fire_4                     [TODO]Get this fire under control before it burns the whole prison down!
 
-objective_food_callfirebrigade          [TODO]Call the fire department
-objective_food_extinguishflames         [TODO]Extinguish the flames
+objective_food_callfirebrigade          呼叫消防部门
+objective_food_extinguishflames         灭火
 
 objective_food_callfirebrigade_description 	[TODO]To call out the fire brigade, click the Emergencies button in the toolbar then click Firemen
 objective_food_extinguishflames_description  [TODO]When you have firemen selected you can manually aim their hoses by holding the H key. Use this to concentrate the hoses at the centre of the flames.\n\nTry to keep the firemen as close to the fire as possible - they will be more effective.
@@ -36,20 +36,20 @@ adviser_food_gamespeed                  [TODO]Demolishing those buildings will t
 adviser_food_todolist1					[TODO]I've added more details on each of these objectives into your todo list.
 adviser_food_todolist2					[TODO]Any time you're unsure what to do, highlight the objective and you'll see additional instructions.
 
-objective_food_buildmedicalward_doctors [TODO]Hire a couple of Doctors to staff the Infirmary
+objective_food_buildmedicalward_doctors 为医务室聘请几名医师
 
-objective_food_DismissAllFiremen		[TODO]Dismiss the firemen
-objective_food_cleararea                [TODO]Clear the burnt wreckage 
-objective_food_buildgarbagearea         [TODO]Designate a Garbage Zone
-objective_food_clearcanteen             [TODO]Clear the canteen wreckage
-objective_food_clearkitchen             [TODO]Clear the kitchen wreckage
-objective_food_hiremoreworkmen			[TODO](OPTIONAL) Hire more workmen to speed up demolition
+objective_food_DismissAllFiremen		遣散消防员
+objective_food_cleararea                清除烧毁的残骸 
+objective_food_buildgarbagearea         指定一个垃圾区
+objective_food_clearcanteen             清除餐厅残骸
+objective_food_clearkitchen             清除厨房残骸
+objective_food_hiremoreworkmen			（可选）雇佣更多工人加快拆除
 
 objective_food_dismissallfiremen_description 	[TODO]To dismiss an Emergency callout, locate their icon on the right hand side of the screen, and click the red X circle button to send them home.
 objective_food_cleararea_description 	[TODO]Use the Bulldoze tool to demolish buildings. The bulldoze tool can be found under 'Foundations' in the main toolbar.
 
-adviser_food_familyvisit1				[TODO]Good work.
-adviser_food_familyvisit2 				[TODO]Let's check up on our casualty.
+adviser_food_familyvisit1				干得不错。
+adviser_food_familyvisit2 				我们来核查一下我们的伤亡情况。
 
 adviser_food_troublesoon1				[TODO]Without food, these inmates will be tearing the walls down within a couple of days.
 adviser_food_troublesoon2 				[TODO]We've got to secure the prison before we end up with a riot on our hands. 
@@ -67,8 +67,8 @@ objective_food_deploypatrol_description		[TODO]Open the Deployment screen, then 
 objective_food_dumpfood 				[TODO]Dump the spoiled food stuffs
 objective_food_dumpfood_description		[TODO]The spoiled food stuffs can be found in the Storage cupboard, in the North East quadrant of the prison.\n\nTo dump any item, click on it then click on 'Dump' in the popup menu.
 
-adviser_food_doncantspeak1				[TODO]...
-adviser_food_doncantspeak2				[TODO]eeugh .... ...
+adviser_food_doncantspeak1				...
+adviser_food_doncantspeak2				呃...
 
 adviser_food_doninfirmary0              [TODO]I think he's trying to say something.
 adviser_food_doninfirmary1				[TODO]Which of you cocksucking, faggot-banging, rat-piss mother fuckers did this?
@@ -108,10 +108,10 @@ adviser_food_explainneeds6				[TODO]It's your decision, as the resident prison a
 adviser_food_explainneeds7				[TODO]Or you can just ignore your prisoners needs altogether, and rely on force to keep your prison under control.
 adviser_food_explainneeds8 				[TODO]I'll leave it up to you.
 
-objective_food_needs 					[TODO](OPTIONAL) Take care of your inmates needs
-objective_food_handlefoodneed 			[TODO](OPTIONAL) Handle the Food needs of your prisoners 
-objective_food_handleboredomneed		[TODO](OPTIONAL) Handle the recreational needs of your prisoners 
-objective_food_handleenvironmentneed	[TODO](OPTIONAL) Handle the environmental needs of your prisoners
+objective_food_needs 					（可选）满足囚犯们的需求
+objective_food_handlefoodneed 			（可选）满足囚犯的食物需求 
+objective_food_handleboredomneed		（可选）满足囚犯的娱乐需求 
+objective_food_handleenvironmentneed	（可选）满足囚犯的环境需求
 
 objective_food_needs_description 					[TODO]You can see the overall needs of all your prisoners by clicking on Reports (bottom right of the screen), then Needs.\nYou can also highlight a prisoner and see which needs are affecting him.\n\nNeeds can never be permanently dealt with - it's always an ongoing battle.
 objective_food_handlefoodneed_description 			[TODO]Our chefs will prepare food for everyone, and all inmates should be fed by the end of the next meal time.
@@ -123,24 +123,24 @@ adviser_food_needssuccess2 				[TODO]You'll probably have noticed by now that th
 adviser_food_needssuccess3 				[TODO]If you want to take care of this need as well, you'll need to run a laundry service to gradually provide all your inmates with clean clothing.
 adviser_food_needssuccess4 				[TODO]Build a laundry and hire more janitors to start providing clean laundry to our inmates.
 
-objective_food_laundry 					[TODO](OPTIONAL) Clean Clothing
-objective_food_buildlaundry 			[TODO](OPTIONAL) Build a Laundrette
-objective_food_hirejanitors             [TODO](OPTIONAL) Hire enough janitors to run your laundry
-objective_food_handleclothingneed 		[TODO](OPTIONAL) Handle the clothing needs of your prisoners
+objective_food_laundry 					（可选）干净的囚服
+objective_food_buildlaundry 			（可选）建立自助洗衣店
+objective_food_hirejanitors             （可选）雇佣足够的清洁工来经营洗衣房
+objective_food_handleclothingneed 		（可选）满足囚犯的服装需求
 
-objective_food_buildkitchen             [TODO]Build a Kitchen (approx 12m sq)
-objective_food_buildkitchencookers      [TODO]Install at least four Cookers
-objective_food_buildkitchenfridges      [TODO]Install at least four Fridges
-objective_food_buildkitchensink         [TODO]Install a Kitchen Sink
-objective_food_buildkitchenbin	 		[TODO]Place a Bin in the Kitchen
-objective_food_buildkitchenwatermains 	[TODO]Connect the Sink to the water mains
-objective_food_buildkitchenfloor 		[TODO](OPTIONAL) Improve the kitchen floor
+objective_food_buildkitchen             建立厨房（约 12 平米）
+objective_food_buildkitchencookers      安装至少四件炊具
+objective_food_buildkitchenfridges      安装至少四个冰箱
+objective_food_buildkitchensink         安装厨房水槽
+objective_food_buildkitchenbin	 		在厨房放置垃圾桶
+objective_food_buildkitchenwatermains 	将水槽连接到总水管
+objective_food_buildkitchenfloor 		（可选）改进厨房的地板
 
-objective_food_buildkitchen_description		[TODO]You will need to construct Foundations first.
-objective_food_buildcanteen_description		[TODO]You will need to construct Foundations first.
+objective_food_buildkitchen_description		你需要先建造地基。
+objective_food_buildcanteen_description		你需要先建造地基。
 
-objective_Food_HireChefs				[TODO]Hire at least 8 Cooks
-objective_food_CookMeals				[TODO](Automatic) Prepare meals for all inmates
+objective_Food_HireChefs				雇佣至少 8 名厨师
+objective_food_CookMeals				（自动）为所有囚犯准备饭菜
 
 objective_food_buildcanteen             [TODO]Build a Canteen (approx 20m sq)
 objective_food_buildservingtables       [TODO]Install two Serving Tables
@@ -150,22 +150,22 @@ objective_food_buildcanteenbin	 		[TODO]Place a Bin in the Canteen
 objective_food_buildcanteenfloor 		[TODO](OPTIONAL) Improve the Canteen floor
 
 
-objective_food_buildsprinklers          [TODO]Install a new sprinkler system
-objective_food_buildsprinklers1         [TODO]Install a couple of sprinklers in the Kitchen
-objective_food_buildsprinklers2         [TODO]Install a couple of sprinklers in the Canteen
-objective_food_connectwater             [TODO]Connect the kitchen sprinklers to the water mains
-objective_food_connectwater2			[TODO]Connect the canteen sprinklers to the water mains
-objective_food_feedprisoners            [TODO]Complete one dinner service by feeding all the prisoners
+objective_food_buildsprinklers          安装新的自动喷水灭火系统
+objective_food_buildsprinklers1         在厨房安装几个灭火喷头
+objective_food_buildsprinklers2         在餐厅安装几个灭火喷头
+objective_food_connectwater             将厨房的灭火喷头连接到总水管
+objective_food_connectwater2			将餐厅的灭火喷头连接到总水管
+objective_food_feedprisoners            通过给所有囚犯提供食物完成一次晚餐服务
 
 objective_food_buildkitchenwatermains_description   [TODO]Large pipes are for moving large volumes of water under high pressure. Small pipes are for connecting individual items to the water supply.\n\nUse the UTILITIES view to place large pipes to your buildings. Then use small pipes to connect the large pipe to all of the objects nearby that need a water supply.
 objective_food_connectwater_description             [TODO]Large pipes are for moving large volumes of water under high pressure. Small pipes are for connecting individual items to the water supply.\n\nUse the UTILITIES view to place large pipes to your buildings. Then use small pipes to connect the large pipe to all of the objects nearby that need a water supply.
 objective_food_connectwater2_description            [TODO]Large pipes are for moving large volumes of water under high pressure. Small pipes are for connecting individual items to the water supply.\n\nUse the UTILITIES view to place large pipes to your buildings. Then use small pipes to connect the large pipe to all of the objects nearby that need a water supply.
 
-campaigncutscene_foodinfirmary			[TODO]Infirmary
-campaigncutscene_foodfamily             [TODO]Family
-campaigncutscene_foodfeud               [TODO]Feud
-campaigncutscene_foodregret				[TODO]Regret
-campaigncutscene_foodsuccession 		[TODO]Succession
+campaigncutscene_foodinfirmary			医务室
+campaigncutscene_foodfamily             家庭
+campaigncutscene_foodfeud               世仇
+campaigncutscene_foodregret				遗憾
+campaigncutscene_foodsuccession 		继承
 
 campaigncutscene_foodfamily_description		[TODO]The Palermo family once ran narcotics across all of east coast America. Discover the backstory of Don Palermo and his children.
 
@@ -408,23 +408,23 @@ adviser_riot_infirmary2 				[TODO]Build an Infirmary somewhere on site, and hire
 adviser_riot_infirmary3 				[TODO]We've also seen quite a few bodies.  For the sake of their dignity, we need to build a Morgue and start collecting them up.
 adviser_riot_infirmary4					[TODO]You'll need to hire workmen to do the construction work. Be sure to keep them safe.
 
-objective_Riot_ResecureWings 			[TODO]Hire guards and deploy them to the recaptured zones
-objective_riot_medicalneeds				[TODO](OPTIONAL) Tend to the medical needs of your prison
-objective_Riot_Infirmary				[TODO](Optional) Build an Infirmary and treat the wounded
-objective_Riot_Morgue 					[TODO](Optional) Build a Morgue and collect the dead
-objective_Riot_SecureGenPop				[TODO]Recapture the Gen-Pop wing (central)
-objective_Riot_SecureSpecialWing		[TODO]Recapture the Special wing (west)
-objective_Riot_SecureMaxSec				[TODO]Recapture the Max-Sec wing (south)
-objective_riot_putoutfires				[TODO]Bring the fire under control
+objective_Riot_ResecureWings 			聘请警卫并将他们部署到收复的区域
+objective_riot_medicalneeds				（可选）解决监狱的医疗需求
+objective_Riot_Infirmary				（可选）建立医务室并救治伤员
+objective_Riot_Morgue 					（可选）建立停尸房并收集死者
+objective_Riot_SecureGenPop				夺回混合囚犯侧翼（中央）
+objective_Riot_SecureSpecialWing		夺回特别侧翼（西）
+objective_Riot_SecureMaxSec				夺回最高设防侧翼（南）
+objective_riot_putoutfires				控制住火势
 
-adviser_riot_secondreinforcements1		[TODO]More Riot Guards have arrived.
+adviser_riot_secondreinforcements1		更多防暴警卫已经抵达。
 
-adviser_riot_armedreinforcements1		[TODO]The Mayor has brought in some armed police from the nearby police station.
-adviser_riot_armedreinforcements2		[TODO]Be careful with these guys. You might just end up with a bloodbath on your hands if you let them loose.
-adviser_riot_armedreinforcements3		[TODO]On the other hand, the prisoners may choose to surrender when they see these guys coming in.
+adviser_riot_armedreinforcements1		市长已经从附近的警局调来一些武警。
+adviser_riot_armedreinforcements2		要小心这些家伙。如果你不加限制，可能会以一场由你负责的大屠杀而告终。
+adviser_riot_armedreinforcements3		另一方面，囚犯们在看到这些家伙进来时也可能选择投降。
 
-adviser_riot_reinforcementsunlocked1 	[TODO]The main bulk of the reinforcements have arrived.
-adviser_riot_reinforcementsunlocked2 	[TODO]You can now call up as many squads of Riot Police and Paramedics as you need, from the Emergencies toolbar.
+adviser_riot_reinforcementsunlocked1 	主要增援力量已经抵达。
+adviser_riot_reinforcementsunlocked2 	现在你可以根据需要从紧急工具栏呼叫防暴警察和医护人员。
 
 adviser_riot_cleanup1                   [TODO]The facility is under control, and the rioters have been subdued. It could easily have turned out a lot worse.
 adviser_riot_cleanup2                   [TODO]We've got one hell of a clean-up operation ahead of us. I'd appreciate your help with that, if you've the time.
@@ -444,7 +444,7 @@ adviser_riot_cleanup10b 				[TODO]Prisoner labour is substantially cheaper than 
 adviser_riot_cleanup11                  [TODO]There's a lot to do here. We really appreciate your help.
 adviser_riot_cleanup12                  [TODO]Once you feel you've done enough and are ready to move on, click on the polaroid by the front gates.
 
-adviser_riot_cleanup13 					[TODO]Excellent work. I think the security of this facility is looking much stronger now. 
+adviser_riot_cleanup13 					干得好。这个设施的安全性现在强大多了。
 
 objective_riot_solitary 				[TODO](OPTIONAL) Build a Solitary wing and start punishing rioters
 objective_riot_armoury 					[TODO](OPTIONAL) Implement new security protocols
@@ -459,12 +459,12 @@ objective_riot_balancebooks_balance 	[TODO]Positive Bank Balance
 objective_riot_balancebooks_cashflow 	[TODO]Positive Cash-flow
 objective_riot_prisonerwork				[TODO](OPTIONAL) Establish a punitive labour program 
 
-objective_riot_cleaningcupboard			[TODO]Build a Cleaning Cupboard 
-objective_riot_laundry					[TODO]Build a Laundry 
-objective_riot_inmatesincleaning 		[TODO]Assign inmates to work in Cleaning
-objective_riot_inmatesinlaundry			[TODO]Assign inmates to work in Laundry
-objective_riot_cleanprison 				[TODO]Clean the prison 
-objective_riot_providelaundry			[TODO]Provide clean laundry
+objective_riot_cleaningcupboard			建立清洁橱柜 
+objective_riot_laundry					建立洗衣房 
+objective_riot_inmatesincleaning 		给囚犯分配清洁工作
+objective_riot_inmatesinlaundry			给囚犯分配洗衣工作
+objective_riot_cleanprison 				清洁监狱 
+objective_riot_providelaundry			提供洗净的衣物
 
 objective_riot_armoury_research_description		[TODO]The bureaucracy icon is just above this todo list. Click to begin work on the 'Armoury' - your Chief will do the paperwork. 
 objective_riot_armoury_deploy_description       [TODO]To deploy armed guards, go to Deployment then 'Armed Patrols'. Click and drag to draw patrols where you want them, then click again on the patrols to assign armed guards to them.
@@ -832,13 +832,13 @@ codex_timeofdaytitle					时间
 codex_rainingtitle						下雨
 codex_thunderingtitle					闪电
 codex_generatortitle					生成器
-codex_scaletitle						缩放
+codex_scaletitle						比例
 codex_exporttomc						导出
 codex_mcexport_default					默认
 codex_mcexport_flat						平坦
 codex_mcexport_largebiomes				巨型生物群系
 codex_mcexport_survival					生存
-codex_mcexport_creative					创作
+codex_mcexport_creative					创造
 codex_mcexport_adventure				冒险
 
 
@@ -859,20 +859,20 @@ codex_escapemode_workshop_star_rating   *S 星或以上
 
 escapemode_combat_attack                攻击
 escapemode_combat_attack_button         点击左键
-escapemode_combat_lunge                 [TODO]Lunge
-escapemode_combat_lunge_button          [TODO]Shift
+escapemode_combat_lunge                 刺
+escapemode_combat_lunge_button          Shift 键
 escapemode_dig_button                   按住左键
-escapemode_dig                          [TODO]Dig
-escapemode_surrender                    [TODO]Surrender
-escapemode_surrender_safe               [TODO]End Fight
-escapemode_surrender_button             [TODO]Space
+escapemode_dig                          挖掘
+escapemode_surrender                    投降
+escapemode_surrender_safe               结束打斗
+escapemode_surrender_button             空格键
 
-escapemode_helpletter                   [TODO]Help
-escapemode_gameover                     [TODO]Game Over
+escapemode_helpletter                   帮助
+escapemode_gameover                     游戏结束
 
-escapemode_reputation_points            [TODO]Rep Points:
-escapemode_reputations_cost             [TODO]*C Rep Points
-escapemode_reputations_max              [TODO]MAX
+escapemode_reputation_points            声望积分：
+escapemode_reputations_cost             *C 个声望积分
+escapemode_reputations_max              最大
 
 escapesquad_squad_member                [TODO]Squad Member
 escapesquad_recruitment                 [TODO]Hold right click to recruit
@@ -889,34 +889,34 @@ escapesquad_follow_mode                 [TODO]Follow Mode
 escapesquad_follow_mode_tooltip         [TODO]Prisoners in follow mode will follow you and copy your misbehaviour.\n\nUse R to toggle follow mode for all prisoners at once.
 escapesquad_remove_member               [TODO]Remove Squad Member
 escapesquad_remove_member_tooltip       [TODO]Click to remove this prisoner from your squad.
-escapesquad_escaped                     [TODO]Escaped
+escapesquad_escaped                     逃脱
 
 escapemode_sprint_unlock                [TODO]\n\nUnlocks sprinting by holding Shift. Sprint is only available while you're not in a fight.
 
-escapemode_info_right_click             [TODO]Right click
-escapemode_info_hold_right_click        [TODO]Hold right click
-escapemode_info_stash                   [TODO]to stash contraband
-escapemode_info_pick_up                 [TODO]to pick up contraband
-escapemode_info_start_tunnel            [TODO]to start a tunnel
-escapemode_info_enter_tunnel            [TODO]to enter tunnel
-escapemode_info_exit_tunnel             [TODO]to exit tunnel
-escapemode_info_dig_up                  [TODO]to dig up
-escapemode_info_steal                   [TODO]to steal
+escapemode_info_right_click             点击右键
+escapemode_info_hold_right_click        按住右键
+escapemode_info_stash                   藏匿违禁品
+escapemode_info_pick_up                 拿起违禁品
+escapemode_info_start_tunnel            开启地道
+escapemode_info_enter_tunnel            进入地道
+escapemode_info_exit_tunnel             退出地道
+escapemode_info_dig_up                  挖掘
+escapemode_info_steal                   偷窃
 
 escapemode_info_tool                    [TODO][Digging Tool]
 escapemode_info_damage                  [TODO]Damage: *D
 escapemode_info_recharge                [TODO]Recharge Time: *T
 
-escapemode_gameover                     [TODO]Game Over
+escapemode_gameover                     游戏结束
 escapemode_gameover_squad_title         [TODO]Squad
 escapemode_gameover_casualties_title    [TODO]Victims
-escapemode_gameover_totalscore_title    [TODO]Total Score
-escapemode_gameover_totaltime_title     [TODO]Time Taken
+escapemode_gameover_totalscore_title    总分
+escapemode_gameover_totaltime_title     用时
 escapemode_gameover_time_days           [TODO]*D Days, *H Hours and *M Minutes
 escapemode_gameover_time                [TODO]*H Hours and *M Minutes
 
-codex_workshop_select_random_prison     [TODO]Random Workshop Prison
-codex_workshop_searching                [TODO]Searching
+codex_workshop_select_random_prison     随机的创意工坊监狱
+codex_workshop_searching                搜索中
 
 
 # =============================================================================
@@ -925,9 +925,9 @@ codex_workshop_searching                [TODO]Searching
 
 
 codex_gamebible                         [TODO]Game Bible
-codex_gamebible_next                    [TODO]>
-codex_gamebible_prev                    [TODO]<
-codex_gamebible_singlepage              [TODO]PAGE *X
-codex_gamebible_doublepage              [TODO]PAGES *X - *Y
+codex_gamebible_next                    >
+codex_gamebible_prev                    <
+codex_gamebible_singlepage              第 *X 页
+codex_gamebible_doublepage              第 *X - *Y 页
 object_collectable                      [TODO]Notebook Page
 
