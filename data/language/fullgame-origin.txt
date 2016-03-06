@@ -1,4 +1,4 @@
-﻿
+
 campaigncutscene_tooltip 				(Click to trigger the next chapter of the story)
 campaignchapter_locked                  (Locked)
 
@@ -429,7 +429,7 @@ adviser_riot_reinforcementsunlocked2 	You can now call up as many squads of Riot
 adviser_riot_cleanup1                   The facility is under control, and the rioters have been subdued. It could easily have turned out a lot worse.
 adviser_riot_cleanup2                   We've got one hell of a clean-up operation ahead of us. I'd appreciate your help with that, if you've the time.
 adviser_riot_cleanup2b 					We don't have any building contractors on site, so the first step will be to hire some new workmen to get to work repairing the place.
-adviser_riot_cleanup3                   I always thought security here was much too lax. These inmates have been given too much free reign for too long. That stops today.
+adviser_riot_cleanup3                   I always thought security here was much too lax. These inmates have been given too much free rein for too long. That stops today.
 adviser_riot_cleanup4                   I want you to build us a new Armoury, then deploy armed guards at key positions around the prison. The sight of that will subdue these prisoners and they'll think twice about causing this much trouble again.
 adviser_riot_cleanup5                   I'm also approving the funds to provide body armour to all guards on site. Our men need to be able to defend themselves.
 adviser_riot_cleanup6                   Let's continue. These prisoners need discipline. Order in their lives. I suggest we put them to work tidying up the mess they've made.
@@ -634,7 +634,7 @@ objective_conviction_work_trainworkshop			(OPTIONAL) Put 10 inmates through a Wo
 objective_conviction_work_assignworkshop		Assign inmates to work in the workshop 
 objective_conviction_work_produceplates			(OPTIONAL) Produce 100 license plates
 objective_conviction_work_exportszone			Assign an exports zone near to the road
-objective_conviction_work_setintake             Set Prisoner Intake level to 10
+objective_conviction_work_setintake             Set Prisoner Intake level to 10 per day
 
 objective_conviction_unlocklabour_description	 You can find the bureaucracy screen by clicking on the icon above this todo list.
 objective_conviction_work_kitchen_description	 To assign prisoners to the kitchen, go to 'Logistics' then 'Prison Labour'.\n\nNb. Your prisoners must have passed the 'Kitchen Safety and Hygiene' training course before they can work in the kitchen.				
@@ -806,6 +806,7 @@ credits_special3                        Jo Stansfield
 credits_special4                        John Cook
 credits_special5                        Alex Chapman
 credits_special6                        Alex Tutty
+credits_special7                        Double Eleven
 credits_introversion                    - INTROVERSION SOFTWARE -
 credits_introversion1                   Chris Delay
 credits_introversion2                   Mark Morris
@@ -866,6 +867,7 @@ escapemode_surrender                    Surrender
 escapemode_surrender_safe               End Fight
 escapemode_surrender_button             Space
 
+escapemode_helpletter                   Help
 escapemode_gameover                     Game Over
 
 escapemode_reputation_points            Rep Points:

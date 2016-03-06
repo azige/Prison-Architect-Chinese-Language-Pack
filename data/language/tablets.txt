@@ -1,0 +1,15 @@
+interfacecontrol_mainmenu               主菜单（Esc）
+interfacecontrol_mainmenu_tooltip       开启主菜单（新游戏/读取/存档/退出 等）
+
+object_firemen_hosehelp                 按H手动使用消防水枪
+
+click_to_continue                       点击继续……
+gameover_caption                        按 ESC 键继续
+
+adviser_deathrow_explain5               在等待完工之时，先到处看一下。按WASD键或箭头键四处移动，按鼠标滚轮缩小或放大
+
+adviser_deathrow_internaldoors2         你可以通过点击鼠标中键（或按R键）来在放置前旋转对象
+
+objective_deathrow_buildinternaldoors   构建内门（点击鼠标中键或按R键来旋转对象）
+
+objective_food_extinguishflames_description  [TODO]When you have firemen selected you can press and hold on flames to aim their hoses, but the flames have to be less than 15 squares away.

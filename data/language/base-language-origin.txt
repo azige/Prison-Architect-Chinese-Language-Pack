@@ -156,6 +156,7 @@ interfacemode_spawn                           (Spawn)
 interfacemode_properties                      (Properties)
 interfacemode_cutscenes                       (Cutscenes)
 interfacemode_selection                       Select
+interfacemode_prefabs                         Quick Build
 
 interfaceoverlay_security                       Security
 interfaceoverlay_patrols                        Patrols
@@ -199,6 +200,7 @@ interfacelogistics_removejobs                   Remove Labour
 interfacelogistics_targettingfood               Food Distribution
 interfacelogistics_targettinglaundry            Laundry Distribution
 interfacelogistics_roomquality                  Room Quality
+interfacelogistics_weathermap                   Temperature
 
 interfaceplanning_wall							Walls
 interfaceplanning_object						Objects
@@ -221,8 +223,16 @@ interfacecontraband_alltime                     -30 Days
 interfacecontraband_informants                  Informants
 interfacecontraband_gangs                       Gangs
 
+interfacecallout_fireengine                     Fire Engine
+interfacecallout_riotpolice                     Riot Police
+interfacecallout_armedpolice                    Armed Police
+interfacecallout_paramedics                     Paramedics
+interfacecallout_soldiers                       Soldiers
+
 interfaceclone_copy                             Copy
 interfaceclone_paste                            Paste
+interfaceclone_cancel                           Cancel Quickbuild
+interfaceclone_clone                            Clone
 
 interfacetopbar_todo							Todo
 interfacetopbar_balance							Bank *B
@@ -281,11 +291,15 @@ interfacetopbar_prisonercells_supermaxonly      SuperMax capacity: *X
 interfacetopbar_prisonercells_deathrowonly      Death Row capacity: *X
 interfacetopbar_prisonercells_staffonly         Unavailable: *X
 interfacetopbar_prisoners_nocells               *X Prisoners are unable to be assigned a cell
+interfacetopbar_prisonercells_parents           Parent Capacity: *X
 
 interfacetopbar_cctv_current					Currently running *C cameras
 interfacetopbar_cctv_cap						Space for *C cameras
 
 interfacetopbar_tension_currentlevel            The danger level is *X
+interfacetopbar_tension_currentlevellow         Low
+interfacetopbar_tension_currentlevelmedium      Medium
+interfacetopbar_tension_currentlevelhigh        High
 interfacetopbar_tension_increasing              and is increasing
 interfacetopbar_tension_decreasing              and is decreasing
 interfacetopbar_tension_description             FACTORS:
@@ -391,7 +405,7 @@ buildtoolbar_tooltip_reports			Open up the reports window to see information on 
 buildtoolbar_tooltip_bangup				Send all (willing) prisoners back to their cells. This will make your prisoners very angry if you leave them locked up for too long.
 buildtoolbar_tooltip_lockdown			Instantly lock all doors in the prison.
 buildtoolbar_tooltip_shakedown          Order an immediate search of all Cells. This will take some time and will annoy the hell out of your inmates.
-buildtoolbar_tooltip_weaponsfree        Authorises your armed guards to use lethal force.
+buildtoolbar_tooltip_weaponsfree        Authorises your armed guards to use lethal force. Snipers will no longer fire warning shots before taking a target down.
 
 buildtoolbar_cost						Cost: $*C
 buildtoolbar_cost_sqrft					Cost: $*C /sq
@@ -430,9 +444,13 @@ buildtoolbar_popup_clone				Copy and paste your existing structures.
 buildtoolbar_popup_properties			Find out about shit.
 buildtoolbar_popup_contraband           Show the sources of Contraband, and all recently recovered contraband in your prison. Also shows your Confidential Informants and their information.
 buildtoolbar_popup_grading              See your overall prison grading on four key metrics - Punishment, Reform, Security, and Health. Also shows the re-offending rate for your prison.
+buildtoolbar_popup_prefabs              Copy and paste existing parts of your prison, or place predefined rooms.
 buildtoolbar_popup_room_cell			Where your prisoners live.
 buildtoolbar_popup_room_holdingcell		A room where new recruits are placed until a cell is found for them.
 buildtoolbar_popup_room_solitary		An isolated form of imprisonment for the worst of the worst.
+buildtoolbar_popup_room_dormitory       A variable-size room for housing multiple prisoners. The bigger the dormitory, the more prisoners it can house.
+buildtoolbar_popup_room_familycell      Where your prisoners live, if they have babies. 
+buildtoolbar_popup_room_sharedcell      A multiple-occupancy cell for holding multiple prisoners. Can hold up to 8 prisoners.
 buildtoolbar_popup_room_canteen			Where your prisoners will take their afternoon tea.
 buildtoolbar_popup_room_kitchen			Area for cooks to prepare food for your prisoners.
 buildtoolbar_popup_room_shower			Used to keep your prisoners squeaky clean, and lice free.
@@ -452,6 +470,7 @@ buildtoolbar_popup_room_chapel          What happens when a bureaucratic committ
 buildtoolbar_popup_room_paroleroom      Your prisoners will be eligible for parole after serving 50% and 75% of their terms. Their fate will be decided in this room, with the Warden and the Chief.\n\nNb Extra security is advised. Prisoners have been known to become quite upset when their parole is denied.
 buildtoolbar_popup_room_library         Your prison will be sent boxes of discarded and used books from around the country. Prisoners will need to sort those books onto the shelves.
 buildtoolbar_popup_room_intake          Where your prisoners are first taken when they arrive.
+buildtoolbar_popup_room_nursery         Activity room for prisoners with babies. 
 
 buildtoolbar_popup_obj_bed				Not too soft, not too hard, just right. Well, actually, really hard and too small.
 buildtoolbar_popup_obj_toilet			A basic human right, if you believe all those crackpots.
@@ -491,6 +510,7 @@ buildtoolbar_popup_obj_dismantleobject	Remove an object from your prison.
 buildtoolbar_popup_obj_altar            Relays your prayers directly to your higher power of choice.
 buildtoolbar_popup_obj_pews             Seats for the faithful. Made from the hardest, most unpadded of woods.
 buildtoolbar_popup_obj_prayermat        Protect your prisoners from the dirty floor while they offer their prayers. 
+buildtoolbar_popup_obj_guardtower       A tower from which your snipers (hired separately) can watch over your prison.
 
 buildtoolbar_popup_staff_workman		Will build your prison for you, based on the plans you provide them.
 buildtoolbar_popup_staff_guard			Used to keep your prisoners in check and out of trouble.
@@ -505,6 +525,7 @@ buildtoolbar_popup_staff_foreman		An advanced staff member that allows you to ga
 buildtoolbar_popup_staff_psychologist	An advanced staff member that allows you to gain an insight in to the minds of your prisoners. 
 buildtoolbar_popup_staff_accountant		An advanced staff member that gives access to your financial reports.
 buildtoolbar_popup_staff_lawyer			An advanced staff member that helps you bend some of the rules for greater control over your prison.
+buildtoolbar_popup_staff_sniper         A highly trained marksman who will automatically occupy an empty Guard Tower if one is available. Will fire a number of warning shots at prisoners causing trouble within the prison walls before taking a target down. Escaping prisoners are given no such warnings.
 
 buildtoolbar_popup_uts_powerstation		Generates electricity to be used in your prison.
 buildtoolbar_popup_uts_capacitor		Increases the amount of electricity generated when placed next to a power station.
@@ -538,6 +559,7 @@ buildtoolbar_contraband_day             Shows all contraband confiscated in the 
 buildtoolbar_contraband_week            Shows all contraband confiscated in the last 7 days.
 buildtoolbar_contraband_alltime         Shows all contraband confiscated in the history of your prison.
 buildtoolbar_contraband_informants      Shows information gathered by your confidential informants.
+buildtoolbar_contraband_gangs           Shows information about your prison's gangs.
 
 buildtoolbar_deployment_Guards          Assign guards to the sectors of your prison.
 buildtoolbar_deployment_Patrols         Click and drag to create patrol routes.\n\nTo assign a guard to a patrol route, click again on an existing patrol square.\nRight click and drag to clear guard patrols.
@@ -622,6 +644,7 @@ codex_developer_clearach                (Developer) Clear Achievements
 codex_contacts                          Contacts
 codex_materials                         Materials
 codex_play                              Play
+codex_play_escape                       Play Escape Mode
 codex_polaroids                         Polaroids
 codex_introduction                      Introduction
 codex_restartintroduction               Restart Introduction
@@ -630,7 +653,8 @@ codex_help                              Help (wiki)
 codex_opensavefolder                    Open Save Folder
 codex_options							Options
 codex_nitgs								Names in the Game
-codex_workshop							Prison Sharing (Steam Workshop)
+codex_workshop							Prison Sharing (Steam)
+codex_steamtrending                     Most Popular Prisons (Steam)
 codex_checkforupdates                   Check for updates
 codex_preorder                          Pre-order Now
 codex_termsconditions                   Terms and Conditions
@@ -644,6 +668,7 @@ codex_new_small                         Small
 codex_new_medium                        Medium
 codex_new_large                         Large
 codex_new_selectwarden                  Choose your warden
+codex_new_selectgender                  Select Prisoner Gender
 
 codex_options_graphics					Graphics
 codex_options_resolution				Resolution
@@ -676,6 +701,9 @@ codex_options_apply						Apply
 
 codex_options_language					Language
 
+codex_options_experimental              Experimental
+codex_options_enablevbo                 Enable Vertex Buffer Objects
+
 codex_enabled                           Enabled
 codex_disabled                          Disabled
 
@@ -704,6 +732,7 @@ codex_tooltip_funds                     You will start with this much money in y
 codex_transfer							Transfer
 codex_transferring						Transferring
 codex_in_prison							Currently Incarcerated
+codex_unavailable                       Unavailable
 codex_useravatar                        This is me
 codex_tooltip_useravatar                Mark this prisoner as your own entry. If you should somehow end up in prison yourself, this is the prisoner that will represent you.
 codex_tooltip_flagbio                   Report this bio as objectionable or offensive.
@@ -758,6 +787,7 @@ codex_timelapse_quality_high            High
 codex_timelapse_quality_med             Medium
 codex_timelapse_quality_low             Low
 codex_timelapse_interval_value          *X Game Minutes
+timelapse_caption                       Timelapse recording length *X:*Y, *Z frames recorded, backlog: *T
 
 codex_performance_running				Performance Test Running
 codex_performance_time					Time Left: *Ts
@@ -812,8 +842,23 @@ codex_language_failed_download_msg      Your selected translation has failed to 
 codex_language_searching_workshop       Searching Steam Workshop
 codex_language_community                This translation is created and maintained by the community - Thank You!
 
+codex_polaroids_new                     NEW
+
 codex_save_confirm                      Are you sure you wish to overwrite *X with the current prison?
 codex_researtchapter_confirm            Are you sure you wish to restart the current chapter? Unsaved progress will be lost.
+
+codex_premadeprisons                    Premade Prisons
+
+codex_trending_more                     ...
+codex_sortbycaption                     Sort By:
+codex_trending_oneday                   One Day
+codex_trending_oneweek                  One Week
+codex_trending_threemonths              Three Months
+codex_trending_sixmonths                Six Months
+codex_trending_oneyear                  One Year
+codex_trending_alltime                  All Time
+codex_trending_failedtogetlist          Failed to get prison list
+codex_trending_failedtogetlist_msg      Failed to get the list of trending prisons.
 
 # =============================================================================
 # Graphics Change Confirmation
@@ -1016,6 +1061,7 @@ research_removemincellsize              Small Cells
 research_reduceexecutionliability       Reduce Execution Liability
 research_legalprep                      Legal Prep
 research_legaldefense                   Legal Defense
+research_guardtowers                    Guard Towers
 
 researchtooltip_warden                  Unlocks the Warden, and the entire Bureaucracy system.  Hire him from the Staff toolbar.\n\nLike all Administrators, he requires an office to work.  
 researchtooltip_security                Unlocks the Chief of Security, who can be hired from the staff toolbar.  The chief gives you access to the Deployment screen, and will also give you a realtime report of the danger level of your prison, often predicting future trouble.\n\nLike all Administrators, he requires an office to work.  
@@ -1038,7 +1084,7 @@ researchtooltip_landexpansion           Authorises you to purchase neighbouring 
 researchtooltip_prisonlabour            Allows you to put your prisoners to work around your prison (Cooking, Cleaning etc), saving you on staff wages, earning you money, and teaching your prisoners new skills at the same time.\n\nAlso Unlocks the Workshop and the Laundry.
 researchtooltip_education               Unlocks the ability to run educational reform programs for your prisoners, using externally hired teachers. 
 researchtooltip_contraband              Training for your Guards to become better at tracking and recovering contraband. Unlocks the contraband Supply and Demand report, the Contraband overlay (showing all possible theft locations within your prison), and tracks all recovered contraband back to where it was smuggled or stolen.\n\nAlso unlocks the ability to recruit prisoners as Confidential Informants.\n\nAlso unlocks the gang intelligence view.
-researchtooltip_policy                  Unlocks the Policy Report, allowing you to increase and decrease the punishments for all types of misconduct, as well as automatically triggering searches of the misbehaving prisoner and his cell.\n\nAlso allows you to control the nutritional policy, changing the quantity and variety of food served to prisoners. 
+researchtooltip_policy                  Unlocks the Policy Report, allowing you to increase and decrease the punishments for all types of misconduct, as well as automatically triggering searches of the misbehaving prisoner and their cell.\n\nAlso allows you to control the nutritional policy, changing the quantity and variety of food served to prisoners. 
 researchtooltip_armoury                 Unlocks the armoury room, and allows you to deploy armed guards throughout your prison.
 researchtooltip_bodyarmour              Equips all your Guards, Armed Guards and Dog Handlers with body armour. This can help absorb damage during a fight, but your guards will move slower.\n\nGuards must visit the armoury to get this equipment, and it will cost you for all body armour purchased this way.
 researchtooltip_tazers                  Allows your Armed Guards to carry Tazers, a potent single-shot weapon that will render most targets unconscious instantly. Tazers can only be fired once before they need a full hour to recharge.\n\nArmed Guards must visit the armoury to get this equipment, and it will cost you for every tazer purchased this way.
@@ -1053,6 +1099,7 @@ researchtooltip_removemincellsize       The cells in your prison require a certa
 researchtooltip_reduceexecutionliability Your lawyer lobbies for a reduction in the required strength of the conviction before death row proceedings can be properly started. Essentially lowers the number of appeals a prisoner gets before you can schedule their execution without liability.
 researchtooltip_legalprep               Every prison runs into problems every now and then, and some of them come with fairly big legal consequences. Your lawyer will start the paperwork to help keep the heat off you should something go wrong, but this needs to be done in advance.
 researchtooltip_legaldefense            You're in a bad situation - something went terribly wrong and you've been put on notice. If it looks like you aren't going to be able to manage the situation, your lawyer can help get you off the hook. Completing this research will remove any current warnings that might otherwise result in you being fired.
+researchtooltip_guardtowers             Unlocks Guard Towers and Snipers, allowing you to have highly trained marksmen keeping an eye on the outdoor areas of your prison.\n\nSnipers will need to visit an armoury to collect a rifle, otherwise they will be unarmed.
 
 research_legaldefense_adviser1          It looks like your lawyer has filed some paperwork that is protecting you from the consequences of this mess. I guess that means I can't fire you. This time.
 research_legaldefense_adviser2          Get your prison in order, quickly, and make sure it stays in line. That trick won't work again and it won't protect you forever.
@@ -1195,8 +1242,21 @@ report_intake_slider_maxsec             Adjust the Max Sec intake ratio
 report_intake_slider_deathrow           Adjust the Death Row intake ratio
 report_intake_closed                    CLOSED
 report_intake_locked                    LOCKED
-report_intakemaxperdaydesc              Daily Intake
-report_intakemaxperdaydesc_tooltip      The total number of prisoners you want delivered in the next intake
+report_intakeclosed                     Intake Closed
+report_intakeclosed_tooltip             Your prisoner intake is closed. You will not receive any new prisoners until you open it again.
+report_intakenumperday                  Daily Intake
+report_intakenumperday_tooltip          The total number of prisoners you want delivered in the next intake. You can increase or decrease the number of prisoners you wish to receive in the next intake.\n\nThe number of prisoner from each category is adjusted with the sliders above.
+report_intaketotalprisoners             Total Prisoners
+report_intaketotalprisoners_tooltip     The total number of prisoners you want in your prison. Intake will automatically top up to this number each day.\n\nThe number of prisoner from each category is adjusted with the sliders above.
+report_intakeallavailable               All Available
+report_intakeallavailable_tooltip       All available prisoners, from all open intake pools, will be delivered in the next intake.
+report_intakefillcapacity               Fill Capacity
+report_intakefillcapacity_tooltip       Take as many prisoners as possible from available intake pools in order to fill your prison to capacity.\n\nThe number of prisoner from each category is adjusted with the sliders above.
+reports_intaketypenone                  Closed
+reports_intaketypefillcapacity          Fill Capacity
+reports_intaketypetotalprisoners        Total Prisoners
+reports_intaketypenumperday             Num Per Day
+reports_intaketypeallavailable          All Available
 report_intakemaxperdaydecr              <<
 report_intakemaxperdayincr              >>
 report_intakemaxperdaynone              None
@@ -1204,6 +1264,8 @@ report_intakemaxperdayall               All
 reports_intakedelivernow                Deliver Now
 report_intakepayment                    Payment
 report_intakeall                        ALL
+report_intakefill                       Fill to *X
+report_intakefill_mothers               Fill to *X (Family Cells not counted)
 report_intake_list_tooltip_title        Intake Categories
 report_intake_list_tooltip              A list of all categories you can have delivered to your prison.\n\nThe pool size shows the total number of prisoners available to be delivered in each category. This number will grow over time depending on the ratio of the sliders.\n\nYou can adjust the sliders to change the ratio of prisoner categories you will receive in the next intake.
 report_intake_list_tooltip_dr           \n\nDeathrow inmates require a specifically designated Deathrow cell before they are able to be transferred in to your prison. The Deathrow intake is also a lot slower than regular intake, and you won't always get an increase to the Deathrow pool. These inmates are few and far between.
@@ -1258,6 +1320,7 @@ salecondition_failed                    [FAILED]
 policy_title                            INCIDENT
 policy_search                           - SEARCH -
 policy_prisoner                         HIM
+policy_prisoner_f                       HER
 policy_cell                             CELL
 policy_punishment                       PUNISHMENT
 policy_quantity                         TIME
@@ -1405,10 +1468,10 @@ score_convictionstrength                State Approved Conviction Strength
 score_prisonersexecuted                 Prisoners Executed (Innocent)
 score_prisonersexecuted_info            *E (*I)
 
-score_tooltip_punishment                This is a grading of how well the prisoner has been punished for his crimes, as perceived by the public. Serving a long term in prison is the foundation of a strong punishment, but hard times locked up alone will also count towards it.\n\nKeep in mind that too much reform or free time will be seen as 'soft on crime' and will count against their punishment grade.\n\nA strong punishment score will deter the prisoner from re-offending after release.
-score_tooltip_reform                    A grading of how well you have attempted to reform and rehabilitate this prisoner through the use of Reform programs.\n\nA high reform score will give the prisoner a much greater chance of finding genuine employment after release, and will therefore reduce his re-offending chance.\n\nNote: Putting your prisoners to work around the prison also counts towards this.
-score_tooltip_health                    A record of the prisoners health and well-being during his stay in your prison. Outdoor exercise and good food count towards this. Injures that go untreated, drugs and alcohol usage all count against it.\n\nA poor score here will increase his chance of re-offending, particularly if the prisoner leaves prison with untreated drug or alcohol dependencies.
-score_tooltip_security                  A grading that represents how well you have kept this prisoner safely locked away. Keeping prisoners locked in their cells under armed guard will count heavily towards this. You will be penalised if the prisoner is involved in fights, murders or escape attempts.\n\nA low score indicates the prisoner simply continued his criminal existence once inside your prison, and hence his re-offending chance will be high upon leaving.
+score_tooltip_punishment                This is a grading of how well the prisoner has been punished for their crimes, as perceived by the public. Serving a long term in prison is the foundation of a strong punishment, but hard times locked up alone will also count towards it.\n\nKeep in mind that too much reform or free time will be seen as 'soft on crime' and will count against their punishment grade.\n\nA strong punishment score will deter the prisoner from re-offending after release.
+score_tooltip_reform                    A grading of how well you have attempted to reform and rehabilitate this prisoner through the use of Reform programs.\n\nA high reform score will give the prisoner a much greater chance of finding genuine employment after release, and will therefore reduce their re-offending chance.\n\nNote: Putting your prisoners to work around the prison also counts towards this.
+score_tooltip_health                    A record of the prisoners health and well-being during their stay in your prison. Outdoor exercise and good food count towards this. Injures that go untreated, drugs and alcohol usage all count against it.\n\nA poor score here will increase their chance of re-offending, particularly if the prisoner leaves prison with untreated drug or alcohol dependencies.
+score_tooltip_security                  A grading that represents how well you have kept this prisoner safely locked away. Keeping prisoners locked in their cells under armed guard will count heavily towards this. You will be penalised if the prisoner is involved in fights, murders or escape attempts.\n\nA low score indicates the prisoner simply continued their criminal existence once inside your prison, and hence their re-offending chance will be high upon leaving.
 
 score_tooltip_reoffendingchance         An estimate of the prisoners likelihood to re-offend after leaving prison. Many factors are taken into account to produce this value:\n\n- DECREASE Harsh/strong punishment\n- DECREASE Successful reform programs\n- INCREASE Poor health and security\n- INCREASE Untreated drug and alcohol addictions\n- INCREASE Gang membership\n\n\n- The prisoner's age is a major factor.\n- The number of prior convictions is a strong indicator.\n- A large supporting family can help.
 score_tooltip_clemencychance_title      Likelihood of Clemency
@@ -1471,6 +1534,12 @@ contraband_log_detected                 DETECTED
 contraband_log_dog                      DOG
 contraband_log_found                    FOUND
 contraband_log_owner                    OWNER
+contraband_log_arranged                 Arranged *X hours ago
+
+gangs_guards                            GUARDS *X
+gangs_soldiers                          SOLDIERS *X / *Y MAX
+gangs_evict                             EVICT
+gangs_status                            *X Members . *Y Kills . $*Z
 
 schedule_zone_shared                    Shared
 schedule_zone_minseconly                Min Sec
@@ -1539,6 +1608,7 @@ status_effect_angst                     Angry
 status_effect_wounded                   Bleeding
 status_effect_virus                     Sick
 status_effect_virusdeadly               Sick
+status_effect_overheating               Overheating
 
 condition_treated                       Treated
 condition_needstreating                 Needs Treating
@@ -1582,6 +1652,9 @@ need_name_alcohol                       Alcohol
 need_name_starving                      Starving
 need_name_spirituality                  Spirituality
 need_name_literacy                      Literacy
+need_name_babysleep                     [Baby] Sleep
+need_name_babyplay                      [Baby] Play
+need_name_warmth                        Warmth
 needs_locked                            (Psychologist Required To Show Needs)
 needs_title                             =[Needs]=
 
@@ -1621,20 +1694,20 @@ reputation_copkiller_high               Cop Killer
 reputation_instigator_high              Instigator
 reputation_gangmember_high              Gang Member
 
-reputationtooltip_legendary             This prisoner is a legend of the criminal underworld, and has numerous skills and abilities that make him very dangerous.
+reputationtooltip_legendary             This prisoner is a legend of the criminal underworld, and has numerous skills and abilities that make them very dangerous.
 reputationtooltip_strong                This prisoner hits harder with each punch during fights.
-reputationtooltip_tough                 This prisoner can withstand a lot more punishment in a fight. He can also sometimes withstand being hit by a Tazer.
+reputationtooltip_tough                 This prisoner can withstand a lot more punishment in a fight. They can also sometimes withstand being hit by a Tazer.
 reputationtooltip_volatile              This prisoner is liable to kick off without warning and for no reason.
-reputationtooltip_stoical               This prisoner will not become suppressed when locked in Solitary. He really doesn't care.
-reputationtooltip_snitch                This prisoner is a known informant, and as such his life may be in danger. Don't leave him alone with other prisoners for too long.
+reputationtooltip_stoical               This prisoner will not become suppressed when locked in Solitary. They really don't care.
+reputationtooltip_snitch                This prisoner is a known informant, and as such their life may be in danger. Don't leave them alone with other prisoners for too long.
 reputationtooltip_deadly                This prisoner is a master in lethal combat moves, and can sometimes kill with a single hit.
-reputationtooltip_exlaw                 This prisoner was once a Police Officer, or some other law enforcement profession. His life may be in danger.
-reputationtooltip_copkiller             This prisoner is guilty of murdering a Police Officer. Your prison guards may be unable to restrain themselves when subduing him.
+reputationtooltip_exlaw                 This prisoner was once a Police Officer, or some other law enforcement profession. Their life may be in danger.
+reputationtooltip_copkiller             This prisoner is guilty of murdering a Police Officer. Your prison guards may be unable to restrain themselves when subduing them.
 reputationtooltip_fearless              This prisoner is not intimidated by the sight of Armed Guards, and is less likely to surrender during a fight.
 reputationtooltip_quick                 This prisoner is an unusually fast runner.
 reputationtooltip_instigator            This prisoner sows seeds of discontent in all those nearby. When he causes trouble, nearby prisoners will feel compelled to do the same.
-reputationtooltip_fighter               This prisoner is skilled in defensive combat moves. He can disarm his opponent, or even take their weapon from them in a fight.
-reputationtooltip_gangmember            This prisoner belongs to a gang. He will defend his fellow gang members and will harbour hatred towards rival gangs.
+reputationtooltip_fighter               This prisoner is skilled in defensive combat moves. They can disarm their opponent, or even take their weapon from them in a fight.
+reputationtooltip_gangmember            This prisoner belongs to a gang. They will defend their fellow gang members and will harbour hatred towards rival gangs.
 reputationtooltip_federalwitness        This prisoner is a witness in an important legal case, and as such as been targeted for death by a gang or crime boss.
 
 
@@ -1680,6 +1753,11 @@ objective_intake_minsec                 Min,
 objective_intake_medsec                 Normal, 
 objective_intake_maxsec                 Max
 objective_intake_deathrow               Death Row
+objective_intake_typeclosed             Closed
+objective_intake_typefillcapacity       Fill to capacity
+objective_intake_typetotalprisoners     Fill to *X
+objective_intake_typenumperday          *X per day
+objective_intake_typeallavailable       All available
 
 objective_builddeliveriesroom           Set up a delivery area 
 
@@ -1883,6 +1961,8 @@ object_none                              None
 object_box                               Box
 object_stack                             Stack
 object_bed                               Bed
+object_bunkbed                           Bunk Bed
+object_crib                              Crib
 object_toilet                            Toilet
 object_table                             Table
 object_chair                             Chair
@@ -1947,6 +2027,7 @@ object_dog                               Guard Dog
 object_dogcrate                          Dog Crate
 object_teacher                           Teacher
 object_soldier                           Soldier
+object_sniper                            Sniper
 object_warden                            Warden
 object_chief                             Chief
 object_foreman                           Foreman
@@ -1996,6 +2077,7 @@ object_laundrymachine                    Laundry Machine
 object_laundrybasket                     Laundry Basket
 object_ironingboard                      Ironing Board
 object_visitortable                      Visitor Table
+object_visitortablesecure                Visitor Booth
 object_workshopsaw                       Workshop Saw
 object_workshoppress                     Workshop Press
 object_carpentertable                    Carpenter Table
@@ -2006,6 +2088,7 @@ object_sofachairdouble                   Wide Sofa
 object_drinkmachine                      Drink Machine
 object_arcadecabinet                     Arcade Cabinet
 object_radio                             Radio
+object_radiator                          Radiator
 object_bookshelflarge                    Library Bookshelf
 object_weaponrack                        Weapon Rack 
 object_treestump                         Tree Stump
@@ -2051,6 +2134,8 @@ object_prisonermailopened                Mail (Opened)
 object_shopfront                         Shop Front
 object_shopgoods                         Shop Goods
 object_shopshelf                         Shop Shelf
+object_playmat                           Play Mat
+object_guardtower                        Guard Tower
 
 material_none                            None
 material_building                        Building (Brick)
@@ -2093,6 +2178,9 @@ room_cell                                Cell
 room_holdingcell                         Holding Cell
 room_solitary                            Solitary
 room_superiorcell                        Superior Cell
+room_dormitory                           Dormitory
+room_familycell                          Family Cell
+room_sharedcell                          Shared Cell
 room_canteen                             Canteen
 room_kitchen                             Kitchen
 room_shower                              Shower
@@ -2123,6 +2211,7 @@ room_clearrooms                          Clear Rooms
 room_paroleroom                          Parole
 room_mailroom                            Mail Room
 room_shop                                Shop
+room_nursery                             Nursery
 
 equipment_none                           None
 equipment_fists                          Fists
@@ -2304,6 +2393,8 @@ doortimer_security_DeathRow             Death Row
 # Execution
 # =============================================================================
 
+execution_stage_completed               COMPLETED
+execution_stage_authorise               AUTHORISE
 execution_stage_Start                   Execution initiated
 execution_stage_Lockdown                Initiate prison-wide lockdown
 execution_stage_Testing                 Test facility
@@ -2344,7 +2435,9 @@ roomerror_nokitchen                     There are no kitchens capable of sending
 roomerror_noprisoners                   There are no prisoners assigned to eat at this canteen
 roomerror_nocanteen_cells               There are no canteens accessible by this cell. Prisoners in this cell will have nowhere to eat
 roomerror_nocanteen_kitchen             There are no canteens accessible by this kitchen. It will not cook any food for meal time
-
+roomerror_deathrow_sharedcell           Death Row Prisoners require individual cells, and cannot be assigned to shared housing
+roomerror_nonursery                     There are no nurseries accessible by this cell. Family Cells require a nursery for the prisoners to eat in
+roomerror_laundryoverloaded             Laundry Baskets are unable to be unloaded. The Laundry may be too small to meet the demand.
 
 # =============================================================================
 # Misc
@@ -2409,6 +2502,17 @@ informant_none                          You Have No CI's On Record
 informant_hint                          (Recruit Prisoners under Duress - eg in Solitary)
 informant_recruitable                   (Potential CI)
 informant_target                        Target
+informant_coverage                      coverage *X%
+informant_dead                          DEAD
+informant_released                      Released
+informant_coverblown                    COVER BLOWN
+informant_activate                      Activate
+informant_deactivate                    Deactivate
+informant_idle                          Idle
+informant_onroute                       On Route...
+informant_active                        Active
+informant_coveragecaps                  COVERAGE *X%
+
 
 contraband_owner                        Owner: *X
 contraband_ownerunknown                 Owner Unknown
@@ -2463,6 +2567,9 @@ family_priest                           Priest
 family_victims                          Victim's family
 family_caption                          Family: 
 family_none                             None
+family_husband                          Husband
+family_exhusband                        Ex-Husband
+family_boyfriend                        Boyfriend
 
 damage_dead                             Dead
 damage_unconscious                      Unconscious
@@ -2475,20 +2582,49 @@ message_autosaving                      Auto-Saving...
 buildtoolbar_entersearchterm            enter search term...
 
 deploymentscheduler_title               DEPLOYMENT SCHEDULER
+deploymentscheduler_patrolonly          [Schedule *X only]
+deploymentscheduler_schedulenow         Showing deployment NOW
+deploymentscheduler_scheduletime        Showing deployment for *X.00 - *Y.00
 supplyanddemand_supplyheader            SUPPLY
 supplyanddemand_demandheader            DEMAND
 
 tooltip_multipleobjects                 Press TAB to cycle objects
 remotedoor_noservo                      Remote Doors will not open without a working servo attached.
 
+targettingfood_prisonersassigned        Prisoners assigned : *X
+targettingfood_predicteddemand          = PREDICTED DEMAND =
+targettingfood_demand                   DEMAND *X
+targettingfood_supply                   SUPPLY *X (+*Y)
+targettingfood_prisoners                prisoners
+targettingfood_required                 Meals required : *X
+targettingfood_ready                    Meals ready : *X
+targettingfood_cooked                   Meals being cooked : *X
+
 roomgrading                             Room Grading
-roomgrading_roomsize                    Room size at least *X Squares
-roomgrading_cleanliness                 Cleanliness above *X%
-roomgrading_outsidewindow               Outdoor Window 
-roomgrading_item                        Item : *X
+roomgrading_cell_roomsize               Room size at least *X Squares
+roomgrading_cell_cleanliness            Cleanliness above *X%
+roomgrading_cell_outsidewindow          Outdoor Window 
+roomgrading_cell_item                   Item : *X
+
+roomgrading_dormitory_roomsize          Room size at least *X Squares per Prisoner
+roomgrading_dormitory_cleanliness       Cleanliness above *X%
+roomgrading_dormitory_outsidewindow     1 Outdoor Window per 8 Prisoners
+roomgrading_dormitory_item              Item : 1 *X per 4 Prisoners
+
+roomgrading_sharedcell_roomsize          Room size at least *X Squares per Prisoner
+roomgrading_sharedcell_cleanliness       Cleanliness above *X%
+roomgrading_sharedcell_outsidewindow     Outdoor Window
+roomgrading_sharedcell_item              Item : 1 *X per 4 Prisoners
+
 roomgrading_result                      Grade *X
 roomgrading_currentoccupant             Occupant entitled to grade *X
 roomgrading_unoccupied                  Unoccupied
+roomgrading_shared_occupuants           Current Occupants: *X / *Y
+
+weathermap_temperature_title            Temperature
+weathermap_temperature_text             *CC / *FF
+weathermap_temperature_c                *CC
+weathermap_temperature_f                *FF
 
 roomerror_nokitchen                     There are no kitchens capable of sending food to this canteen
 roomerror_noprisoners                   There are no prisoners assigned to eat at this canteen
@@ -2496,6 +2632,13 @@ roomerror_nocanteen_cells               There are no canteens accessible by this
 roomerror_nocanteen_kitchen             There are no canteens accessible by this kitchen. It will not cook any food for meal time
 
 ceos_letter                             Dear Sir/Madam,\n\n\nCongratulations on completing your basic induction - you are now a fully qualified Prison Architect!  Soon you'll be designing, building and running your own prisons starting from nothing but an empty plot of land and a few stacks of bricks.  Before you get started, I thought I might share some important lessons with you.\n\n1. Every prison needs a Warden - he should be one of your first hires.  Build him a nice office and he'll open up a whole range of advanced facilities via the bureaucracy system.\n\n2. Individual jail cells are expensive, especially early on when funds are very tight.  Save money by starting with a single large Holding Cell, which can be shared between many prisoners at once.\n\n3. Get your Kitchen and Canteen up and running before the first prisoners show up, and be sure to hire some Cooks - nothing irritates a prisoner more than an empty stomach!\n\n4. Building a prison is an expensive undertaking, and you need to become a master of raising large volumes of money through grants and contracts. You can access these grants through the 'Reports' screens.\n\nThat's about everything - good luck!\n\nThe CEO,\nPrison Architects Corp.
+
+quickbuild_basiccell                    Basic Cell
+quickbuild_solitarycell                 Solitary Cell
+quickbuild_office                       Office
+quickbuild_luxurycell                   Luxury Cell
+quickbuild_sharedcell                   Shared Cell
+
 
 # =============================================================================
 # Campaign info
