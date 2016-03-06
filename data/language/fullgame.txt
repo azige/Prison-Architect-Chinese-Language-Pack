@@ -12,15 +12,15 @@ campaignchapter_food                    [TODO]Palermo
 campaignchapter_food_description        [TODO]A massive fire has destroyed this prison's kitchen and canteen.  If we don't find a way to feed the inmates quickly, we'll have a full-scale riot on our hands.\nSolve the food crisis then rebuild the Kitchen and Canteen.
 
 adviser_food_fire_1                     [TODO]There's a crisis brewing at one of our other facilities.
-adviser_food_fire_2                     [TODO]Someone's started a fire in the prison kitchen. The priority is to put it out, stop any casualties and prevent more damage.
-adviser_food_fire_3                     [TODO]Use the Emergency Services button in the toolbar to call the fire brigade.
+adviser_food_fire_2                     [TODO]Someone's started a fire in the prison kitchen. The priority is to put it out, stop any casualties and prevent more damage. 
+adviser_food_fire_3                     [TODO]Use the Emergency Services button in the toolbar to call the fire brigade. 
 adviser_food_fire_4                     [TODO]Get this fire under control before it burns the whole prison down!
 
 objective_food_callfirebrigade          [TODO]Call the fire department
 objective_food_extinguishflames         [TODO]Extinguish the flames
 
 objective_food_callfirebrigade_description 	[TODO]To call out the fire brigade, click the Emergencies button in the toolbar then click Firemen
-objective_food_extinguishflames_description  [TODO]When you have firemen selected you can press and hold on flames to aim their hoses, but the flames have to be less than 15 squares away.
+objective_food_extinguishflames_description  [TODO]When you have firemen selected you can manually aim their hoses by holding the H key. Use this to concentrate the hoses at the centre of the flames.\n\nTry to keep the firemen as close to the fire as possible - they will be more effective.
 
 adviser_food_savedon1                   [TODO]My God, there's a survivor in the wreckage.
 adviser_food_savedon2					[TODO]Christ on a crutch, it's Don Palermo. Of all the inmates... it just had to be our mob boss. 
@@ -28,7 +28,7 @@ adviser_food_donintro2					[TODO]The bad news for him is that budget cuts have m
 adviser_food_donintro3				 	[TODO]The good news is, our Infirmary is still usable. Hire a couple of Doctors and they'll take care of Don Palermo whilst we sort this mess out.
 
 adviser_food_afterfire3                 [TODO]We need to clear up this mess.
-adviser_food_afterfire4                 [TODO]Use the bulldoze tool to demolish the ruined canteen and kitchen. You need to remove all the debris.
+adviser_food_afterfire4                 [TODO]Use the bulldoze tool to demolish the ruined canteen and kitchen. You need to remove all the debris. 
 adviser_food_afterfire6                 [TODO]Designate a Garbage Zone adjacent to the road. Our workmen will dump the wreckage there for the garbage trucks to dispose of.
 adviser_food_dismissfiremen1			[TODO]Finally, can you send those firemen home now that they've done their job.
 adviser_food_gamespeed                  [TODO]Demolishing those buildings will take a while. You can pass the time more quickly by using the buttons under the clock.
@@ -39,7 +39,7 @@ adviser_food_todolist2					[TODO]Any time you're unsure what to do, highlight th
 objective_food_buildmedicalward_doctors [TODO]Hire a couple of Doctors to staff the Infirmary
 
 objective_food_DismissAllFiremen		[TODO]Dismiss the firemen
-objective_food_cleararea                [TODO]Clear the burnt wreckage
+objective_food_cleararea                [TODO]Clear the burnt wreckage 
 objective_food_buildgarbagearea         [TODO]Designate a Garbage Zone
 objective_food_clearcanteen             [TODO]Clear the canteen wreckage
 objective_food_clearkitchen             [TODO]Clear the kitchen wreckage
@@ -52,7 +52,7 @@ adviser_food_familyvisit1				[TODO]Good work.
 adviser_food_familyvisit2 				[TODO]Let's check up on our casualty.
 
 adviser_food_troublesoon1				[TODO]Without food, these inmates will be tearing the walls down within a couple of days.
-adviser_food_troublesoon2 				[TODO]We've got to secure the prison before we end up with a riot on our hands.
+adviser_food_troublesoon2 				[TODO]We've got to secure the prison before we end up with a riot on our hands. 
 adviser_food_troublesoon3 				[TODO]This is the Deployment screen. From here you can control the tactical deployment of all your guards.
 adviser_food_troublesoon4 				[TODO]Deploy a spread of guards to all cell blocks and rooms. Assign 10 guards to stations around the prison. That should be a sufficient show of strength for now.
 adviser_food_troublesoon5				[TODO]I also want a patrol around the inner courtyard where we will be building the new facilities. 
@@ -73,7 +73,7 @@ adviser_food_doncantspeak2				[TODO]eeugh .... ...
 adviser_food_doninfirmary0              [TODO]I think he's trying to say something.
 adviser_food_doninfirmary1				[TODO]Which of you cocksucking, faggot-banging, rat-piss mother fuckers did this?
 adviser_food_doninfirmary2 				[TODO]No one did this to you, pappy. It was an accident.
-adviser_food_doninfirmary3 				[TODO]Shut your stinking mouth and listen good. The both of you.
+adviser_food_doninfirmary3 				[TODO]Shut your stinking mouth and listen good. The both of you. 
 adviser_food_doninfirmary4 				[TODO]If I knew which of you fucks started that fire, I'd snap your stinking neck!
 adviser_food_doninfirmary5 				[TODO]But my time is done. I'm going to die in this fucking bed.
 adviser_food_doninfirmary6 				[TODO]And there's a family business to run. The Palermo name is all we've got left. So you do the honourable thing you dirty piece of shit fucks. Capiche?
@@ -109,7 +109,7 @@ adviser_food_explainneeds7				[TODO]Or you can just ignore your prisoners needs 
 adviser_food_explainneeds8 				[TODO]I'll leave it up to you.
 
 objective_food_needs 					[TODO](OPTIONAL) Take care of your inmates needs
-objective_food_handlefoodneed 			[TODO](OPTIONAL) Handle the Food needs of your prisoners
+objective_food_handlefoodneed 			[TODO](OPTIONAL) Handle the Food needs of your prisoners 
 objective_food_handleboredomneed		[TODO](OPTIONAL) Handle the recreational needs of your prisoners 
 objective_food_handleenvironmentneed	[TODO](OPTIONAL) Handle the environmental needs of your prisoners
 
@@ -119,7 +119,7 @@ objective_food_handleboredomneed_description 		[TODO]Boredom can be tackled quit
 objective_food_handleenvironmentneed_description 	[TODO]Hire some janitors and they will gradually clean the place up.
 
 adviser_food_needssuccess1 				[TODO]You've shown an admirable dedication in taking care of your prisoners needs. Well done.
-adviser_food_needssuccess2 				[TODO]You'll probably have noticed by now that the major remaining gripe amongst prisoners is the lack of clean clothing.
+adviser_food_needssuccess2 				[TODO]You'll probably have noticed by now that the major remaining gripe amongst prisoners is the lack of clean clothing. 
 adviser_food_needssuccess3 				[TODO]If you want to take care of this need as well, you'll need to run a laundry service to gradually provide all your inmates with clean clothing.
 adviser_food_needssuccess4 				[TODO]Build a laundry and hire more janitors to start providing clean laundry to our inmates.
 
@@ -171,10 +171,10 @@ campaigncutscene_foodfamily_description		[TODO]The Palermo family once ran narco
 
 adviser_name_thedon                     [TODO]Don Palermo
 adviser_name_thedonangry                [TODO]Don Palermo
-adviser_name_nico                       [TODO]Nico Tamoretti
+adviser_name_nico                       [TODO]Nico Tamoretti 
 adviser_name_nicoshower					[TODO]Nico Tamoretti
 adviser_name_nicosuited					[TODO]Nico Tamoretti
-adviser_name_sonny                      [TODO]Sonny Palermo
+adviser_name_sonny                      [TODO]Sonny Palermo 
 adviser_name_sonnysuited				[TODO]Sonny Palermo
 adviser_name_sonnystrangled				[TODO]Sonny Palermo
 adviser_name_anthonysuited				[TODO]Anthony Palermo
@@ -188,7 +188,7 @@ cutscene_foodfamily_palermo02			[TODO]Anthony Palermo, the Don's eldest son and 
 cutscene_foodfamily_palermo03			[TODO]Nico Tamoretti wasn't a made man, but was welcomed into the family business when he married the Don's only daughter, Vitalia.
 cutscene_foodfamily_palermo04			[TODO]And Sonny Palermo. The Don's second son. The runt of the litter. Temper like a pitbull, and only half as smart.
 
-cutscene_foodfamily_palermo2 			[TODO]Their empire ran a narcotics trade from Maine to Florida.
+cutscene_foodfamily_palermo2 			[TODO]Their empire ran a narcotics trade from Maine to Florida. 
 cutscene_foodfamily_palermo3			[TODO]That was until Anthony got caught in flagrante delicto.
 cutscene_foodfamily_palermo3b           [TODO]Shot dead by a jealous husband.
 cutscene_foodfamily_palermo4			[TODO]Unfortunately for the family, police at the scene found twelve kilos of uncut cocaine in Anthony's sports bag. 
@@ -220,14 +220,14 @@ objective_food_drugtreatment			[TODO]Start a drug treatment program
 objective_food_cureaddictions			[TODO](OPTIONAL) Start curing the inmates drug addictions
 objective_food_alcoholprogram			[TODO]Start a group therapy program for alcoholics
 objective_Food_HelpAlcoholics			[TODO](OPTIONAL) Start helping the alcoholics through recovery
-objective_food_buildcommonroom 			[TODO]Build a common room
+objective_food_buildcommonroom 			[TODO]Build a common room 
 objective_food_buildcommonroomchairs	[TODO]Create a meeting place made up of 8 chairs
 
 objective_food_drugtreatment_description 	[TODO]Click on 'Reports' in the bottom right of the screen, then select the 'Programs' tab. The program is called 'Pharmacological Treatment of Drug Addiction', and takes place in the Infirmary.\n\nNb you will require at least two hours of Work time set in the Regime, to permit prisoners to attend.
 objective_food_alcoholprogram_description 	[TODO]Click on 'Reports' in the bottom right of the screen, then select the 'Programs' tab. \n\nNb you will require at least two hours of Work time set in the Regime, to permit prisoners to attend.
 
-cutscene_food_feudintro1 				[TODO]We've had an incident in the showers. There's a body.
-cutscene_food_feudintro2 				[TODO]Actually, there's two bodies. Luckily for us, we've got cameras in there.
+cutscene_food_feudintro1 				[TODO]We've had an incident in the showers. There's a body. 
+cutscene_food_feudintro2 				[TODO]Actually, there's two bodies. Luckily for us, we've got cameras in there. 
 cutscene_food_feudintro3 				[TODO]When you get a moment, click on the Polaroid in the Showers and we'll take a look at what happened.
 
 objective_food_triggerfightscene		[TODO]When you are ready, click on the polaroid in the Showers to proceed.
@@ -300,8 +300,8 @@ adviser_riot_newsintro_7				[TODO]It has yet to be seen whether a lack of experi
 adviser_riot_newsintro_8                [TODO]Douglas Benedict, currently serving a life term, is believed to be the ringleader behind the outbreak of violence.
 
 adviser_riot_newsintroheller_1 			[TODO]City Mayor Calvin Heller released this statement just a few moments ago.
-adviser_riot_newsintroheller_2 			[TODO]To those who question our policies of punitive reform, this should act as a stark reminder.
-adviser_riot_newsintroheller_3 			[TODO]These men have housing and food provided. The privilege of paid work.
+adviser_riot_newsintroheller_2 			[TODO]To those who question our policies of punitive reform, this should act as a stark reminder. 
+adviser_riot_newsintroheller_3 			[TODO]These men have housing and food provided. The privilege of paid work. 
 adviser_riot_newsintroheller_4 			[TODO]This is how they reward the taxpayers who subsidise their comforts.
 
 campaigncutscene_riothostages			[TODO]Hostages
@@ -310,7 +310,7 @@ adviser_name_riotbenedict 				[TODO]Benedict
 
 adviser_riot_hostages1					[TODO]Listen up. We've got your CEO. 
 adviser_riot_hostages1b 				[TODO]Euugg... ...
-adviser_riot_hostages2 					[TODO]So this is how it works. I ask. You give.
+adviser_riot_hostages2 					[TODO]So this is how it works. I ask. You give. 
 adviser_riot_hostages3					[TODO]Any problems, send anyone in, or if I even smell a cop, I put a bullet in his skull.
 adviser_riot_hostages4 					[TODO]We want an unmarked vehicle. Blacked out windows. Full tank. One hour. I’ll be in touch.
 adviser_riot_hostages5 					[TODO]Now, where were we.
@@ -333,8 +333,8 @@ adviser_riot_rouletteintro1             [TODO]We've got a guard in the security 
 adviser_riot_rouletteintro2             [TODO]Let's take a look at the hostage situation.
 adviser_riot_click 						[TODO]<click>
 adviser_riot_roulette1					[TODO]Last chance to walk out of here, boss man. Ever play two-ball tag?
-adviser_riot_roulette2 					[TODO]Two bullets. Four empty chambers.
-adviser_riot_roulette2b 				[TODO]Used to play this with Jackrabbits. We'd blow their heads clean off.
+adviser_riot_roulette2 					[TODO]Two bullets. Four empty chambers. 
+adviser_riot_roulette2b 				[TODO]Used to play this with Jackrabbits. We'd blow their heads clean off. 
 adviser_riot_roulette3 					[TODO]But you'll work just the same.
 adviser_riot_roulette4 					[TODO]Let's start with a simple question. What were you doing in that office?
 adviser_riot_roulette5 					[TODO]I swear, I don't know anything.
@@ -345,7 +345,7 @@ adviser_riot_roulette8 					[TODO]WHAT WAS IN THOSE FILES?
 adviser_riot_roulette9 					[TODO]I swear! I don't know...
 adviser_riot_roulette10 				[TODO]Luck's running out. Still a bullet in there somewhere. And I know what I saw.
 adviser_riot_roulette11b 				[TODO]Couldn't believe my own eyes.
-adviser_riot_roulette11c 				[TODO]The big company man himself, here in my prison. Looking guilty as fuck.
+adviser_riot_roulette11c 				[TODO]The big company man himself, here in my prison. Looking guilty as fuck. 
 adviser_riot_roulette11d 				[TODO]I’m guessing there was more in those files than just my rap sheet.
 adviser_riot_roulette11					[TODO]Please... please don't. 
 adviser_riot_roulette11e 				[TODO]Odds are getting shorter, Wallace.
@@ -355,7 +355,7 @@ adviser_riot_roulette13 				[TODO]It's your turn, motherfucker.  Unless you tell
 adviser_riot_roulette14 				[TODO]I can't. Please.
 adviser_riot_roulette15 				[TODO]Okay! Please! Please. Don't shoot. It was money. It was all money.
 adviser_riot_roulette16 				[TODO]That's it?
-adviser_riot_roulette17 				[TODO]You're valuable commodities. The longer any of you are in here, the more profit we make. We were just bending the rules.
+adviser_riot_roulette17 				[TODO]You're valuable commodities. The longer any of you are in here, the more profit we make. We were just bending the rules. 
 adviser_riot_roulette17b				[TODO]That file was the proof.
 adviser_riot_roulette18 				[TODO]So what are we worth? What do you get for keeping us inside?
 adviser_riot_roulette19 				[TODO]Seventy three thousand dollars a year.
@@ -364,7 +364,7 @@ adviser_riot_roulette20					[TODO]Each? Sonofabitch. It's time for you to start 
 campaigncutscene_riotassault 			[TODO]Breach
 
 adviser_riot_assault01					[TODO]That's it. It's time to bring this situation to an end. 
-adviser_riot_assault02 					[TODO]The team is all in position.
+adviser_riot_assault02 					[TODO]The team is all in position. 
 adviser_riot_assault03					[TODO]I want my wheels now. Wallace is joining us. And if I catch sight of a tail you’ll be scraping pieces of him off the freeway.
 adviser_riot_assault2 					[TODO]Right then, big man. You're coming with us. They won't risk anything stupid with you riding shotgun.
 adviser_riot_assault3 					[TODO]None of us are getting out of here. It’s not you they want.
@@ -387,23 +387,23 @@ adviser_riot_negotiator2 				[TODO]We've got multiple casualties, and the remain
 adviser_riot_negotiator3 				[TODO]Figure out what to do, and put a stop to this before it gets out of hand.
 adviser_riot_negotiator4 				[TODO]Riot police should be here in a few minutes.
 
-adviser_riot_firstreinforcements1 		[TODO]The first of the response teams has arrived.
-adviser_riot_firstreinforcements2 	 	[TODO]These guys are Riot Guards, and they're much more heavily armoured. Use these guys to start retaking the captured prison wings.
-adviser_riot_firstreinforcements3 		[TODO]We've also got some paramedics from the nearby state hospital.
+adviser_riot_firstreinforcements1 		[TODO]The first of the response teams has arrived. 
+adviser_riot_firstreinforcements2 	 	[TODO]These guys are Riot Guards, and they're much more heavily armoured. Use these guys to start retaking the captured prison wings. 
+adviser_riot_firstreinforcements3 		[TODO]We've also got some paramedics from the nearby state hospital.  
 adviser_riot_firstreinforcements4 		[TODO]I suggest you use them to give emergency medical attention to your Riot Guards as they retake the prison.
 
 objective_Riot_StopTheRiot 				[TODO]Stop the riot
 objective_Riot_StopTheRiot_description  [TODO]Nobody is in charge. You need to figure out what to do.
 
 adviser_riot_helleradvice1				[TODO]I assume this is the CEO's deputy with whom I'm speaking. 
-adviser_riot_helleradvice2 				[TODO]I appreciate this is a very difficult time and we are all under intense scrutiny. Rest assured, you have my full support in using any and all resources at your disposal.
+adviser_riot_helleradvice2 				[TODO]I appreciate this is a very difficult time and we are all under intense scrutiny. Rest assured, you have my full support in using any and all resources at your disposal. 
 adviser_riot_deployguards1				[TODO]We've gained a foot hold, and retaken some of the prison. And the loss of life so far is completely justifiable.
 adviser_riot_deployguards2				[TODO]But before you push on and retake the rest of the prison, you should re-secure the wings that you have captured.
 adviser_riot_deployguards3				[TODO]Hire some guards and assign them to the recaptured sectors from the Deployment screen. They will ensure the captured wings stay captured.
 adviser_riot_deployguards4 				[TODO]Once you've taken care of that, push into the remaining zones and put these monsters down. These animals can't be rehabilitated. And they can't be negotiated with.
 adviser_riot_deployguards5 				[TODO]I'm working on authorising an Armed Response team that will put an end to this quick.
 
-adviser_riot_infirmary1 				[TODO]You've got wounded all over the prison, and more to come no doubt. You can't just leave them to bleed to death.
+adviser_riot_infirmary1 				[TODO]You've got wounded all over the prison, and more to come no doubt. You can't just leave them to bleed to death. 
 adviser_riot_infirmary2 				[TODO]Build an Infirmary somewhere on site, and hire Doctors to treat the injured.
 adviser_riot_infirmary3 				[TODO]We've also seen quite a few bodies.  For the sake of their dignity, we need to build a Morgue and start collecting them up.
 adviser_riot_infirmary4					[TODO]You'll need to hire workmen to do the construction work. Be sure to keep them safe.
@@ -439,12 +439,12 @@ adviser_riot_cleanup8                   [TODO]We've a few other requirements. Th
 adviser_riot_cleanup8b                  [TODO]Our guards will take care of moving inmates to Solitary as required. Solitary Confinement gives inmates time to reflect on what they've done, and reminds them who is in charge around here.
 adviser_riot_cleanup9                   [TODO]And let's not forget the staff, who made it through this ordeal with us. They are exhausted.
 adviser_riot_cleanup9b 					[TODO]Build a staff room somewhere to give them somewhere to recover.
-adviser_riot_cleanup10                  [TODO]Finally, we need to bring all of this in on a budget. Make sure we have a positive bank balance and cash-flow.
-adviser_riot_cleanup10b 				[TODO]Prisoner labour is substantially cheaper than contractors when it comes to cleaning, janitorial work, laundry and the like.
+adviser_riot_cleanup10                  [TODO]Finally, we need to bring all of this in on a budget. Make sure we have a positive bank balance and cash-flow. 
+adviser_riot_cleanup10b 				[TODO]Prisoner labour is substantially cheaper than contractors when it comes to cleaning, janitorial work, laundry and the like. 
 adviser_riot_cleanup11                  [TODO]There's a lot to do here. We really appreciate your help.
 adviser_riot_cleanup12                  [TODO]Once you feel you've done enough and are ready to move on, click on the polaroid by the front gates.
 
-adviser_riot_cleanup13 					[TODO]Excellent work. I think the security of this facility is looking much stronger now.
+adviser_riot_cleanup13 					[TODO]Excellent work. I think the security of this facility is looking much stronger now. 
 
 objective_riot_solitary 				[TODO](OPTIONAL) Build a Solitary wing and start punishing rioters
 objective_riot_armoury 					[TODO](OPTIONAL) Implement new security protocols
@@ -452,10 +452,10 @@ objective_riot_armoury_research			[TODO]Unlock the Armoury through Bureaucracy
 objective_riot_armoury_build 			[TODO]Build an Armoury (in a secure location)
 objective_riot_armoury_deploy			[TODO]Deploy armed guards around the prison
 objective_riot_armoury_armour 			[TODO]Unlock body armour for all security staff
-objective_riot_armoury_tazers 			[TODO]Unlock Tazers for your armed guards
-objective_riot_staffroom 				[TODO](OPTIONAL) Build a Staff Room for your exhausted staff
-objective_riot_balancebooks 			[TODO](OPTIONAL) Balance the accounts
-objective_riot_balancebooks_balance 	[TODO]Positive Bank Balance
+objective_riot_armoury_tazers 			[TODO]Unlock Tazers for your armed guards 
+objective_riot_staffroom 				[TODO](OPTIONAL) Build a Staff Room for your exhausted staff 
+objective_riot_balancebooks 			[TODO](OPTIONAL) Balance the accounts 
+objective_riot_balancebooks_balance 	[TODO]Positive Bank Balance 
 objective_riot_balancebooks_cashflow 	[TODO]Positive Cash-flow
 objective_riot_prisonerwork				[TODO](OPTIONAL) Establish a punitive labour program 
 
@@ -463,7 +463,7 @@ objective_riot_cleaningcupboard			[TODO]Build a Cleaning Cupboard
 objective_riot_laundry					[TODO]Build a Laundry 
 objective_riot_inmatesincleaning 		[TODO]Assign inmates to work in Cleaning
 objective_riot_inmatesinlaundry			[TODO]Assign inmates to work in Laundry
-objective_riot_cleanprison 				[TODO]Clean the prison
+objective_riot_cleanprison 				[TODO]Clean the prison 
 objective_riot_providelaundry			[TODO]Provide clean laundry
 
 objective_riot_armoury_research_description		[TODO]The bureaucracy icon is just above this todo list. Click to begin work on the 'Armoury' - your Chief will do the paperwork. 
@@ -492,9 +492,9 @@ adviser_name_morganarmed				[TODO]Henry Morgan
 adviser_name_morganhappy                [TODO]Henry Morgan
 adviser_name_senator                    [TODO]Senator Walter Hurst
 adviser_name_detective                  [TODO]Police Detective
-adviser_name_kerry 						[TODO]Kerry Morgan
-adviser_name_hurst 						[TODO]Doctor Walter Hurst
-adviser_name_keane 						[TODO]Officer Keane
+adviser_name_kerry 						[TODO]Kerry Morgan 
+adviser_name_hurst 						[TODO]Doctor Walter Hurst 
+adviser_name_keane 						[TODO]Officer Keane 
 
 adviser_conviction_heist1               [TODO]Grab the money, kid.
 adviser_conviction_heist2               [TODO]Drop your weapons, now!
@@ -512,8 +512,8 @@ conviction_intro_1                      [TODO]Following the recent tragedy at Al
 conviction_intro_2                      [TODO]Until a permanent replacement is found for the CEO position, I’d like you to take the reins.
 conviction_intro_3                      [TODO]There have been a spate of suicides at this facility recently, and it's not hard to see why. But we have a more immediate problem.
 conviction_intro_4                      [TODO]The powers that be have decided to send us a huge batch of new inmates. The first will be arriving tomorrow, and we don't have anywhere to house them.
-conviction_intro_5                      [TODO]We need you to build a brand new cell block, with enough space to handle the new intake.
-conviction_intro_5b 					[TODO]I've laid out a potential design for the new cell block here. This should give us enough new cells to handle the intake, and the design includes it's own shower facility.
+conviction_intro_5                      [TODO]We need you to build a brand new cell block, with enough space to handle the new intake. 
+conviction_intro_5b 					[TODO]I've laid out a potential design for the new cell block here. This should give us enough new cells to handle the intake, and the design includes it's own shower facility. 
 conviction_intro_5c 					[TODO]But it's up to you if you choose to follow this design or do something totally different.
 conviction_intro_6                      [TODO]My job is to prioritise the welfare of these men. Get that new cell block built, then we'll talk about how to achieve that.
 
@@ -527,10 +527,10 @@ conviction_workintro4                   [TODO]We should start a work apprentices
 
 
 conviction_hurst1 						[TODO]The lack of engagement at this facility is shocking. Men deprived of every shred of humanity.
-conviction_hurst2 						[TODO]They're being shown scant compassion or respect.
+conviction_hurst2 						[TODO]They're being shown scant compassion or respect. 
 conviction_hurst3 						[TODO]It's not what these men deserve.
-conviction_hurst4 						[TODO]Indeed, Captain. This is no way to treat a human being. They're deprived of every shred of humanity.
-conviction_hurst4b 						[TODO]Why should they abide by our rules? You can’t expect them to respond in any way but with the utmost resentment.
+conviction_hurst4 						[TODO]Indeed, Captain. This is no way to treat a human being. They're deprived of every shred of humanity. 
+conviction_hurst4b 						[TODO]Why should they abide by our rules? You can’t expect them to respond in any way but with the utmost resentment. 
 conviction_hurst4c						[TODO]We need classrooms, drug rehabilitation programs. A workshop, so they can start to take some pride in their skills.
 conviction_hurst6 						[TODO]You misunderstand me, Doctor. These men aren't human.  See for yourself.
 conviction_hurst6b 						[TODO]On your feet, Morgan!
@@ -549,7 +549,7 @@ conviction_hurst16b                     [TODO]What do you think about?
 conviction_hurst16c                     [TODO]Dying mostly. And my little girl.
 conviction_hurst17 						[TODO]She’ll need you to be strong, Henry. This will be hard for her too.
 conviction_hurst18 						[TODO]Been behind bars every day of her life. She don't even know I exist.
-conviction_hurst19 						[TODO]It's never too late to change a life, Henry.
+conviction_hurst19 						[TODO]It's never too late to change a life, Henry. 
 conviction_hurst19b 					[TODO]I'd like to come and see you again if I may.
 conviction_hurst20 						[TODO]Yes, sir. Thank you, sir.
 conviction_hurst21 						[TODO]Can we do something about those rats? This isn't the third world.
@@ -568,7 +568,7 @@ conviction_visitation_7					[TODO]Kerry Morgan, sir. Here to see Henry Morgan. A
 conviction_visitation_8					[TODO]That's what you tell him is it?  Go on through.
 conviction_visitation_8a                [TODO]Kerry!
 conviction_visitation_9					[TODO]Afraid there's been a mistake. Morgan's lost his visitation privileges.
-conviction_visitation_9b 				[TODO]What?
+conviction_visitation_9b 				[TODO]What? 
 conviction_visitation_9c 				[TODO]I'm sorry. We found liquor in his cell this morning. There's nothing I can do.
 conviction_visitation_10				[TODO]It took me two hours to get here. My daughter's crying. This isn't fair.
 conviction_visitation_11				[TODO]You want fair, go to Disneyland. Fair is somewhere you win goldfish and eat hot dogs. You won't find it here.
@@ -611,7 +611,7 @@ conviction_secondvisit_13               [TODO]I’ll make you an agreement. Come
 conviction_secondvisit_14               [TODO]You’d do that for me, sir?
 conviction_secondvisit_15               [TODO]It’s not just for you, Henry.
 
-conviction_suicide_1 					[TODO]Sorry, sir, thought you ought to know. There’s been another suicide.
+conviction_suicide_1 					[TODO]Sorry, sir, thought you ought to know. There’s been another suicide. 
 conviction_suicide_2					[TODO]Looks like one of the prisoners ingested rat poison.
 conviction_suicide_3					[TODO]Doctor Hurst is on the way there now to confirm.
 conviction_suicide_4					[TODO]Ain’t she the most beautiful thing you ever seen?
@@ -650,12 +650,12 @@ objective_conviction_telephones	 			[TODO]Add telephones to all Yards
 objective_conviction_mailroom				[TODO]Build a Mail Room
 objective_conviction_mailroomwork			[TODO]Assign prisoners to work in the mail room 
 
-objective_conviction_mailroomwork_description           [TODO]To assign prisoners to the Mailroom, go to 'Logistics' then 'Prisoner Labour'.
+objective_conviction_mailroomwork_description           [TODO]To assign prisoners to the Mailroom, go to 'Logistics' then 'Prisoner Labour'. 
 
 objective_conviction_education				[TODO]Begin educating your prisoners 
 objective_conviction_unlockeducation		[TODO]Authorise 'Education' through Bureaucracy
 objective_conviction_education_classroom	[TODO]Build a classroom 
-objective_conviction_education_class 		[TODO]Run a Foundation Education class
+objective_conviction_education_class 		[TODO]Run a Foundation Education class 
 objective_conviction_education_learn		[TODO](OPTIONAL) Have 5 prisoners pass the Foundation Education class
 objective_conviction_education_library		[TODO]Build a library
 objective_conviction_education_librarywork	[TODO]Assign prisoners to work in the library
@@ -675,15 +675,15 @@ objective_Conviction_PlayerExitsMap         [TODO]Click on the polaroid in Morga
 
 campaignchapter_epilogue                [TODO]Bootstraps
 campaigncutscene_epilogueintro          [TODO]Revisit
-campaigncutscene_epilogueoutro          [TODO]Epilogue
+campaigncutscene_epilogueoutro          [TODO]Epilogue 
 
 campaignchapter_epilogue_description    [TODO]A historic prison is scheduled for demolition and replacement. Use all the skills you've learnt to create the ultimate facility.
 
 adviser_name_reporter 					[TODO]Reporter
 
 epilogue_newsintro1 					[TODO]Today on CNDC news, a special report into the state of our prisons.
-epilogue_newsintro2 					[TODO]It’s two years since the infamous 'Siege at Alchemico' claimed so many lives, including that of Chief Executive Charles Wallace.
-epilogue_newsintro4 					[TODO]Today we hear from leading experts and ask what, if anything, has changed since those tragic events.
+epilogue_newsintro2 					[TODO]It’s two years since the infamous 'Siege at Alchemico' claimed so many lives, including that of Chief Executive Charles Wallace. 
+epilogue_newsintro4 					[TODO]Today we hear from leading experts and ask what, if anything, has changed since those tragic events. 
 epilogue_newsintro5 					[TODO]First we go live to one of the state's longest running prisons, recently scheduled for demolition.
 epilogue_newsintro6						[TODO]Live now, only on CNDC news.
 
@@ -695,7 +695,7 @@ epilogue_reporter5 						[TODO]It’s my pleasure.
 
 epilogue_reporter6 						[TODO]In the past you've been a strong advocate of a tougher, more disciplined approach to prison management.
 epilogue_reporter6b 					[TODO]Why demolish a facility which has defined, for so long, the punitive approach?
-epilogue_reporter7 						[TODO]Both the prison and its operation had become antiquated.
+epilogue_reporter7 						[TODO]Both the prison and its operation had become antiquated. 
 epilogue_reporter8 						[TODO]We took the decision to replace it with an entirely new facility. One with a more modern policy.
 epilogue_reporter9						[TODO]This prison was in the news a few years ago as one of the last remaining state execution facilities.
 epilogue_reporter10 					[TODO]Campaigners have long sought to revoke the death penalty laws here. Will you honour their wishes, or will you rebuild the execution facility?
@@ -723,7 +723,7 @@ epilogue_outro_3						[TODO]Success? No. Not in general.
 epilogue_outro_4						[TODO]I believe everyone has the potential for improvement. And we must offer them that chance.
 epilogue_outro_4b 						[TODO]I can state with absolute conviction that I've seen real improvement in the attitude and hopes of many of those incarcerated here.
 epilogue_outro_5						[TODO]Incarceration should be a deterrent. It should not be an opportunity for development or change.
-epilogue_outro_6 						[TODO]Punishing and dehumanising them during their experience only serves to nurture delinquency.
+epilogue_outro_6 						[TODO]Punishing and dehumanising them during their experience only serves to nurture delinquency. 
 
 epilogue_outro_7						[TODO]We provide these men with valuable skills, but more importantly, hope.
 epilogue_outro_7b  						[TODO]We are helping them to integrate back into society, and contribute after they leave.
@@ -884,7 +884,7 @@ escapesquad_skip_punishments_tooltip    [TODO]Spend a rep point to have all your
 escapesquad_sleep                       [TODO]Sleep
 escapesquad_sleep_tooltip               [TODO]Click to sleep through the night.
 escapesquad_reputations                 [TODO]Reputations
-escapesquad_reputations_tooltip         [TODO]Spend rep points on reputations to improve your squad's fighting ability.
+escapesquad_reputations_tooltip         [TODO]Spend rep points on reputations to improve your squad's fighting ability. 
 escapesquad_follow_mode                 [TODO]Follow Mode
 escapesquad_follow_mode_tooltip         [TODO]Prisoners in follow mode will follow you and copy your misbehaviour.\n\nUse R to toggle follow mode for all prisoners at once.
 escapesquad_remove_member               [TODO]Remove Squad Member

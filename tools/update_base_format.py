@@ -7,11 +7,11 @@ BASE_PATH = os.path.dirname(__file__)
 BASE_DATA_PATH = os.path.join(BASE_PATH, "../data/language")
 
 trans = dict()
+regex = re.compile("(\w+)([\s\t]+)(.+)$")
 
 def should_skip(line):
     striped = line.strip()
     return striped.startswith("#") or len(striped) <= 1
-
 
 def read_base_file(base_file):
     with open(base_file) as inf:
@@ -19,20 +19,21 @@ def read_base_file(base_file):
             if should_skip(line):
                 continue
 
-            index = line.find(" ")
-            if index == -1:
-                index = line.find("\t")
-                if index == -1:
-                    # not translation string
-                    continue
+            match = regex.match(line)
+            if match is None:
+                # not translation string
+                continue
 
-            key = line[:index]
-            value = line[index + 1:]
+            key = match.group(1)
+            value = match.group(3)
+            if value.startswith('[TODO]'):
+                # not translate yet
+                continue
+
             trans[key] = value.strip()
 
 def update_base_file(origin_file, out_file):
     line_num = 0
-    regex = re.compile("(\w+)([\s\t]+)(.+)$")
 
     with open(origin_file) as base:
         with open(out_file, "w+") as output:

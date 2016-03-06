@@ -68,7 +68,7 @@ dialogcomponent_selectionlistitem       选择列表项目
 dialogcomponent_scrollbar               滚动条
 dialogcomponent_progressbar             进度条
 dialogcomponent_canvas                  菜单
-dialogcomponent_iconbox					[TODO]IconBox
+dialogcomponent_iconbox					图标盒
 
 dialogposition_absolute                 绝对位置
 dialogposition_relative                 相对位置
@@ -93,15 +93,15 @@ profiler_reset                          重置
 
 soundchannelviewer_title                声音频道
 soundeditor_title                       声音编辑器
-soundinstanceeditor_title				[TODO]Sound Instance Editor
+soundinstanceeditor_title				声音范例编辑器
 
-soundeditor_positiontitle		        [TODO]Position Type
-soundeditor_instancetitle		        [TODO]Instance Type
-soundeditor_looptitle			        [TODO]Loop Type
-soundeditor_sourcetypetitle		        [TODO]Sound Type
-soundeditor_soundnametitle		        [TODO]Sound Name
+soundeditor_positiontitle		        位置类型
+soundeditor_instancetitle		        范例类型
+soundeditor_looptitle			        循环类型
+soundeditor_sourcetypetitle		        声音类型
+soundeditor_soundnametitle		        声音名称
 
-soundeditor_volumetitle			        [TODO]Volume
+soundeditor_volumetitle			        音量
 soundeditor_frequencytitle              频率
 soundeditor_mindistancetitle            最小距离
 soundeditor_attacktitle                 攻击
@@ -134,7 +134,7 @@ samplebank                              (样品库)
 
 interfacemode_done                            完成
 interfacemode_destroy                         拆除
-interfacemode_foundations				      [TODO]Foundations
+interfacemode_foundations				      地基
 interfacemode_construction                    建材
 interfacemode_planning                        规划
 interfacemode_objects                         物品
@@ -202,19 +202,19 @@ interfacelogistics_targettinglaundry            衣物分配
 interfacelogistics_roomquality                  房间品质
 interfacelogistics_weathermap                   天气状况
 
-interfaceplanning_wall							[TODO]Walls
-interfaceplanning_object						[TODO]Objects
-interfaceplanning_route							[TODO]Pathways
-interfaceplanning_clear							[TODO]Clear
-interfaceplanning_zone1							[TODO]Zone 1
-interfaceplanning_zone2							[TODO]Zone 2
-interfaceplanning_zone3							[TODO]Zone 3
-interfaceplanning_zone4							[TODO]Zone 4
-interfaceplanning_zone5							[TODO]Zone 5
-interfaceplanning_zone6							[TODO]Zone 6
-interfaceplanning_zone7							[TODO]Zone 7
-interfaceplanning_zone8							[TODO]Zone 8
-interfaceplanning_zone9							[TODO]Zone 9
+interfaceplanning_wall							墙
+interfaceplanning_object						物体
+interfaceplanning_route							道路
+interfaceplanning_clear							清空
+interfaceplanning_zone1							区域 1
+interfaceplanning_zone2							区域 2
+interfaceplanning_zone3							区域 3
+interfaceplanning_zone4							区域 4
+interfaceplanning_zone5							区域 5
+interfaceplanning_zone6							区域 6
+interfaceplanning_zone7							区域 7
+interfaceplanning_zone8							区域 8
+interfaceplanning_zone9							区域 9
 
 interfacecontraband_source                      违禁品来源
 interfacecontraband_day                         过去24小时
@@ -234,27 +234,27 @@ interfaceclone_paste                            粘贴
 interfaceclone_cancel                           取消快速建造
 interfaceclone_clone                            克隆
 
-interfacetopbar_todo							[TODO]Todo
-interfacetopbar_balance							[TODO]Bank *B
-interfacetopbar_budget							[TODO]Cashflow *C
-interfacetopbar_income							[TODO]Income *I
-interfacetopbar_expenses						[TODO]Costs *C
-interfacetopbar_day								[TODO]DAY *D
+interfacetopbar_todo							待办事项
+interfacetopbar_balance							存款 *B
+interfacetopbar_budget							现金流 *C
+interfacetopbar_income							收入 *I
+interfacetopbar_expenses						支出 *C
+interfacetopbar_day								第 *D 天
 
-interfacetopbar_title_balance					[TODO]Bank Balance
-interfacetopbar_title_budget					[TODO]Daily Cashflow
-interfacetopbar_title_cctv						[TODO]CCTV
-interfacetopbar_title_day						[TODO]Day
-interfacetopbar_title_prisoners					[TODO]Prisoners
-interfacetopbar_title_guards					[TODO]Guards
+interfacetopbar_title_balance					银行存款
+interfacetopbar_title_budget					每日现金流
+interfacetopbar_title_cctv						闭路电视
+interfacetopbar_title_day						天数
+interfacetopbar_title_prisoners					囚犯
+interfacetopbar_title_guards					狱警
 interfacetopbar_title_tension                   危险等级
 
-interfacetopbar_tooltip_balance					[TODO]How much cash you have in the bank.\n\nClick to raise more funds through the Grants list.
-interfacetopbar_tooltip_budget					[TODO]The amount of money you will receive each day, based on your current expenses and income.\n\nClick to access a detailed financial breakdown of income and expenses. 
-interfacetopbar_tooltip_cctv					[TODO]The number of CCTV cameras and monitors you currently have.
-interfacetopbar_tooltip_day						[TODO]How long you've been running your prison.
-interfacetopbar_tooltip_prisoners				[TODO]The number of prisoners you currently have, and how many you can hold, in your prison.
-interfacetopbar_tooltip_guards					[TODO]How many guards you have available for work in your prison.
+interfacetopbar_tooltip_balance					银行内的存款金额。\n\n点击补助清单以获得更多资金。
+interfacetopbar_tooltip_budget					根据目前监狱日常支出和收入计算出每天监狱能获取的金额。（注意：不包括建筑费用）\n\n点击进入详细的收支清单。
+interfacetopbar_tooltip_cctv					目前拥有的监控摄像头与监视器数量。
+interfacetopbar_tooltip_day						经营监狱的时间。
+interfacetopbar_tooltip_prisoners				目前拥有的监狱数量以及可容纳犯人数。
+interfacetopbar_tooltip_guards					监狱中空闲的狱警数量
 interfacetopbar_tooltip_tension                 警长报告的监狱整体风险等级。
 
 interfacetopbar_tooltip_recenttransactions      最近的交易记录
@@ -275,11 +275,11 @@ interfacetopbar_tooltip_dogs                    + *X 警犬训导员
 
 interfacetopbar_unlimitedfunds                  无限资金
 
-interfacetopbar_budget_moneyin					[TODO]Money In: $*M /day
-interfacetopbar_budget_moneyout					[TODO]Money Out: $*M /day
+interfacetopbar_budget_moneyin					收入: $*M /天
+interfacetopbar_budget_moneyout					支出: $*M /天
 interfacetopbar_budget_cantgonegative           在聘请会计师管理监狱财务之前，现金流不可为负 (也就是支出大于收入) 。
 
-interfacetopbar_prisoners_types					[TODO]Currently holding *X Prisoners:
+interfacetopbar_prisoners_types					目前容纳 *X 名囚犯：
 interfacetopbar_prisoners_capacity              最大安全容纳：*X
 interfacetopbar_prisonercells_shared            多人牢房容量：*X
 interfacetopbar_prisonercells_unlocked          未上锁牢房容量：*X
@@ -293,8 +293,8 @@ interfacetopbar_prisonercells_staffonly         因设为员工专区而无法�
 interfacetopbar_prisoners_nocells               *X 囚犯无法分配牢房
 interfacetopbar_prisonercells_parents           [TODO]Parent Capacity: *X
 
-interfacetopbar_cctv_current					[TODO]Currently running *C cameras
-interfacetopbar_cctv_cap						[TODO]Space for *C cameras
+interfacetopbar_cctv_current					目前有 *C 个摄像头在工作
+interfacetopbar_cctv_cap						还可安装 *C 个摄像头
 
 interfacetopbar_tension_currentlevel            目前危险等级为 *X
 interfacetopbar_tension_currentlevellow         [TODO]Low
@@ -379,10 +379,10 @@ sector_insecure                                 不安全
 # Hardware Compatibility
 # =============================================================================
 
-hardware_compat_title					[TODO]Hardware Compatibility Test
-hardware_compat_message					[TODO]With your permission, we would like to collect the following hardware data from your computer.\n\nThis information is completely anonymous and will help us to ensure Prison Architect is supported on the widest possible range of computer hardware.\n\nThank you!
-hardware_compat_accept					[TODO]Accept
-hardware_compat_decline					[TODO]Decline
+hardware_compat_title					硬件兼容性测试
+hardware_compat_message					在你的许可下，我们将从你的电脑中收集下列硬件数据。\n\n这些信息完全匿名并将帮助我们确保监狱建筑师在最广泛的电脑硬件上运行。\n\n谢谢！
+hardware_compat_accept					接受
+hardware_compat_decline					拒绝
 
 connectionmenu_connect                  连接
 connectionmenu_disconnect               断开连接
@@ -401,25 +401,25 @@ buildtoolbar_lockdown                   全面封锁
 buildtoolbar_shakedown                  全部搜查
 buildtoolbar_weaponsfree                自由开火
 
-buildtoolbar_tooltip_reports			[TODO]Open up the reports window to see information on your prisoners, staff, income, grants, and more.
-buildtoolbar_tooltip_bangup				[TODO]Send all (willing) prisoners back to their cells. This will make your prisoners very angry if you leave them locked up for too long.
-buildtoolbar_tooltip_lockdown			[TODO]Instantly lock all doors in the prison.
+buildtoolbar_tooltip_reports			打开报告窗口，查看有关你的囚犯、员工、收入、政府补助等信息
+buildtoolbar_tooltip_bangup				将所有（愿意的）囚犯送回他们牢房，如果关太长时间则会引起不满
+buildtoolbar_tooltip_lockdown			立刻锁上监狱中所有的门
 buildtoolbar_tooltip_shakedown          下令立即搜查所有牢房，搜查将会花费一些时间才能完成，同时也会惹恼你的囚犯们。
 buildtoolbar_tooltip_weaponsfree        授权你的武警使用致命武器。狙击手也不会在射杀之前进行开火警告。
 
-buildtoolbar_cost						[TODO]Cost: $*C
-buildtoolbar_cost_sqrft					[TODO]Cost: $*C /sq
-buildtoolbar_wages						[TODO]Wages : $*W per day
-buildtoolbar_outdoor					[TODO]Outdoor only
-buildtoolbar_indoor						[TODO]Indoor only
-buildtoolbar_walk_speed					[TODO]Walk Speed : *S
-buildtoolbar_walk_speed_slow			[TODO]Slow
-buildtoolbar_walk_speed_norm			[TODO]Normal
-buildtoolbar_walk_speed_fast			[TODO]Fast
+buildtoolbar_cost						费用: $ *C
+buildtoolbar_cost_sqrft					费用: $ *C /每平方米
+buildtoolbar_wages						工资: 每天 $ *W
+buildtoolbar_outdoor					仅限室外
+buildtoolbar_indoor						仅限室内
+buildtoolbar_walk_speed					行走速度:  *S
+buildtoolbar_walk_speed_slow			慢
+buildtoolbar_walk_speed_norm			一般
+buildtoolbar_walk_speed_fast			快
 buildtoolbar_locked                     锁定
-buildtoolbar_locked_research			[TODO]LOCKED (You require *B)
-buildtoolbar_locked_administrator		[TODO]LOCKED (*B required)
-buildtoolbar_room						[TODO]Room
+buildtoolbar_locked_research			锁定（需要研究 *B ）
+buildtoolbar_locked_administrator		锁定（需要 *B）
+buildtoolbar_room						房间
 
 buildtoolbar_electrical                 - 电气设备
 buildtoolbar_highpower                  - 大功率设备
@@ -427,44 +427,44 @@ buildtoolbar_water                      - 需要连接水管
 buildtoolbar_wired                      - 需接线(连接至其他接线单元)
 buildtoolbar_modcontent                 - 模组内容
 
-buildtoolbar_popup_foundations			[TODO]Construct/Demolish buildings in order to shape your prison.
-buildtoolbar_popup_construction			[TODO]Different types of floors and walls.
-buildtoolbar_popup_planning				[TODO]Plan out your prison without the fear of workers actually doing anything.
-buildtoolbar_popup_designation			[TODO]Designate areas of your prison with a specific function.
-buildtoolbar_popup_objects				[TODO]Place useful items around your prison.
-buildtoolbar_popup_overlays				[TODO]Visually identify weaknesses in your prison's layout.
-buildtoolbar_popup_utilities			[TODO]Plumbing and electrical systems.
-buildtoolbar_popup_staff				[TODO]Employ the necessary people to keep your prison running.
-buildtoolbar_popup_deployment			[TODO]Assign staff to areas of your prison.
+buildtoolbar_popup_foundations			建造/拆除 建筑来打造你的监狱
+buildtoolbar_popup_construction			选择材料建造不同类型的地面与墙壁
+buildtoolbar_popup_planning				仅规划监狱而不进行建造
+buildtoolbar_popup_designation			标出特定功能的监狱区域
+buildtoolbar_popup_objects				在监狱内安装各种实用的设施
+buildtoolbar_popup_overlays				显示监狱的安全弱点
+buildtoolbar_popup_utilities			管道与电气系统
+buildtoolbar_popup_staff				雇用人员运营你的监狱
+buildtoolbar_popup_deployment			指派员工到监狱内特定区域
 buildtoolbar_popup_logistics            指派囚犯在监狱内进行后勤劳动工作，并可手动指派食物和洗衣分配
-buildtoolbar_popup_research				[TODO]Unlock new possibilities for your prison.
-buildtoolbar_popup_emergencies			[TODO]Call in the emergency services if things take a turn for the worse.
-buildtoolbar_popup_spawn				[TODO]Spawn? The fuck does this do?
-buildtoolbar_popup_clone				[TODO]Copy and paste your existing structures.
-buildtoolbar_popup_properties			[TODO]Find out about shit.
+buildtoolbar_popup_research				为监狱解锁更多功能。
+buildtoolbar_popup_emergencies			呼叫紧急支援协助解决监狱内的恶性事件
+buildtoolbar_popup_spawn				重生？这是干嘛的？
+buildtoolbar_popup_clone				你可以复制和粘贴现有的建筑结构。（包括物品）
+buildtoolbar_popup_properties			查明那该死的东西
 buildtoolbar_popup_contraband           显示违禁品的来源，以及所有最近被发现的违禁品。同时显示你的秘密检举人及其情报。
 buildtoolbar_popup_grading              查看你的监狱整体等级基于四个关键指标——惩罚，教化，安全，医疗，同时显示囚犯出狱后的再犯率。
 buildtoolbar_popup_prefabs              复制和粘贴你监狱的现有部分，或放置预设房间。
-buildtoolbar_popup_room_cell			[TODO]Where your prisoners live.
-buildtoolbar_popup_room_holdingcell		[TODO]A room where new recruits are placed until a cell is found for them.
-buildtoolbar_popup_room_solitary		[TODO]An isolated form of imprisonment for the worst of the worst.
+buildtoolbar_popup_room_cell			囚犯生活的地方
+buildtoolbar_popup_room_holdingcell		当新进囚犯还没有分配个人牢房时，会先收容在临时牢房内。这种牢房可供集体居住。
+buildtoolbar_popup_room_solitary		专为坏蛋中的战斗蛋设计而建的独立惩戒措施，俗称“小黑屋”
 buildtoolbar_popup_room_dormitory       一个用来关押多个囚犯的房间。房间越大，关押囚犯越多。
 buildtoolbar_popup_room_familycell      如果你的囚犯有小孩，她将关押在这里。
 buildtoolbar_popup_room_sharedcell      一个可关押多名囚犯的房间，最多8人。
-buildtoolbar_popup_room_canteen			[TODO]Where your prisoners will take their afternoon tea.
-buildtoolbar_popup_room_kitchen			[TODO]Area for cooks to prepare food for your prisoners.
-buildtoolbar_popup_room_shower			[TODO]Used to keep your prisoners squeaky clean, and lice free.
-buildtoolbar_popup_room_yard			[TODO]Let your prisoners see the sun for a few hours a day under the watchful eye of your sniper towers.
-buildtoolbar_popup_room_storage			[TODO]Area designated to hold any materials your prison staff need.
-buildtoolbar_popup_room_deliveries		[TODO]Where your goods, materials, and prisoners are dropped off.
-buildtoolbar_popup_room_garbage			[TODO]Where your waste is collected from.
-buildtoolbar_popup_room_execution		[TODO]Where you send your prisoners to die.
-buildtoolbar_popup_room_workshop		[TODO]Where you send your prisoners to die of boredom while making you car license plates.
-buildtoolbar_popup_room_security		[TODO]Offices for your Officers.
-buildtoolbar_popup_room_office			[TODO]An area for your administrative staff to work.
-buildtoolbar_popup_room_medicalward		[TODO]Area for your medical staff to work.
-buildtoolbar_popup_room_morgue			[TODO]Where you send your dead prisoners and staff to.
-buildtoolbar_popup_room_commonroom		[TODO]Allowing your prisoners some free time to relax.
+buildtoolbar_popup_room_canteen			囚犯喝下午茶的地方
+buildtoolbar_popup_room_kitchen			厨师为囚犯准备食物的地方
+buildtoolbar_popup_room_shower			用来让囚犯保持干净，没有虱子
+buildtoolbar_popup_room_yard			在狙击塔严密的监视下，让你的囚犯每天晒晒几小时的太阳
+buildtoolbar_popup_room_storage			放所有监狱员工所需的材料的区域
+buildtoolbar_popup_room_deliveries		货物、材料以及囚犯下车的地点
+buildtoolbar_popup_room_garbage			收集垃圾的地方
+buildtoolbar_popup_room_execution		处死囚犯的地方
+buildtoolbar_popup_room_workshop		派囚犯制造汽车牌照，无聊到死的地方
+buildtoolbar_popup_room_security		狱警的办公室
+buildtoolbar_popup_room_office			行政人员工作的区域
+buildtoolbar_popup_room_medicalward		医护人员工作的区域
+buildtoolbar_popup_room_morgue			死掉的囚犯和员工会送到这里
+buildtoolbar_popup_room_commonroom		囚犯在自由活动时间可以休息的地方
 buildtoolbar_popup_room_kennel          警犬和警犬训导员待的地方
 buildtoolbar_popup_room_chapel          当管理层聚在一起讨论设计如何处理囚犯们的宗教需求时会怎样？一个“多信仰祷告室”诞生了。我们管这种东西叫小礼拜堂。
 buildtoolbar_popup_room_paroleroom      当囚犯服刑期满 50% 和 75% 时，就有资格申请假释，他们的命运将会在这间房间内，由典狱长和警长决定。\n\n建议安排额外的狱警戒备，当犯人知道他们假释被驳回的时候通常会异常愤怒，有可能攻击其他人。
@@ -472,71 +472,71 @@ buildtoolbar_popup_room_library         全国各地会送一些不要的或使�
 buildtoolbar_popup_room_intake          囚犯刚抵达的时候会先带到这里。
 buildtoolbar_popup_room_nursery         带有婴儿的囚犯的活动室。
 
-buildtoolbar_popup_obj_bed				[TODO]Not too soft, not too hard, just right. Well, actually, really hard and too small.
-buildtoolbar_popup_obj_toilet			[TODO]A basic human right, if you believe all those crackpots.
-buildtoolbar_popup_obj_table			[TODO]Goes excellently with a chair.
-buildtoolbar_popup_obj_chair			[TODO]Goes brilliantly with a table.
-buildtoolbar_popup_obj_bench			[TODO]For sitting on.
-buildtoolbar_popup_obj_electricchair	[TODO]To deliver 2000V of justice.
-buildtoolbar_popup_obj_jaildoor			[TODO]Keep your prisoners where they should be.
-buildtoolbar_popup_obj_jaildoorlarge	[TODO]Keep lots of your prisoners where they should be.
-buildtoolbar_popup_obj_door				[TODO]A simple door.
-buildtoolbar_popup_obj_solitarydoor		[TODO]A heavyset door to stop even the strongest of prisoners from escaping.
-buildtoolbar_popup_obj_staffdoor		[TODO]A locked door that can be opened by any member of staff, not just Guards.
-buildtoolbar_popup_obj_window			[TODO]To glimpse the sun through.
-buildtoolbar_popup_obj_windowlarge		[TODO]To glimpse lots of the sun through.
-buildtoolbar_popup_obj_tree				[TODO]Taking steps against global warming is all of our responsibility.
-buildtoolbar_popup_obj_light			[TODO]Ensure you can see your prisoners at all times of the day.
-buildtoolbar_popup_obj_cooker			[TODO]Give your prisoners the life of luxury with hot food.
-buildtoolbar_popup_obj_fridge			[TODO]Keep your food supplies from rotting.
-buildtoolbar_popup_obj_bin				[TODO]Tidiness is important when it comes to contraband.
-buildtoolbar_popup_obj_sink				[TODO]All employees are required to wash their hands.
-buildtoolbar_popup_obj_servingtable		[TODO]Dish up food to your prisoners.
-buildtoolbar_popup_obj_showerhead		[TODO]The head of a shower. For showering.
-buildtoolbar_popup_obj_bookshelf		[TODO]A shelf that holds books. 
-buildtoolbar_popup_obj_officedesk		[TODO]Your staff need to write things down a lot. Give them a shiny office desk to do it on.
-buildtoolbar_popup_obj_filingcabinet	[TODO]Your staff need to keep the things they write ordered nicely.
-buildtoolbar_popup_obj_medicalbed		[TODO]A place to hold the narcotics until your prisoners steal them.
-buildtoolbar_popup_obj_morgueslab		[TODO]Ensure the dead have a respectful place to rest before moving.
-buildtoolbar_popup_obj_drain			[TODO]Remove water from the floor.
-buildtoolbar_popup_obj_sprinkler		[TODO]Automatically sprays the area with water in the event of a fire.
-buildtoolbar_popup_obj_metaldetector	[TODO]Find contraband on your prisoners that pass through these. Will require a guard to be nearby to take the contraband.
-buildtoolbar_popup_obj_weightsbench		[TODO]Allow your prisoners to exercise, which keeps them happy.
-buildtoolbar_popup_obj_phonebooth		[TODO]Prisoners might want to talk to their family, and these handy phonebooths let them.
-buildtoolbar_popup_obj_tv				[TODO]Pacify your prisoners with mind-numbing mediocrity.
-buildtoolbar_popup_obj_largetv			[TODO]Allow lots of your prisoners to share the experience of brain rot.
-buildtoolbar_popup_obj_pooltable		[TODO]Remove the monotony of prison life with a game of pool. 
-buildtoolbar_popup_obj_dismantleobject	[TODO]Remove an object from your prison.
+buildtoolbar_popup_obj_bed				不会太软、也不会太硬，硬度刚刚好。嗯，事实上嘛，真的很硬又很小
+buildtoolbar_popup_obj_toilet			一项基本人权，假如你相信那些狂想家
+buildtoolbar_popup_obj_table			与椅子相当搭配
+buildtoolbar_popup_obj_chair			与桌子是绝配
+buildtoolbar_popup_obj_bench			可以坐在上面
+buildtoolbar_popup_obj_electricchair	传递两千伏特的正义
+buildtoolbar_popup_obj_jaildoor			把囚犯关在他们应该在的地方
+buildtoolbar_popup_obj_jaildoorlarge	把很多囚犯关在他们该在的地方
+buildtoolbar_popup_obj_door				一道简单的门
+buildtoolbar_popup_obj_solitarydoor		极其坚固的门，即使是最强壮的犯人也撼不动它
+buildtoolbar_popup_obj_staffdoor		一道上锁的门，不只狱警能开，所有员工都能开
+buildtoolbar_popup_obj_window			可以看一眼阳光
+buildtoolbar_popup_obj_windowlarge		可以看很多眼阳光
+buildtoolbar_popup_obj_tree				可以长大砍树挣钱
+buildtoolbar_popup_obj_light			确保一整天都能看见犯人们的一举一动
+buildtoolbar_popup_obj_cooker			用热腾腾的饭菜让犯人们享受一下吧
+buildtoolbar_popup_obj_fridge			避免你的食材变质坏掉
+buildtoolbar_popup_obj_bin				违禁品一定要搜剿干净
+buildtoolbar_popup_obj_sink				所有的员工都必须要洗手，餐盘也需要使用后清洗
+buildtoolbar_popup_obj_servingtable		将食物分配给犯人们
+buildtoolbar_popup_obj_showerhead		淋浴用的花洒喷头
+buildtoolbar_popup_obj_bookshelf		放书的架子
+buildtoolbar_popup_obj_officedesk		你的员工需要记录很多东西，给一个漂亮的办公桌让他们去写吧
+buildtoolbar_popup_obj_filingcabinet	你的员工需要把他们写的东西整理收好
+buildtoolbar_popup_obj_medicalbed		在这些麻醉药品被犯人偷走之前，它们都会呆在这里
+buildtoolbar_popup_obj_morgueslab		在灵车来之前请确保死者有地方安息
+buildtoolbar_popup_obj_drain			避免地板上产生积水
+buildtoolbar_popup_obj_sprinkler		发生火灾时自动喷水
+buildtoolbar_popup_obj_metaldetector	藏有金属违禁品的囚犯路过时会被探测出来，但仍需要在附近安排狱警才能没收违禁品
+buildtoolbar_popup_obj_weightsbench		允许犯人们锻炼、活动，令他们保持愉悦心情
+buildtoolbar_popup_obj_phonebooth		这些电话可以让犯人和他们的家属通话，你也可以监听
+buildtoolbar_popup_obj_tv				用肥皂剧安抚犯人们躁动的心
+buildtoolbar_popup_obj_largetv			让一堆囚犯们可以共享他们的脑残时刻
+buildtoolbar_popup_obj_pooltable		玩把台球来打发监狱千篇一律的生活
+buildtoolbar_popup_obj_dismantleobject	移除一个物体。
 buildtoolbar_popup_obj_altar            天主与地上人民相遇的地方
 buildtoolbar_popup_obj_pews             给信徒坐的座位。是用最坚硬、最致密的木头做成的。
 buildtoolbar_popup_obj_prayermat        使你的犯人们在祈祷时不用跪在肮脏的地板上。
 buildtoolbar_popup_obj_guardtower       一个可以让狙击手监控监狱的高塔，需额外聘请狙击手。
 
-buildtoolbar_popup_staff_workman		[TODO]Will build your prison for you, based on the plans you provide them.
-buildtoolbar_popup_staff_guard			[TODO]Used to keep your prisoners in check and out of trouble.
+buildtoolbar_popup_staff_workman		根据你所提供的设计为你建造监狱
+buildtoolbar_popup_staff_guard			帮你看管囚犯并避免他们滋事
 buildtoolbar_popup_staff_armedguard     配备霰弹枪，囚犯在攻击这家伙之前一般会三思。\n\n注意：每个配备枪械的武警都需要在军械库里拥有自己的储物柜。
-buildtoolbar_popup_staff_doctor			[TODO]Automatically heals all nearby injured people, whether they are guards or prisoners.
-buildtoolbar_popup_staff_cook			[TODO]Feeds your prisoners with the meals they prepare.
-buildtoolbar_popup_staff_gardener		[TODO]Keeps your prison grounds nice and tidy.
-buildtoolbar_popup_staff_janitor		[TODO]Keeps the inside of your prison nice and tidy. Can also help with the prison laundry.
-buildtoolbar_popup_staff_warden			[TODO]The grand overseer of your prison. Required before you can research and hire advanced staff members.
-buildtoolbar_popup_staff_chief			[TODO]An advanced staff member that gives access to the deployment, CCTV, and riot guards research items.
-buildtoolbar_popup_staff_foreman		[TODO]An advanced staff member that allows you to gain access to Janitors and Gardeners.
-buildtoolbar_popup_staff_psychologist	[TODO]An advanced staff member that allows you to gain an insight in to the minds of your prisoners. 
-buildtoolbar_popup_staff_accountant		[TODO]An advanced staff member that gives access to your financial reports.
-buildtoolbar_popup_staff_lawyer			[TODO]An advanced staff member that helps you bend some of the rules for greater control over your prison.
+buildtoolbar_popup_staff_doctor			自动治疗附近受伤的人，不管是警卫还是犯人
+buildtoolbar_popup_staff_cook			准备食物并分配给你的犯人们
+buildtoolbar_popup_staff_gardener		让你的监狱外部地面干净整洁
+buildtoolbar_popup_staff_janitor		让你的监狱内部地面干净整洁，也可以协助监狱的洗衣服务
+buildtoolbar_popup_staff_warden			你监狱的大总管，在你雇佣高级员工之前必须有一个典狱长
+buildtoolbar_popup_staff_chief			这个高级员工可以让你接触到部署，监视和防暴警察相关的科研项目
+buildtoolbar_popup_staff_foreman		这个高级员工可以让你雇佣清洁工和园丁
+buildtoolbar_popup_staff_psychologist	一个高级员工，可以让你洞察囚犯们的心理活动
+buildtoolbar_popup_staff_accountant		高级员工，可以为你撰写财务报告。
+buildtoolbar_popup_staff_lawyer			高级员工，可以为你的监狱拿到一些特权。
 buildtoolbar_popup_staff_sniper         一个训练有素的狙击手会自动进入空着的高塔。他在开枪射杀墙内的囚犯时会开枪警告，而越狱囚犯将没有警告直接射杀。
 
-buildtoolbar_popup_uts_powerstation		[TODO]Generates electricity to be used in your prison.
-buildtoolbar_popup_uts_capacitor		[TODO]Increases the amount of electricity generated when placed next to a power station.
-buildtoolbar_popup_uts_electricalcable	[TODO]Distributes electricity around your prison.
-buildtoolbar_popup_uts_powerswitch		[TODO]Toggles the availability of electricity to any cable connected to it.\n\nRight click to toggle on/off state.
-buildtoolbar_popup_uts_waterpumpstation	[TODO]Provides a source of water to your prison.
-buildtoolbar_popup_uts_pipevalve		[TODO]Toggles the availability of water to any pipe connected to it.
-buildtoolbar_popup_uts_pipelarge		[TODO]Distributes a large volume of water around your prison, under high pressure. Probably big enough for someone to crawl to freedom through five hundred yards of shit smelling foulness.\n\nNb not generally used to connect to sinks, shower heads etc - the pressure is too high. Use a small pipe for that.
-buildtoolbar_popup_uts_pipesmall		[TODO]Used to connect items like toilets, showers, sinks etc to your large pipe network. The pressure is much lower, so there is a limited length that a small pipe can run for before the pressure becomes too low.
-buildtoolbar_popup_uts_cctv				[TODO]Keep an eye on your prison without the need for guards to be everywhere at once.\n\nYou must Connect a CCTV Monitor to this camera for it to work.
-buildtoolbar_popup_uts_cctvmonitor		[TODO]Designed to be built in a Security Room, and operated by a Guard. Monitors the CCTV cameras around your prison remotely.\n\nUse the Connect tool to connect this monitor to your CCTV cameras.\n\nNote: A maximum of eight cameras can be viewed at once. If you connect more than eight cameras, the monitor will cycle through them gradually, giving only partial coverage.
+buildtoolbar_popup_uts_powerstation		从电网得到监狱所需要的电力
+buildtoolbar_popup_uts_capacitor		建在发电站旁可以提高发电量。
+buildtoolbar_popup_uts_electricalcable	为你的监狱分配电力
+buildtoolbar_popup_uts_powerswitch		切换所有与它连通的电线的通电情况。\n\n右击开启/关闭通电状态。
+buildtoolbar_popup_uts_waterpumpstation	为你的监狱提供水源
+buildtoolbar_popup_uts_pipevalve		切换是否为所有连接的水管供水
+buildtoolbar_popup_uts_pipelarge		将大量的水配送到你的监狱中，或许足够让某些人在充满臭味的水中爬行500码并获得自由
+buildtoolbar_popup_uts_pipesmall		分配监狱的供水
+buildtoolbar_popup_uts_cctv				不用到处安排狱警也可以监视犯人了。\n\n你需要把它连至一个CCTV监视器才能让它正常工作。
+buildtoolbar_popup_uts_cctvmonitor		需要安装在狱警室并由一个狱警操作。可以遥控操作监狱各处的摄像头。\n\n注意：最多可以同时监视8个摄像头的画面。如果你连接了8个以上的摄像头，这些摄像头的画面会切换着出现，因此此时只能提供不完整的监控。
 buildtoolbar_popup_uts_DoorControlSystem  设计成在狱警室里由一位狱警操控。在你所在的位置远程监控闭路电视镜头。\n\n用一个连接工具把这个系统和你的门伺服连接。门伺服应该被建在你想远程操控的门上。\n\n提示: 你可以把这个连接到任意多的伺服上，然而操作这个系统的狱警一秒最多只能开两扇门。
 buildtoolbar_popup_uts_phonemonitor     需要安装在狱警室并由一个狱警操作。可以监听所有打出的电话，让你提前识破有组织的违禁行动。\n\n使用连接工具把这个系统连至电话间。
 buildtoolbar_popup_uts_Servo            将门禁伺服器安装在你想要遥控的门的上方，请确定马达齿轮在门的正上方。\n\n当安装好之后，只要门禁伺服器被触发就会自动开门 - 一般是由门禁控制系统或是门禁定时器触发。\n\n门禁伺服器可以串连，当第一台被触发的时候就会同时触发后面的伺服器。
@@ -544,9 +544,9 @@ buildtoolbar_popup_uts_LogicCircuit     进阶建筑师专用。\n\n一个简单
 buildtoolbar_popup_uts_LogicBridge      进阶建筑师专用。\n\n接收输入讯号，并把讯号桥接到同一格的电力线路上，透过电力线路传递逻辑讯号到另一个逻辑单元。\n\n可以用来对整个监狱「广播」一个讯号，例如在广播一个时脉讯号的时候很好用。
 buildtoolbar_popup_uts_DoorTimer        在每天固定的时段自动开门。\n\n使用连接工具将门禁伺服器连接到这台门禁定时器上。
 buildtoolbar_popup_uts_Wire             连接你的远程遥控系统。
-buildtoolbar_popup_uts_showallwires		[TODO]Show every connected wire in your prison.
+buildtoolbar_popup_uts_showallwires		显示所有已连接的电缆。
 buildtoolbar_popup_uts_remotedoor       无法用钥匙打开的坚固金属门(只能远程打开)。用这种门可以有效防止囚犯偷钥匙越狱。
-buildtoolbar_popup_uts_dismantleutility	[TODO]Remove a utility object from your prison.
+buildtoolbar_popup_uts_dismantleutility	从监狱中移除一件设施
 buildtoolbar_popup_uts_pressurepad      当有物体压在上面时，发出一个讯号给连接的设备。
 buildtoolbar_popup_uts_statuslight      依照接收到的讯号亮红或绿灯。
 
@@ -637,10 +637,10 @@ codex_load                              载入监狱
 codex_loadcampaign                      载入战役
 codex_save                              保存监狱
 codex_savecampaign                      保存战役
-codex_performance						[TODO]Performance Test
+codex_performance						性能测试
 codex_developer_load                    （开发者）加载地图
 codex_developer_save                    （开发者）保存地图
-codex_developer_clearach                （开发者）清楚成就
+codex_developer_clearach                （开发者）清除成就
 codex_contacts                          联系人
 codex_materials                         材料
 codex_play                              开始游戏
@@ -651,9 +651,9 @@ codex_restartintroduction               重新开始介绍
 codex_restartchapter                    重新开始章节
 codex_help                              帮助（维基百科）
 codex_opensavefolder                    打开存档文件夹
-codex_options							[TODO]Options
-codex_nitgs								[TODO]Names in the Game
-codex_workshop							[TODO]Prison Sharing (Steam)
+codex_options							选项
+codex_nitgs								浏览&创作自定义囚犯
+codex_workshop							分享监狱（Steam）
 codex_steamtrending                     最流行的监狱（Steam）
 codex_checkforupdates                   检查更新
 codex_preorder                          立刻预购
@@ -670,36 +670,36 @@ codex_new_large                         大
 codex_new_selectwarden                  选择你的看守
 codex_new_selectgender                  选择囚犯性别
 
-codex_options_graphics					[TODO]Graphics
-codex_options_resolution				[TODO]Resolution
-codex_options_resolutionauto			[TODO]Auto
-codex_options_windowed					[TODO]Windowed
-codex_options_highdpi					[TODO]High DPI
-codex_options_filtering					[TODO]Filtering
-codex_options_nofiltering				[TODO]Off
-codex_options_multisampled				[TODO]Multisampled
-codex_options_supersampled				[TODO]Supersampled
+codex_options_graphics					画质
+codex_options_resolution				分辨率
+codex_options_resolutionauto			自动
+codex_options_windowed					窗口化
+codex_options_highdpi					高 DPI
+codex_options_filtering					采样
+codex_options_nofiltering				关闭
+codex_options_multisampled				多重采样
+codex_options_supersampled				超级采样
 
-codex_options_audio						[TODO]Audio
-codex_options_volume					[TODO]Master Volume
-codex_options_frequency					[TODO]Mix Frequency
-codex_options_swapstero					[TODO]Swap Stereo
-codex_options_dspenabled				[TODO]Enable DSP
-codex_options_11khz						[TODO]11025 Hz
-codex_options_22khz						[TODO]22050 Hz
-codex_options_44khz						[TODO]44100 Hz
+codex_options_audio						音效
+codex_options_volume					主音量
+codex_options_frequency					混音频率
+codex_options_swapstero					交换立体声
+codex_options_dspenabled				开启音效管理器
+codex_options_11khz						11025 Hz
+codex_options_22khz						22050 Hz
+codex_options_44khz						44100 Hz
 
 codex_options_clocktype                 时钟类型
 codex_options_clocktype_analogue        模拟时钟
 codex_options_clocktype_12h             数字时钟（12小时）
 codex_options_clocktype_24h             数字时钟（24小时）
 
-codex_options_gameplay					[TODO]Game
-codex_options_autosave					[TODO]Autosave Timer
-codex_options_renderrooms				[TODO]Room Checkerbox
-codex_options_apply						[TODO]Apply
+codex_options_gameplay					游戏
+codex_options_autosave					自动保存间隔
+codex_options_renderrooms				房间网格
+codex_options_apply						应用
 
-codex_options_language					[TODO]Language
+codex_options_language					语言
 
 codex_options_experimental              实验性
 codex_options_enablevbo                 启用顶点缓冲对象
@@ -729,54 +729,54 @@ codex_tooltip_events                    发生一些事件，让你享受根本�
 codex_option_funds                      资金
 codex_tooltip_funds                     你携带此数额的银行存款开始游戏。在估值界面卖掉你建好的监狱来获得更多资金吧！
 
-codex_transfer							[TODO]Transfer
-codex_transferring						[TODO]Transferring
-codex_in_prison							[TODO]Currently Incarcerated
+codex_transfer							移送
+codex_transferring						移送中
+codex_in_prison							监闭中
 codex_unavailable                       不可用
 codex_useravatar                        标为我自己
 codex_tooltip_useravatar                把这个囚犯标记为你自己。如果你最后不知怎么的入狱了，这个囚犯就是你的写照。
 codex_tooltip_flagbio                   举报此人物传记包含争议内容。
 
-codex_workshop_current					[TODO]Current Prison
-codex_workshop_publish					[TODO]Publish this prison
-codex_workshop_update					[TODO]Update
-codex_workshop_play						[TODO]Play
-codex_workshop_downloading				[TODO]Downloading
-codex_workshop_download_failed			[TODO]Download Failed
-codex_workshop_publishing				[TODO]Publishing...
-codex_workshop_new						[TODO]NEW
-codex_workshop_title					[TODO]Title
-codex_workshop_desc						[TODO]Description
-codex_workshop_view_in_workshop			[TODO]View in Steam Workshop
-codex_workshop_heading_pubed			[TODO]Your published prisons
-codex_workshop_heading_subed			[TODO]Subscribed prisons
-codex_workshop_published_by				[TODO]Published by *P
-codex_workshop_published_by_you			[TODO]Published by you
-codex_workshop_published_good			[TODO]Prison Published
-codex_workshop_published_good_msg		[TODO]Your prison has been published successfully.
-codex_workshop_published_bad			[TODO]Failed To Publish Prison
-codex_workshop_published_bad_msg		[TODO]Your prison failed to publish.
-codex_workshop_published_bad_msg_new	[TODO]Your new prison has failed to publish. Please try again.
-codex_workshop_busy						[TODO]Some magic is already happening with Steam. Please wait for that to finish first, then try again.
-codex_workshop_file_exists				[TODO]You've already published a prison with this name. Please pick a different name.
-codex_workshop_generic_fail				[TODO]Failed to publish your prison. Please try again.
-codex_workshop_download_bad				[TODO]Failed To Download Prison
-codex_workshop_pa_workshop				[TODO]Open Prison Architect Workshop
-codex_workshop_agreement				[TODO]By submitting this item, you agree to the [url=http://steamcommunity.com/sharedfiles/workshoplegalagreement]workshop terms of service[/url].
+codex_workshop_current					当前监狱
+codex_workshop_publish					发布该监狱
+codex_workshop_update					更新
+codex_workshop_play						开始游戏
+codex_workshop_downloading				正在下载
+codex_workshop_download_failed			下载失败
+codex_workshop_publishing				正在发布中……
+codex_workshop_new						新建
+codex_workshop_title					标题
+codex_workshop_desc						描述
+codex_workshop_view_in_workshop			在 Steam 创意工坊中查看
+codex_workshop_heading_pubed			你发布的监狱
+codex_workshop_heading_subed			你点赞的监狱
+codex_workshop_published_by				由 *P 发布
+codex_workshop_published_by_you			由你发布
+codex_workshop_published_good			监狱已发布
+codex_workshop_published_good_msg		发布监狱成功
+codex_workshop_published_bad			发布监狱失败
+codex_workshop_published_bad_msg		你的监狱发布失败
+codex_workshop_published_bad_msg_new	你的新监狱未能发布。请重试
+codex_workshop_busy						Steam Workshop正在煮泡面。等她结束再试一次。
+codex_workshop_file_exists				你已经发布了一个该名字的监狱，请重新命名
+codex_workshop_generic_fail				无法发布你的监狱，请重试
+codex_workshop_download_bad				下载该监狱失败
+codex_workshop_pa_workshop				开启监狱建筑师 (Prison Architect) 创意工坊
+codex_workshop_agreement				接受该物品代表你同意[url=http://steamcommunity.com/sharedfiles/workshoplegalagreement]工作室条款[/url].
 
-codex_options_timelapse					[TODO]Time Lapse
-codex_timelapse_record					[TODO]Record Time Lapse
-codex_timelapse_stop					[TODO]Stop Time Lapse
-codex_timelapse_camera					[TODO]Camera Mode
-codex_timelapse_resolution				[TODO]Resolution
-codex_timelapse_customresw				[TODO]Custom Res Width
-codex_timelapse_customresh				[TODO]Custom Res Height
-codex_timelapse_resolution				[TODO]Resolution
-codex_timelapse_fps						[TODO]Playback Rate
-codex_timelapse_interval				[TODO]Capture Interval
-codex_timelapse_quality					[TODO]Quality
-codex_timelapse_unsupported				[TODO]This feature is unavailable on your hardware.
-codex_timelapse_savesettings			[TODO]Save Settings
+codex_options_timelapse					定时拍摄录影
+codex_timelapse_record					开始定时拍摄录影
+codex_timelapse_stop					停止拍摄录影
+codex_timelapse_camera					摄影机模式
+codex_timelapse_resolution				分辨率
+codex_timelapse_customresw				定制分辨率宽度
+codex_timelapse_customresh				定制分辨率高度
+codex_timelapse_resolution				分辨率
+codex_timelapse_fps						帧率
+codex_timelapse_interval				拍摄间隔
+codex_timelapse_quality					质量
+codex_timelapse_unsupported				你的硬件无法使用该功能。
+codex_timelapse_savesettings			保存设定
 
 codex_timelapse_cam_zoom                缩放摄影机
 codex_timelapse_cam_fitmap              适合地图
@@ -789,48 +789,48 @@ codex_timelapse_quality_low             低
 codex_timelapse_interval_value          *X 游戏分钟
 timelapse_caption                       记录时长 *X:*Y, *Z 帧已录制, 记录: *T
 
-codex_performance_running				[TODO]Performance Test Running
-codex_performance_time					[TODO]Time Left: *Ts
-codex_performance_current				[TODO]Current Frame Time: *Tms
-codex_performance_min					[TODO]Min Frame Time: *Tms
-codex_performance_avg					[TODO]Average Frame Time: *Tms
-codex_performance_max					[TODO]Max Frame Time: *Tms
-codex_performance_numframes				[TODO]Num Frames: *T
+codex_performance_running				正在运行性能测试
+codex_performance_time					时间剩余： *T 秒
+codex_performance_current				当前帧时间： *T 毫秒
+codex_performance_min					最小帧时间： *T 毫秒
+codex_performance_avg					平均帧时间： *T 毫秒
+codex_performance_max					最大帧时间： *T 毫秒
+codex_performance_numframes				帧数: *T
 
-codex_last_modified						[TODO]Last Modified: *T
-codex_sortbydesc						[TODO]Sort By Date
-codex_sortname							[TODO]Name
-codex_sortdate							[TODO]Date
-codex_apply								[TODO]Apply
+codex_last_modified						最后修改：*T
+codex_sortbydesc						以日期排序
+codex_sortname							名字
+codex_sortdate							日期
+codex_apply								应用
 codex_select                            选择
 
-codex_mods								[TODO]Mods
-codex_mod_activetitle					[TODO]Active Mods
-codex_mod_inactivetitle					[TODO]Available Mods
-codex_mod_deactivate					[TODO]Deactivate all mods
-codex_mod_wiki							[TODO]Find more mods (Wiki)
-codex_mod_openmodsfolder				[TODO]Open Mods Folder
-codex_mod_moresteammods					[TODO]Find more mods (Steam Workshop)
+codex_mods								模组
+codex_mod_activetitle					激活的模组
+codex_mod_inactivetitle					可用的模组
+codex_mod_deactivate					停用所有模组
+codex_mod_wiki							查找更多模组（维基百科）
+codex_mod_openmodsfolder				打开模组文件夹
+codex_mod_moresteammods					查找更多模组（Steam 创意工坊）
 codex_mod_findsteamtranslations         找到更多的翻译（Steam 创意工坊）
 codex_authortitle                       作者
 codex_versiontitle                      版本
 codex_datetitle                         日期
 codex_urltitle                          URL
-codex_typetitle							[TODO]Type
-codex_mod_graphicsandsound				[TODO]Graphics and Sounds
-codex_mod_translation					[TODO]Translation
-codex_mod_scenario						[TODO]Scenario
-codex_mod_content						[TODO]Content
-codex_mod_load_scenario					[TODO]Play Scenario
-codex_publishmod						[TODO]Publish This Mod
+codex_typetitle							类型
+codex_mod_graphicsandsound				图像和声音
+codex_mod_translation					翻译
+codex_mod_scenario						场景
+codex_mod_content						内容
+codex_mod_load_scenario					开始该场景
+codex_publishmod						发布此模组
 
-codex_mod_update						[TODO]Update This Mod
-codex_mod_published_good				[TODO]Mod Published
-codex_mod_published_good_msg			[TODO]Your mod has been published successfully.
-codex_mod_published_bad					[TODO]Failed To Publish Mod
-codex_mod_published_bad_msg				[TODO]Your mod failed to publish.
-codex_mod_modsupdated					[TODO]Mods Updated
-codex_mod_modsupdated_msg				[TODO]Some of your active mods have been updated. Click OK to apply the new changes. Your game will be autosaved.
+codex_mod_update						更新此模组
+codex_mod_published_good				发布的模组
+codex_mod_published_good_msg			你的模组发布成功
+codex_mod_published_bad					发布模组失败
+codex_mod_published_bad_msg				你的模组发布失败
+codex_mod_modsupdated					已更新的模组
+codex_mod_modsupdated_msg				已经更新了你激活的某些模组，点击确定应用新的内容。游戏会自动保存。
 codex_mod_translationcaption            这是语言包吗？
 
 codex_language                          语言
@@ -864,10 +864,10 @@ codex_trending_failedtogetlist_msg      获取流行监狱列表失败。
 # Graphics Change Confirmation
 # =============================================================================
 
-graphicschange_message					[TODO]Do you wish to keep these graphics options? These changes will revert in
-graphicschange_time						[TODO]seconds.
-graphicschange_accept					[TODO]Accept
-graphicschange_revert					[TODO]Revert
+graphicschange_message					你想要保存这些显示选项吗？所有改变即将还原，剩余
+graphicschange_time						秒
+graphicschange_accept					接受
+graphicschange_revert					还原
 
 # =============================================================================
 # Script
@@ -915,25 +915,25 @@ biography_prisoner_priors               前科：
 # Rap Sheet
 # =============================================================================
 
-rapsheet_age							[TODO]Age:
-rapsheet_category						[TODO]Category:
-rapsheet_traits							[TODO]Known Traits:
-rapsheet_conviction_text				[TODO]*C - *Y years
-rapsheet_found_text						[TODO](Plea: *P)
-rapsheet_convictions					[TODO]Convictions
-rapsheet_misconductstitle				[TODO]Recent Misconduct
+rapsheet_age							年龄：
+rapsheet_category						类别：
+rapsheet_traits							已知特征：
+rapsheet_conviction_text				*C - *Y 年
+rapsheet_found_text						（辩护： *P ）
+rapsheet_convictions					定罪
+rapsheet_misconductstitle				近期违规
 rapsheet_biography                      个人档案
-rapsheet_guilty							[TODO]Guilty
-rapsheet_notguilty						[TODO]Not guilty
-rapsheet_served							[TODO]Served
-rapsheet_served_time					[TODO]Served *Y years
-rapsheet_time							[TODO]*Y years
-rapsheet_bio							[TODO]Sentenced to *Y years for *A.
-rapsheet_bio_med						[TODO]Sentenced to *Y years for multiple crimes including *A, and *B.
-rapsheet_bio_long						[TODO]Sentenced to *Y years for multiple crimes including *A, *B, and *C.
-rapsheet_category_minsec				[TODO]Minimum Security
-rapsheet_category_normal				[TODO]Normal Security
-rapsheet_category_maxsec				[TODO]Maximum Security
+rapsheet_guilty							认罪
+rapsheet_notguilty						不认罪
+rapsheet_served							已服刑
+rapsheet_served_time					已服刑 *Y 年
+rapsheet_time							*Y 年
+rapsheet_bio							因 *A 被判服刑 *Y 年
+rapsheet_bio_med						因 *A 和 *B 数罪并罚，被判服刑 *Y 年。
+rapsheet_bio_long						因 *A ， *B 和 *C 数罪并罚，被判服刑 *Y 年。
+rapsheet_category_minsec				轻刑犯
+rapsheet_category_normal				普通犯
+rapsheet_category_maxsec				重刑犯
 rapsheet_category_protected             重点保护
 rapsheet_category_supermax              超重刑犯
 rapsheet_category_deathrow              死刑犯
@@ -1115,14 +1115,14 @@ research_missingadministrator           需要有：
 roomrequirement_required                需要：
 roomrequirement_recommended             推荐：
 roomrequirement_minimumsize             最小尺寸 *W x *H
-roomrequirement_minimumsize_short	[TODO]Size *W x *H
+roomrequirement_minimumsize_short	尺寸 *W x *H
 roomrequirement_indoor                  室内
 roomrequirement_outdoor                 室外
 roomrequirement_solidground             坚固的地面
 roomrequirement_secure                  安全（至少在一扇门后面）
-roomrequirement_secure_short		[TODO]Secure
+roomrequirement_secure_short		安全
 roomrequirement_enclosed                封闭（四周是围墙和门）
-roomrequirement_enclosed_short		[TODO]Enclosed
+roomrequirement_enclosed_short		封闭
 requirement_entrance                    需要入口
 roomrequirement_title                   =[房间需求]=
 roomrequirement_passed                  [满足]
@@ -1343,7 +1343,7 @@ job_escortprisoner                      将犯人押送到 *X
 job_punishprisoner                      处理犯人
 job_searchobject                        搜查 *X
 job_searchentity                        搜查犯人
-job_searchingentity						[TODO]Searching Prisoner
+job_searchingentity						正在搜查犯人
 job_searchcell                          搜查牢房
 job_searchcellblock                     搜查牢房区
 job_improvecellindoor                   清理室内区域
@@ -1593,13 +1593,13 @@ action_getbook                          拿书本
 action_pray                             祈祷
 action_shopping                         购物
 
-status_effect_title						[TODO]=[Status Effects]=
-status_effect_none						[TODO]None
-status_effect_suppressed				[TODO]Suppressed
-status_effect_goodfood					[TODO]Well Fed
-status_effect_drunk						[TODO]Drunk
+status_effect_title						=[状态效果]=
+status_effect_none						无
+status_effect_suppressed				被镇压
+status_effect_goodfood					营养充足
+status_effect_drunk						醉酒
 status_effect_high                      嗨翻了
-status_effect_withdrawal				[TODO]Withdrawal
+status_effect_withdrawal				戒毒
 status_effect_tazed                     电晕
 status_effect_overdosed                 药物过量
 status_effect_surrendered               投降
@@ -1747,7 +1747,7 @@ objective_intake_arrivals               上午8点有 *X 个犯人要来
 objective_intake_closed                 监狱不再接收新的犯人
 objective_intake_closed2                （见该囚犯的报告）
 objective_intake_closed3                （检视收容报表）
-objective_intake_specials				[TODO]Special Transfers:
+objective_intake_specials				特别转移：
 objective_intake_categories             种类：
 objective_intake_minsec                 低危险度，
 objective_intake_medsec                 中危险度，
@@ -2644,7 +2644,7 @@ quickbuild_sharedcell                   共享牢房
 # Campaign info
 # =============================================================================
 
-campaignchapter_chapternumber			[TODO]Chapter *C
+campaignchapter_chapternumber			第 *C 章
 
 
 # =============================================================================
