@@ -13,7 +13,7 @@ def should_skip(line):
     return striped.startswith("#") or len(striped) <= 1
 
 
-def update_file(base_file, origin_file, out_file):
+def read_base_file(base_file):
     with open(base_file) as inf:
         for line in inf:
             if should_skip(line):
@@ -21,19 +21,21 @@ def update_file(base_file, origin_file, out_file):
 
             index = line.find(" ")
             if index == -1:
-                # not translation string
-                continue
+                index = line.find("\t")
+                if index == -1:
+                    # not translation string
+                    continue
 
             key = line[:index]
             value = line[index + 1:]
             trans[key] = value.strip()
 
-    print("translated string size: %d" % len(trans))
-
+def update_base_file(origin_file, out_file):
     line_num = 0
+    regex = re.compile("(\w+)([\s\t]+)(.+)$")
+
     with open(origin_file) as base:
         with open(out_file, "w+") as output:
-            regex = re.compile("(\w+)(\s+)(.+)$")
 
             for line in base:
                 line_num += 1
@@ -53,10 +55,13 @@ def update_file(base_file, origin_file, out_file):
 
                 output.write("%s%s%s\n" % (key, space, value))
 
-for name in ['base-language', 'fullgame', 'tablets']:
-    print("processing %s" % name)
-    base_file = os.path.join(BASE_DATA_PATH, name + '.txt')
-    origin_file = os.path.join(BASE_DATA_PATH, name + '-origin.txt')
-    out_file = base_file
+file_names = ['base-language', 'fullgame', 'tablets']
 
-    update_file(base_file, origin_file, out_file)
+for name in file_names:
+    base_file = os.path.join(BASE_DATA_PATH, name + '.txt')
+    read_base_file(base_file)
+
+for name in file_names:
+    origin_file = os.path.join(BASE_DATA_PATH, name + '-origin.txt')
+    out_file = os.path.join(BASE_DATA_PATH, name + '.txt')
+    update_base_file(origin_file, out_file)

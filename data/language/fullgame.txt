@@ -20,7 +20,7 @@ objective_food_callfirebrigade          [TODO]Call the fire department
 objective_food_extinguishflames         [TODO]Extinguish the flames
 
 objective_food_callfirebrigade_description 	[TODO]To call out the fire brigade, click the Emergencies button in the toolbar then click Firemen
-objective_food_extinguishflames_description  [TODO]When you have firemen selected you can manually aim their hoses by holding the H key. Use this to concentrate the hoses at the centre of the flames.\n\nTry to keep the firemen as close to the fire as possible - they will be more effective.
+objective_food_extinguishflames_description  [TODO]When you have firemen selected you can press and hold on flames to aim their hoses, but the flames have to be less than 15 squares away.
 
 adviser_food_savedon1                   [TODO]My God, there's a survivor in the wreckage.
 adviser_food_savedon2					[TODO]Christ on a crutch, it's Don Palermo. Of all the inmates... it just had to be our mob boss. 

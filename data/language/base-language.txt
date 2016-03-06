@@ -559,7 +559,7 @@ buildtoolbar_contraband_day             显示最近24小时没收的违禁品�
 buildtoolbar_contraband_week            显示最近7天内没收的违禁品。
 buildtoolbar_contraband_alltime         显示历史上所有被没收的违禁品
 buildtoolbar_contraband_informants      显示你的秘密线人所收集的情报。
-buildtoolbar_contraband_gangs          显示你监狱的帮派信息。
+buildtoolbar_contraband_gangs           显示你监狱的帮派信息。
 
 buildtoolbar_deployment_Guards          分配警卫到监狱的指定区域。
 buildtoolbar_deployment_Patrols         单击并拖动以创建巡逻路线。\n\n单击现有的巡逻区域以增加一名警卫。\n单击右键并拖动以取消巡逻警卫。
@@ -2611,10 +2611,10 @@ roomgrading_dormitory_cleanliness       洁净度高于 *X%
 roomgrading_dormitory_outsidewindow     每8名囚犯1扇对外的窗
 roomgrading_dormitory_item              物品 : 每4名囚犯一个 *X
 
-roomgrading_sharedcell_roomsize         每名囚犯至少 *X 格子
-roomgrading_sharedcell_cleanliness      洁净度高于 *X%
-roomgrading_sharedcell_outsidewindow    朝着室外的窗
-roomgrading_sharedcell_item             物品 : 每4名囚犯一个 *X
+roomgrading_sharedcell_roomsize          每名囚犯至少 *X 格子
+roomgrading_sharedcell_cleanliness       洁净度高于 *X%
+roomgrading_sharedcell_outsidewindow     朝着室外的窗
+roomgrading_sharedcell_item              物品 : 每4名囚犯一个 *X
 
 roomgrading_result                      等级 *X
 roomgrading_currentoccupant             住此牢房的囚犯应该住等级 *X 牢房
@@ -3001,5 +3001,5 @@ crime_shoplifting                 入店行窃
 crime_pickpocketing               扒窃
 crime_cartheft                    汽车偷盗
 crime_rape                        强奸
-crime_grossindecency              严重猥亵 
+crime_grossindecency              严重猥亵
 crime_voyeurism                   偷窥狂
