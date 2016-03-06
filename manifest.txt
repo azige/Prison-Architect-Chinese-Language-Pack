@@ -2,8 +2,8 @@
 Name                 "Chinese translation"  
 Author               CzBiX  
 Description          "GitHub: https://github.com/azige/Prison-Architect-Chinese-Language-Pack/"
-Version              v36.1
-Date                 28/09/2015
+Version              Update 4
+Date                 06/03/2016
 IsTranslation        true  
 FileID               F472866886
 SteamAuthor          A76561198044699602  
